@@ -100,3 +100,13 @@ Interactive API documentation using Redocly.
 - [API Block without Sidebar and Search](blocks/redoclyapiblock/redocly-api-block-no-sidebar-no-search.md)
 - [API Block without Y-Scroll Offset](blocks/redoclyapiblock/redocly-api-block-no-y-scroll-offset.md)
 - [Redocly Overflow Example](blocks/redoclyapiblock/redocly-overflow.md)
+
+
+<Banner slot="heading, text, button"/>
+
+# This is a banner
+
+Unlock the potential of Photoshop, Lightroom, and cutting edge Sensei services through an easy-to-use RESTful API.
+
+* [Get the SDKs](https://developer.adobe.com/console/servicesandapis/ae)
+
