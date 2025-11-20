@@ -19,6 +19,7 @@
           - [Code](blocks/codeblock/code.md)
           - [Code-0](blocks/codeblock/code-0.md)
       - [Column](blocks/column/index.md)
+      - [Carousel](blocks/carousel/index.md)
       - [Discover Block](blocks/discoverblock/index.md)
       - [Edition](blocks/edition/index.md)
       - [Hero Simple](blocks/herosimple/herosimple-default.md)
