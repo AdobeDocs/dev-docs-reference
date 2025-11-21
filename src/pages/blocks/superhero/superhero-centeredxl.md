@@ -21,3 +21,4 @@ Use `slots` to identify the markdown content:
 Use `background` to set a custom background color matching your color scheme. Defaults to `rgb(29, 125, 238)`.
 
 Use `textColor` to customize text color. Available options include white, black, navy, and gray. Defaults to white.
+
