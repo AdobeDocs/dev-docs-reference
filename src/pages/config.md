@@ -43,7 +43,6 @@
           - [Superhero Default](blocks/superhero/superhero-default.md)
           - [Superhero Default with Background Image](blocks/superhero/superhero-default-with-background-image.md)
           - [Superhero Default with Background Image and Color](blocks/superhero/superhero-default-with-background-image-and-color.md)
-          - [Superhero Default](blocks/superhero/superhero-default.md)
           - [Superhero Centered](blocks/superhero/superhero-centered.md)
           - [Superhero Centered XL](blocks/superhero/superhero-centeredxl.md)
           - [Superhero Half Width](blocks/superhero/superhero-halfwidth.md)
