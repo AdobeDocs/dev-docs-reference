@@ -11,4 +11,4 @@
 * [Get started](https://developer.adobe.com/express/add-ons/docs/guides?aio_external)
 * [Explore add-ons](https://new.express.adobe.com/add-ons)
 
-Video: Upload to Google Drive, publish the video, copy its URL, and add it as a markdown link in the video slot
+Video: Upload to Google Drive, publish the video, copy its URL, and add it as a markdown link in the `video` slot
