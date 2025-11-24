@@ -17,9 +17,8 @@ These blocks provide a consistent, standardized way to structure and display con
 
 ## Categories of Blocks
 
-There are three main categories of blocks available:
+There are two main categories of blocks available:
 
-* **Content Blocks**: Foundational layout and content presentation blocks including heroes, accordions, columns, tabs, and more. These blocks help organize and structure your documentation content.
-* **Code Blocks**: Specialized blocks for displaying code snippets with syntax highlighting, language selection, line highlighting, and various formatting options.
-* **API Documentation Blocks**: Interactive API reference blocks powered by Redocly, providing comprehensive API documentation with customizable layouts and configurations.
+* **Configuration Blocks**: Essential navigation and layout configuration blocks including SideNav and TopNav. These blocks define the structure and navigation of your documentation site.
+* **Content Blocks**: All content presentation blocks including heroes, accordions, code blocks, API documentation, tabs, and more. These blocks help you create and organize your documentation content with rich formatting and interactive elements.
 

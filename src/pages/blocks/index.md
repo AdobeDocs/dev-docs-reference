@@ -7,60 +7,83 @@ description: Explore all available blocks for the Adobe Developer documentation 
 
 This page provides links to examples of all available blocks in the Adobe Developer documentation site.
 
-## Accordion
+## Configuration Blocks
+
+These blocks define the structure and navigation of your documentation site.
+
+### SideNav
+
+[SideNav](blocks/sidenav/index.md)
+Configure the side navigation menu for your documentation site.
+
+### TopNav
+
+[TopNav](blocks/topnav/index.md)
+Configure the top navigation bar for your documentation site.
+
+### Breadcrumbs
+
+[Breadcrumbs](blocks/breadcrumb/index.md)
+Automatically generated navigation trail based on TopNav and SideNav configuration.
+
+## Content Blocks
+
+All content presentation blocks for creating and organizing your documentation content.
+
+### Accordion
 
 [Accordion](blocks/accordion/index.md)
 Collapsible content sections for organizing information.
 
-## Announcement
+### Announcement
 
 [Announcement](blocks/announcement/index.md)
 Display important announcements or notices.
 
-## Column
+### Column
 
 [Column](blocks/column/index.md)
 Multi-column layouts for content organization.
 
-## Discover Block
+### Discover Block
 
 [Discover Block](blocks/discoverblock/index.md)
 Showcase featured content or resources.
 
-## Edition
+### Edition
 
 [Edition](blocks/edition/index.md)
 Edition-specific content display.
 
-## HeroSimple
+### HeroSimple
 
 [HeroSimple](blocks/herosimple/herosimple-default.md)
 - [HeroSimple (default)](blocks/herosimple/herosimple-default.md)
 - [HeroSimple fullWidth](blocks/herosimple/herosimple-fullwidth.md)
 - [HeroSimple halfWidth](blocks/herosimple/herosimple-halfwidth.md)
 
-## Image
+### Image
 
 [Image](blocks/image/index.md)
 Image display and formatting examples.
 
-## Inline Alert
+### Inline Alert
 
 [Inline Alert](blocks/inline-alert/index.md)
 Inline alert messages for warnings, tips, and notes.
 
-## List
+### List
 
 [List](blocks/list/index.md)
 Various list formatting options.
 
-## Resources
+### Resources
 
 [Resources](blocks/resources/resources.md)
 - [Resources Block](blocks/resources/resources.md)
 - [Resources with No Hero](blocks/resources/resources-with-no-hero.md)
 
-## Superhero
+### Superhero
 
 [Superhero](blocks/superhero/index.md)
 - [Superhero (default)](blocks/superhero/superhero-default.md)
@@ -70,12 +93,12 @@ Various list formatting options.
 - [Superhero halfWidth with background image](blocks/superhero/superhero-halfwidth-with-background-image.md)
 - [Superhero halfWidth with background image and video](blocks/superhero/superhero-halfwidth-with-background-image-and-video.md)
 
-## Tab
+### Tab
 
 [Tab](blocks/tab/index.md)
 Tabbed content for organizing related information.
 
-## Code Block Examples
+### Code Block Examples
 
 [Code Block Examples](blocks/codeblock/code-block.md)
 - [Basic Code Block](blocks/codeblock/code.md)
@@ -88,7 +111,7 @@ Tabbed content for organizing related information.
 - [Code Overload Example](blocks/codeblock/code-overload.md)
 - [Code Example 0](blocks/codeblock/code-0.md)
 
-## Redocly API Block
+### Redocly API Block
 
 [Redocly API Block](blocks/redoclyapiblock/redocly-api-block-default.md)
 Interactive API documentation using Redocly.
