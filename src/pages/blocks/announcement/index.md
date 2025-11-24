@@ -3,12 +3,29 @@ title: Announcement Block
 description: Display important announcements and notices to your users with the Announcement block.
 ---
 
-# Announcement block
+# Announcement Block
 
-<Announcement slots="heading, text, button" variant="secondary" backgroundColor = "background-color-gray" />
+<InlineAlert variant="info" slots="text" />
 
-### Are you an existing developer?
+Note: The Announcement block replaces the Teaser block that was previously used in Gatsby.
 
-Action required: Add trader details to continue EU distribution.
+The Announcement Block allows you to display important notices, updates, or calls-to-action to your users. It can be customized with different variants, background colors, and positioning options.
 
-- [Add trader details now.](https://new.express.adobe.com/add-ons?mode=submission)
+## Available Slots
+
+- `heading` (optional) - The title of the announcement
+- `text` (optional) - The descriptive content
+- `button` (optional) - Call-to-action link
+
+## Available Options
+
+- **Variants:** `primary` (bold, prominent) or `secondary` (subtle)
+- **Background Colors:** `background-color-gray`, `background-color-white`
+- **Position:** `center` (for button-only announcements)
+
+## Variants
+
+There are 2 main usage patterns:
+
+- The [announcement with heading](announcement-with-heading.md) variant for full announcements with title, description, and action button.
+- The [button-only announcement](announcement-button-only.md) variant for simple, centered call-to-action buttons.
