@@ -3,7 +3,7 @@ title: Side Navigation
 description: Learn how to configure sidebar navigation using subPages in config.md.
 ---
 
-# Side Navigation Configuration
+# Side Navigation
 
 Side Navigation (sidebar) is configured in the `config.md` file using the `subPages` section. It creates a hierarchical navigation menu that appears on the left side of your documentation pages.
 
@@ -32,15 +32,7 @@ The `subPages` array creates a hierarchical sidebar menu with multiple nesting l
 - 2 spaces indentation = Subsection
 - 4 spaces indentation = Nested page
 
-### Visual Result
-
-The above configuration creates this sidebar structure:
-
-![sidenav image](../../assets/sidenav.png)
-
-## Format
-
-Each entry follows the format: `[Display Text](relative/path.md)`
+**Format:** `[Display Text](relative/path.md)`
 
 - `[Accordion]` - The text displayed in the sidebar
 - `(/blocks/accordion/index.md)` - The relative path to the page under `src/pages/`
@@ -49,6 +41,12 @@ Paths can start with or without `/` - both resolve relative to `src/pages/`.
 
 **Example:**
 - `[Accordion](/blocks/accordion/index.md)` displays "Accordion" and links to `src/pages/blocks/accordion/index.md`
+
+## Visual Result
+
+The above configuration creates this sidebar structure:
+
+![sidenav image](../../assets/sidenav.png)
 
 ## Path Resolution
 

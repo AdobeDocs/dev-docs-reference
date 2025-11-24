@@ -3,6 +3,8 @@ title: Accordion Block
 description: Learn how to use the Accordion block to create collapsible content sections for organizing information in your documentation.
 ---
 
+# Accordion Block
+
 The Accordion Block allows you to create collapsible content sections, making it easier to organize and present large amounts of information without overwhelming users. Accordion items can be expanded or collapsed individually, providing a clean and organized way to display content.
 
 ## Available Slots

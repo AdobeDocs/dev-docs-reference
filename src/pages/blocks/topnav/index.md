@@ -3,7 +3,7 @@ title: Top Navigation
 description: Learn how to configure top navigation in config.md for your documentation site.
 ---
 
-# Top Navigation Configuration
+# Top Navigation
 
 Top Navigation is configured in the `config.md` file and controls how pages appear in the main navigation bar of your site. The navigation structure is based on the directory structure under `src/pages/`.
 
@@ -19,7 +19,11 @@ Top Navigation is configured in the `config.md` file and controls how pages appe
     - [API Reference](api/index.md)
 ```
 
-## pathPrefix
+## How It Works
+
+The configuration consists of two main components:
+
+### pathPrefix
 
 The `pathPrefix` is the base URL path for your content repository. This prefix is prepended to all page routes.
 
@@ -33,7 +37,7 @@ With this configuration, your pages will be accessible at:
 - `/dev-docs-reference/docs/` → Documentation page
 - `/dev-docs-reference/api/` → API Reference page
 
-## pages
+### pages
 
 The `pages` array defines the top navigation items that appear in the main navigation bar.
 
