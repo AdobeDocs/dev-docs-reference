@@ -1,3 +1,54 @@
+---
+title: Superhero - Half Width Variant
+description: Split-screen superhero layout with image and content side-by-side for product pages.
+---
+
+# Superhero - Half Width Variant
+
+The half width variant creates a split-screen layout with an image on one side and content on the other, ideal for product and platform pages.
+
+## Overview
+
+This variant is best suited for:
+- Product pages
+- Platform landing pages
+- Feature showcases
+- Application overviews
+
+## Syntax
+
+```markdown
+<Superhero slots="image, heading, text, buttons" variant="halfWidth" />
+
+![Hero image](path/to/image.png)
+
+# Your Heading
+
+Your descriptive text here.
+
+* [Button](url)
+```
+
+## Parameters
+
+- **variant**: Set to `"halfWidth"` for split layout
+
+- **slots**: Content structure
+  - `"heading"` (required): Main heading
+  - `"text"` (required): Descriptive text
+  - `"image"` or `"video"` (required): Visual element
+  - `"fullWidthBackground"` (optional): Full-width background option
+  - `"buttons"` (optional): Call-to-action buttons
+
+- **background**: Custom background color (default: `rgb(255, 255, 255)`)
+
+- **textColor**: Text color (default: black)
+  - Options: `white`, `black`, `navy`, `gray`
+
+- **overGradient**: Improves button visibility against gradient backgrounds
+
+## Example
+
 <Superhero slots="image, heading, text, buttons" variant="halfWidth" />
 
 ![Creative Cloud banner](../../assets/cc-hero.png)
@@ -8,18 +59,15 @@ Opportunities abound for building for After Effects. Extend the capabilities of 
 
 * [Get the SDKs](https://developer.adobe.com/console/servicesandapis/ae)
 
-Use `variant="halfWidth"` to set the half width variant.
+## Best Practices
 
-Use `slots` to identify the markdown content:
+- Use images that complement rather than compete with text
+- Keep text concise to fit the half-width layout
+- Choose images with clear focal points
+- Consider using video for dynamic content
+- Test layout on mobile where it stacks vertically
 
-- `heading` (required)
-- `text` (required)
-- `image` or `video` (required)
-- `fullWidthBackground` (optional)
-- `buttons` (optional)
+## Related
 
-Use `background` to set a custom background color matching your color scheme. Defaults to `rgb(255, 255, 255)`.
-
-Use `textColor` to customize text color. Available options include white, black, navy, and gray. Defaults to black.
-
-Use `overGradient` to improve button visibility against gradient backgrounds.
+- [Superhero Half Width with Background Image](/blocks/superhero/superhero-halfwidth-with-background-image.md) - With background
+- [Superhero Default](/blocks/superhero/superhero-default.md) - Full-width layout

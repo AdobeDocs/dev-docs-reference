@@ -7,65 +7,93 @@ description: Explore all available blocks for the Adobe Developer documentation 
 
 This page provides links to examples of all available blocks in the Adobe Developer documentation site.
 
-## Accordion
+## Configuration Blocks
+
+These blocks define the structure and navigation of your documentation site.
+
+### SideNav
+
+[SideNav](blocks/sidenav/index.md)
+Configure the side navigation menu for your documentation site.
+
+### TopNav
+
+[TopNav](blocks/topnav/index.md)
+Configure the top navigation bar for your documentation site.
+
+### Breadcrumbs
+
+[Breadcrumbs](blocks/breadcrumb/index.md)
+Automatically generated navigation trail based on TopNav and SideNav configuration.
+
+## Content Blocks
+
+All content presentation blocks for creating and organizing your documentation content.
+
+### On This Page
+
+[On This Page](blocks/onthispage/index.md)
+Automatic table of contents sidebar displaying H2 and H3 headings for in-page navigation.
+
+### Accordion
 
 [Accordion](accordion/index.md)
 Collapsible content sections for organizing information.
 
-## Announcement
+### Announcement
 
 [Announcement](announcement/index.md)
 Display important announcements or notices.
 
-## Column
+### Column
 
 [Column](column/index.md)
 Multi-column layouts for content organization.
 
-## Carousel
+### Carousel
 
 [Carousel](carousel/index.md)
 Carousel
 
-## Discover Block
+### Discover Block
 
 [Discover Block](discoverblock/index.md)
 Showcase featured content or resources.
 
-## Edition
+### Edition
 
 [Edition](edition/index.md)
 Edition-specific content display.
 
-## HeroSimple
+### HeroSimple
 
 [HeroSimple](herosimple/herosimple-default.md)
 - [HeroSimple (default)](herosimple/herosimple-default.md)
 - [HeroSimple fullWidth](herosimple/herosimple-fullwidth.md)
 - [HeroSimple halfWidth](herosimple/herosimple-halfwidth.md)
 
-## Image
+### Image
 
 [Image](image/index.md)
 Image display and formatting examples.
 
-## Inline Alert
+### Inline Alert
 
 [Inline Alert](inline-alert/index.md)
 Inline alert messages for warnings, tips, and notes.
 
-## List
+### List
 
 [List](list/index.md)
 Various list formatting options.
 
-## Resources
+### Resources
 
 [Resources](resources/resources.md)
 - [Resources Block](resources/resources.md)
 - [Resources with No Hero](resources/resources-with-no-hero.md)
 
-## Superhero
+### Superhero
 
 [Superhero](superhero/index.md)
 - [Superhero (default)](superhero/superhero-default.md)
@@ -75,12 +103,12 @@ Various list formatting options.
 - [Superhero halfWidth with background image](superhero/superhero-halfwidth-with-background-image.md)
 - [Superhero halfWidth with background image and video](superhero/superhero-halfwidth-with-background-image-and-video.md)
 
-## Tab
+### Tab
 
 [Tab](tab/index.md)
 Tabbed content for organizing related information.
 
-## Code Block Examples
+### Code Block Examples
 
 [Code Block Examples](codeblock/code-block.md)
 - [Basic Code Block](codeblock/code.md)
@@ -93,15 +121,25 @@ Tabbed content for organizing related information.
 - [Code Overload Example](codeblock/code-overload.md)
 - [Code Example 0](codeblock/code-0.md)
 
-## Redocly API Block
+### Redocly API Block
 
 [Redocly API Block](redoclyapiblock/redocly-api-block-default.md)
 Interactive API documentation using Redocly.
 
-- [Default API Block](redoclyapiblock/redocly-api-block-default.md)
-- [API Block Configurations](redoclyapiblock/redocly-api-block-configs.md)
-- [API Block without Layout](redoclyapiblock/redocly-api-block-no-layout.md)
-- [API Block without Sidebar](redoclyapiblock/redocly-api-block-no-sidebar.md)
-- [API Block without Sidebar and Search](redoclyapiblock/redocly-api-block-no-sidebar-no-search.md)
-- [API Block without Y-Scroll Offset](redoclyapiblock/redocly-api-block-no-y-scroll-offset.md)
-- [Redocly Overflow Example](redoclyapiblock/redocly-overflow.md)
+- [Default API Block](blocks/redoclyapiblock/redocly-api-block-default.md)
+- [API Block Configurations](blocks/redoclyapiblock/redocly-api-block-configs.md)
+- [API Block without Layout](blocks/redoclyapiblock/redocly-api-block-no-layout.md)
+- [API Block without Sidebar](blocks/redoclyapiblock/redocly-api-block-no-sidebar.md)
+- [API Block without Sidebar and Search](blocks/redoclyapiblock/redocly-api-block-no-sidebar-no-search.md)
+- [API Block without Y-Scroll Offset](blocks/redoclyapiblock/redocly-api-block-no-y-scroll-offset.md)
+- [Redocly Overflow Example](blocks/redoclyapiblock/redocly-overflow.md)
+
+
+<Summary slot="image, text, button"/>
+
+![Hero image](../assets/hero.png)
+
+This is a banner
+
+* [Get the SDKs](https://developer.adobe.com/console/servicesandapis/ae)
+

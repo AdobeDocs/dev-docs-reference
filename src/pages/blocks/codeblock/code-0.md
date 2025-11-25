@@ -3,8 +3,21 @@ title: Basic Code Block
 description: Simple examples of basic code blocks without special features.
 ---
 
-// copied from https://github.com/AdobeDocs/adobe-assurance-public-apis/blob/3ab99cac59f3c9026f76e23a24a9db13a330d02c/src/pages/api/index.md?plain=1#L24
-// page https://developer.adobe.com/adobe-assurance-public-apis/api/
+# Basic Code Block
+
+Simple code blocks for displaying code snippets without advanced features like line highlighting or offsets.
+
+## Syntax
+
+Use triple backticks with a language identifier:
+
+```markdown
+```javascript
+const message = "Hello World";
+```
+```
+
+## Examples
 
 ```console
 curl -i -X POST 'https://graffias.adobe.io/graffias/graphql' 
@@ -35,3 +48,14 @@ If you need to test functionality that is not supported by `aio app dev`, you ca
 ```bash
 aio app run --local
 ```
+
+## Best Practices
+
+- Always specify a language for syntax highlighting
+- Use for straightforward code examples
+- Keep code blocks concise and focused
+
+## Related
+
+- [Code Examples](/blocks/codeblock/code.md) - Advanced code block features
+- [Code Block](/blocks/codeblock/code-block.md) - Code Block component

@@ -3,7 +3,35 @@ title: Resources Block without Hero
 description: Display a resources section with useful links without a hero banner for a simpler layout.
 ---
 
-# Resources with no hero
+# Resources Block without Hero
+
+Display a clean, focused resources section without a hero banner for pages that need quick access to links and documentation.
+
+## Overview
+
+The Resources block without a hero is ideal for:
+- Documentation pages with resource links
+- Reference sections
+- Code sample repositories
+- Standalone resource lists
+
+## Syntax
+
+```markdown
+<Resources slots="heading, links"/>
+
+#### Resources
+
+* [Link 1](url)
+* [Link 2](url)
+```
+
+## Parameters
+
+- **slots**: Define content structure
+  - `"heading, links"`: Heading and list of links
+
+## Example
 
 <Resources slots="heading, links"/>
 
@@ -58,3 +86,16 @@ Demonstrates how to use the add-on SDK's Import and Drag and Drop APIs to add im
 
 - [Import Content](./references/addonsdk/app-document.md) to add the image to the document when the gif is clicked.
 - [Drag and Drop](./references/addonsdk/addonsdk-app.md#enabledragtodocument) to support dragging and dropping images to the document.
+
+## Best Practices
+
+- Use descriptive headings for resource sections
+- Keep link text clear and action-oriented
+- Group related links together
+- Order links by importance or workflow
+- Use markdown lists for clean formatting
+
+## Related
+
+- [Resources with Hero](/blocks/resources/resources.md) - With hero banner
+- [List Block](/blocks/list/index.md) - Styled lists with icons
