@@ -9,6 +9,8 @@ Top Navigation is configured in the `config.md` file and controls how pages appe
 
 ## Configuration Example
 
+### Basic Navigation
+
 ```yaml
 - pathPrefix:
     - /dev-docs-reference/
@@ -16,6 +18,20 @@ Top Navigation is configured in the `config.md` file and controls how pages appe
 - pages:
     - [Home](index.md)
     - [Documentation](docs/index.md)
+    - [API Reference](api/index.md)
+```
+
+### With Dropdown Menu
+
+```yaml
+- pathPrefix:
+    - /dev-docs-reference/
+
+- pages:
+    - [Home](index.md)
+    - [Reference Docs](blocks/index.md)
+      - [Version 1.0](blocks/version1.md)
+      - [Version 2.0](blocks/version2.md)
     - [API Reference](api/index.md)
 ```
 
@@ -53,6 +69,32 @@ The `pages` array defines the top navigation items that appear in the main navig
 - `[Home]` - The text displayed in the navigation bar
 - `(index.md)` - The relative path to the page under `src/pages/`
 
+### Dropdown Menus
+
+You can create dropdown menus in the top navigation by nesting items under a parent page:
+
+```yaml
+- pages:
+    - [Home](index.md)
+    - [Reference Docs](blocks/index.md)
+      - [Version 1.0](blocks/version1.md)
+      - [Version 2.0](blocks/version2.md)
+    - [API Reference](api/index.md)
+```
+
+This creates a dropdown under "Reference Docs" with two options:
+![topnav_dropdown](../../assets/topnav_dropdown.png)
+
+**Common Uses for Dropdowns:**
+- Version switching (v1.0, v2.0, v3.0)
+- Multiple guides under one category
+- Different API versions or endpoints
+- Platform-specific documentation
+
+**Dropdown Format:**
+- Parent item: `- [Parent Label](parent-page.md)`
+- Child items (indented): `  - [Child Label](child-page.md)`
+
 ## Visual Result
 
 The above configuration creates a navigation bar at the top of your site with the specified items displayed horizontally.
@@ -79,6 +121,8 @@ All paths are relative to `src/pages/`:
 
 - Keep top navigation items to 3-5 main sections
 - Use clear, concise labels for navigation items
+- Use dropdowns for version switching or related sub-sections
+- Limit dropdown items to 3-6 options for usability
 - Ensure all paths point to existing files under `src/pages/`
 - The pathPrefix should match your repository or deployment path
 

@@ -5,11 +5,14 @@ description: Explore all available blocks for the Adobe Developer documentation 
 
 # DevDoc Block Examples
 
-This page provides links to examples of all available blocks in the Adobe Developer documentation site.
+Explore all available blocks for creating rich, interactive documentation. Blocks are organized into two main categories:
+
+- **Configuration Blocks**: Define site structure and navigation (configured in `config.md`)
+- **Content Blocks**: Create and format your documentation content
 
 ## Configuration Blocks
 
-These blocks define the structure and navigation of your documentation site.
+These blocks define the structure and navigation of your documentation site. They are configured in your `config.md` file and control the overall navigation experience.
 
 ### SideNav
 
@@ -26,115 +29,170 @@ Configure the top navigation bar for your documentation site.
 [Breadcrumbs](blocks/breadcrumb/index.md)
 Automatically generated navigation trail based on TopNav and SideNav configuration.
 
+### Footer
+
+[Footer](blocks/footer/index.md)
+Centrally managed footer appearing on all pages. Contact the team via Slack (#adobe-developer-website) for changes.
+
 ## Content Blocks
 
-All content presentation blocks for creating and organizing your documentation content.
+All content presentation blocks for creating and organizing your documentation content. These blocks help you create engaging, well-structured documentation pages.
 
-### On This Page
+### Page Navigation & Utilities
 
-[On This Page](blocks/onthispage/index.md)
+#### On This Page
+
+[On This Page](blocks/onthispage/index.md)  
 Automatic table of contents sidebar displaying H2 and H3 headings for in-page navigation.
 
-### Accordion
+### Hero Blocks
 
-[Accordion](blocks/accordion/index.md)
+#### Superhero
+
+[Superhero](blocks/superhero/index.md)  
+Create impactful hero banners with images, headings, and call-to-action buttons. Choose from 8 variants:
+
+**Layout Variants:**
+- [Default](blocks/superhero/superhero-default.md) - Standard layout for documentation pages
+- [Half Width](blocks/superhero/superhero-halfwidth.md) - Split-screen layout for product pages
+- [Centered](blocks/superhero/superhero-centered.md) - Centered layout for home pages
+- [Centered XL](blocks/superhero/superhero-centeredxl.md) - Extra-large centered layout
+
+**Enhanced Variants:**
+- [Default with Background](blocks/superhero/superhero-default-with-background-image.md) - With custom background color
+- [Default with Gradient](blocks/superhero/superhero-default-with-background-image-and-color.md) - With gradient background
+- [Half Width with Background](blocks/superhero/superhero-halfwidth-with-background-image.md) - With full-width background
+- [Half Width with Video](blocks/superhero/superhero-halfwidth-with-background-image-and-video.md) - With video content
+
+#### HeroSimple
+
+[HeroSimple](blocks/herosimple/herosimple-default.md)  
+Simpler hero option for clean, focused pages.
+- [Default](blocks/herosimple/herosimple-default.md)
+- [Full Width](blocks/herosimple/herosimple-fullwidth.md)
+- [Half Width](blocks/herosimple/herosimple-halfwidth.md)
+
+### Content Organization
+
+#### Accordion
+
+[Accordion](blocks/accordion/index.md)  
 Collapsible content sections for organizing information.
 
-### Announcement
+#### Tab
 
-[Announcement](blocks/announcement/index.md)
-Display important announcements or notices.
-
-### Column
-
-[Column](blocks/column/index.md)
-Multi-column layouts for content organization.
-
-### Discover Block
-
-[Discover Block](blocks/discoverblock/index.md)
-Showcase featured content or resources.
-
-### Edition
-
-[Edition](blocks/edition/index.md)
-Edition-specific content display.
-
-### HeroSimple
-
-[HeroSimple](blocks/herosimple/herosimple-default.md)
-- [HeroSimple (default)](blocks/herosimple/herosimple-default.md)
-- [HeroSimple fullWidth](blocks/herosimple/herosimple-fullwidth.md)
-- [HeroSimple halfWidth](blocks/herosimple/herosimple-halfwidth.md)
-
-### Image
-
-[Image](blocks/image/index.md)
-Image display and formatting examples.
-
-### Inline Alert
-
-[Inline Alert](blocks/inline-alert/index.md)
-Inline alert messages for warnings, tips, and notes.
-
-### List
-
-[List](blocks/list/index.md)
-Various list formatting options.
-
-### Resources
-
-[Resources](blocks/resources/resources.md)
-- [Resources Block](blocks/resources/resources.md)
-- [Resources with No Hero](blocks/resources/resources-with-no-hero.md)
-
-### Superhero
-
-[Superhero](blocks/superhero/index.md)
-- [Superhero (default)](blocks/superhero/superhero-default.md)
-- [Superhero centered](blocks/superhero/superhero-centered.md)
-- [Superhero centeredXL](blocks/superhero/superhero-centeredxl.md)
-- [Superhero halfWidth](blocks/superhero/superhero-halfwidth.md)
-- [Superhero halfWidth with background image](blocks/superhero/superhero-halfwidth-with-background-image.md)
-- [Superhero halfWidth with background image and video](blocks/superhero/superhero-halfwidth-with-background-image-and-video.md)
-
-### Tab
-
-[Tab](blocks/tab/index.md)
+[Tab](blocks/tab/index.md)  
 Tabbed content for organizing related information.
 
-### Code Block Examples
+#### Column
 
-[Code Block Examples](blocks/codeblock/code-block.md)
-- [Basic Code Block](blocks/codeblock/code.md)
-- [Code Block (Standard)](blocks/codeblock/code-block.md)
-- [Code Block with Picklist](blocks/codeblock/code-block-with-picklist.md)
-- [Code Block without Picklist](blocks/codeblock/code-block-without-picklist.md)
-- [Code with Highlighted Lines](blocks/codeblock/code-highlighted-line.md)
-- [Code in Lists](blocks/codeblock/code-in-list.md)
-- [Code in Tables](blocks/codeblock/code-in-table.md)
-- [Code Overload Example](blocks/codeblock/code-overload.md)
-- [Code Example 0](blocks/codeblock/code-0.md)
+[Column](blocks/column/index.md)  
+Multi-column layouts for content organization.
 
-### Redocly API Block
+#### Discover Block
 
-[Redocly API Block](blocks/redoclyapiblock/redocly-api-block-default.md)
-Interactive API documentation using Redocly.
+[Discover Block](blocks/discoverblock/index.md)  
+Showcase featured content or resources.
 
-- [Default API Block](blocks/redoclyapiblock/redocly-api-block-default.md)
-- [API Block Configurations](blocks/redoclyapiblock/redocly-api-block-configs.md)
-- [API Block without Layout](blocks/redoclyapiblock/redocly-api-block-no-layout.md)
-- [API Block without Sidebar](blocks/redoclyapiblock/redocly-api-block-no-sidebar.md)
-- [API Block without Sidebar and Search](blocks/redoclyapiblock/redocly-api-block-no-sidebar-no-search.md)
-- [API Block without Y-Scroll Offset](blocks/redoclyapiblock/redocly-api-block-no-y-scroll-offset.md)
-- [Redocly Overflow Example](blocks/redoclyapiblock/redocly-overflow.md)
+#### Resources
 
+[Resources](blocks/resources/resources.md)  
+Display resource links with optional hero banner.
+- [With Hero](blocks/resources/resources.md)
+- [Without Hero](blocks/resources/resources-with-no-hero.md)
 
-<Summary slot="image, text, button"/>
+### Alerts & Announcements
 
-![Hero image](../assets/hero.png)
+#### Announcement
 
-This is a banner
+[Announcement](blocks/announcement/index.md)  
+Display important announcements or notices.
 
-* [Get the SDKs](https://developer.adobe.com/console/servicesandapis/ae)
+#### Inline Alert
+
+[Inline Alert](blocks/inline-alert/index.md)  
+Inline alert messages for warnings, tips, and notes.
+
+### Lists & Content Display
+
+#### List
+
+[List](blocks/list/index.md)  
+Styled lists with icons and formatting options.
+
+#### Edition
+
+[Edition](blocks/edition/index.md)  
+Edition-specific content display.
+
+#### Image
+
+[Image](blocks/image/index.md)  
+Image display and formatting examples.
+
+### Code Formatting
+
+#### Inline Code
+
+[Inline Code](blocks/inline-code/index.md)  
+Format inline code snippets, variable names, and technical terms using backticks.
+
+#### Code Block Component
+
+[Code Block](blocks/codeblock/code-block.md)  
+Display multiple code snippets with headings.
+- [Standard Code Block](blocks/codeblock/code-block.md) - Multiple code blocks with headings
+- [With Language Picker](blocks/codeblock/code-block-with-picklist.md) - Dropdown to switch languages
+- [Without Picker](blocks/codeblock/code-block-without-picklist.md) - All blocks visible
+
+#### Code Block Examples
+
+[Code Examples](blocks/codeblock/code.md)  
+Various code block features and formatting options.
+- [Basic Code Block](blocks/codeblock/code-0.md) - Simple code blocks
+- [Advanced Features](blocks/codeblock/code.md) - Line highlighting, offsets, disable line numbers
+- [Highlighted Lines](blocks/codeblock/code-highlighted-line.md) - Highlight specific lines
+- [Code in Lists](blocks/codeblock/code-in-list.md) - Code blocks nested in lists
+- [Code in Tables](blocks/codeblock/code-in-table.md) - Inline code in table cells
+- [Combined Features](blocks/codeblock/code-overload.md) - Multiple features together
+
+### API Documentation
+
+#### Redocly API Block
+
+[Redocly API Block](blocks/redoclyapiblock/redocly-api-block-default.md)  
+Interactive API documentation from OpenAPI specifications.
+
+**Configuration Options:**
+- [Default](blocks/redoclyapiblock/redocly-api-block-default.md) - Standard configuration
+- [Custom Configurations](blocks/redoclyapiblock/redocly-api-block-configs.md) - Customize styling and behavior
+
+**Layout Options:**
+- [Without Layout](blocks/redoclyapiblock/redocly-api-block-no-layout.md) - Full-page documentation
+- [Without Sidebar](blocks/redoclyapiblock/redocly-api-block-no-sidebar.md) - Hide sidebar navigation
+- [Without Sidebar & Search](blocks/redoclyapiblock/redocly-api-block-no-sidebar-no-search.md) - Minimalist view
+- [With Scroll Offset](blocks/redoclyapiblock/redocly-api-block-no-y-scroll-offset.md) - For fixed headers
+
+**Advanced:**
+- [External API Example](blocks/redoclyapiblock/redocly-overflow.md) - Load from external URLs
+
+## Quick Reference
+
+### When to Use What
+
+- **Hero Banners**: Use Superhero (8 variants) for impactful headers or HeroSimple for cleaner pages
+- **Navigation**: Configure SideNav, TopNav, and Breadcrumbs in `config.md`; Footer is centrally managed
+- **Content Organization**: Use Tabs or Accordions for related content, Columns for layouts
+- **Code Display**: Use Inline Code for variables, Code Blocks for snippets, Code Block Component for multiple examples
+- **API Documentation**: Use Redocly API Block for OpenAPI specifications
+- **Alerts**: Use Announcement for important notices, Inline Alert for contextual messages
+- **Resources**: Use Resources block to highlight documentation links
+
+### Getting Started
+
+1. Choose your hero block variant based on page type
+2. Configure navigation in `config.md`
+3. Use content blocks to build your page
+4. Add code examples with appropriate formatting
+5. Include alerts and announcements as needed
 

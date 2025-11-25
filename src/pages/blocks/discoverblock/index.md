@@ -42,3 +42,5 @@ Do you have experience with Photoshop plugin solutions? Learn more here.
 [Designing plugins for Photoshop](https://developer.adobe.com/photoshop/uxp/2022/)
 
 Learn key design principles for UXP plugins in Photoshop.
+
+
