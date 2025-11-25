@@ -3,8 +3,23 @@ title: Code Block with Picklist
 description: Display code blocks with a language picker dropdown menu for switching between different code examples.
 ---
 
-// copied from https://github.com/AdobeDocs/express-add-ons-docs/blob/main/src/pages/guides/tutorials/grids-addon.md?plain=1#L163
-// page https://developer.adobe.com/express/add-ons/docs/guides/tutorials/grids-addon/
+# Code Block with Picklist
+
+Display multiple code blocks with a language picker dropdown that allows users to switch between different code examples or file types.
+
+## Syntax
+
+```markdown
+<CodeBlock slots="heading, code" repeat="5" languages="index.html, index.js, code.js, shapeUtils.js, extra.js"/>
+```
+
+## Parameters
+
+- **slots**: Define the content structure - `"heading, code"`
+- **repeat**: Number of code blocks
+- **languages**: Comma-separated list of language/file labels - creates a picker dropdown for users to switch between code blocks
+
+## Example
 
 <CodeBlock slots="heading, code" repeat="5" languages="index.html, index.js, code.js, shapeUtils.js, extra.js"/>
 
@@ -87,3 +102,14 @@ start();
 ```js
 // empty 2
 ```
+
+## Best Practices
+
+- Use descriptive language labels (e.g., file names or language names)
+- Keep the number of options reasonable (typically 3-7)
+- Order languages logically (e.g., HTML, CSS, JavaScript)
+
+## Related
+
+- [Code Block](/blocks/codeblock/code-block.md) - Basic code block component
+- [Code Block without Picklist](/blocks/codeblock/code-block-without-picklist.md) - Multiple code blocks without language selection

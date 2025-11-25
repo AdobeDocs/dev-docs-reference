@@ -3,8 +3,26 @@ title: Code Overload Example
 description: Complex code examples demonstrating multiple features like line highlighting, offsets, and disabling line numbers.
 ---
 
-// copied from https://github.com/AdobeDocs/adobe-assurance-public-apis/blob/3ab99cac59f3c9026f76e23a24a9db13a330d02c/src/pages/api/index.md?plain=1#L24
-// page https://developer.adobe.com/adobe-assurance-public-apis/api/
+# Code Overload Example
+
+Advanced examples showcasing the combination of multiple code block features for complex documentation scenarios.
+
+## Combined Features
+
+You can combine multiple attributes with hyphens:
+
+```markdown
+```javascript-disableLineNumbers-data-line="2-4"-data-line-offset="1"
+code here
+```
+```
+
+Features you can combine:
+- Line highlighting (`data-line`)
+- Line offset (`data-line-offset`)
+- Disable line numbers (`disableLineNumbers`)
+
+## Examples
 
 ```console-disableLineNumbers-data-line="2-4,6,"-data-line-offset="2"
 curl -i -X POST 'https://graffias.adobe.io/graffias/graphql' 
@@ -175,3 +193,16 @@ function start() {
 
 start();
 ```
+
+## Best Practices
+
+- Use combined features sparingly - only when necessary
+- Keep attribute combinations logical and purposeful
+- Test complex code blocks to ensure they render correctly
+- Consider if simpler alternatives would be more readable
+
+## Related
+
+- [Code Examples](/blocks/codeblock/code.md) - Standard code block features
+- [Code with Highlighted Lines](/blocks/codeblock/code-highlighted-line.md) - Line highlighting
+- [Code Block](/blocks/codeblock/code-block.md) - Code Block component

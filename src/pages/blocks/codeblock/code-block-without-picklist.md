@@ -3,6 +3,24 @@ title: Code Block without Picklist
 description: Display multiple code blocks without a language picker dropdown.
 ---
 
+# Code Block without Picklist
+
+Display multiple code blocks with headings but without a language picker. All code blocks are visible simultaneously without switching between them.
+
+## Syntax
+
+```markdown
+<CodeBlock slots="heading, code" repeat="5"/>
+```
+
+## Parameters
+
+- **slots**: Define the content structure - `"heading, code"`
+- **repeat**: Number of code blocks to display
+- **languages**: Omit this parameter to display code blocks without a picker
+
+## Example
+
 <CodeBlock slots="heading, code" repeat="5"/>
 
 #### iframe
@@ -83,5 +101,15 @@ start();
 
 ```js
 // empty 2
-
 ```
+
+## Best Practices
+
+- Use when you want all code blocks visible at once
+- Ideal for showing progression or related files side-by-side
+- Keep headings clear to distinguish between blocks
+
+## Related
+
+- [Code Block](/blocks/codeblock/code-block.md) - Basic code block component
+- [Code Block with Picklist](/blocks/codeblock/code-block-with-picklist.md) - Code blocks with language picker

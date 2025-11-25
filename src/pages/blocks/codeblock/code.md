@@ -3,8 +3,43 @@ title: Code Examples
 description: Examples of code blocks with various features including line highlighting, line offset, and inline code.
 ---
 
-// copied from https://github.com/AdobeDocs/adobe-assurance-public-apis/blob/3ab99cac59f3c9026f76e23a24a9db13a330d02c/src/pages/api/index.md?plain=1#L24
-// page https://developer.adobe.com/adobe-assurance-public-apis/api/
+# Code Examples
+
+Standard code blocks support various features like line highlighting, line number offsets, and disabling line numbers for clean code display.
+
+## Basic Code Block
+
+Use triple backticks with a language identifier:
+
+```markdown
+```javascript
+const greeting = "Hello World";
+console.log(greeting);
+```
+```
+
+## Advanced Features
+
+### Line Highlighting
+
+Highlight specific lines with `data-line`:
+
+```markdown
+```console data-line="1-2,6," data-line-offset="2"
+```
+```
+
+### Disable Line Numbers
+
+Use `disableLineNumbers` for cleaner display:
+
+```markdown
+```bash disableLineNumbers
+command here
+```
+```
+
+## Examples
 
 ```console data-line="1-2,6," data-line-offset="2"
 curl -i -X POST 'https://graffias.adobe.io/graffias/graphql' 
@@ -63,3 +98,16 @@ Returns the details of the namespace associated with the specified organization 
 | `X-Api-Key` (`string`: _header_)     | Api key                                         |
 
 #### _Responses:_
+
+## Best Practices
+
+- Specify the correct language for proper syntax highlighting
+- Use `data-line` to highlight important code sections
+- Use `disableLineNumbers` for short, simple commands
+- Set `data-line-offset` when showing code excerpts
+
+## Related
+
+- [Code Block](/blocks/codeblock/code-block.md) - Code Block component
+- [Code with Highlighted Lines](/blocks/codeblock/code-highlighted-line.md) - Line highlighting examples
+- [Inline Code](/blocks/inline-code/index.md) - For inline code formatting
