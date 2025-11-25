@@ -34,13 +34,15 @@ Breadcrumbs are configured through your `config.md` file's navigation structure:
 
 ```markdown
 - pages:
-    - [Home](index.md)
-    - [API Reference](api/index.md)
+    - [Overview](index.md)
+    - [Reference Docs](blocks/index.md)
 
 - subPages:
-    - [API Reference](api/index.md)
-      - [Authentication](api/authentication/index.md)
-        - [OAuth 2.0](api/authentication/oauth.md)
+    - [Overview](blocks/index.md)
+        - [Configuration Blocks](#configuration-blocks)
+            - [SideNav](/blocks/sidenav/index.md)
+            - [TopNav](/blocks/topnav/index.md)
+            - [Breadcrumbs](/blocks/breadcrumb/index.md)
 ```
 
 This navigation structure automatically generates breadcrumbs for each page based on its position in the hierarchy.

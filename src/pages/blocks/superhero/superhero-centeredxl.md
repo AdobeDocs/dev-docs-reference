@@ -1,3 +1,52 @@
+---
+title: Superhero - Centered XL Variant
+description: Extra-large centered superhero layout for maximum visual impact on index home pages.
+---
+
+# Superhero - Centered XL Variant
+
+The centered XL variant creates an extra-large, visually dominant hero banner with centered content for maximum impact on landing pages.
+
+## Overview
+
+This variant is best suited for:
+- Main portal home pages
+- High-impact marketing pages
+- Brand showcases
+- Major product launches
+
+## Syntax
+
+```markdown
+<Superhero slots="image, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
+
+![Hero image](path/to/image.png)
+
+# Your Heading
+
+Your text here
+
+* [Button 1](url)
+* [Button 2](url)
+```
+
+## Parameters
+
+- **variant**: Set to `"centeredXL"` for extra-large centered layout
+
+- **slots**: Content structure
+  - `"heading"` (required): Main heading
+  - `"text"` (required): Descriptive text
+  - `"image"` (optional): Hero image
+  - `"buttons"` (optional): Call-to-action buttons
+
+- **background**: Custom background color (default: `rgb(29, 125, 238)`)
+
+- **textColor**: Text color (default: white)
+  - Options: `white`, `black`, `navy`, `gray`
+
+## Example
+
 <Superhero slots="image, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 
 ![IO banner](../../assets/hero.png)
@@ -9,16 +58,16 @@ Adobe products and technologies power them
 * [Explore our APIs](https://adobe.io)
 * [Subscribe](https://adobe.io)
 
-Use `variant="centeredXL"` to set the centered XL variant.
+## Best Practices
 
-Use `slots` to identify the markdown content:
+- Reserve for most important pages only
+- Use compelling, high-resolution images
+- Keep messaging bold and concise
+- Ensure typography scales well at large sizes
+- Test on various screen sizes for responsiveness
 
-- `heading` (required)
-- `text` (required)
-- `image` (optional)
-- `buttons` (optional)
+## Related
 
-Use `background` to set a custom background color matching your color scheme. Defaults to `rgb(29, 125, 238)`.
-
-Use `textColor` to customize text color. Available options include white, black, navy, and gray. Defaults to white.
+- [Superhero Centered](/blocks/superhero/superhero-centered.md) - Standard centered layout
+- [Superhero Default](/blocks/superhero/superhero-default.md) - Standard layout
 

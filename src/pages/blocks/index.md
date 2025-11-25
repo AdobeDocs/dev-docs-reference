@@ -30,6 +30,11 @@ Automatically generated navigation trail based on TopNav and SideNav configurati
 
 All content presentation blocks for creating and organizing your documentation content.
 
+### On This Page
+
+[On This Page](blocks/onthispage/index.md)
+Automatic table of contents sidebar displaying H2 and H3 headings for in-page navigation.
+
 ### Accordion
 
 [Accordion](blocks/accordion/index.md)
