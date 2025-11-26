@@ -5,6 +5,6 @@ description: Learn how to display and format images in your documentation.
 
 # Image Example
 
-![image](../../images/ab_add_io_management_api.png)
+![image](../../assets/image1.png)
 
-![Explore_Image_3](../../assets/Explore_Image_3.png)
+![Explore_Image_3](../../assets/image2.png)
