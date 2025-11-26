@@ -28,6 +28,7 @@ Display images in your documentation using standard markdown syntax.
 - **Alt text**: Descriptive text for accessibility (required)
 - **Path**: Relative path to assets folder or absolute URL
 - **Formats**: PNG, JPG, GIF, WebP, SVG
+- **Preferred Size**: 580 x 350 px for optimal display
 
 ## Example
 
@@ -40,6 +41,7 @@ Display images in your documentation using standard markdown syntax.
 ## Best Practices
 
 - Always include descriptive alt text for accessibility
+- Use preferred image size of 580 x 350 px for optimal display
 - Optimize images for web (< 500KB recommended)
 - Use PNG for screenshots, JPG for photos, SVG for icons
 - Store local images in `src/pages/assets/` directory
