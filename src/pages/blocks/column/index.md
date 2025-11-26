@@ -22,6 +22,8 @@ Create multi-column layouts to display content side-by-side with images, heading
 
 - **repeat**: Number of columns to display (typically 2-4)
 
+- **Preferred Image Size**: 580 x 350 px for optimal display
+
 ## Example
 
 <Columns slots="image, heading, text, buttons" repeat ="3" />
@@ -55,4 +57,4 @@ Additional content for the third column. Use consistent structure across all col
 - Keep column count to 2-4 for readability
 - Use consistent content structure across all columns
 - Keep text concise to maintain visual balance
-- Use similar image sizes for consistency
+- Use preferred image size of 580 x 350 px for consistency across columns
