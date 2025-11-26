@@ -5,17 +5,7 @@ description: Display a resources section with links alongside a hero banner for 
 
 # Resources Block with Hero
 
-Combine a hero banner with a resources section to create an engaging landing page that highlights key resources and documentation links.
-
-## Overview
-
-This combination is ideal for:
-- API landing pages with quick links
-- Product home pages with resources
-- Documentation hubs
-- Getting started pages
-
-The Resources block provides organized links to guides, references, and external resources.
+Combine a hero banner with a resources section to display key documentation links.
 
 ## Syntax
 
@@ -56,14 +46,13 @@ Unlock the potential of Photoshop, Lightroom, and cutting edge Sensei services t
 
 ## Best Practices
 
-- Use hero to introduce the product or API
 - Keep resource links concise and clearly labeled
-- Group related resources under descriptive headings
 - Link to the most important resources first
-- Combine with call-to-action buttons in the hero
+- Use hero to introduce the product or API
 
 ## Related
 
-- [Resources without Hero](/blocks/resources/resources-with-no-hero.md) - Simpler layout without hero
+- [Resources without Hero](/blocks/resources/resources-with-no-hero.md) - Simpler layout
 - [Superhero](/blocks/superhero/index.md) - Hero banner component
+- [DiscoverBlock](/blocks/discoverblock/index.md) - Card-based content display
 

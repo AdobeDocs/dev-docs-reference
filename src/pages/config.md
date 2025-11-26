@@ -33,7 +33,7 @@
         - [Edition](/blocks/edition/index.md)
           - [Edition without Link](/blocks/edition/edition-with-no-link.md)
           - [Edition with Link](/blocks/edition/edition-with-link.md)
-        - [HeroSimple](/blocks/herosimple/herosimple-default.md)
+        - [HeroSimple](#herosimple)
             - [HeroSimple (default)](/blocks/herosimple/herosimple-default.md)
             - [HeroSimple fullWidth](/blocks/herosimple/herosimple-fullwidth.md)
             - [HeroSimple halfWidth](/blocks/herosimple/herosimple-halfwidth.md)

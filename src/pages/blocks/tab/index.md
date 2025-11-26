@@ -5,16 +5,7 @@ description: Organize related content using tabbed layouts with the Tab block co
 
 # Tab Block
 
-The Tab block component allows you to organize related content into tabbed sections, making it easy for users to switch between different views without leaving the page.
-
-## Overview
-
-Tabs are useful for:
-- Organizing API request/response examples
-- Showing code in multiple languages
-- Displaying different configuration options
-- Presenting related content variations
-- Grouping similar information
+Organize related content into tabbed sections for easy switching between different views.
 
 ## Syntax
 
@@ -127,23 +118,12 @@ content tab 2
 
 ## Best Practices
 
-- **Use clear tab labels**: Make tab headings descriptive and concise
-- **Limit number of tabs**: Keep to 3-7 tabs for optimal usability
-- **Group related content**: Only use tabs for content that belongs together
-- **Consider mobile**: Horizontal tabs work better on smaller screens
-- **Default to important content**: Place the most important tab first
-- **Maintain consistent structure**: Use the same slot structure across all tabs
-
-## Common Use Cases
-
-- **API Documentation**: Request/Response examples
-- **Code Samples**: Multiple programming languages
-- **Multi-Step Guides**: Sequential instructions with images
-- **Configuration Options**: Different setup scenarios
-- **Before/After Comparisons**: Visual demonstrations
+- Use clear, concise tab labels
+- Limit to 3-7 tabs for usability
+- Group related content together
+- Place most important content in the first tab
 
 ## Related
 
 - [Accordion](/blocks/accordion/index.md) - Collapsible content sections
 - [Code Block](/blocks/codeblock/code-block.md) - Code examples with headings
-- [On This Page](/blocks/onthispage/index.md) - In-page navigation

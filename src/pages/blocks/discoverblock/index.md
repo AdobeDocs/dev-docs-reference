@@ -5,16 +5,7 @@ description: Showcase featured content and resources using the Discover block co
 
 # Discover Block
 
-Display featured content, resources, or links in a visually appealing card-based layout to help users discover important information.
-
-## Overview
-
-Discover Blocks are useful for:
-- Highlighting key resources or guides
-- Showcasing multiple related links
-- Creating resource hubs or landing pages
-- Organizing community links (forums, GitHub)
-- Feature showcases with images
+Display featured content, resources, or links in a card-based layout.
 
 ## Syntax
 
@@ -147,22 +138,13 @@ Connect with developers in our main community channel.
 
 ## Best Practices
 
-- **Use descriptive headings**: Make it clear what users will find
-- **Keep text concise**: Brief descriptions work best in card layouts
-- **Group related content**: Organize similar items together
-- **Use images consistently**: Choose a consistent image style and size (512 x 512 px recommended)
-- **Grid layouts**: Use `width="25%"` for 4-column grids, `"33%"` for 3-column
-
-## Common Use Cases
-
-- **Resource hubs**: Link to guides, tutorials, and documentation
-- **Community sections**: Forums, GitHub, social channels
-- **Tool discovery**: Showcase available tools and utilities
-- **Getting started**: Quick links for new users
-- **Feature highlights**: Showcase product features or capabilities
+- Use descriptive headings and concise text
+- Use consistent image sizes (512 x 512 px recommended)
+- Use `width="25%"` for 4-column grids, `"33%"` for 3-column
+- Limit to 3-8 blocks for optimal scanning
 
 ## Related
 
 - [Resources](/blocks/resources/resources.md) - Simple resource link lists
-- [List](/blocks/list/index.md) - Styled lists with images
 - [Column](/blocks/column/index.md) - Multi-column layouts
+- [List](/blocks/list/index.md) - Styled lists

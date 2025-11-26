@@ -5,7 +5,7 @@ description: Format inline code snippets, variable names, function names, and te
 
 # Inline Code
 
-Use inline code formatting to highlight code elements, variable names, function names, class names, file names, and technical terms within your documentation text.
+Format code elements, variable names, and technical terms within your text using backticks.
 
 ## Syntax
 
@@ -19,14 +19,11 @@ Use the `variableName` variable to store the value.
 
 ## Common Uses
 
-Inline code is typically used for:
-
-- **Variable names**: `count`, `userId`, `isEnabled`
-- **Function/method names**: `getUserData()`, `calculateTotal()`
-- **Class names**: `UserManager`, `Color`
-- **Properties**: `red`, `green`, `blue`, `alpha`
-- **File names**: `config.json`, `/src/pages/index.md`
-- **Short commands**: `-v`, `--help`
+- Variable names: `count`, `userId`, `isEnabled`
+- Function names: `getUserData()`, `calculateTotal()`
+- Class names: `UserManager`, `Color`
+- File names: `config.json`, `index.md`
+- Commands: `-v`, `--help`
 
 ## Linking Inline Code
 

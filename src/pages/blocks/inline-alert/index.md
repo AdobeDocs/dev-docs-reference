@@ -5,16 +5,7 @@ description: Display inline alert messages for warnings, tips, and notes using t
 
 # Inline Alert
 
-Display contextual alert messages within your documentation to highlight important information, warnings, tips, or errors.
-
-## Overview
-
-Inline Alerts are useful for:
-- Important notices and warnings
-- Helpful tips and best practices
-- Error messages and troubleshooting
-- Success confirmations
-- Additional context or information
+Display contextual alert messages to highlight important information, warnings, tips, or errors.
 
 ## Syntax
 
@@ -93,29 +84,12 @@ This is an inline alert neutral.
 
 ## Best Practices
 
-- **Choose the right variant**: Use appropriate alert types for the context
-  - `info`: General information or notes
-  - `help`: Tips, suggestions, or helpful guidance
-  - `warning`: Cautions or important considerations
-  - `error`: Errors or problems that need attention
-  - `success`: Positive confirmations or completions
-  - `neutral`: Neutral information without emphasis
-
-- **Keep messages concise**: Write clear, actionable messages
-- **Use header slot**: For complex alerts with multiple sections
-- **Don't overuse**: Too many alerts can overwhelm readers
-- **Place strategically**: Position alerts near relevant content
-
-## Common Use Cases
-
-- **Prerequisites**: Alert users to requirements before starting
-- **Breaking changes**: Warn about API or feature changes
-- **Deprecation notices**: Inform about deprecated features
-- **Tips and tricks**: Share helpful shortcuts or best practices
-- **Security warnings**: Highlight security considerations
-- **Success messages**: Confirm successful operations
+- Choose the right variant for your message type
+- Keep messages concise and actionable
+- Don't overuse alerts - they lose impact
+- Place alerts near relevant content
 
 ## Related
 
 - [Announcement](/blocks/announcement/index.md) - Page-level announcements
-- [Inline Code](/blocks/inline-code/index.md) - For code references in alerts
+- [Edition](/blocks/edition/index.md) - Edition-specific labels

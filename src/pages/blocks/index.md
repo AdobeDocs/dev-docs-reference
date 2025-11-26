@@ -45,8 +45,6 @@ All content presentation blocks for creating and organizing your documentation c
 [On This Page](blocks/onthispage/index.md)  
 Automatic table of contents sidebar displaying H2 and H3 headings for in-page navigation.
 
-### Hero Blocks
-
 #### Superhero
 
 [Superhero](blocks/superhero/index.md)  
@@ -176,17 +174,6 @@ Interactive API documentation from OpenAPI specifications.
 **Advanced:**
 - [External API Example](blocks/redoclyapiblock/redocly-overflow.md) - Load from external URLs
 
-## Quick Reference
-
-### When to Use What
-
-- **Hero Banners**: Use Superhero (8 variants) for impactful headers or HeroSimple for cleaner pages
-- **Navigation**: Configure SideNav, TopNav, and Breadcrumbs in `config.md`; Footer is centrally managed
-- **Content Organization**: Use Tabs or Accordions for related content, Columns for layouts
-- **Code Display**: Use Inline Code for variables, Code Blocks for snippets, Code Block Component for multiple examples
-- **API Documentation**: Use Redocly API Block for OpenAPI specifications
-- **Alerts**: Use Announcement for important notices, Inline Alert for contextual messages
-- **Resources**: Use Resources block to highlight documentation links
 
 ### Getting Started
 
