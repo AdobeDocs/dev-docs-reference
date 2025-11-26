@@ -9,19 +9,11 @@ Combine a hero banner with a resources section to display key documentation link
 
 ## Syntax
 
-### Hero Component
-
-```markdown
-<Superhero slots="image, heading, text, buttons" background="rgb(22, 49, 42)"/>
-```
-
 ### Resources Component
 
 ```markdown
 <Resources slots="heading, links"/>
 ```
-
-## Example
 
 <Superhero slots="image, heading, text, buttons" background="rgb(22, 49, 42)"/>
 
@@ -32,8 +24,6 @@ Combine a hero banner with a resources section to display key documentation link
 Build powerful applications with our comprehensive API platform and services.
 
 * [Get Started](https://example.com/getting-started)
-
-# Resources Example With Hero
 
 <Resources slots="heading, links"/>
 

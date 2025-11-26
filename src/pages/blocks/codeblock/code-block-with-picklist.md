@@ -108,8 +108,3 @@ start();
 - Use descriptive language labels (e.g., file names or language names)
 - Keep the number of options reasonable (typically 3-7)
 - Order languages logically (e.g., HTML, CSS, JavaScript)
-
-## Related
-
-- [Code Block](/blocks/codeblock/code-block.md) - Basic code block component
-- [Code Block without Picklist](/blocks/codeblock/code-block-without-picklist.md) - Multiple code blocks without language selection

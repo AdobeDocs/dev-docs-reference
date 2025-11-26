@@ -50,9 +50,9 @@ Display important announcements or notices.
 
 ### Code Block
 
-[Code Block](codeblock/code-block.md)  
+[Code Block](codeblock/index.md)  
 Display multiple code snippets with headings.
-- [Standard Code Block](codeblock/code-block.md) - Multiple code blocks with headings
+- [Standard Code Block](codeblock/index.md) - Multiple code blocks with headings
 - [With Language Picker](codeblock/code-block-with-picklist.md) - Dropdown to switch languages
 - [Without Picker](codeblock/code-block-without-picklist.md) - All blocks visible
 

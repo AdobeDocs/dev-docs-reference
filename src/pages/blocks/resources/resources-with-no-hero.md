@@ -23,8 +23,6 @@ Display a clean resources section with links to documentation and references.
 - **slots**: Define content structure
   - `"heading, links"`: Heading and list of links
 
-## Example
-
 <Resources slots="heading, links"/>
 
 #### Resources

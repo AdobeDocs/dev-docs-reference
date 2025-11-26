@@ -200,9 +200,3 @@ start();
 - Keep attribute combinations logical and purposeful
 - Test complex code blocks to ensure they render correctly
 - Consider if simpler alternatives would be more readable
-
-## Related
-
-- [Code Examples](/blocks/codeblock/code.md) - Standard code block features
-- [Code with Highlighted Lines](/blocks/codeblock/code-highlighted-line.md) - Line highlighting
-- [Code Block](/blocks/codeblock/code-block.md) - Code Block component

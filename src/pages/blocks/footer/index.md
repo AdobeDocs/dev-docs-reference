@@ -28,8 +28,3 @@ Provide details about your requested changes and the team will help with:
 - Modifying footer content
 - Custom requirements for your project
 
-## Related
-
-- [TopNav](/blocks/topnav/index.md) - Top navigation configuration
-- [SideNav](/blocks/sidenav/index.md) - Side navigation configuration
-

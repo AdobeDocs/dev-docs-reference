@@ -105,9 +105,3 @@ Returns the details of the namespace associated with the specified organization 
 - Use `data-line` to highlight important code sections
 - Use `disableLineNumbers` for short, simple commands
 - Set `data-line-offset` when showing code excerpts
-
-## Related
-
-- [Code Block](/blocks/codeblock/code-block.md) - Code Block component
-- [Code with Highlighted Lines](/blocks/codeblock/code-highlighted-line.md) - Line highlighting examples
-- [Inline Code](/blocks/inline-code/index.md) - For inline code formatting

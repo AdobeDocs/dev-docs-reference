@@ -54,8 +54,3 @@ Once your project is set up in [Adobe Developer Console](/console), let's move o
 - Indent code blocks with 4 spaces or 1 tab to nest within list items
 - Use for step-by-step tutorials and installation guides
 - Add explanatory text before and after code blocks for context
-
-## Related
-
-- [Code Block](/blocks/codeblock/code-block.md) - Basic code block component
-- [Inline Code](/blocks/inline-code/index.md) - For inline code within text

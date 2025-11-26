@@ -35,8 +35,3 @@ Use backticks for inline code in table cells:
 - Use inline code for property names, types, and values
 - Keep table formatting clean and aligned
 - Ideal for API reference documentation
-
-## Related
-
-- [Inline Code](/blocks/inline-code/index.md) - Using inline code formatting
-- [List](/blocks/list/index.md) - Formatting lists

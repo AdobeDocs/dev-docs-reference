@@ -19,7 +19,7 @@
         - [Announcement](/blocks/announcement/index.md)
           - [Announcement Button only](/blocks/announcement/announcement-button-only.md)
           - [Announcement With Heading](/blocks/announcement/announcement-with-heading.md)
-        - [Code Block](blocks/codeblock/code-block.md)
+        - [Code Block](blocks/codeblock/index.md)
             - [Code Block with Picklist](blocks/codeblock/code-block-with-picklist.md)
             - [Code Block without Picklist](blocks/codeblock/code-block-without-picklist.md)
             - [Code Highlighted Line](blocks/codeblock/code-highlighted-line.md)

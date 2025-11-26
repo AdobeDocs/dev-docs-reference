@@ -54,8 +54,3 @@ aio app run --local
 - Always specify a language for syntax highlighting
 - Use for straightforward code examples
 - Keep code blocks concise and focused
-
-## Related
-
-- [Code Examples](/blocks/codeblock/code.md) - Advanced code block features
-- [Code Block](/blocks/codeblock/code-block.md) - Code Block component
