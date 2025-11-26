@@ -162,8 +162,6 @@ Create impactful hero banners with images, headings, and call-to-action buttons.
 [Tab](blocks/tab/index.md)  
 Tabbed content for organizing related information.
 
----
-
 ## Getting Started
 
 1. Choose your hero block variant based on page type
