@@ -26,7 +26,7 @@ Create multi-column layouts to display content side-by-side with images, heading
 
 <Columns slots="image, heading, text, buttons" repeat ="3" />
 
-![Feature 1](../../images/column_image.webp)
+![Feature 1](../../assets/column.png)
 
 ### Feature Heading
 
@@ -34,7 +34,7 @@ Description of the feature or content. Keep text concise for better readability 
 
 [Learn more](https://example.com)
 
-![Feature 2](../../images/column_image2.webp)
+![Feature 2](../../assets/column.png)
 
 ### Another Feature
 
@@ -42,7 +42,7 @@ More details about this feature or capability. Column layouts work well for comp
 
 [Learn more](https://example.com)
 
-![Feature 3](../../images/column_image.webp)
+![Feature 3](../../assets/column.png)
 
 ### Third Feature
 
