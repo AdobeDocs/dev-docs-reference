@@ -122,8 +122,3 @@ content tab 2
 - Limit to 3-7 tabs for usability
 - Group related content together
 - Place most important content in the first tab
-
-## Related
-
-- [Accordion](/blocks/accordion/index.md) - Collapsible content sections
-- [Code Block](/blocks/codeblock/code-block.md) - Code examples with headings

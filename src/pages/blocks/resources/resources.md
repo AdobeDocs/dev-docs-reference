@@ -27,11 +27,11 @@ Combine a hero banner with a resources section to display key documentation link
 
 ![Hero image](../../../assets/hero.png)
 
-# Adobe Photoshop and Lightroom API
+# Developer Platform API
 
-Unlock the potential of Photoshop, Lightroom, and cutting edge Sensei services through an easy-to-use RESTful API.
+Build powerful applications with our comprehensive API platform and services.
 
-* [Get the SDKs](https://developer.adobe.com/console/servicesandapis/ae)
+* [Get Started](https://example.com/getting-started)
 
 # Resources Example With Hero
 
@@ -41,18 +41,12 @@ Unlock the potential of Photoshop, Lightroom, and cutting edge Sensei services t
 
 * [Quick start guide](getting-started/index.md)
 * [Endpoint guides](endpoints/index.md)
-* [API reference](https://github.com/AdobeDocs/data-collection-apis)
-* [Github repository](https://github.com/AdobeDocs/data-collection-apis)
+* [API reference](https://example.com/api-reference)
+* [GitHub repository](https://github.com/example/repo)
 
 ## Best Practices
 
 - Keep resource links concise and clearly labeled
 - Link to the most important resources first
 - Use hero to introduce the product or API
-
-## Related
-
-- [Resources without Hero](/blocks/resources/resources-with-no-hero.md) - Simpler layout
-- [Superhero](/blocks/superhero/index.md) - Hero banner component
-- [DiscoverBlock](/blocks/discoverblock/index.md) - Card-based content display
 

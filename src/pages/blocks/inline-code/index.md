@@ -37,7 +37,7 @@ Use the [`Color`](https://example.com/api/Color) class to define colors.
 
 ## Example
 
-Colors in Adobe Express are created as instances of the [`Color`](https://stage--adp-devsite-stage--adobedocs.aem.page/express/add-ons/docs/references/document-sandbox/document-apis/interfaces/color) class: objects with `red`, `green`, `blue`, and `alpha` (optional) values in the range from 0 to 1. The `alpha` value represents the opacity of the color, with 0 being fully transparent and 1 fully opaque.
+Colors in the API are created as instances of the [`Color`](https://example.com/api/Color) class: objects with `red`, `green`, `blue`, and `alpha` (optional) values in the range from 0 to 1. The `alpha` value represents the opacity of the color, with 0 being fully transparent and 1 fully opaque.
 
 ## Best Practices
 
@@ -45,8 +45,3 @@ Colors in Adobe Express are created as instances of the [`Color`](https://stage-
 - Don't overuse it for emphasis
 - For multi-line code, use code blocks instead
 - Be consistent throughout your documentation
-
-## Related
-
-- [Code Block](/blocks/codeblock/code-block.md) - For multi-line code snippets
-- [Code Block with Picklist](/blocks/codeblock/code-block-with-picklist.md) - For code examples in multiple languages

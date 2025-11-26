@@ -34,8 +34,3 @@ There are 4 different variants to choose from:
 - Keep heading text concise
 - Limit call-to-action buttons to 1-2
 - Ensure good contrast between text and background
-
-## Related
-
-- [HeroSimple](/blocks/herosimple/herosimple-default.md) - Simpler hero option
-- [Resources](/blocks/resources/resources.md) - Pair hero with resource links

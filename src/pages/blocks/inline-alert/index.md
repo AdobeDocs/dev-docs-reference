@@ -88,8 +88,3 @@ This is an inline alert neutral.
 - Keep messages concise and actionable
 - Don't overuse alerts - they lose impact
 - Place alerts near relevant content
-
-## Related
-
-- [Announcement](/blocks/announcement/index.md) - Page-level announcements
-- [Edition](/blocks/edition/index.md) - Edition-specific labels

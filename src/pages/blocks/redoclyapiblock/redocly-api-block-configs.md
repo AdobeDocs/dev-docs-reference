@@ -74,8 +74,3 @@ When no options are specified, the component uses these defaults:
 - Use typography to match your brand
 - Consider disabling sidebar for simpler APIs
 - Test code sample languages with your audience
-
-## Related
-
-- [Redocly API Block Default](/blocks/redoclyapiblock/redocly-api-block-default.md) - Default configuration
-- [Redocly API Block No Sidebar](/blocks/redoclyapiblock/redocly-api-block-no-sidebar.md) - Without sidebar

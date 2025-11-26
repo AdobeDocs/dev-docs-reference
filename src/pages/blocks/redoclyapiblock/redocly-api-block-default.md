@@ -35,8 +35,3 @@ Display interactive API documentation from OpenAPI specification files.
 - Keep your spec well-organized with clear descriptions
 - Provide examples in your specification
 - Use relative paths for local files
-
-## Related
-
-- [Redocly API Block Configs](/blocks/redoclyapiblock/redocly-api-block-configs.md) - Custom configuration
-- [Redocly API Block No Sidebar](/blocks/redoclyapiblock/redocly-api-block-no-sidebar.md) - Without sidebar

@@ -99,12 +99,6 @@ This creates a dropdown under "Reference Docs" with two options:
 
 The above configuration creates a navigation bar at the top of your site with the specified items displayed horizontally.
 
-In addition to the pages defined in your config, the navigation bar includes:
-- **Adobe Developer** (logo/home link) - Links to https://developer.adobe.com/
-- **Products** - Links to https://developer.adobe.com/apis
-
-These are followed by your custom pages defined in the `pages` array.
-
 ![Top Navigation Example](../../assets/topnav.png)
 
 ## Path Resolution

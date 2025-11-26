@@ -12,7 +12,7 @@ Display edition-specific labels or badges to indicate which platform or version 
 ```markdown
 <Edition slots="text" />
 
-Adobe Commerce
+Enterprise Edition
 ```
 
 ## Parameters
@@ -29,8 +29,4 @@ Adobe Commerce
 - Use clear, recognizable edition names
 - Place at the beginning of content sections
 - Keep text brief and scannable
-
-## Related
-
-- [Inline Alert](/blocks/inline-alert/index.md) - Contextual alerts and notices
 

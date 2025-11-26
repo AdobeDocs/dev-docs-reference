@@ -51,13 +51,13 @@ Your descriptive text here.
 
 <Superhero slots="image, heading, text, buttons" variant="halfWidth" />
 
-![Creative Cloud banner](../../assets/cc-hero.png)
+![Hero banner](../../assets/hero.png)
 
-#  Extend the Power of After Effects
+# Extend Your Application
 
-Opportunities abound for building for After Effects. Extend the capabilities of After Effects using plug-ins, scripts, and panels that integrate seamlessly into existing workflows. Create stunning visual effects, manipulate project elements, and automate complex tasks using After Effects APIs.
+Build powerful extensions and integrations with our developer platform. Create custom tools, automate workflows, and seamlessly integrate with existing systems using our comprehensive APIs and SDKs.
 
-* [Get the SDKs](https://developer.adobe.com/console/servicesandapis/ae)
+* [Get Started](https://example.com/getting-started)
 
 ## Best Practices
 
@@ -66,8 +66,3 @@ Opportunities abound for building for After Effects. Extend the capabilities of 
 - Choose images with clear focal points
 - Consider using video for dynamic content
 - Test layout on mobile where it stacks vertically
-
-## Related
-
-- [Superhero Half Width with Background Image](/blocks/superhero/superhero-halfwidth-with-background-image.md) - With background
-- [Superhero Default](/blocks/superhero/superhero-default.md) - Full-width layout

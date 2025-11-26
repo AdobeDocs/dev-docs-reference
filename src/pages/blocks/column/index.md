@@ -56,8 +56,3 @@ Additional content for the third column. Use consistent structure across all col
 - Use consistent content structure across all columns
 - Keep text concise to maintain visual balance
 - Use similar image sizes for consistency
-
-## Related
-
-- [DiscoverBlock](/blocks/discoverblock/index.md) - Card-based content display
-- [List](/blocks/list/index.md) - Styled lists with icons

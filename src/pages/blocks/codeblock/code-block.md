@@ -65,8 +65,3 @@ The Code Block component allows you to display multiple related code snippets wi
 - Use meaningful headings that describe each code block
 - Group related code snippets together (e.g., request/response pairs)
 - Specify languages for syntax highlighting when possible
-
-## Related
-
-- [Code Block with Picklist](/blocks/codeblock/code-block-with-picklist.md) - Code blocks with language picker
-- [Code Block without Picklist](/blocks/codeblock/code-block-without-picklist.md) - Multiple code blocks without language selection

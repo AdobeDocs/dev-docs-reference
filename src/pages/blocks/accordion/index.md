@@ -36,8 +36,3 @@ Content goes here.
 - Keep individual sections focused
 - Group related information together
 - Place most important content in first item
-
-## Related
-
-- [Tab](/blocks/tab/index.md) - Tabbed content sections
-- [List](/blocks/list/index.md) - Styled lists

@@ -36,106 +36,19 @@ Centrally managed footer appearing on all pages. Contact the team via Slack (#ad
 
 ## Content Blocks
 
-All content presentation blocks for creating and organizing your documentation content. These blocks help you create engaging, well-structured documentation pages.
+All content presentation blocks for creating and organizing your documentation content.
 
-### Page Navigation & Utilities
-
-#### On This Page
-
-[On This Page](blocks/onthispage/index.md)  
-Automatic table of contents sidebar displaying H2 and H3 headings for in-page navigation.
-
-#### Superhero
-
-[Superhero](blocks/superhero/index.md)  
-Create impactful hero banners with images, headings, and call-to-action buttons. Choose from 8 variants:
-
-**Layout Variants:**
-- [Default](blocks/superhero/superhero-default.md) - Standard layout for documentation pages
-- [Half Width](blocks/superhero/superhero-halfwidth.md) - Split-screen layout for product pages
-- [Centered](blocks/superhero/superhero-centered.md) - Centered layout for home pages
-- [Centered XL](blocks/superhero/superhero-centeredxl.md) - Extra-large centered layout
-
-**Enhanced Variants:**
-- [Default with Background](blocks/superhero/superhero-default-with-background-image.md) - With custom background color
-- [Default with Gradient](blocks/superhero/superhero-default-with-background-image-and-color.md) - With gradient background
-- [Half Width with Background](blocks/superhero/superhero-halfwidth-with-background-image.md) - With full-width background
-- [Half Width with Video](blocks/superhero/superhero-halfwidth-with-background-image-and-video.md) - With video content
-
-#### HeroSimple
-
-[HeroSimple](blocks/herosimple/herosimple-default.md)  
-Simpler hero option for clean, focused pages.
-- [Default](blocks/herosimple/herosimple-default.md)
-- [Full Width](blocks/herosimple/herosimple-fullwidth.md)
-- [Half Width](blocks/herosimple/herosimple-halfwidth.md)
-
-### Content Organization
-
-#### Accordion
+### Accordion
 
 [Accordion](blocks/accordion/index.md)  
 Collapsible content sections for organizing information.
 
-#### Tab
-
-[Tab](blocks/tab/index.md)  
-Tabbed content for organizing related information.
-
-#### Column
-
-[Column](blocks/column/index.md)  
-Multi-column layouts for content organization.
-
-#### Discover Block
-
-[Discover Block](blocks/discoverblock/index.md)  
-Showcase featured content or resources.
-
-#### Resources
-
-[Resources](blocks/resources/resources.md)  
-Display resource links with optional hero banner.
-- [With Hero](blocks/resources/resources.md)
-- [Without Hero](blocks/resources/resources-with-no-hero.md)
-
-### Alerts & Announcements
-
-#### Announcement
+### Announcement
 
 [Announcement](blocks/announcement/index.md)  
 Display important announcements or notices.
 
-#### Inline Alert
-
-[Inline Alert](blocks/inline-alert/index.md)  
-Inline alert messages for warnings, tips, and notes.
-
-### Lists & Content Display
-
-#### List
-
-[List](blocks/list/index.md)  
-Styled lists with icons and formatting options.
-
-#### Edition
-
-[Edition](blocks/edition/index.md)  
-Edition-specific content display.
-
-#### Image
-
-[Image](blocks/image/index.md)  
-Image display and formatting examples.
-
-### Code Formatting
-
-#### Inline Code
-
-[Inline Code](blocks/inline-code/index.md)  
-Format inline code snippets, variable names, and technical terms using backticks.
-
-#### Code Block Component
+### Code Block
 
 [Code Block](blocks/codeblock/code-block.md)  
 Display multiple code snippets with headings.
@@ -143,7 +56,7 @@ Display multiple code snippets with headings.
 - [With Language Picker](blocks/codeblock/code-block-with-picklist.md) - Dropdown to switch languages
 - [Without Picker](blocks/codeblock/code-block-without-picklist.md) - All blocks visible
 
-#### Code Block Examples
+### Code Block Examples
 
 [Code Examples](blocks/codeblock/code.md)  
 Various code block features and formatting options.
@@ -154,9 +67,55 @@ Various code block features and formatting options.
 - [Code in Tables](blocks/codeblock/code-in-table.md) - Inline code in table cells
 - [Combined Features](blocks/codeblock/code-overload.md) - Multiple features together
 
-### API Documentation
+### Column
 
-#### Redocly API Block
+[Column](blocks/column/index.md)  
+Multi-column layouts for content organization.
+
+### Discover Block
+
+[Discover Block](blocks/discoverblock/index.md)  
+Showcase featured content or resources.
+
+### Edition
+
+[Edition](blocks/edition/index.md)  
+Edition-specific content display.
+
+### HeroSimple
+
+[HeroSimple](blocks/herosimple/herosimple-default.md)  
+Simpler hero option for clean, focused pages.
+- [Default](blocks/herosimple/herosimple-default.md)
+- [Full Width](blocks/herosimple/herosimple-fullwidth.md)
+- [Half Width](blocks/herosimple/herosimple-halfwidth.md)
+
+### Image
+
+[Image](blocks/image/index.md)  
+Image display and formatting examples.
+
+### Inline Alert
+
+[Inline Alert](blocks/inline-alert/index.md)  
+Inline alert messages for warnings, tips, and notes.
+
+### Inline Code
+
+[Inline Code](blocks/inline-code/index.md)  
+Format inline code snippets, variable names, and technical terms using backticks.
+
+### List
+
+[List](blocks/list/index.md)  
+Styled lists with icons and formatting options.
+
+### On This Page
+
+[On This Page](blocks/onthispage/index.md)  
+Automatic table of contents sidebar displaying H2 and H3 headings for in-page navigation.
+
+### Redocly API Block
 
 [Redocly API Block](blocks/redoclyapiblock/redocly-api-block-default.md)  
 Interactive API documentation from OpenAPI specifications.
@@ -174,8 +133,38 @@ Interactive API documentation from OpenAPI specifications.
 **Advanced:**
 - [External API Example](blocks/redoclyapiblock/redocly-overflow.md) - Load from external URLs
 
+### Resources
 
-### Getting Started
+[Resources](blocks/resources/resources.md)  
+Display resource links with optional hero banner.
+- [With Hero](blocks/resources/resources.md)
+- [Without Hero](blocks/resources/resources-with-no-hero.md)
+
+### Superhero
+
+[Superhero](blocks/superhero/index.md)  
+Create impactful hero banners with images, headings, and call-to-action buttons. Choose from 8 variants:
+
+**Layout Variants:**
+- [Default](blocks/superhero/superhero-default.md) - Standard layout for documentation pages
+- [Half Width](blocks/superhero/superhero-halfwidth.md) - Split-screen layout for product pages
+- [Centered](blocks/superhero/superhero-centered.md) - Centered layout for home pages
+- [Centered XL](blocks/superhero/superhero-centeredxl.md) - Extra-large centered layout
+
+**Enhanced Variants:**
+- [Default with Background](blocks/superhero/superhero-default-with-background-image.md) - With custom background color
+- [Default with Gradient](blocks/superhero/superhero-default-with-background-image-and-color.md) - With gradient background
+- [Half Width with Background](blocks/superhero/superhero-halfwidth-with-background-image.md) - With full-width background
+- [Half Width with Video](blocks/superhero/superhero-halfwidth-with-background-image-and-video.md) - With video content
+
+### Tab
+
+[Tab](blocks/tab/index.md)  
+Tabbed content for organizing related information.
+
+---
+
+## Getting Started
 
 1. Choose your hero block variant based on page type
 2. Configure navigation in `config.md`

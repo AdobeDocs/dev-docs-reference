@@ -39,8 +39,3 @@ Display a clean resources section with links to documentation and references.
 - Use descriptive headings for resource sections
 - Keep link text clear and action-oriented
 - Order links by importance
-
-## Related
-
-- [Resources with Hero](/blocks/resources/resources.md) - With hero banner
-- [DiscoverBlock](/blocks/discoverblock/index.md) - Card-based content display

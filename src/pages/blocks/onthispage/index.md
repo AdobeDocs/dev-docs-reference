@@ -27,8 +27,3 @@ The component is **automatically generated** from your page headings. No configu
 - Avoid very long heading text
 - Keep nesting to H2 and H3 only
 
-## Related
-
-- [SideNav](/blocks/sidenav/index.md) - Sidebar navigation menu
-- [Breadcrumbs](/blocks/breadcrumb/index.md) - Hierarchical navigation trail
-

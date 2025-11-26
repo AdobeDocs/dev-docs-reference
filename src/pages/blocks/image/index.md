@@ -43,9 +43,3 @@ Display images in your documentation using standard markdown syntax.
 - Optimize images for web (< 500KB recommended)
 - Use PNG for screenshots, JPG for photos, SVG for icons
 - Store local images in `src/pages/assets/` directory
-
-## Related
-
-- [Superhero](/blocks/superhero/index.md) - Hero banners with background images
-- [DiscoverBlock](/blocks/discoverblock/index.md) - Cards with images
-- [Column](/blocks/column/index.md) - Multi-column layouts with images

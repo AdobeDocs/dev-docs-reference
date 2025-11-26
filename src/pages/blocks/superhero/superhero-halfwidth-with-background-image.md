@@ -51,16 +51,16 @@ Your text here
 
 <Superhero slots="fullWidthBackground, image, heading, text, buttons" variant="halfWidth" textColor="white" overGradient />
 
-![Gradient background transitioning from pink at the top to blue at the bottom, with no visible objects or text.](../../assets/vertical-gradient.png)
+![Gradient background](../../assets/vertical-gradient.png)
 
-![Illustration of a computer monitor displaying the Adobe Creative Cloud logo, surrounded by a smartphone, tablet, cloud icon, color palette, and geometric design tools, set against a blue background.](../../assets/cc-hero.png)
+![Platform illustration](../../assets/cc-hero.png)
 
-# Build add-ons for a global creative community.
+# Build Extensions for Your Users
 
-[Adobe Express](https://adobe.com/express) is an AI-first all-in-one app to easily create and share standout content. Make tools and integrations for users that extend the functionality of Adobe Express.
+Create powerful tools and integrations that extend platform functionality and help users accomplish more with seamless workflows.
 
-* [Get started](https://developer.adobe.com/express/add-ons/docs/guides?aio_external)
-* [Explore add-ons](https://new.express.adobe.com/add-ons)
+* [Get Started](https://example.com/getting-started)
+* [View Examples](https://example.com/examples)
 
 ## Best Practices
 
@@ -69,8 +69,3 @@ Your text here
 - Enable `overGradient` for better button contrast
 - Test on various screen sizes
 - Keep foreground image focused and clear
-
-## Related
-
-- [Superhero Half Width with Video](/blocks/superhero/superhero-halfwidth-with-background-image-and-video.md) - With video
-- [Superhero Half Width](/blocks/superhero/superhero-halfwidth.md) - Without background

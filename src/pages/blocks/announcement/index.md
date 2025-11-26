@@ -40,8 +40,3 @@ Note: The Announcement block replaces the Teaser block that was previously used 
 - Keep text concise and actionable
 - Limit to one announcement per page
 - Use primary variant for critical updates
-
-## Related
-
-- [Inline Alert](/blocks/inline-alert/index.md) - Contextual inline messages
-- [Superhero](/blocks/superhero/index.md) - Hero banners with CTAs

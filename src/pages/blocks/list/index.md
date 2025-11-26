@@ -35,21 +35,21 @@ Create styled lists with icons and custom colors to highlight features, benefits
 
 <List slots="text1, text2" repeat="4" iconColor="#2ac3a2" icon="checkmark" variant="fullWidth" />
 
-500 free Document Transactions per month
+Free tier available for development
 
-Volume and multi-product discounts
+Volume pricing and discounts
 
-Access to all 15+ PDF Services including PDF Extract, PDF Accessibility Auto-Tag API, and Document Generation
+Access to comprehensive API suite
 
-Access to all 15+ PDF Services including PDF Extract, PDF Accessibility Auto-Tag API, and Document Generation
+Quick signup and credential creation
 
-Easy to sign up and create credentials in minutes
+Technical support included
 
-Technical Support included (different tiers available)
+No credit card required
 
-No credit card or commitment required
+Scalable for enterprise needs
 
-Scalable for high volume needs.
+Built for high performance
 
 ## Best Practices
 
@@ -57,8 +57,3 @@ Scalable for high volume needs.
 - Limit to 4-8 items for readability
 - Use consistent icon colors
 - Use checkmarks for positive features
-
-## Related
-
-- [Accordion](/blocks/accordion/index.md) - Collapsible content sections
-- [DiscoverBlock](/blocks/discoverblock/index.md) - Card-based content display

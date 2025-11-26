@@ -142,9 +142,3 @@ Connect with developers in our main community channel.
 - Use consistent image sizes (512 x 512 px recommended)
 - Use `width="25%"` for 4-column grids, `"33%"` for 3-column
 - Limit to 3-8 blocks for optimal scanning
-
-## Related
-
-- [Resources](/blocks/resources/resources.md) - Simple resource link lists
-- [Column](/blocks/column/index.md) - Multi-column layouts
-- [List](/blocks/list/index.md) - Styled lists
