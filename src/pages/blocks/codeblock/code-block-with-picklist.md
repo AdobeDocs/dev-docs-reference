@@ -9,9 +9,9 @@ Display multiple code blocks with a language picker dropdown that allows users t
 
 ## Syntax
 
-```markdown
+````
 <CodeBlock slots="heading, code" repeat="5" languages="index.html, index.js, code.js, shapeUtils.js, extra.js"/>
-```
+````
 
 ## Parameters
 

@@ -1,17 +1,17 @@
 ---
-title: Code Block Component
-description: Learn how to use the Code Block component to display multiple code snippets with headings.
+title: CodeBlock Component
+description: Display multiple code snippets with headings using the CodeBlock component.
 ---
 
-# Code Block Component
+# CodeBlock Component
 
-The Code Block component allows you to display multiple related code snippets with headings, making it ideal for showing request/response examples or comparing different code files.
+Display multiple related code snippets with headings using the `<CodeBlock>` component, ideal for showing request/response examples or comparing different code files.
 
 ## Syntax
 
-```markdown
+````
 <CodeBlock slots="heading, code" repeat="2" languages="JSON, JSON" />
-```
+````
 
 ## Parameters
 
@@ -19,49 +19,30 @@ The Code Block component allows you to display multiple related code snippets wi
 - **repeat**: Number of code blocks to display
 - **languages**: Optional comma-separated list of language labels for each code block
 
-## Example
+## Supported Languages
 
-<CodeBlock slots="heading, code" repeat="2" languages="JSON, JSON" />
+The following language identifiers are supported:
 
-#### Payload
+`bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `less`, `markdown`, `markup`, `objectc`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `typescript`, `xml-doc`, `yaml`
 
-```json
-{
-  "customer": {
-    "email": "mshaw@example.com",
-    "firstname": "Melanie",
-    "lastname": "Shaw"
-  }
-}
-```
+## Variants
 
-#### Response
+- [With Language Picker](code-block-with-picklist.md) - Dropdown to switch between languages
+- [Without Language Picker](code-block-without-picklist.md) - All blocks visible simultaneously
 
-```json
-{
-  "id": 13,
-  "group_id": 1,
-  "created_at": "2017-05-18 16:47:44",
-  "updated_at": "2017-05-18 16:47:44",
-  "created_in": "Default Store View",
-  "email": "mshaw@example.com",
-  "firstname": "Melanie",
-  "lastname": "Shaw",
-  "store_id": 1,
-  "website_id": 1,
-  "addresses": [],
-  "disable_auto_group_change": 0,
-  "extension_attributes": {
-    "company_attributes": {
-      "customer_id": 13,
-      "company_id": 0
-    }
-  }
-}
-```
+## When to Use
+
+Use the CodeBlock component when you need to:
+- Display multiple related code examples with headings
+- Show request/response pairs
+- Compare different file contents
+- Provide code examples in multiple languages with a picker
+
+For single code snippets, use regular [markdown code blocks](../code/index.md) instead.
 
 ## Best Practices
 
 - Use meaningful headings that describe each code block
 - Group related code snippets together (e.g., request/response pairs)
 - Specify languages for syntax highlighting when possible
+- Use language picker for code examples in multiple programming languages

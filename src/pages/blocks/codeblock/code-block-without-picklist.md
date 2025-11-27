@@ -9,9 +9,9 @@ Display multiple code blocks with headings but without a language picker. All co
 
 ## Syntax
 
-```markdown
+````
 <CodeBlock slots="heading, code" repeat="5"/>
-```
+````
 
 ## Parameters
 

@@ -48,24 +48,22 @@ Collapsible content sections for organizing information.
 [Announcement](announcement/index.md)  
 Display important announcements or notices.
 
-### Code Block
+### Code
 
-[Code Block](codeblock/index.md)  
-Display multiple code snippets with headings.
-- [Standard Code Block](codeblock/index.md) - Multiple code blocks with headings
+[Code](code/index.md)  
+Display code snippets using markdown code blocks with syntax highlighting and advanced features.
+- [Basic Code Blocks](code/code-basic.md) - Simple code examples
+- [Highlighted Lines](code/code-highlighted-line.md) - Specific line highlighting examples
+- [Code in Lists](code/code-in-list.md) - Code blocks nested in lists
+- [Code in Tables](code/code-in-table.md) - Inline code in table cells
+- [Combined Features](code/code-overload.md) - Multiple features together
+
+### CodeBlock
+
+[CodeBlock](codeblock/index.md)  
+Display multiple code snippets with headings using the CodeBlock component.
 - [With Language Picker](codeblock/code-block-with-picklist.md) - Dropdown to switch languages
-- [Without Picker](codeblock/code-block-without-picklist.md) - All blocks visible
-
-### Code Block Examples
-
-[Code Examples](codeblock/code.md)  
-Various code block features and formatting options.
-- [Basic Code Block](codeblock/code-0.md) - Simple code blocks
-- [Advanced Features](codeblock/code.md) - Line highlighting, offsets, disable line numbers
-- [Highlighted Lines](codeblock/code-highlighted-line.md) - Highlight specific lines
-- [Code in Lists](codeblock/code-in-list.md) - Code blocks nested in lists
-- [Code in Tables](codeblock/code-in-table.md) - Inline code in table cells
-- [Combined Features](codeblock/code-overload.md) - Multiple features together
+- [Without Language Picker](codeblock/code-block-without-picklist.md) - All blocks visible
 
 ### Column
 

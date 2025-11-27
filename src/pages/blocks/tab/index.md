@@ -26,6 +26,12 @@ Organize related content into tabbed sections for easy switching between differe
 
 - **repeat**: Number of tabs to display (e.g., `2`, `3`)
 
+## Supported Languages for Code Tabs
+
+When using code blocks within tabs, the following language identifiers are supported:
+
+`bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `less`, `markdown`, `markup`, `objectc`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `typescript`, `xml-doc`, `yaml`
+
 ## Examples
 
 ### Horizontal Tabs (Request/Response)
