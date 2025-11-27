@@ -10,7 +10,7 @@ Organize related content into tabbed sections for easy switching between differe
 ## Syntax
 
 ```markdown
-<Tab orientation="horizontal" slots="heading, content" repeat="2" theme="light"/>
+<Tab orientation="horizontal" slots="heading, content" repeat="2"/>
 ```
 
 ## Parameters
@@ -26,17 +26,11 @@ Organize related content into tabbed sections for easy switching between differe
 
 - **repeat**: Number of tabs to display (e.g., `2`, `3`)
 
-- **theme**: Visual theme (optional)
-  - `"light"` (default): Light theme
-  - `"dark"`: Dark theme
-
-- **className**: Optional CSS class for custom styling
-
 ## Examples
 
 ### Horizontal Tabs (Request/Response)
 
-<Tab orientation="horizontal" slots="heading, content" repeat="2" theme="light"/>
+<Tab orientation="horizontal" slots="heading, content" repeat="2"/>
 
 ### Request
 
@@ -78,35 +72,35 @@ mutation {
 }
 ```
 
-### Vertical Tabs with Images
+### Vertical Tabs with Image
 
 Vertical tabs are useful for step-by-step guides or when you need more vertical space:
 
-<Tab orientation="vertical" slots="heading, image, content" repeat="3"  theme="dark" className='bgBlue ' />
+<Tab orientation="vertical" slots="heading, image, content" repeat="3" />
 
 ## Tab 1
 
-![Code for initializing SDK](src/pages/images/adobe-express.svg)
+![icon](../../assets/test-icon.png)
 
 content tab 1
 
 ## Tab 2
 
-![Code to invoke full editor](src/pages/images/adobe-express.svg)
+![icon](../../assets/test-icon.png)
 
 content tab 2
 
 ## Tab 3
 
-![Code to invoke quick actions](src/pages/images/adobe-express.svg)
+![icon](../../assets/test-icon.png)
 
 content tab 3
 
-### Simple Tabs with Dark Theme
+### Simple Tabs
 
 Basic tabs with just headings and content:
 
-<Tab slots="heading, content" repeat="2"  theme="dark" className='bgBlue ' />
+<Tab slots="heading, content" repeat="2"  theme="dark" />
 
 ## Tab 1
 
