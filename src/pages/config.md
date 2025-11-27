@@ -40,6 +40,7 @@
         - [Image](/blocks/image/index.md)
         - [Inline Alert](/blocks/inline-alert/index.md)
         - [Inline Code](/blocks/inline-code/index.md)
+        - [Links](/blocks/links/index.md)
         - [List](/blocks/list/index.md)
         - [On This Page](/blocks/onthispage/index.md)
         - [Redocly API Block](blocks/redoclyapiblock/redocly-api-block-default.md)

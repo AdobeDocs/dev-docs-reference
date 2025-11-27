@@ -105,6 +105,11 @@ Inline alert messages for warnings, tips, and notes.
 [Inline Code](inline-code/index.md)  
 Format inline code snippets, variable names, and technical terms using backticks.
 
+### Links
+
+[Links](links/index.md)  
+Learn how to create links between documentation pages using relative and absolute paths.
+
 ### List
 
 [List](list/index.md)  
