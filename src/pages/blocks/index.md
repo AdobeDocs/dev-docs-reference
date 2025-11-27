@@ -22,33 +22,28 @@ Side navigation menu.
 
 Top navigation bar.
 
-### Breadcrumbs
+### [Breadcrumbs](breadcrumb/index.md)
 
-[Breadcrumbs](breadcrumb/index.md)
 Auto-generated navigation trail from your TopNav and SideNav.
 
-### Footer
+### [Footer](footer/index.md)
 
-[Footer](footer/index.md)
 Site footer (centrally managed).
 
 ## Content Blocks
 
 Build and organize your page content.
 
-### Accordion
+### [Accordion](accordion/index.md)
 
-[Accordion](accordion/index.md)  
 Collapsible sections.
 
-### Announcement
+### [Announcement](announcement/index.md)
 
-[Announcement](announcement/index.md)  
 Important notices and announcements.
 
-### Code
+### [Code](code/index.md)
 
-[Code](code/index.md)  
 Markdown code snippet with syntax.
 - [Basic](code/code-basic.md) - Simple examples
 - [Highlighted Lines](code/code-highlighted-line.md) - Line highlighting
@@ -56,69 +51,57 @@ Markdown code snippet with syntax.
 - [In Tables](code/code-in-table.md) - Inline in tables
 - [Combined Features](code/code-overload.md) - Multiple features
 
-### CodeBlock
+### [CodeBlock](codeblock/index.md)
 
-[CodeBlock](codeblock/index.md)  
 Multiple code block with headings.
 - [With Language Picker](codeblock/code-block-with-picklist.md) - Switch between languages
 - [Without Language Picker](codeblock/code-block-without-picklist.md) - Show all at once
 
-### Column
+### [Column](column/index.md)
 
-[Column](column/index.md)  
 Multi-column layouts.
 
-### Discover Block
+### [Discover Block](discoverblock/index.md)
 
-[Discover Block](discoverblock/index.md)  
 Featured content showcase.
 
-### Edition
+### [Edition](edition/index.md)
 
-[Edition](edition/index.md)  
 Edition-specific content.
 
-### HeroSimple
+### [HeroSimple](herosimple/herosimple-default.md)
 
-[HeroSimple](herosimple/herosimple-default.md)  
 Simple hero banner.
 - [Default](herosimple/herosimple-default.md)
 - [Full Width](herosimple/herosimple-fullwidth.md)
 - [Half Width](herosimple/herosimple-halfwidth.md)
 
-### Image
+### [Image](image/index.md)
 
-[Image](image/index.md)  
 Add and format images.
 
-### Inline Alert
+### [Inline Alert](inline-alert/index.md)
 
-[Inline Alert](inline-alert/index.md)  
 Warnings, tips, and notes.
 
-### Inline Code
+### [Inline Code](inline-code/index.md)
 
-[Inline Code](inline-code/index.md)  
 Format inline code with backticks.
 
-### Links
+### [Links](links/index.md)
 
-[Links](links/index.md)  
 Link between pages using relative and absolute paths.
 
-### List
+### [List](list/index.md)
 
-[List](list/index.md)  
 Styled lists with icons.
 
-### On This Page
+### [On This Page](onthispage/index.md)
 
-[On This Page](onthispage/index.md)  
 Auto-generated table of contents from H2 and H3 headings.
 
-### Redocly API Block
+### [Redocly API Block](redoclyapiblock/redocly-api-block-default.md)
 
-[Redocly API Block](redoclyapiblock/redocly-api-block-default.md)  
 Interactive API docs from OpenAPI specs.
 
 **Configuration:**
@@ -134,16 +117,14 @@ Interactive API docs from OpenAPI specs.
 **Advanced:**
 - [External API](redoclyapiblock/redocly-overflow.md) - Load from URLs
 
-### Resources
+### [Resources](resources/resources.md)
 
-[Resources](resources/resources.md)  
 Resource links with optional hero.
 - [With Hero](resources/resources.md)
 - [Without Hero](resources/resources-with-no-hero.md)
 
-### Superhero
+### [Superhero](superhero/index.md)
 
-[Superhero](superhero/index.md)  
 Hero banners with images and CTAs. 8 variants:
 
 **Layouts:**
@@ -158,15 +139,7 @@ Hero banners with images and CTAs. 8 variants:
 - [Half Width + Background](superhero/superhero-halfwidth-with-background-image.md) - Full-width background
 - [Half Width + Video](superhero/superhero-halfwidth-with-background-image-and-video.md) - Video background
 
-### Tab
+### [Tab](tab/index.md)
 
-[Tab](tab/index.md)  
 Organize content in tabs.
 
-## Getting Started
-
-1. Pick a hero variant
-2. Set up navigation in `config.md`
-3. Add content blocks
-4. Include code examples
-5. Add alerts as needed
