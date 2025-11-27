@@ -62,5 +62,4 @@
             - [Superhero Half Width](blocks/superhero/superhero-halfwidth.md)
             - [Superhero Half Width with Background Image](blocks/superhero/superhero-halfwidth-with-background-image.md)
             - [Superhero Half Width with Background Image and Video](blocks/superhero/superhero-halfwidth-with-background-image-and-video.md)
-            - [Index](blocks/superhero/index.md)
         - [Tab](/blocks/tab/index.md)
