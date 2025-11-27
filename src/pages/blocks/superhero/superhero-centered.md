@@ -51,12 +51,12 @@ Your text here
 
 ![Hero image](../../assets/hero.png)
 
-## The most memorable digital experiences are unleashed by developer creativity
+## Build Amazing Digital Experiences
 
-Adobe products and technologies power them
+Unleash your developer creativity with our powerful platform and tools
 
-* [Explore our APIs](https://adobe.io) 
-* [Subscribe](https://adobe.io)
+* [Explore our APIs](https://example.com/api) 
+* [Get Started](https://example.com/getting-started)
 
 ## Best Practices
 
@@ -65,8 +65,3 @@ Adobe products and technologies power them
 - Limit to 2 call-to-action buttons maximum
 - Ensure image works well with text overlay
 - Use for high-level, strategic pages
-
-## Related
-
-- [Superhero Centered XL](/blocks/superhero/superhero-centeredxl.md) - Larger centered layout
-- [Superhero Default](/blocks/superhero/superhero-default.md) - Standard layout

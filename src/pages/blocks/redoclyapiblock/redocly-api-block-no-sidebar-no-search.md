@@ -37,8 +37,3 @@ By default, both sidebar and search are enabled (`disableSidebar: false`, `disab
 - Ensure content is logically organized for linear reading
 - Consider alternative navigation methods if needed
 - Good for documentation that will be read sequentially
-
-## Related
-
-- [Redocly API Block No Sidebar](/blocks/redoclyapiblock/redocly-api-block-no-sidebar.md) - Without sidebar only
-- [Redocly API Block Default](/blocks/redoclyapiblock/redocly-api-block-default.md) - With all features

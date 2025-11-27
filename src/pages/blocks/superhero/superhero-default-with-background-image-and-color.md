@@ -51,11 +51,11 @@ Your descriptive text here.
 
 ![Hero image](../../assets/wide-SDK-Banner-570x400.png)
 
-# Adobe Photoshop and Lightroom API
+# Developer Platform API
 
-Unlock the potential of Photoshop, Lightroom, and cutting edge Sensei services through an easy-to-use RESTful API.
+Build powerful applications with our comprehensive API platform and services.
 
-* [Get the SDKs](https://developer.adobe.com/console/servicesandapis/ae)
+* [Get Started](https://example.com/getting-started)
 
 ## Gradient Tips
 
@@ -72,8 +72,3 @@ Unlock the potential of Photoshop, Lightroom, and cutting edge Sensei services t
 - Test on multiple screen sizes
 - Avoid overly busy or distracting gradients
 - Use subtle gradients for professional look
-
-## Related
-
-- [Superhero Default with Background](/blocks/superhero/superhero-default-with-background-image.md) - With solid color
-- [Superhero Default](/blocks/superhero/superhero-default.md) - Standard version

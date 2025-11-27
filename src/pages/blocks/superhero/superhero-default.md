@@ -43,9 +43,9 @@ Your descriptive text here.
 
 <Superhero slots="heading, text" />
 
-# Adobe Photoshop and Lightroom API
+# Developer Platform API
 
-Unlock the potential of Photoshop, Lightroom, and cutting edge Sensei services through an easy-to-use RESTful API.
+Build powerful applications with our comprehensive API platform and services.
 
 ## Best Practices
 
@@ -53,8 +53,3 @@ Unlock the potential of Photoshop, Lightroom, and cutting edge Sensei services t
 - Use descriptive text to expand on the heading (1-2 sentences)
 - Choose background colors that align with your brand
 - Ensure text color has sufficient contrast with background
-
-## Related
-
-- [Superhero Half Width](/blocks/superhero/superhero-halfwidth.md) - Split layout variant
-- [Superhero Centered](/blocks/superhero/superhero-centered.md) - Centered layout

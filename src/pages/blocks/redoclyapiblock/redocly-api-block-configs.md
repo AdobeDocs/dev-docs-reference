@@ -6,15 +6,7 @@ layout: none
 
 # Redocly API Block - Custom Configurations
 
-Customize the Redocly API Block with various configuration options to control appearance, behavior, and functionality.
-
-## Overview
-
-The Redocly API Block supports extensive customization through attributes that control:
-- Visual styling (typography, colors, spacing)
-- Component behavior (search, sidebar, try-it panel)
-- Content organization (sorting, expansion levels)
-- Code samples and language options
+Customize the Redocly API Block with configuration options to control appearance and behavior.
 
 ## Default Values
 
@@ -36,55 +28,27 @@ When no options are specified, the component uses these defaults:
 }
 ```
 
-## Available Configuration Options
+## Configuration Options
 
-### Visual Customization
-
-- **width**: Set custom width (default: `"500px"`)
-  - Examples: `"600px"`, `"100%"`, `"50vw"`
-
-- **typography**: Font family and size settings (default: adobe-clean font stack)
-  - Format: `fontFamily: \`font-name, fallbacks\`, fontSize: 'size'`
-  - Example: `fontFamily: \`"Source Sans Pro", sans-serif\`, fontSize: '16px'`
-
+### Visual Options
+- **width**: Custom width (default: `"500px"`)
+- **typography**: Font family and size settings
 - **codeBlock**: Code block styling and token colors
-  - Format: `tokens: { tokenType: { color: 'color' }}`
-  - Example: `tokens: { punctuation: { color: 'red' }}`
 
-### UI Components
-
-- **disableSidebar**: Hide the left navigation sidebar (default: `false`)
-  - Set to `true` to hide sidebar
-
-- **disableSearch**: Disable the search functionality (default: `false`)
-  - Set to `true` to disable search
-
-- **hideTryItPanel**: Hide the interactive try-it-out panel (default: `false`)
-  - Set to `true` to hide the try-it panel
-
-- **scrollYOffset**: Offset for fixed headers in pixels (default: `0`)
-  - Example: `scrollYOffset={64}` for 64px fixed header
+### UI Options
+- **disableSidebar**: Hide left sidebar (default: `false`)
+- **disableSearch**: Disable search (default: `false`)
+- **hideTryItPanel**: Hide try-it panel (default: `false`)
+- **scrollYOffset**: Offset for fixed headers (default: `0`)
 
 ### Content Options
-
-- **sortOperationsAlphabetically**: Sort API operations alphabetically (default: `false`)
-  - Set to `true` to enable alphabetical sorting
-
-- **sortTagsAlphabetically**: Sort tags alphabetically (default: `false`)
-  - Set to `true` to enable tag sorting
-
-- **jsonSampleExpandLevel**: Control JSON sample expansion (default: `2`)
-  - Options: Number (depth level), `"all"` (expand all), `1` (collapse all)
-
-- **generateCodeSamples**: Specify languages for code samples
-  - Format: `languages: [{ lang: 'language' }], skipOptionalParameters: true/false`
-  - Example: `languages: [{ lang: 'curl' }, { lang: 'Node.js' }, { lang: 'Python' }]`
+- **sortOperationsAlphabetically**: Sort operations (default: `false`)
+- **sortTagsAlphabetically**: Sort tags (default: `false`)
+- **jsonSampleExpandLevel**: JSON expansion depth (default: `2`)
+- **generateCodeSamples**: Specify code sample languages
 
 ### Advanced
-
-- **requestInterceptor**: Custom function to intercept API requests (default: empty)
-  - Allows you to modify requests before they're sent
-  - Use for authentication, logging, or custom headers
+- **requestInterceptor**: Custom function to intercept requests
 
 ## Example
 
@@ -106,13 +70,7 @@ When no options are specified, the component uses these defaults:
 
 ## Best Practices
 
-- Start with default settings and customize incrementally
-- Use typography settings to match your brand guidelines
+- Start with default settings and customize as needed
+- Use typography to match your brand
 - Consider disabling sidebar for simpler APIs
-- Test code sample languages with your target audience
-- Use requestInterceptor for authentication or logging needs
-
-## Related
-
-- [Redocly API Block Default](/blocks/redoclyapiblock/redocly-api-block-default.md) - Default configuration
-- [Redocly API Block No Layout](/blocks/redoclyapiblock/redocly-api-block-no-layout.md) - Full-page layout
+- Test code sample languages with your audience

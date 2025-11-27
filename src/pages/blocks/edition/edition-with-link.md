@@ -7,7 +7,7 @@ description: Display edition-specific content with a clickable link.
 
 <Edition slot="text"/>
 
-[Platform](https://www.adobe.io)
+[Enterprise Edition](https://example.com/editions)
 
 
 

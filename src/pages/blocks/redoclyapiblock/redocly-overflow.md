@@ -18,10 +18,7 @@ The Redocly API Block can load OpenAPI specifications from:
 
 This flexibility allows you to document APIs hosted elsewhere or maintain specifications in a centralized location.
 
-You can also customize the typography to match your brand. The default font stack is:
-```
-adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu
-```
+You can also customize the typography to match your brand. The default font stack includes system fonts for optimal rendering across platforms.
 
 ## Syntax
 
@@ -39,9 +36,9 @@ adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", R
 
 ## Example
 
-This example loads the AEM Assets Author API from Adobe's API registry:
+This example loads an API specification from an external registry:
 
-<RedoclyAPIBlock src='https://api.redocly.com/registry/bundle/adobe-developers/AEM-assets-author/stable/openapi.yaml?branch=prod' typography='fontFamily: `"Source Sans Pro", sans-serif`' />
+<RedoclyAPIBlock src='https://petstore3.swagger.io/api/v3/openapi.json' typography='fontFamily: `"Source Sans Pro", sans-serif`' />
 
 ## Best Practices
 
@@ -50,8 +47,3 @@ This example loads the AEM Assets Author API from Adobe's API registry:
 - Consider caching external specs for performance
 - Verify external URLs are stable and maintained
 - Use custom typography to match your brand
-
-## Related
-
-- [Redocly API Block Default](/blocks/redoclyapiblock/redocly-api-block-default.md) - Local specifications
-- [Redocly API Block Configs](/blocks/redoclyapiblock/redocly-api-block-configs.md) - All configuration options

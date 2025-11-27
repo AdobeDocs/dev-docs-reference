@@ -36,8 +36,3 @@ By default, the Redocly API Block shows a left sidebar with navigation (`disable
 - Combine with search disabled for even cleaner layout
 - Consider if users need quick navigation between endpoints
 - Good for sequential documentation reading
-
-## Related
-
-- [Redocly API Block No Sidebar No Search](/blocks/redoclyapiblock/redocly-api-block-no-sidebar-no-search.md) - Without sidebar and search
-- [Redocly API Block Default](/blocks/redoclyapiblock/redocly-api-block-default.md) - With sidebar

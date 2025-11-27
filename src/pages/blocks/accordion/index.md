@@ -5,20 +5,34 @@ description: Learn how to use the Accordion block to create collapsible content 
 
 # Accordion Block
 
-The Accordion Block allows you to create collapsible content sections, making it easier to organize and present large amounts of information without overwhelming users. Accordion items can be expanded or collapsed individually, providing a clean and organized way to display content.
+Create collapsible content sections to organize information. Each accordion item can be expanded or collapsed individually.
 
-## Available Slots
+## Syntax
 
-Each `<AccordionItem>` can use the following slots:
+```markdown
+<AccordionItem header="Section heading">
 
-- `heading` (required) - The title/header of the accordion item
-- `text` (optional) - Body text content
-- `table` (optional) - Table data
-- `code` (optional) - Code blocks
+Content goes here.
+
+</AccordionItem>
+```
+
+## Parameters
+
+- **header**: Title/header of the accordion item (required)
+- **slots**: Content structure
+  - `"heading, text"`: Basic text content
+  - `"heading, text, table"`: Include tables
+  - `"heading, text, code"`: Include code blocks
 
 ## Variants
 
-There are 2 different variants based on complexity:
+- [Basic Accordion](accordion-basic.md) - Simple collapsible text sections
+- [Accordion with Table and Code](accordion-with-table-and-code.md) - Complex content with tables and code
 
-- The [basic accordion](accordion-basic.md) variant for simple collapsible text sections, ideal for FAQs or simple content.
-- The [accordion with table and code](accordion-with-table-and-code.md) variant for complex content including tables and code blocks, ideal for API documentation or detailed technical content.
+## Best Practices
+
+- Use clear, descriptive headings
+- Keep individual sections focused
+- Group related information together
+- Place most important content in first item
