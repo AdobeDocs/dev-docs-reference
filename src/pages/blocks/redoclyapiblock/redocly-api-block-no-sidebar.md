@@ -29,10 +29,3 @@ By default, the Redocly API Block shows a left sidebar with navigation (`disable
 ## Example
 
 <RedoclyAPIBlock src="../../assets/openapi.yaml" disableSidebar />
-
-## Best Practices
-
-- Use for APIs with limited endpoints
-- Combine with search disabled for even cleaner layout
-- Consider if users need quick navigation between endpoints
-- Good for sequential documentation reading

@@ -5,34 +5,80 @@ description: Learn how to use the Accordion block to create collapsible content 
 
 # Accordion Block
 
-Create collapsible content sections to organize information. Each accordion item can be expanded or collapsed individually.
+Collapsible content sections.
 
 ## Syntax
 
 ```markdown
-<AccordionItem header="Section heading">
+<AccordionItem slots="heading, text"/>
+
+### Section heading
 
 Content goes here.
-
-</AccordionItem>
 ```
 
 ## Parameters
 
-- **header**: Title/header of the accordion item (required)
-- **slots**: Content structure
-  - `"heading, text"`: Basic text content
-  - `"heading, text, table"`: Include tables
-  - `"heading, text, code"`: Include code blocks
+- **slots**: Content types
+  - `"heading, text"` - Text only
+  - `"heading, text, table"` - With tables
+  - `"heading, text, code"` - With code blocks
+  - Mix and match as needed
 
-## Variants
+## Examples
 
-- [Basic Accordion](accordion-basic.md) - Simple collapsible text sections
-- [Accordion with Table and Code](accordion-with-table-and-code.md) - Complex content with tables and code
+### Basic Accordion
 
-## Best Practices
+<AccordionItem slots="heading, text"/>
 
-- Use clear, descriptive headings
-- Keep individual sections focused
-- Group related information together
-- Place most important content in first item
+#### What is this accordion component?
+
+This is a collapsible content section that can expand and collapse when users click on the heading. It's useful for organizing large amounts of information in a compact, user-friendly way.
+
+<AccordionItem slots="heading, text"/>
+
+#### How does it work?
+
+The accordion component allows you to hide and show content dynamically. When a user clicks on a heading, the corresponding content panel toggles between visible and hidden states.
+
+<AccordionItem slots="heading, text"/>
+
+#### Can I use multiple accordions?
+
+Yes, you can include as many accordion items as needed on a single page. Each item operates independently, allowing users to expand or collapse sections based on their interests.
+
+### With Table and Code
+
+<AccordionItem slots="heading, table, text, code"/>
+
+#### 1. Initial Setup 
+
+| Step | Description | Duration | Status | Endpoint |
+| --- | --- | --- | --- | --- |
+| 1 | User initiates the process and the system begins loading resources | 0s | Starting | `/api/initialize` |
+
+This action represents the beginning of a workflow. The system state transitions from idle to active.
+
+```json
+{
+  "eventType": "process.start",
+  "timestamp": "2024-01-15T10:00:00.000Z",
+  "data": {
+    "sessionId": "abc123",
+    "config": {
+      "name": "Sample Process",
+      "timeout": 60
+    }
+  }
+}
+```
+
+<AccordionItem slots="heading, table, text"/>
+
+#### 2. Status Check
+
+| Step | Description | Duration | Status | Endpoint |
+| --- | --- | --- | --- | --- |
+| 3 | Periodic status update is transmitted | 10s | Active | `/api/heartbeat` |
+
+A routine status signal is sent to maintain the connection and confirm system health.

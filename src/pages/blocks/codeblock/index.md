@@ -39,10 +39,3 @@ Use the CodeBlock component when you need to:
 - Provide code examples in multiple languages with a picker
 
 For single code snippets, use regular [markdown code blocks](../code/index.md) instead.
-
-## Best Practices
-
-- Use meaningful headings that describe each code block
-- Group related code snippets together (e.g., request/response pairs)
-- Specify languages for syntax highlighting when possible
-- Use language picker for code examples in multiple programming languages

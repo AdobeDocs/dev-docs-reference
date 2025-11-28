@@ -102,10 +102,3 @@ start();
 ```js
 // empty 2
 ```
-
-## Best Practices
-
-- Use when you want all code blocks visible at once
-- Ideal for showing progression or related files side-by-side
-- Keep headings clear to distinguish between blocks
-

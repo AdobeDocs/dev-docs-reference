@@ -57,11 +57,3 @@ Unleash your developer creativity with our powerful platform and tools
 
 * [Explore our APIs](https://example.com/api) 
 * [Get Started](https://example.com/getting-started)
-
-## Best Practices
-
-- Use high-quality, impactful hero images
-- Keep text centered and concise
-- Limit to 2 call-to-action buttons maximum
-- Ensure image works well with text overlay
-- Use for high-level, strategic pages

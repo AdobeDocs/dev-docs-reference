@@ -60,9 +60,3 @@ Follow these steps to set up your development environment:
     ```
 
 1. Open your browser and navigate to `http://localhost:3000`
-
-## Best Practices
-
-- Indent code blocks with 4 spaces or 1 tab to nest within list items
-- Use for step-by-step tutorials and installation guides
-- Add explanatory text before and after code blocks for context

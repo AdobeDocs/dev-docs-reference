@@ -67,10 +67,3 @@ When no options are specified, the component uses these defaults:
     generateCodeSamples="languages: [{ lang: 'curl' }, { lang: 'Node.js' }, { lang: 'JavaScript' }, { lang: 'Python' }], skipOptionalParameters: true"
     requestInterceptor="function(req, operation) { console.log('Request:', req); return req; }"
 />
-
-## Best Practices
-
-- Start with default settings and customize as needed
-- Use typography to match your brand
-- Consider disabling sidebar for simpler APIs
-- Test code sample languages with your audience

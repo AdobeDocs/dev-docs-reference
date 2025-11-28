@@ -102,9 +102,3 @@ start();
 ```js
 // empty 2
 ```
-
-## Best Practices
-
-- Use descriptive language labels (e.g., file names or language names)
-- Keep the number of options reasonable (typically 3-7)
-- Order languages logically (e.g., HTML, CSS, JavaScript)

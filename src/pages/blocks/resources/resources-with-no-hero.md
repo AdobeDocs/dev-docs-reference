@@ -5,7 +5,7 @@ description: Display a resources section with useful links without a hero banner
 
 # Resources Block without Hero
 
-Display a clean resources section with links to documentation and references.
+Resource links without hero banner.
 
 ## Syntax
 
@@ -20,8 +20,7 @@ Display a clean resources section with links to documentation and references.
 
 ## Parameters
 
-- **slots**: Define content structure
-  - `"heading, links"`: Heading and list of links
+- **slots**: `"heading, links"` - Heading and links
 
 <Resources slots="heading, links"/>
 
@@ -31,9 +30,3 @@ Display a clean resources section with links to documentation and references.
 * [Endpoint guides](endpoints/index.md)
 * [API reference](https://example.com/api-reference)
 * [GitHub repository](https://github.com/example/repo)
-
-## Best Practices
-
-- Use descriptive headings for resource sections
-- Keep link text clear and action-oriented
-- Order links by importance

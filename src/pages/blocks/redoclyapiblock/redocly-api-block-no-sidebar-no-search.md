@@ -30,10 +30,3 @@ By default, both sidebar and search are enabled (`disableSidebar: false`, `disab
 ## Example
 
 <RedoclyAPIBlock src="../../assets/openapi.yaml" disableSidebar disableSearch />
-
-## Best Practices
-
-- Use only for very simple APIs
-- Ensure content is logically organized for linear reading
-- Consider alternative navigation methods if needed
-- Good for documentation that will be read sequentially

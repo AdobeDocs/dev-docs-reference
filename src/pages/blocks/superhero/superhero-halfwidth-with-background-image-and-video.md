@@ -68,11 +68,3 @@ To add a video:
 1. Upload video to Google Drive or hosting service
 2. Publish the video and get the public URL
 3. Add as markdown link in the `video` slot: `[video_url](https://url-to-video.mp4)`
-
-## Best Practices
-
-- Use short, engaging videos (15-30 seconds)
-- Ensure video works on mobile devices
-- Optimize video file size for fast loading
-- Consider autoplay behavior and user experience
-- Provide fallback for users who prefer reduced motion

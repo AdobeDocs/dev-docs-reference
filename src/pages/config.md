@@ -4,7 +4,7 @@
 - pages:
     - [Overview](index.md)
     - [Reference Docs](blocks/index.md)
-
+      
 - subPages:
     - [Overview](blocks/index.md)
       - [Configuration Blocks](#configuration-blocks)
@@ -14,11 +14,7 @@
         - [Footer](/blocks/footer/index.md)
       - [Content Blocks](#content-blocks)
         - [Accordion](/blocks/accordion/index.md)
-          - [Accordion Basic](/blocks/accordion/accordion-basic.md)
-          - [Accordion with Table & Code](/blocks/accordion/accordion-with-table-and-code.md)
         - [Announcement](/blocks/announcement/index.md)
-          - [Announcement Button only](/blocks/announcement/announcement-button-only.md)
-          - [Announcement With Heading](/blocks/announcement/announcement-with-heading.md)
         - [Code](/blocks/code/index.md)
             - [Code Basic](/blocks/code/code-basic.md)
             - [Code Highlighted Line](/blocks/code/code-highlighted-line.md)
@@ -31,8 +27,6 @@
         - [Column](/blocks/column/index.md)
         - [Discover Block](/blocks/discoverblock/index.md)
         - [Edition](/blocks/edition/index.md)
-          - [Edition without Link](/blocks/edition/edition-with-no-link.md)
-          - [Edition with Link](/blocks/edition/edition-with-link.md)
         - [HeroSimple](#herosimple)
             - [HeroSimple (default)](/blocks/herosimple/herosimple-default.md)
             - [HeroSimple fullWidth](/blocks/herosimple/herosimple-fullwidth.md)

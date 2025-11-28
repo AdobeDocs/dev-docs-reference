@@ -5,121 +5,59 @@ description: Learn how to configure top navigation in config.md for your documen
 
 # Top Navigation
 
-Top Navigation is configured in the `config.md` file and controls how pages appear in the main navigation bar of your site. The navigation structure is based on the directory structure under `src/pages/`.
+Configure top navigation in `config.md` using `pages`.
 
-## Configuration Example
+## Default Links
 
-### Basic Navigation
+The top navigation always includes these links first:
+- **Adobe Developer** → `developer.adobe.com`
+- **Products** → `developer.adobe.com/apis`
 
-```yaml
+Your custom links from `pages` appear after these default links.
+
+## Example
+
+```md
 - pathPrefix:
     - /dev-docs-reference/
 
+- pages:
+    - [Overview](index.md)
+    - [Reference Docs](blocks/index.md)
+        - [Version 1.0](blocks/version1.md)
+        - [Version 2.0](blocks/version2.md)
+```
+
+Indent items to create dropdowns:
+
+![topnav_dropdown](../../assets/topnav.png)
+
+## Components
+
+**pathPrefix**: Base URL path prepended to the domain
+```md
+- pathPrefix:
+    - /dev-docs-reference/
+```
+
+**pages**: Navigation items in the top bar
+```md
 - pages:
     - [Home](index.md)
     - [Documentation](docs/index.md)
-    - [API Reference](api/index.md)
 ```
 
-### With Dropdown Menu
+## Paths
 
-```yaml
-- pathPrefix:
-    - /dev-docs-reference/
+All paths start from `src/pages/`. Leading `/` is optional.
 
-- pages:
-    - [Home](index.md)
-    - [Reference Docs](blocks/index.md)
-      - [Version 1.0](blocks/version1.md)
-      - [Version 2.0](blocks/version2.md)
-    - [API Reference](api/index.md)
-```
-
-## How It Works
-
-The configuration consists of two main components:
-
-### pathPrefix
-
-The `pathPrefix` is the base URL path for your content repository. This prefix is prepended to all page routes.
-
-```yaml
-- pathPrefix:
-    - /dev-docs-reference/
-```
-
-With this configuration, your pages will be accessible at:
-- `/dev-docs-reference/` → Home page
-- `/dev-docs-reference/docs/` → Documentation page
-- `/dev-docs-reference/api/` → API Reference page
-
-### pages
-
-The `pages` array defines the top navigation items that appear in the main navigation bar.
-
-```yaml
-- pages:
-    - [Home](index.md)
-    - [Documentation](docs/index.md)
-    - [API Reference](api/index.md)
-```
-
-**Format:** `[Display Text](relative/path.md)`
-
-- `[Home]` - The text displayed in the navigation bar
-- `(index.md)` - The relative path to the page under `src/pages/`
-
-### Dropdown Menus
-
-You can create dropdown menus in the top navigation by nesting items under a parent page:
-
-```yaml
-- pages:
-    - [Home](index.md)
-    - [Reference Docs](blocks/index.md)
-      - [Version 1.0](blocks/version1.md)
-      - [Version 2.0](blocks/version2.md)
-    - [API Reference](api/index.md)
-```
-
-This creates a dropdown under "Reference Docs" with two options:
-![topnav_dropdown](../../assets/topnav_dropdown.png)
-
-**Common Uses for Dropdowns:**
-- Version switching (v1.0, v2.0, v3.0)
-- Multiple guides under one category
-- Different API versions or endpoints
-- Platform-specific documentation
-
-**Dropdown Format:**
-- Parent item: `- [Parent Label](parent-page.md)`
-- Child items (indented): `  - [Child Label](child-page.md)`
-
-## Visual Result
-
-The above configuration creates a navigation bar at the top of your site with the specified items displayed horizontally.
-
-![Top Navigation Example](../../assets/topnav.png)
-
-## Path Resolution
-
-All paths are relative to `src/pages/`:
-
-| Config Path | Actual File Location |
+| In config.md | Resolves to |
 | --- | --- |
-| `index.md` | `src/pages/index.md` |
-| `docs/index.md` | `src/pages/docs/index.md` |
-| `api/index.md` | `src/pages/api/index.md` |
+| `blocks/index.md` | `src/pages/blocks/index.md` |
+| `/blocks/index.md` | `src/pages/blocks/index.md` |
 
-## Best Practices
-
-- Keep top navigation items to 3-5 main sections
-- Use clear, concise labels for navigation items
-- Use dropdowns for version switching or related sub-sections
-- Limit dropdown items to 3-6 options for usability
-- Ensure all paths point to existing files under `src/pages/`
-- The pathPrefix should match your repository or deployment path
+**Note:** This differs from markdown files, where paths are relative to the current file (e.g., `../sidenav/index.md`).
 
 ## Related
 
-For configuring sidebar navigation, see the [SideNav](/blocks/sidenav/index.md) documentation.
+[SideNav](/blocks/sidenav/index.md) - Configure sidebar navigation

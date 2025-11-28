@@ -57,12 +57,3 @@ Unleash your developer creativity with our powerful platform and tools
 
 * [Explore our APIs](https://example.com/api)
 * [Get Started](https://example.com/getting-started)
-
-## Best Practices
-
-- Reserve for most important pages only
-- Use compelling, high-resolution images
-- Keep messaging bold and concise
-- Ensure typography scales well at large sizes
-- Test on various screen sizes for responsiveness
-

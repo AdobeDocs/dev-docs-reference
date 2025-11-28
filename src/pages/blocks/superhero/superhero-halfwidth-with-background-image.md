@@ -61,11 +61,3 @@ Create powerful tools and integrations that extend platform functionality and he
 
 * [Get Started](https://example.com/getting-started)
 * [View Examples](https://example.com/examples)
-
-## Best Practices
-
-- Use high-quality background images
-- Ensure text is readable over background (use white text)
-- Enable `overGradient` for better button contrast
-- Test on various screen sizes
-- Keep foreground image focused and clear

@@ -37,13 +37,6 @@ layout: none
 
 <RedoclyAPIBlock src="../../assets/openapi.yaml" scrollYOffset={64} />
 
-## Best Practices
-
-- Use for dedicated API reference pages
-- Set scrollYOffset when you have fixed headers
-- Consider removing navigation elements for cleaner focus
-- Test on different screen sizes for responsive design
-
 ## Related
 
 - [Redocly API Block Default](/blocks/redoclyapiblock/redocly-api-block-default.md) - With standard layout

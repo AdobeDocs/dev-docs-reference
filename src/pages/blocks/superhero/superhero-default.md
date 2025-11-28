@@ -46,10 +46,3 @@ Your descriptive text here.
 # Developer Platform API
 
 Build powerful applications with our comprehensive API platform and services.
-
-## Best Practices
-
-- Keep heading clear and focused (5-10 words)
-- Use descriptive text to expand on the heading (1-2 sentences)
-- Choose background colors that align with your brand
-- Ensure text color has sufficient contrast with background

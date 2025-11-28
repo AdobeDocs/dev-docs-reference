@@ -5,11 +5,9 @@ description: Display a resources section with links alongside a hero banner for 
 
 # Resources Block with Hero
 
-Combine a hero banner with a resources section to display key documentation links.
+Resource links with hero banner.
 
 ## Syntax
-
-### Resources Component
 
 ```markdown
 <Resources slots="heading, links"/>
@@ -33,10 +31,3 @@ Build powerful applications with our comprehensive API platform and services.
 * [Endpoint guides](endpoints/index.md)
 * [API reference](https://example.com/api-reference)
 * [GitHub repository](https://github.com/example/repo)
-
-## Best Practices
-
-- Keep resource links concise and clearly labeled
-- Link to the most important resources first
-- Use hero to introduce the product or API
-

@@ -58,11 +58,3 @@ Your descriptive text here.
 Build powerful extensions and integrations with our developer platform. Create custom tools, automate workflows, and seamlessly integrate with existing systems using our comprehensive APIs and SDKs.
 
 * [Get Started](https://example.com/getting-started)
-
-## Best Practices
-
-- Use images that complement rather than compete with text
-- Keep text concise to fit the half-width layout
-- Choose images with clear focal points
-- Consider using video for dynamic content
-- Test layout on mobile where it stacks vertically

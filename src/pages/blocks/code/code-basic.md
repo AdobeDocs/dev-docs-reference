@@ -44,9 +44,3 @@ function greet(name) {
 
 console.log(greet("World"));
 ```
-
-## Best Practices
-
-- Always specify a language for syntax highlighting
-- Use for straightforward code examples
-- Keep code blocks concise and focused

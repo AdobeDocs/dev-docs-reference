@@ -55,10 +55,3 @@ Your descriptive text here.
 Build powerful applications with our comprehensive API platform and services.
 
 * [Get Started](https://example.com/getting-started)
-
-## Best Practices
-
-- Choose background colors that complement your brand
-- Ensure sufficient contrast between text and background
-- Use images that work well with the background
-- Test readability on different screen sizes

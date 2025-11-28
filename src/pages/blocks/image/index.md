@@ -37,11 +37,3 @@ Display images in your documentation using standard markdown syntax.
 ![Platform interface](../../assets/image1.jpeg)
 
 ![External Image](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80)
-
-## Best Practices
-
-- Always include descriptive alt text for accessibility
-- Use preferred image size of 580 x 350 px for optimal display
-- Optimize images for web (< 500KB recommended)
-- Use PNG for screenshots, JPG for photos, SVG for icons
-- Store local images in `src/pages/assets/` directory
