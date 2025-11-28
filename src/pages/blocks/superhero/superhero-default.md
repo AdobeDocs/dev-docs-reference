@@ -5,41 +5,24 @@ description: Standard superhero layout for documentation pages with heading and 
 
 # Superhero - Default Variant
 
-The default superhero variant provides a standard hero banner layout ideal for documentation pages and product introductions.
-
-## Overview
-
-This variant is best suited for:
-- Documentation home pages
-- API landing pages
-- Product introductions
-- Getting started pages
+Standard hero banner layout.
 
 ## Syntax
 
 ```markdown
 <Superhero slots="heading, text" />
 
-# Your Heading
+# Developer Platform API
 
-Your descriptive text here.
+Build powerful applications with our comprehensive API platform and services.
+
 ```
 
 ## Parameters
 
-- **slots**: Content structure
-  - `"heading"` (required): Main heading
-  - `"text"` (required): Descriptive text
-  - `"image"` (optional): Hero image
-  - `"buttons"` (optional): Call-to-action buttons
-
-- **background**: Custom background color (default: `rgb(29, 125, 238)`)
-  - Example: `background="rgb(22, 49, 42)"`
-
-- **textColor**: Text color (default: white)
-  - Options: `white`, `black`, `navy`, `gray`
-
-## Example
+- **slots**: `"heading, text"` or `"image, heading, text, buttons"`
+- **background**: Background color (default: `rgb(29, 125, 238)`)
+- **textColor**: Text color (default: `white`)
 
 <Superhero slots="heading, text" />
 

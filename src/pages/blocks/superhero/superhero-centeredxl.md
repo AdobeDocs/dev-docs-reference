@@ -5,47 +5,29 @@ description: Extra-large centered superhero layout for maximum visual impact on 
 
 # Superhero - Centered XL Variant
 
-The centered XL variant creates an extra-large, visually dominant hero banner with centered content for maximum impact on landing pages.
-
-## Overview
-
-This variant is best suited for:
-- Main portal home pages
-- High-impact marketing pages
-- Brand showcases
-- Major product launches
+Extra-large centered hero banner for maximum impact.
 
 ## Syntax
 
 ```markdown
 <Superhero slots="image, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 
-![Hero image](path/to/image.png)
+![Hero banner](../../assets/hero.png)
 
-# Your Heading
+# Build Amazing Digital Experiences
 
-Your text here
+Unleash your developer creativity with our powerful platform and tools
 
-* [Button 1](url)
-* [Button 2](url)
+* [Explore our APIs](https://example.com/api)
+* [Get Started](https://example.com/getting-started)
 ```
 
 ## Parameters
 
-- **variant**: Set to `"centeredXL"` for extra-large centered layout
-
-- **slots**: Content structure
-  - `"heading"` (required): Main heading
-  - `"text"` (required): Descriptive text
-  - `"image"` (optional): Hero image
-  - `"buttons"` (optional): Call-to-action buttons
-
-- **background**: Custom background color (default: `rgb(29, 125, 238)`)
-
-- **textColor**: Text color (default: white)
-  - Options: `white`, `black`, `navy`, `gray`
-
-## Example
+- **variant**: `"centeredXL"`
+- **slots**: `"image, heading, text, buttons"`
+- **background**: Background color (default: `rgb(29, 125, 238)`)
+- **textColor**: Text color (default: `white`)
 
 <Superhero slots="image, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 

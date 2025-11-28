@@ -5,47 +5,29 @@ description: Centered superhero layout with image and buttons for index home pag
 
 # Superhero - Centered Variant
 
-The centered variant creates a visually balanced hero banner with centered content, perfect for high-impact landing pages and home pages.
-
-## Overview
-
-This variant is best suited for:
-- Index home pages
-- Marketing landing pages
-- Product showcases
-- Main portal pages
+Centered hero banner with balanced layout.
 
 ## Syntax
 
 ```markdown
 <Superhero slots="image, heading, text, buttons" variant="centered" textColor="white"/>
 
-![Hero image](path/to/image.png)
+![Hero image](../../assets/hero.png)
 
-## Your Heading
+## Build Amazing Digital Experiences
 
-Your text here
+Unleash your developer creativity with our powerful platform and tools
 
-* [Button 1](url)
-* [Button 2](url)
+* [Explore our APIs](https://example.com/api)
+* [Get Started](https://example.com/getting-started)
 ```
 
 ## Parameters
 
-- **variant**: Set to `"centered"` for centered layout
-
-- **slots**: Content structure
-  - `"heading"` (required): Main heading
-  - `"text"` (required): Descriptive text
-  - `"image"` (optional): Hero image
-  - `"buttons"` (optional): Call-to-action buttons
-
-- **background**: Custom background color (default: `rgb(29, 125, 238)`)
-
-- **textColor**: Text color (default: white)
-  - Options: `white`, `black`, `navy`, `gray`
-
-## Example
+- **variant**: `"centered"`
+- **slots**: `"image, heading, text, buttons"`
+- **background**: Background color (default: `rgb(29, 125, 238)`)
+- **textColor**: Text color (default: `white`)
 
 <Superhero slots="image, heading, text, buttons" variant="centered" textColor="white"/>
 
