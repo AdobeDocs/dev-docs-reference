@@ -117,11 +117,9 @@ Interactive API docs from OpenAPI specs.
 **Advanced:**
 - [External API](redoclyapiblock/redocly-overflow.md) - Load from URLs
 
-### [Resources](resources/resources.md)
+### [Resources](resources/index.md)
 
-Resource links with optional hero.
-- [With Hero](resources/resources.md)
-- [Without Hero](resources/resources-with-no-hero.md)
+Resource links displayed on right sidebar.
 
 ### [Superhero](superhero/index.md)
 

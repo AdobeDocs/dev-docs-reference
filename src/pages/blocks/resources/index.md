@@ -1,11 +1,11 @@
 ---
-title: Resources Block without Hero
-description: Display a resources section with useful links without a hero banner for a simpler layout.
+title: Resources Block
+description: Display a resources section with useful links.
 ---
 
-# Resources Block without Hero
+# Resources Block
 
-Resource links without hero banner.
+Resource links displayed on the right side of the page, above "On This Page" if present.
 
 ## Syntax
 
@@ -14,8 +14,10 @@ Resource links without hero banner.
 
 #### Resources
 
-* [Link 1](url)
-* [Link 2](url)
+* [Quick start guide](getting-started/index.md)
+* [Endpoint guides](endpoints/index.md)
+* [API reference](https://example.com/api-reference)
+* [GitHub repository](https://github.com/example/repo)
 ```
 
 ## Parameters
@@ -30,3 +32,4 @@ Resource links without hero banner.
 * [Endpoint guides](endpoints/index.md)
 * [API reference](https://example.com/api-reference)
 * [GitHub repository](https://github.com/example/repo)
+
