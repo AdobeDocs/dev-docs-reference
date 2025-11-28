@@ -54,7 +54,7 @@ When no options are specified, the component uses these defaults:
 
 <RedoclyAPIBlock
     src="../../assets/openapi.yaml"
-    width="100%"
+    width="50%"
     typography="fontFamily: `'Source Sans Pro', sans-serif`, fontSize: '16px'"
     codeBlock="tokens: { punctuation: { color: 'red' }}"
     disableSidebar={false}
