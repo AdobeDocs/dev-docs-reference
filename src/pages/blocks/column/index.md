@@ -7,7 +7,7 @@ description: Create multi-column layouts for content organization using the Colu
 
 <Columns slots="image, heading, text, buttons" repeat ="3" />
 
-![Discover](../../images/column_image.webp)
+![Discover](../../assets/column_image.webp)
 
 ### Heading 3 is the size with bold
 
@@ -15,7 +15,7 @@ Normal text in here and you can write about two paragraphs worth. This is just f
 
 [Adobe Photoshop](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)
 
-![Discover](../../images/column_image2.webp)
+![Discover](../../assets/column_image2.webp)
 
 ### Fast custom app design
 
@@ -23,7 +23,7 @@ Build custom apps that interact with core Adobe services, and automate processes
 
 [Dive deeper](https://www.atlassian.com/enterprise/cloud)
 
-![Discover](../../images/column_image.webp)
+![Discover](../../assets/column_image.webp)
 
 ### Heading 3 is the size with bold
 
