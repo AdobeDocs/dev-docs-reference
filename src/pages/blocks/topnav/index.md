@@ -49,14 +49,8 @@ Indent items to create dropdowns:
 
 ## Paths
 
-All paths start from `src/pages/`. Leading `/` is optional.
+All paths in `config.md` are relative to `/src/pages/`. External links require full paths (e.g., `https://example.com`).
 
-| In config.md | Resolves to |
-| --- | --- |
-| `blocks/index.md` | `src/pages/blocks/index.md` |
-| `/blocks/index.md` | `src/pages/blocks/index.md` |
-
-**Note:** This differs from markdown files, where paths are relative to the current file (e.g., `../sidenav/index.md`).
 
 ## Related
 

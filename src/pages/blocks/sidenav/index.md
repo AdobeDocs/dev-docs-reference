@@ -11,7 +11,7 @@ Configure sidebar navigation in `config.md` using `subPages`.
 
 ```md
 - subPages:
-    - [Content Blocks](#content-blocks)
+    - [Content Blocks](/blocks/index.md)
       - [Accordion](/blocks/accordion/index.md)
         - [Accordion Basic](/blocks/accordion/accordion-basic.md)
         - [Accordion with Table & Code](/blocks/accordion/accordion-with-table-and-code.md)
@@ -34,14 +34,8 @@ Configure sidebar navigation in `config.md` using `subPages`.
 
 ## Paths
 
-All paths start from `src/pages/`. Leading `/` is optional.
+All paths in `config.md` are relative to `/src/pages/`. External links require full paths (e.g., `https://example.com`).
 
-| In config.md | Resolves to |
-| --- | --- |
-| `blocks/index.md` | `src/pages/blocks/index.md` |
-| `/blocks/index.md` | `src/pages/blocks/index.md` |
-
-**Note:** This differs from markdown files, where paths are relative to the current file (e.g., `../sidenav/index.md`).
 
 ## Related
 
