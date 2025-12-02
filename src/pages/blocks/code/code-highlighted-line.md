@@ -11,10 +11,10 @@ Highlight specific lines in code blocks to draw attention to important code sect
 
 Use `data-line` and `data-line-offset` attributes after the language identifier:
 
-```markdown
+````
 ```console data-line="1-2, 5, 9-20" data-line-offset="3"
 ```
-```
+````
 
 ## Parameters
 
@@ -23,16 +23,17 @@ Use `data-line` and `data-line-offset` attributes after the language identifier:
 
 ## Example
 
-```console data-line="1-2, 5, 9-20" data-line-offset="3"
-curl -i -X POST 'https://graffias.adobe.io/graffias/graphql' 
-    -H 'Accept-Encoding: gzip, deflate, br' 
-    -H 'Content-Type: application/json' 
-    -H 'Accept: application/json' 
-    -H 'Connection: keep-alive' 
-    -H 'x-gw-ims-org-id: [OrgId]@AdobeOrg' 
-    -H 'x-gw-ims-user-id: [UserId]@techacct.adobe.com' -H 'x-api-key: [clientId]' 
-    -H 'Authorization: Bearer [access token]' 
-    -d @introspection.json --compressed
+```javascript data-line="2-3, 6" data-line-offset="1"
+function processData(input) {
+    const cleaned = input.trim();        // Highlighted
+    const parsed = JSON.parse(cleaned);  // Highlighted
+    
+    if (parsed.valid) {
+        return parsed.data;  // Highlighted
+    }
+    
+    return null;
+}
 ```
 
 ## Best Practices
@@ -40,8 +41,3 @@ curl -i -X POST 'https://graffias.adobe.io/graffias/graphql'
 - Highlight only the most important lines to avoid overwhelming the reader
 - Use line ranges (e.g., `1-5`) for consecutive lines
 - Set `data-line-offset` when showing excerpts from larger files
-
-## Related
-
-- [Code Block](/blocks/codeblock/code-block.md) - Basic code block component
-- [Code Examples](/blocks/codeblock/code.md) - More code block features

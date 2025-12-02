@@ -38,8 +38,3 @@ Without this offset, anchor links might scroll content underneath fixed elements
 - Common values: 64px (standard header), 80px (larger header)
 - Test anchor navigation to ensure proper scrolling
 - Update if you change your header height
-
-## Related
-
-- [Redocly API Block No Layout](/blocks/redoclyapiblock/redocly-api-block-no-layout.md) - Full-page layout
-- [Redocly API Block Configs](/blocks/redoclyapiblock/redocly-api-block-configs.md) - All configuration options

@@ -9,9 +9,9 @@ Display multiple code blocks with headings but without a language picker. All co
 
 ## Syntax
 
-```markdown
+````
 <CodeBlock slots="heading, code" repeat="5"/>
-```
+````
 
 ## Parameters
 
@@ -109,7 +109,3 @@ start();
 - Ideal for showing progression or related files side-by-side
 - Keep headings clear to distinguish between blocks
 
-## Related
-
-- [Code Block](/blocks/codeblock/code-block.md) - Basic code block component
-- [Code Block with Picklist](/blocks/codeblock/code-block-with-picklist.md) - Code blocks with language picker

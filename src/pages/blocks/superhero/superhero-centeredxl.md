@@ -49,14 +49,14 @@ Your text here
 
 <Superhero slots="image, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 
-![IO banner](../../assets/hero.png)
+![Hero banner](../../assets/hero.png)
 
-# The most memorable digital experiences are unleashed by developer creativity
+# Build Amazing Digital Experiences
 
-Adobe products and technologies power them
+Unleash your developer creativity with our powerful platform and tools
 
-* [Explore our APIs](https://adobe.io)
-* [Subscribe](https://adobe.io)
+* [Explore our APIs](https://example.com/api)
+* [Get Started](https://example.com/getting-started)
 
 ## Best Practices
 
@@ -65,9 +65,4 @@ Adobe products and technologies power them
 - Keep messaging bold and concise
 - Ensure typography scales well at large sizes
 - Test on various screen sizes for responsiveness
-
-## Related
-
-- [Superhero Centered](/blocks/superhero/superhero-centered.md) - Standard centered layout
-- [Superhero Default](/blocks/superhero/superhero-default.md) - Standard layout
 

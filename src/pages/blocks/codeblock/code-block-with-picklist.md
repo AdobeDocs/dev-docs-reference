@@ -9,9 +9,9 @@ Display multiple code blocks with a language picker dropdown that allows users t
 
 ## Syntax
 
-```markdown
+````
 <CodeBlock slots="heading, code" repeat="5" languages="index.html, index.js, code.js, shapeUtils.js, extra.js"/>
-```
+````
 
 ## Parameters
 
@@ -108,8 +108,3 @@ start();
 - Use descriptive language labels (e.g., file names or language names)
 - Keep the number of options reasonable (typically 3-7)
 - Order languages logically (e.g., HTML, CSS, JavaScript)
-
-## Related
-
-- [Code Block](/blocks/codeblock/code-block.md) - Basic code block component
-- [Code Block without Picklist](/blocks/codeblock/code-block-without-picklist.md) - Multiple code blocks without language selection

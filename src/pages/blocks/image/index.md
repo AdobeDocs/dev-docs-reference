@@ -3,8 +3,45 @@ title: Image Block
 description: Learn how to display and format images in your documentation.
 ---
 
-# Image Example
+# Image Block
 
-![image](../../images/ab_add_io_management_api.png)
+Display images in your documentation using standard markdown syntax.
 
-![Explore_Image_3](../../assets/Explore_Image_3.png)
+## Syntax
+
+```markdown
+![Alt text](path/to/image.png)
+```
+
+**Relative path:**
+```markdown
+![My Image](../../assets/my-image.png)
+```
+
+**Absolute URL:**
+```markdown
+![External Image](https://example.com/image.png)
+```
+
+## Parameters
+
+- **Alt text**: Descriptive text for accessibility (required)
+- **Path**: Relative path to assets folder or absolute URL
+- **Formats**: PNG, JPG, GIF, WebP, SVG
+- **Preferred Size**: 580 x 350 px for optimal display
+
+## Example
+
+![Documentation example](../../assets/image1.jpeg)
+
+![Platform interface](../../assets/image1.jpeg)
+
+![External Image](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80)
+
+## Best Practices
+
+- Always include descriptive alt text for accessibility
+- Use preferred image size of 580 x 350 px for optimal display
+- Optimize images for web (< 500KB recommended)
+- Use PNG for screenshots, JPG for photos, SVG for icons
+- Store local images in `src/pages/assets/` directory

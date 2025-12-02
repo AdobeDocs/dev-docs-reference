@@ -3,30 +3,58 @@ title: Column Block
 description: Create multi-column layouts for content organization using the Column block.
 ---
 
-# Column block
+# Column Block
+
+Create multi-column layouts to display content side-by-side with images, headings, text, and links.
+
+## Syntax
+
+```markdown
+<Columns slots="image, heading, text, buttons" repeat="3" />
+```
+
+## Parameters
+
+- **slots**: Content structure for each column
+  - `"heading, text"`: Heading and text
+  - `"image, heading, text"`: Image, heading, and text
+  - `"image, heading, text, buttons"`: All elements including links
+
+- **repeat**: Number of columns to display (typically 2-4)
+
+- **Preferred Image Size**: 580 x 350 px for optimal display
+
+## Example
 
 <Columns slots="image, heading, text, buttons" repeat ="3" />
 
-![Discover](../../assets/column_image.webp)
+![Feature 1](../../assets/column.jpg)
 
-### Heading 3 is the size with bold
+### Feature Heading
 
-Normal text in here and you can write about two paragraphs worth. This is just filler to keep going on and on and on. Taking up space to make it look like this is actually about something.
+Description of the feature or content. Keep text concise for better readability in column layouts.
 
-[Adobe Photoshop](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)
+[Learn more](https://example.com)
 
-![Discover](../../assets/column_image2.webp)
+![Feature 2](../../assets/column2.jpg)
 
-### Fast custom app design
+### Another Feature
 
-Build custom apps that interact with core Adobe services, and automate processes with event-based integrations. Access authentication services, end-user access controls, the ability to publish/consume custom events, data storage, CI/CD pipelines.
+More details about this feature or capability. Column layouts work well for comparing options or showcasing multiple features.
 
-[Dive deeper](https://www.atlassian.com/enterprise/cloud)
+[Learn more](https://example.com)
 
-![Discover](../../assets/column_image.webp)
+![Feature 3](../../assets/column3.jpg)
 
-### Heading 3 is the size with bold
+### Third Feature
 
-Normal text in here and you can write about two paragraphs worth. This is just filler to keep going on and on and on. Taking up space to make it look like this is actually about something.
+Additional content for the third column. Use consistent structure across all columns for visual balance.
 
-[Adobe Photoshop](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)
+[Learn more](https://example.com)
+
+## Best Practices
+
+- Keep column count to 2-4 for readability
+- Use consistent content structure across all columns
+- Keep text concise to maintain visual balance
+- Use preferred image size of 580 x 350 px for consistency across columns

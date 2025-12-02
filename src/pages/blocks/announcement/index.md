@@ -5,27 +5,38 @@ description: Display important announcements and notices to your users with the 
 
 # Announcement Block
 
+Display important notices, updates, or calls-to-action at the top of your pages.
+
 <InlineAlert variant="info" slots="text" />
 
 Note: The Announcement block replaces the Teaser block that was previously used in Gatsby.
 
-The Announcement Block allows you to display important notices, updates, or calls-to-action to your users. It can be customized with different variants, background colors, and positioning options.
+## Syntax
 
-## Available Slots
+```markdown
+<Announcement slots="heading, text, button" />
+```
 
-- `heading` (optional) - The title of the announcement
-- `text` (optional) - The descriptive content
-- `button` (optional) - Call-to-action link
+## Parameters
 
-## Available Options
+- **slots**: Content structure
+  - `"heading, text, button"`: Full announcement with all elements
+  - `"button"`: Button-only announcement
 
-- **Variants:** `primary` (bold, prominent) or `secondary` (subtle)
-- **Background Colors:** `background-color-gray`, `background-color-white`
-- **Position:** `center` (for button-only announcements)
+- **variant**: Style variant
+  - `"primary"`: Bold, prominent (default)
+  - `"secondary"`: Subtle
+
+- **position**: `"center"` for centered button-only announcements
 
 ## Variants
 
-There are 2 main usage patterns:
+- [Announcement with Heading](announcement-with-heading.md) - Full announcement with title and description
+- [Button-only Announcement](announcement-button-only.md) - Simple call-to-action button
 
-- The [announcement with heading](announcement-with-heading.md) variant for full announcements with title, description, and action button.
-- The [button-only announcement](announcement-button-only.md) variant for simple, centered call-to-action buttons.
+## Best Practices
+
+- Use for important site-wide notices
+- Keep text concise and actionable
+- Limit to one announcement per page
+- Use primary variant for critical updates
