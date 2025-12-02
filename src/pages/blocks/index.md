@@ -30,6 +30,10 @@ Auto-generated navigation trail from your TopNav and SideNav.
 
 Site footer (centrally managed).
 
+### [Site-Wide Banner](site-wide-banner/index.md)
+
+Announcement banner displayed across all pages.
+
 ## Content Blocks
 
 Build and organize your page content.

@@ -12,6 +12,7 @@
         - [TopNav](/blocks/topnav/index.md)
         - [Breadcrumbs](/blocks/breadcrumb/index.md)
         - [Footer](/blocks/footer/index.md)
+        - [Site-Wide Banner](/blocks/site-wide-banner/index.md)
       - [Content Blocks](#content-blocks)
         - [Accordion](/blocks/accordion/index.md)
         - [Announcement](/blocks/announcement/index.md)
