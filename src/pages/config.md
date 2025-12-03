@@ -4,7 +4,7 @@
 - pages:
     - [Overview](index.md)
     - [Reference Docs](blocks/index.md)
-
+      
 - subPages:
     - [Overview](blocks/index.md)
       - [Configuration Blocks](#configuration-blocks)
@@ -12,13 +12,10 @@
         - [TopNav](/blocks/topnav/index.md)
         - [Breadcrumbs](/blocks/breadcrumb/index.md)
         - [Footer](/blocks/footer/index.md)
+        - [Site-Wide Banner](/blocks/site-wide-banner/index.md)
       - [Content Blocks](#content-blocks)
         - [Accordion](/blocks/accordion/index.md)
-          - [Accordion Basic](/blocks/accordion/accordion-basic.md)
-          - [Accordion with Table & Code](/blocks/accordion/accordion-with-table-and-code.md)
         - [Announcement](/blocks/announcement/index.md)
-          - [Announcement Button only](/blocks/announcement/announcement-button-only.md)
-          - [Announcement With Heading](/blocks/announcement/announcement-with-heading.md)
         - [Code](/blocks/code/index.md)
             - [Code Basic](/blocks/code/code-basic.md)
             - [Code Highlighted Line](/blocks/code/code-highlighted-line.md)
@@ -31,8 +28,6 @@
         - [Column](/blocks/column/index.md)
         - [Discover Block](/blocks/discoverblock/index.md)
         - [Edition](/blocks/edition/index.md)
-          - [Edition without Link](/blocks/edition/edition-with-no-link.md)
-          - [Edition with Link](/blocks/edition/edition-with-link.md)
         - [HeroSimple](#herosimple)
             - [HeroSimple (default)](/blocks/herosimple/herosimple-default.md)
             - [HeroSimple fullWidth](/blocks/herosimple/herosimple-fullwidth.md)
@@ -51,9 +46,7 @@
             - [Redocly API Block No Sidebar No Search](blocks/redoclyapiblock/redocly-api-block-no-sidebar-no-search.md)
             - [Redocly API Block No Y Scroll Offset](blocks/redoclyapiblock/redocly-api-block-no-y-scroll-offset.md)
             - [Redocly Overflow](blocks/redoclyapiblock/redocly-overflow.md)
-        - [Resources](blocks/resources/resources.md)
-            - [Resources](blocks/resources/resources.md)
-            - [Resources with No Hero](blocks/resources/resources-with-no-hero.md)
+        - [Resources](/blocks/resources/index.md)
         - [Superhero](/blocks/superhero/index.md)
             - [Superhero Default](blocks/superhero/superhero-default.md)
             - [Superhero Default with Background Image](blocks/superhero/superhero-default-with-background-image.md)

@@ -39,11 +39,3 @@ You can also customize the typography to match your brand. The default font stac
 This example loads an API specification from an external registry:
 
 <RedoclyAPIBlock src='https://petstore3.swagger.io/api/v3/openapi.json' typography='fontFamily: `"Source Sans Pro", sans-serif`' />
-
-## Best Practices
-
-- Use HTTPS URLs for external specifications
-- Ensure external APIs have CORS enabled
-- Consider caching external specs for performance
-- Verify external URLs are stable and maintained
-- Use custom typography to match your brand

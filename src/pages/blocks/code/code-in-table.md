@@ -30,9 +30,3 @@ Use backticks for inline code in table cells:
 | `email` | `string` | User's email address |
 | `createdAt` | `Date` | Timestamp when the user was created |
 | `isActive` | `boolean` | Whether the user account is active |
-
-## Best Practices
-
-- Use inline code for property names, types, and values
-- Keep table formatting clean and aligned
-- Ideal for API reference documentation

@@ -55,10 +55,3 @@ npm test
 # Build for production
 npm run build
 ```
-
-## Best Practices
-
-- Use combined features sparingly - only when necessary
-- Keep attribute combinations logical and purposeful
-- Test complex code blocks to ensure they render correctly
-- Consider if simpler alternatives would be more readable

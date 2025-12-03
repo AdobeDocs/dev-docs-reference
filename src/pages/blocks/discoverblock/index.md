@@ -5,7 +5,7 @@ description: Showcase featured content and resources using the Discover block co
 
 # Discover Block
 
-Display featured content, resources, or links in a card-based layout.
+Featured content in a card layout.
 
 ## Syntax
 
@@ -22,123 +22,58 @@ Description text here.
 ## Parameters
 
 - **slots**: Content structure
-  - `"link, text"`: Link with description
-  - `"heading, link, text"`: Heading, link, and description
-  - `"image, heading, link, text"`: Icon/image, heading, link, and description
+  - `"link, text"` - Link with description
+  - `"heading, link, text"` - With heading
+  - `"image, heading, link, text"` - With image
 
-- **width**: Card width (optional)
-  - Default: Full width
-  - `"25%"`: Quarter width (for grid layouts)
-  - `"33%"`: Third width
-  - `"50%"`: Half width
+- **width**: Card width
+  - Full width (default)
+  - `"25%"` - Quarter (4-column grid)
+  - `"33%"` - Third (3-column grid)
+  - `"50%"` - Half (2-column grid)
 
-## Image Suggestions
-
-For the `image` slot, use a **512 x 512 px** image for optimal display quality.
+- **Image size**: 512 x 512 px recommended
 
 ## Examples
 
-### Basic Discover Blocks
+### Basic
 
 <DiscoverBlock slots="heading, link, text"/>
 
-## Get Started with Basics
+## Get Started
 
-[Developer Quickstart Guide](https://example.com/quickstart)
+[Developer Guide](https://example.com/quickstart)
 
-Start building your first application with our platform.
-
-<DiscoverBlock slots="link, text"/>
-
-[API Reference](https://example.com/api-reference)
-
-Explore the complete API documentation and endpoints.
+Start building your first application.
 
 <DiscoverBlock slots="link, text"/>
 
-[Development Tools](https://example.com/tools)
+[API Reference](https://example.com/api)
 
-Access the essential tools to help you create, debug, and deploy your applications efficiently.
+Explore the complete API documentation.
 
-<DiscoverBlock slots="link, text"/>
+### Grid Layout
 
-[Code Samples](https://example.com/samples)
+Use `width="33%"` for a 3-column grid:
 
-Browse code examples to accelerate your development workflow.
-
-<DiscoverBlock slots="link, text"/>
-
-[Migration Guide](https://example.com/migration)
-
-Transitioning from a previous version? Find migration resources here.
-
-<DiscoverBlock slots="link, text"/>
-
-[Design Guidelines](https://example.com/design)
-
-Learn best practices for creating user-friendly applications.
-
-### With Images and Grid Layout
-
-Use `width="25%"` to create a grid layout with multiple cards:
-
-<DiscoverBlock slots="image, heading, link, text" width="25%"/>
+<DiscoverBlock slots="image, heading, link, text" width="33%"/>
 
 ![Community](../../assets/test-icon.png)
 
-### Developer Community
+### Community
 
-[Community forum](https://example.com/forum)
+[Forum](https://example.com/forum)
 
-Ask questions, share knowledge, and participate in discussions with other developers.
+Ask questions and share knowledge.
 
-<DiscoverBlock slots="link, text" width="25%"/>
+<DiscoverBlock slots="link, text" width="33%"/>
 
-[Developer portal](https://example.com/portal)
+[Portal](https://example.com/portal)
 
-Access your developer account, manage applications, and view analytics.
+Manage your applications.
 
-<DiscoverBlock slots="image, heading, link, text" width="25%"/>
+<DiscoverBlock slots="link, text" width="33%"/>
 
-![GitHub](../../assets/test-icon.png)
+[Contributing](https://github.com/example/project)
 
-### GitHub
-
-[Contributing](https://github.com/example/project/blob/main/.github/CONTRIBUTING.md)
-
-Learn how you can contribute to the project documentation.
-
-<DiscoverBlock slots="link, text" width="25%"/>
-
-[Issues](https://github.com/example/project/issues)
-
-Submit an issue to the repository for the team to review.
-
-<DiscoverBlock slots="link, text" width="25%"/>
-
-[Pull requests](https://github.com/example/project/pulls)
-
-View open pull requests for the repository.
-
-<DiscoverBlock slots="image, heading, link, text" width="25%"/>
-
-![Slack](../../assets/test-icon.png)
-
-### Slack
-
-[Request an invite](https://example.com/slack-invite)
-
-Join our developer community Slack workspace to connect with other developers.
-
-<DiscoverBlock slots="link, text" width="25%"/>
-
-[Developer channel](https://example.slack.com/channels/developers)
-
-Connect with developers in our main community channel.
-
-## Best Practices
-
-- Use descriptive headings and concise text
-- Use consistent image sizes (512 x 512 px recommended)
-- Use `width="25%"` for 4-column grids, `"33%"` for 3-column
-- Limit to 3-8 blocks for optimal scanning
+Contribute to the project.

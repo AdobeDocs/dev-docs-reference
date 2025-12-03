@@ -5,32 +5,19 @@ description: Create impactful hero banners with images, headings, text, and call
 
 # Superhero Block
 
-Create prominent hero banners at the top of pages with images, headings, text, and call-to-action buttons.
-
-**Note:** Use only one hero block per page.
-
-## Available Variants
-
-There are 4 different variants to choose from:
-
-- **[Default](superhero-default.md)**: Standard variant for documentation pages
-- **[Half Width](superhero-halfwidth.md)**: Split layout for product/platform pages
-- **[Centered](superhero-centered.md)**: Centered layout for index home pages
-- **[Centered XL](superhero-centeredxl.md)**: Large centered layout for impact
+Hero banners at the top of pages. Use only one per page.
 
 ## Parameters
 
-- **slots**: Content structure
-  - `"heading, text"`: Heading and text only
-  - `"image, heading, text, buttons"`: All elements
+- **variant**: 
+  - `default` - [Standard layout](superhero-default.md)
+  - `halfWidth` - [Split layout](superhero-halfwidth.md)
+  - `centered` - [Centered layout](superhero-centered.md)
+  - `centeredXL` - [Large centered](superhero-centeredxl.md)
+
+- **slots**: 
+  - `"heading, text"` - Text only
+  - `"image, heading, text, buttons"` - All elements
 
 - **background**: Background color (default: `rgb(29, 125, 238)`)
 - **textColor**: Text color (default: `white`)
-- **variant**: Layout variant (`default`, `halfWidth`, `centered`, `centeredXL`)
-
-## Best Practices
-
-- Choose the variant that matches your page type
-- Keep heading text concise
-- Limit call-to-action buttons to 1-2
-- Ensure good contrast between text and background

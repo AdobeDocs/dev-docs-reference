@@ -5,7 +5,7 @@ description: Display edition-specific content using the Edition block component.
 
 # Edition Block
 
-Display edition-specific labels or badges to indicate which platform or version content applies to.
+Display edition or platform labels.
 
 ## Syntax
 
@@ -17,16 +17,18 @@ Enterprise Edition
 
 ## Parameters
 
-- **slots**: `"text"` - The edition text content
+- **slots**: `"text"` - Edition text or link
 
-## Variants
+## Examples
 
-- [Edition with Link](edition-with-link.md) - Display edition as a clickable link
-- [Edition without Link](edition-with-no-link.md) - Display edition as plain text
+### Plain Text
 
-## Best Practices
+<Edition slot="text"/>
 
-- Use clear, recognizable edition names
-- Place at the beginning of content sections
-- Keep text brief and scannable
+PaaS Only
 
+### With Link
+
+<Edition slot="text"/>
+
+[Enterprise Edition](https://example.com/editions)

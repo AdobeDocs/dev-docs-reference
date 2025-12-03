@@ -5,7 +5,7 @@ description: Create styled lists with icons and various formatting options using
 
 # List Block
 
-Create styled lists with icons and custom colors to highlight features, benefits, or key points.
+Styled lists with icons.
 
 ## Syntax
 
@@ -15,21 +15,20 @@ Create styled lists with icons and custom colors to highlight features, benefits
 
 ## Parameters
 
-- **slots**: Content structure for each list item
-  - `"text1, text2"`: Two text elements per item (e.g., title and description)
+- **slots**: `"text1, text2"` - Two text elements per item
 
-- **repeat**: Number of list items to display
+- **repeat**: Number of items
 
-- **icon**: Icon type to display (optional)
-  - `"checkmark"`: Checkmark icon
-  - Other icon options available
+- **icon**: Icon type (optional)
+  - `"checkmark"` - Checkmark
+  - Other options available
 
-- **iconColor**: Hex color for the icon (default: theme color)
-  - Example: `"#2ac3a2"`, `"#ff0000"`
+- **iconColor**: Hex color (optional)
+  - Example: `"#2ac3a2"`
 
-- **variant**: Layout variant (optional)
-  - `"fullWidth"`: Full-width layout
-  - Default: Standard layout
+- **variant**: Layout (optional)
+  - `"fullWidth"` - Full-width
+  - Default: Standard
 
 ## Example
 
@@ -50,10 +49,3 @@ No credit card required
 Scalable for enterprise needs
 
 Built for high performance
-
-## Best Practices
-
-- Keep text concise and scannable
-- Limit to 4-8 items for readability
-- Use consistent icon colors
-- Use checkmarks for positive features
