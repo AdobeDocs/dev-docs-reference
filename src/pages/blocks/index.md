@@ -1,5 +1,5 @@
 ---
-title: Overview - Block Examples
+title: ADP Developer Site - Block Overview
 description: Explore all available blocks for the Adobe Developer documentation site, including content blocks, code blocks, and API documentation components.
 ---
 

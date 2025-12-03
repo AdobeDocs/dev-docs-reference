@@ -1,13 +1,13 @@
 ---
-title: Overview - Block Examples
-description: Explore all available blocks for the Adobe Developer documentation site, including content blocks, code blocks, and API documentation components.
+title: ADP Developer Site
+description: A documentation site that provides instructions on how to build documentation using the ADP Developer Site's tools
 ---
 
 <SuperHero slots="heading, text" background="rgb(154, 23, 34)"/>
 
-# Adobe Developer Documentation Block Reference
+# ADP Developer Site Documentation
 
-The Adobe Developer Documentation Block Reference provides a comprehensive catalog of reusable content blocks for building rich, interactive documentation experiences.
+The ADP Developer Site Documentation provides a comprehensive list of guides on how to build documentation on the developer.adobe.com platform. 
 
 ## Overview
 
