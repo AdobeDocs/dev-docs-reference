@@ -11,6 +11,7 @@
         - [SideNav](/blocks/sidenav/index.md)
         - [TopNav](/blocks/topnav/index.md)
         - [Breadcrumbs](/blocks/breadcrumb/index.md)
+        - [NextPrev](/blocks/nextprev/index.md)
         - [Footer](/blocks/footer/index.md)
       - [Content Blocks](#content-blocks)
         - [Accordion](/blocks/accordion/index.md)

@@ -29,6 +29,11 @@ Configure the top navigation bar for your documentation site.
 [Breadcrumbs](breadcrumb/index.md)
 Automatically generated navigation trail based on TopNav and SideNav configuration.
 
+### Next Prev
+
+[NextPrev](nextprev/index.md)
+Automatically generated Previous page and Next page options trail based on SideNav configuration.
+
 ### Footer
 
 [Footer](footer/index.md)
