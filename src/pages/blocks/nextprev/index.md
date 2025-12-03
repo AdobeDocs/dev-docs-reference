@@ -42,7 +42,7 @@ In this example, when viewing the "TopNav" page:
 - **Previous** page would be "SideNav"
 - **Next** page would be "Breadcrumbs"
 
-![NextprevExample](../../assets/nextprev.png)
+![NextprevExample](../../assets/nextprev.jpg)
 
 The block will render navigation arrows with the page titles pulled from your SideNav configuration.
 
