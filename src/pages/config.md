@@ -2,11 +2,15 @@
     - /dev-docs-reference/
 
 - pages:
-    - [Overview](index.md)
-    - [Reference Docs](blocks/index.md)
-      
+    - [ADP Dev Site](index.md)
+    - [Blocks](/blocks/index.md)
+    - [Local Dev](/localdev/index.md)
+    - [Deploy](/deploy/index.md)
+    - [Best Practices](/bestpractices/index.md)
+    - [FAQ](/faq/index.md)
+
 - subPages:
-    - [Overview](blocks/index.md)
+    - [Blocks](/blocks/index.md)
       - [Configuration Blocks](#configuration-blocks)
         - [SideNav](/blocks/sidenav/index.md)
         - [TopNav](/blocks/topnav/index.md)
@@ -57,3 +61,7 @@
             - [Superhero Half Width with Background Image](blocks/superhero/superhero-halfwidth-with-background-image.md)
             - [Superhero Half Width with Background Image and Video](blocks/superhero/superhero-halfwidth-with-background-image-and-video.md)
         - [Tab](/blocks/tab/index.md)
+    - [Local Development](/localdev/index.md)
+    - [Deploy](/deploy.index.md)
+    - [Best Practices](/bestpractices/index.md)
+    - [FAQ](/faq/index.md)
