@@ -62,6 +62,6 @@
             - [Superhero Half Width with Background Image and Video](blocks/superhero/superhero-halfwidth-with-background-image-and-video.md)
         - [Tab](/blocks/tab/index.md)
     - [Local Development](/localdev/index.md)
-    - [Deploy](/deploy.index.md)
+    - [Deploy](/deploy/index.md)
     - [Best Practices](/bestpractices/index.md)
     - [FAQ](/faq/index.md)
