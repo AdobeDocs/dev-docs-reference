@@ -137,7 +137,6 @@ Hero banners with images and CTAs. 8 variants:
 
 **Enhanced:**
 - [Default + Background](superhero/superhero-default-with-background-image.md) - Custom background
-- [Default + Gradient](superhero/superhero-default-with-background-image-and-color.md) - Gradient background
 - [Half Width + Background](superhero/superhero-halfwidth-with-background-image.md) - Full-width background
 - [Half Width + Video](superhero/superhero-halfwidth-with-background-image-and-video.md) - Video background
 
