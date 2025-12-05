@@ -11,7 +11,6 @@ This guide explains how to set up and use the Adobe Developer Platform (ADP) dep
 
 The ADP developer site uses a reusable GitHub Actions workflow that handles deployments with:
 - **Automatic deployments** - Push to main branch deploys to production
-- **Manual stage deployments** - Trigger stage speficic via GitHub UI with custom options
 - **Manual deployments** - Trigger deployments via GitHub UI with custom options
 - **Incremental updates** - Deploy only changed files for faster builds
 - **Full site deployments** - Force deploy all files when needed
@@ -25,7 +24,7 @@ This configuration enables both automatic and manual deployments for your site.
 
 ## Deployment Methods
 
-### Automatic Deployment
+### Automatic Production Deployment
 
 **Trigger:** Push commits to the `main` branch
 
@@ -46,7 +45,7 @@ Navigate to **Actions** > **Deployment** > **Run workflow** to access manual dep
 
 **Environment Selection**
 - `prod` - Deploy to production only
-- `stage & prod` - Deploy to both staging and production environments
+- `stage & prod` - Deploy to both staging and production environments (can only stage content from the `main` branch when used)
 
 **Base SHA** (optional)
 - Leave empty to compare against the last successful commit
@@ -94,46 +93,33 @@ Production deployments follow this process:
 
 2. **Preview Stage** (Step 1 of 2)
    - Uploads content to production environment in preview mode
-   - Content is staged but not yet publicly visible
+   - Content is staged but on the `https://stage--adp-devsite-stage--adobedocs.aem.page/pathPrefix/` and `developer-stage.adobe.com/pathPrefix/` url
    - Allows for validation before going live
-   - Basically uploads the content to the `.page`
+   - content for production always must be `Preview` before it appears on `Live'
 
 3. **Live Stage** (Step 2 of 2)
    - Activates the previewed content after a 60-second delay
-   - Content becomes publicly accessible
+   - Content becomes publicly accessible on the `https://main--adp-devsite--adobedocs.aem.page/pathPrefix/` and the `developer.adobe.com/pathPreix/`
    - Cache is cleared to ensure fresh content delivery
-   - Uses the `.page` version and publishes it to the `.live` version
 
 **Important note**:
  - If the repo has never had a production commit on the EDS system, one should select the `deployAll` function to initally deploy
-
-### Stage & Production Deployment
-
-When deploying to both environments:
-
-1. **Stage Deployment**
-   - Deploys changes to staging environment based on the last successful commit on `main`
-   - Clears stage cache
-   - Allows for testing in a production-like environment
-
-2. **Production Deployment**
-   - Follows the same preview + live process as production-only deployments
-   - Clears both stage and production caches for consistency
 
 ### Stage Deployment ###
 
 When deploying to the stage environment:
 
 1. **Stage Deployment**
-   - Deploys changes to staging environment based on the last successful commit. When deploying from a new branch, use the `deployAll` option to make sure it matches the current branch's file
+   - Deploys changes to staging environment based on the last successful commit to the staging environment
    - Clears stage cache
    - Allows for testing in a production-like environment
 
-## Understanding Deployment Options
+2. **Preview Stage** (Step 1 of 2)
+   - Uploads content to production environment in preview mode
+   - Content is staged but on the `https://stage--adp-devsite-stage--adobedocs.aem.page/pathPrefix/` and `developer-stage.adobe.com/pathPrefix/` url
+   - Allows for validation before going live
 
-### Incremental vs. Full Deployment
-
-#### Incremental Deployment (Default)
+### Incremental Deployment (Default)
 
 **When to use:**
 - Regular content updates
