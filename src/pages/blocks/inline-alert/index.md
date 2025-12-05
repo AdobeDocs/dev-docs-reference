@@ -19,16 +19,16 @@ Your alert message here.
 
 - **slots**: 
   - `heading` (optional) - Use plain markdown text. You can only use one title per alert block.
-  - `"text"` (required). Use plain markdown text.
+  - `text` (required). Use plain markdown text.
   - `text1, text2, text[n]` - You can use additional text slots to display multiple paragraphs.
 
-- **variant**: determines the icon and border color of the alert
-  - `info` (default) — use to add helpful information.
-  - `"help"` - use to add brief steps from or links to other help topics.
-  - `"error"` - use to highlight errors that may result from an action.
-  - `"success"` - use to highlight success messages that may be displayed after an action.
-  - `"warning"` - use to focus attention on a potential problem that could occur.
-  - `"neutral"` - use as an all-purpose callout that displays a black border and no icon.
+- **variant**: Determines the icon and border color of the alert
+  - `info` (default) — Use to add helpful information.
+  - `help` - Use to add brief steps from or links to other help topics.
+  - `error` - Use to highlight errors that may result from an action.
+  - `success` - Use to highlight success messages that may be displayed after an action.
+  - `warning` - Use to focus attention on a potential problem that could occur.
+  - `neutral` - Use as an all-purpose callout that displays a black border and no icon.
 
 ## Examples
 
