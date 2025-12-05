@@ -47,4 +47,4 @@ Create a `site-wide-banner.json` file in your root directory under /src/pages/ w
 
 This is what it looks like visually.
 
-![sitewidebanner](../../ßassets/sitewidebanner.png)
+![sitewidebanner](../../assets/sitewidebanner.png)
