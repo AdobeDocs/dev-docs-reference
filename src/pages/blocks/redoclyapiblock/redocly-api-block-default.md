@@ -28,10 +28,3 @@ Display interactive API documentation from OpenAPI specification files.
 ## Example
 
 <RedoclyAPIBlock src="../../assets/openapi.yaml" />
-
-## Best Practices
-
-- Use valid OpenAPI 3.0+ specification files
-- Keep your spec well-organized with clear descriptions
-- Provide examples in your specification
-- Use relative paths for local files

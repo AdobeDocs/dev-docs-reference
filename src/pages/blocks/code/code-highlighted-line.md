@@ -35,9 +35,3 @@ function processData(input) {
     return null;
 }
 ```
-
-## Best Practices
-
-- Highlight only the most important lines to avoid overwhelming the reader
-- Use line ranges (e.g., `1-5`) for consecutive lines
-- Set `data-line-offset` when showing excerpts from larger files

@@ -5,38 +5,52 @@ description: Display important announcements and notices to your users with the 
 
 # Announcement Block
 
-Display important notices, updates, or calls-to-action at the top of your pages.
-
-<InlineAlert variant="info" slots="text" />
-
-Note: The Announcement block replaces the Teaser block that was previously used in Gatsby.
+Display notices, updates, or calls-to-action.
 
 ## Syntax
 
 ```markdown
-<Announcement slots="heading, text, button" />
+<Announcement slots="heading, text, button" variant="secondary" backgroundColor="background-color-gray"/>
 ```
 
 ## Parameters
 
-- **slots**: Content structure
-  - `"heading, text, button"`: Full announcement with all elements
-  - `"button"`: Button-only announcement
+- **slots**: 
+  - `"heading, text, button"` - Full announcement
+  - `"button"` - Button only
 
-- **variant**: Style variant
-  - `"primary"`: Bold, prominent (default)
-  - `"secondary"`: Subtle
+- **variant**: Style
+  - `"primary"` - Bold (default)
+  - `"secondary"` - Subtle
 
-- **position**: `"center"` for centered button-only announcements
+- **backgroundColor**: Background
+  - `"background-color-gray"` 
+  - `"background-color-white"` (default)
 
-## Variants
+## Examples
 
-- [Announcement with Heading](announcement-with-heading.md) - Full announcement with title and description
-- [Button-only Announcement](announcement-button-only.md) - Simple call-to-action button
+### Full Announcement
 
-## Best Practices
+<Announcement slots="heading, text, button" variant="secondary" backgroundColor="background-color-gray" />
 
-- Use for important site-wide notices
-- Keep text concise and actionable
-- Limit to one announcement per page
-- Use primary variant for critical updates
+#### New Release Available
+
+Check out the latest features and improvements in version 2.0.
+
+- [Read more](https://example.com)
+
+### Button Only
+
+<Announcement slots="button"/>
+
+- [Get Started](https://example.com)
+
+### Primary Variant
+
+<Announcement slots="heading, text, button" variant="primary"/>
+
+#### Important Update
+
+Review these changes before your next deployment.
+
+- [View details](https://example.com)

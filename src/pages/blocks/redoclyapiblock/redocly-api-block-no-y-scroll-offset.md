@@ -31,10 +31,3 @@ Without this offset, anchor links might scroll content underneath fixed elements
 ## Example
 
 <RedoclyAPIBlock src="../../assets/openapi.yaml" />
-
-## Best Practices
-
-- Set scrollYOffset to match your fixed header height
-- Common values: 64px (standard header), 80px (larger header)
-- Test anchor navigation to ensure proper scrolling
-- Update if you change your header height

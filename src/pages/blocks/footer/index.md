@@ -5,26 +5,11 @@ description: The footer component is centrally managed and appears at the bottom
 
 # Footer
 
-The Footer component appears at the bottom of all documentation pages and is **centrally managed** to maintain consistency across Adobe Developer documentation sites.
-
-## Overview
-
-The footer automatically appears on all pages and includes:
-- Navigation links and resources
-- Legal and privacy information
-- Social media links
-- Adobe branding
+The footer appears on all pages and is centrally managed.
 
 ## Configuration
 
-The footer is **not directly configurable** by documentation authors.
+The footer is **not directly configurable**.
 
-### Need to Change the Footer?
-
-Contact our team via Slack: **`#adobe-developer-website`**
-
-Provide details about your requested changes and the team will help with:
-- Adding or updating links
-- Modifying footer content
-- Custom requirements for your project
-
+To request changes, contact the team through slack on #adobe-developer-website with details about:
+- Link and content updates

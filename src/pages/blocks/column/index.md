@@ -5,7 +5,7 @@ description: Create multi-column layouts for content organization using the Colu
 
 # Column Block
 
-Create multi-column layouts to display content side-by-side with images, headings, text, and links.
+Multi-column layouts for side-by-side content.
 
 ## Syntax
 
@@ -15,46 +15,39 @@ Create multi-column layouts to display content side-by-side with images, heading
 
 ## Parameters
 
-- **slots**: Content structure for each column
-  - `"heading, text"`: Heading and text
-  - `"image, heading, text"`: Image, heading, and text
-  - `"image, heading, text, buttons"`: All elements including links
+- **slots**: Content per column
+  - `"heading, text"` - Text only
+  - `"image, heading, text"` - With image
+  - `"image, heading, text, buttons"` - With image and links
 
-- **repeat**: Number of columns to display (typically 2-4)
+- **repeat**: Number of columns (2-4)
 
-- **Preferred Image Size**: 580 x 350 px for optimal display
+- **Image size**: 580 x 350 px recommended
 
 ## Example
 
-<Columns slots="image, heading, text, buttons" repeat ="3" />
+<Columns slots="image, heading, text, buttons" repeat="3" />
 
 ![Feature 1](../../assets/column.jpg)
 
-### Feature Heading
+### Feature One
 
-Description of the feature or content. Keep text concise for better readability in column layouts.
+Description of the first feature.
 
 [Learn more](https://example.com)
 
 ![Feature 2](../../assets/column2.jpg)
 
-### Another Feature
+### Feature Two
 
-More details about this feature or capability. Column layouts work well for comparing options or showcasing multiple features.
+Description of the second feature.
 
 [Learn more](https://example.com)
 
 ![Feature 3](../../assets/column3.jpg)
 
-### Third Feature
+### Feature Three
 
-Additional content for the third column. Use consistent structure across all columns for visual balance.
+Description of the third feature.
 
 [Learn more](https://example.com)
-
-## Best Practices
-
-- Keep column count to 2-4 for readability
-- Use consistent content structure across all columns
-- Keep text concise to maintain visual balance
-- Use preferred image size of 580 x 350 px for consistency across columns

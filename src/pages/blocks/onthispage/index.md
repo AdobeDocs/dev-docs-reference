@@ -5,25 +5,15 @@ description: Automatic table of contents sidebar that displays H2 and H3 heading
 
 # On This Page
 
-Automatically generated table of contents that appears on the right side of pages for quick navigation to different sections.
+Auto-generated table of contents from H2 and H3 headings.
 
 ## How It Works
 
-The component is **automatically generated** from your page headings. No configuration required.
+**Automatically generated** - no configuration needed.
 
-- Scans your markdown for H2 (`##`) and H3 (`###`) headings
-- Creates anchor links for each heading
-- Displays them in a sidebar on the right
-- Updates the active link as users scroll
-
-## Example
+- Scans H2 (`##`) and H3 (`###`) headings
+- Creates clickable anchor links
+- Displays in right sidebar
+- Updates as you scroll
 
 ![onthispage](../../assets/onthispage.png)
-
-## Best Practices
-
-- Use descriptive, concise headings
-- Maintain clear H2 and H3 hierarchy
-- Avoid very long heading text
-- Keep nesting to H2 and H3 only
-

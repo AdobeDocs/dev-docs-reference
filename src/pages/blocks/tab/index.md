@@ -5,7 +5,7 @@ description: Organize related content using tabbed layouts with the Tab block co
 
 # Tab Block
 
-Organize related content into tabbed sections for easy switching between different views.
+Organize content in tabs.
 
 ## Syntax
 
@@ -101,24 +101,3 @@ content tab 2
 ![icon](../../assets/test-icon.png)
 
 content tab 3
-
-### Simple Tabs
-
-Basic tabs with just headings and content:
-
-<Tab slots="heading, content" repeat="2"  theme="dark" />
-
-## Tab 1
-
-content tab 1
-
-## Tab 2
-
-content tab 2
-
-## Best Practices
-
-- Use clear, concise tab labels
-- Limit to 3-7 tabs for usability
-- Group related content together
-- Place most important content in the first tab
