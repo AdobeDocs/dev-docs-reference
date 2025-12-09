@@ -12,7 +12,7 @@ Split-screen layout with image and content side-by-side.
 ```markdown
 <Superhero slots="image, heading, text, buttons" variant="halfWidth" />
 
-![Hero banner](../../assets/hero.png)
+![Hero image](../../assets/cc-hero.png)
 
 # Extend Your Application
 
@@ -32,7 +32,7 @@ Build powerful extensions and integrations with our developer platform. Create c
 
 <Superhero slots="image, heading, text, buttons" variant="halfWidth" />
 
-![Hero banner](../../assets/hero.png)
+![Hero image](../../assets/cc-hero.png)
 
 # Extend Your Application
 
