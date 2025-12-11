@@ -1,6 +1,6 @@
 ---
 title: Superhero - Half Width Variant
-description: Split-screen superhero layout with image and content side-by-side for product pages.
+description: Hero with content and image side-by-side used for Product/Platform authored pages.
 ---
 
 # Superhero - Half Width Variant
@@ -30,6 +30,7 @@ Build powerful extensions and integrations with our developer platform. Create c
   - `image` or `video` (required): Right-side image
     - `video`: Upload to Google drive, publish, then use the URL
   - `fullWidthBackground` (optional): Background image
+  - `icon` (optional): filename from the [icons directory](https://github.com/AdobeDocs/adp-devsite/tree/stage/hlx_statics/icons). If unavailable, please contact the dev-site team to upload.
   - `buttons` (optional)
 
 - **background**: Background color (default: `rgb(255, 255, 255)`)

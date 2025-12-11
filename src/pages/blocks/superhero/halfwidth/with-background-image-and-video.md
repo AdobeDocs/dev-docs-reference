@@ -1,6 +1,6 @@
 ---
-title: Superhero - Half Width with Background and Video
-description: Split-screen superhero with full-width background image and video content.
+title: Superhero - Half Width Variant with Background and Video
+description: Superhero half width variant with background image and video.
 ---
 
 Superhero half width variant with background image and video
