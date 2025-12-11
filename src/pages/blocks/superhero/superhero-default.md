@@ -5,7 +5,7 @@ description: Standard superhero layout for documentation pages with heading and 
 
 # Superhero - Default Variant
 
-Standard hero banner layout.
+Basic hero used for Documentation pages.
 
 ## Syntax
 
@@ -20,7 +20,11 @@ Build powerful applications with our comprehensive API platform and services.
 
 ## Parameters
 
-- **slots**: `"heading, text"` or `"image, heading, text, buttons"`
+- **slots**: 
+  - `heading` (required)
+  - `text` (required)
+  - `image` (optional): Background image
+  - `buttons` (optional)
 - **background**: Background color (default: `rgb(29, 125, 238)`)
 - **textColor**: Text color (default: `white`)
 

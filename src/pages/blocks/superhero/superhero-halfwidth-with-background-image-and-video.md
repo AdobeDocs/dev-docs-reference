@@ -3,9 +3,7 @@ title: Superhero - Half Width with Background and Video
 description: Split-screen superhero with full-width background image and video content.
 ---
 
-# Superhero - Half Width with Background and Video
-
-Split layout with background image and video.
+Superhero half width variant with background image and video
 
 ## Syntax
 
@@ -23,14 +21,6 @@ Create powerful tools and integrations.
 * [Get Started](https://example.com/getting-started)
 * [View Examples](https://example.com/examples)
 ```
-
-## Parameters
-
-- **variant**: `"halfWidth"`
-- **slots**: `"fullWidthBackground, video, heading, text, buttons"`
-- **textColor**: Text color (recommended: `white`)
-- **overGradient**: Improves button visibility
-
 
 <Superhero slots="fullWidthBackground, video, heading, text, buttons" variant="halfWidth" textColor="white" overGradient />
 
