@@ -12,7 +12,7 @@ Centered hero used for Index home pages.
 ```markdown
 <Superhero slots="image, heading, text, buttons" variant="centered" textColor="white"/>
 
-![Hero image](../../assets/hero.png)
+![Hero image](../../../assets/hero.png)
 
 ## Build Amazing Digital Experiences
 
@@ -36,7 +36,7 @@ Unleash your developer creativity with our powerful platform and tools
 
 <Superhero slots="image, heading, text, buttons" variant="centered" textColor="white"/>
 
-![Hero image](../../assets/hero.png)
+![Hero image](../../../assets/hero.png)
 
 ## Build Amazing Digital Experiences
 

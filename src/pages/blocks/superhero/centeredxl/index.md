@@ -12,7 +12,7 @@ Extra-large centered hero used for Index home pages.
 ```markdown
 <Superhero slots="image, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 
-![Hero banner](../../assets/hero.png)
+![Hero banner](../../../assets/hero.png)
 
 # Build Amazing Digital Experiences
 
@@ -36,7 +36,7 @@ Unleash your developer creativity with our powerful platform and tools
 
 <Superhero slots="image, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 
-![Hero banner](../../assets/hero.png)
+![Hero banner](../../../assets/hero.png)
 
 # Build Amazing Digital Experiences
 

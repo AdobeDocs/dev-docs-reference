@@ -10,7 +10,7 @@ Superhero centered XL variant with icon.
 ```markdown
 <Superhero slots="image, icon, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 
-![Hero banner](../../assets/hero.png)
+![Hero banner](../../../assets/hero.png)
 
 :adobe:
 
@@ -24,7 +24,7 @@ Unleash your developer creativity with our powerful platform and tools
 
 <Superhero slots="image, icon, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 
-![Hero banner](../../assets/hero.png)
+![Hero banner](../../../assets/hero.png)
 
 :adobe:
 

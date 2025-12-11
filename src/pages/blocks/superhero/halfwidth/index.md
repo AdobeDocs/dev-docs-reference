@@ -12,7 +12,7 @@ Hero with content and image side-by-side used for Product/Platform authored page
 ```markdown
 <Superhero slots="image, heading, text, buttons" variant="halfWidth" />
 
-![Hero image](../../assets/cc-hero.png)
+![Hero image](../../../assets/cc-hero.png)
 
 # Extend Your Application
 
@@ -40,7 +40,7 @@ Build powerful extensions and integrations with our developer platform. Create c
 
 <Superhero slots="image, heading, text, buttons" variant="halfWidth" />
 
-![Hero image](../../assets/cc-hero.png)
+![Hero image](../../../assets/cc-hero.png)
 
 # Extend Your Application
 

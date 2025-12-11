@@ -10,7 +10,7 @@ Superhero default variant with background image.
 ```markdown
 <Superhero slots="image, heading, text, buttons" background="rgb(22, 49, 42)"/>
 
-![Hero image](../../assets/hero.png)
+![Hero image](../../../assets/hero.png)
 
 # Developer Platform API
 
@@ -21,7 +21,7 @@ Build powerful applications with our comprehensive API platform and services.
 
 <Superhero slots="image, heading, text, buttons" background="rgb(22, 49, 42)"/>
 
-![Hero image](../../assets/hero.png)
+![Hero image](../../../assets/hero.png)
 
 # Developer Platform API
 
