@@ -5,7 +5,7 @@ description: Centered superhero layout with image and buttons for index home pag
 
 # Superhero - Centered Variant
 
-Centered hero banner with balanced layout.
+Centered hero used for Index home pages.
 
 ## Syntax
 
@@ -25,7 +25,11 @@ Unleash your developer creativity with our powerful platform and tools
 ## Parameters
 
 - **variant**: `"centered"`
-- **slots**: `"image, heading, text, buttons"`
+- **slots**: 
+  - `heading` (required)
+  - `text` (required)
+  - `image` (optional): Background image
+  - `buttons` (optional)
 - **background**: Background color (default: `rgb(29, 125, 238)`)
 - **textColor**: Text color (default: `white`)
 

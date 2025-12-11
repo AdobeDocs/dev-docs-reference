@@ -5,7 +5,7 @@ description: Extra-large centered superhero layout for maximum visual impact on 
 
 # Superhero - Centered XL Variant
 
-Extra-large centered hero banner for maximum impact.
+Extra-large centered hero used for Index home pages.
 
 ## Syntax
 
@@ -25,7 +25,11 @@ Unleash your developer creativity with our powerful platform and tools
 ## Parameters
 
 - **variant**: `"centeredXL"`
-- **slots**: `"image, heading, text, buttons"`
+- **slots**: 
+  - `heading` (required)
+  - `text` (required)
+  - `image` (optional): Background image
+  - `buttons` (optional)
 - **background**: Background color (default: `rgb(29, 125, 238)`)
 - **textColor**: Text color (default: `white`)
 
