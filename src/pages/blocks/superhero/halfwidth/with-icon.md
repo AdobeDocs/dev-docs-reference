@@ -10,7 +10,7 @@ Superhero half width variant with icon
 ```markdown
 <Superhero slots="image, icon, heading, text, buttons" variant="halfWidth" />
 
-![Hero image](../../assets/cc-hero.png)
+![Hero image](../../../assets/cc-hero.png)
 
 :adobe:
 
@@ -23,7 +23,7 @@ Build powerful extensions and integrations with our developer platform. Create c
 
 <Superhero slots="image, icon, heading, text, buttons" variant="halfWidth" />
 
-![Hero image](../../assets/cc-hero.png)
+![Hero image](../../../assets/cc-hero.png)
 
 :adobe:
 

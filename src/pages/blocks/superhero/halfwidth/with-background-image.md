@@ -10,9 +10,9 @@ Superhero half width variant with background image
 ```markdown
 <Superhero slots="fullWidthBackground, image, heading, text, buttons" variant="halfWidth" textColor="white" overGradient />
 
-![Gradient background](../../assets/vertical-gradient.png)
+![Gradient background](../../../assets/vertical-gradient.png)
 
-![Platform illustration](../../assets/cc-hero.png)
+![Platform illustration](../../../assets/cc-hero.png)
 
 # Build Extensions for Your Users
 
@@ -24,9 +24,9 @@ Create powerful tools and integrations that extend platform functionality and he
 
 <Superhero slots="fullWidthBackground, image, heading, text, buttons" variant="halfWidth" textColor="white" overGradient />
 
-![Gradient background](../../assets/vertical-gradient.png)
+![Gradient background](../../../assets/vertical-gradient.png)
 
-![Platform illustration](../../assets/cc-hero.png)
+![Platform illustration](../../../assets/cc-hero.png)
 
 # Build Extensions for Your Users
 

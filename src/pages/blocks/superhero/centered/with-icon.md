@@ -10,7 +10,7 @@ Superhero centered variant with icon.
 ```markdown
 <Superhero slots="image, icon, heading, text, buttons" variant="centered" textColor="white"/>
 
-![Hero image](../../assets/hero.png)
+![Hero image](../../../assets/hero.png)
 
 :adobe:
 
@@ -24,7 +24,7 @@ Unleash your developer creativity with our powerful platform and tools
 
 <Superhero slots="image, icon, heading, text, buttons" variant="centered" textColor="white"/>
 
-![Hero image](../../assets/hero.png)
+![Hero image](../../../assets/hero.png)
 
 :adobe:
 
