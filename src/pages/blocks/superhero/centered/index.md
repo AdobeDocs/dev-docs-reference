@@ -1,6 +1,6 @@
 ---
 title: Superhero - Centered Variant
-description: Centered superhero layout with image and buttons for index home pages.
+description: Centered hero used for Index home pages.
 ---
 
 # Superhero - Centered Variant
@@ -29,6 +29,7 @@ Unleash your developer creativity with our powerful platform and tools
   - `heading` (required)
   - `text` (required)
   - `image` (optional): Background image
+  - `icon` (optional): filename from the [icons directory](https://github.com/AdobeDocs/adp-devsite/tree/stage/hlx_statics/icons). If unavailable, please contact the dev-site team to upload.
   - `buttons` (optional)
 - **background**: Background color (default: `rgb(29, 125, 238)`)
 - **textColor**: Text color (default: `white`)

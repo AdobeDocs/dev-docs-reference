@@ -1,9 +1,9 @@
 ---
-title: Superhero - Default with Background Image
-description: Standard superhero layout with custom background image for visual impact.
+title: Superhero - Default Variant with Background Image
+description: Superhero default variant with background image.
 ---
 
-Superhero default variant with background image
+Superhero default variant with background image.
 
 ## Syntax
 
