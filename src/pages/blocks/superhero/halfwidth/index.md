@@ -1,18 +1,18 @@
 ---
 title: Superhero - Half Width Variant
-description: Split-screen superhero layout with image and content side-by-side for product pages.
+description: Hero with content and image side-by-side used for Product/Platform authored pages.
 ---
 
 # Superhero - Half Width Variant
 
-Split-screen layout with image and content side-by-side.
+Hero with content and image side-by-side used for Product/Platform authored pages.
 
 ## Syntax
 
 ```markdown
 <Superhero slots="image, heading, text, buttons" variant="halfWidth" />
 
-![Hero banner](../../assets/hero.png)
+![Hero image](../../../assets/cc-hero.png)
 
 # Extend Your Application
 
@@ -24,15 +24,23 @@ Build powerful extensions and integrations with our developer platform. Create c
 ## Parameters
 
 - **variant**: `"halfWidth"`
-- **slots**: `"image, heading, text, buttons"`
+- **slots**: 
+  - `heading` (required)
+  - `text` (required)
+  - `image` or `video` (required): Right-side image
+    - `video`: Upload to Google drive, publish, then use the URL
+  - `fullWidthBackground` (optional): Background image
+  - `icon` (optional): Filename from the [icons directory](https://github.com/AdobeDocs/adp-devsite/tree/stage/hlx_statics/icons). If unavailable, please contact the dev-site team to upload.
+  - `buttons` (optional)
+
 - **background**: Background color (default: `rgb(255, 255, 255)`)
 - **textColor**: Text color (default: `black`)
-- **overGradient**: Improves button visibility
+- **overGradient**: Improves button visibility over a gradient background
 
 
 <Superhero slots="image, heading, text, buttons" variant="halfWidth" />
 
-![Hero banner](../../assets/hero.png)
+![Hero image](../../../assets/cc-hero.png)
 
 # Extend Your Application
 
