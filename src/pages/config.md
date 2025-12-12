@@ -3,6 +3,7 @@
 
 - pages:
     - [ADP Dev Site](index.md)
+    - [Getting Started](getting_started/index.md)
     - [Blocks](/blocks/index.md)
     - [Local Dev](/localdev/index.md)
     - [Deploy](/deploy/index.md)
@@ -10,6 +11,15 @@
     - [FAQ](/faq/index.md)
 
 - subPages:
+    - [Welcome](getting_started/index.md)
+      - [Dev Docs](#dev-docs)
+        - [Things to Know](/getting_started/dev-docs/index.md)
+        - [Onboarding](/getting_started/dev-docs/onboarding/index.md)
+        - [Best Practices](/getting_started/dev-docs/best-practices/index.md)
+      - [Dev Biz](#dev-biz)
+        - [Things to Know](/getting_started/dev-biz/index.md)
+        - [Onboarding](/getting_started/dev-biz/onboarding/index.md)
+        - [Best Practices](/getting_started/dev-biz/best-practices/index.md)
     - [Blocks](/blocks/index.md)
       - [Configuration Blocks](#configuration-blocks)
         - [SideNav](/blocks/sidenav/index.md)
