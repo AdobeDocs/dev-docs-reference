@@ -1,3 +1,8 @@
+---
+title: DevDocs Onboarding
+description: Getting started with DevDocs on the Adobe Developer Website, including GitHub setup, repository creation, and content authoring basics.
+---
+
 # Dev Docs Onboarding
 
 ## The Basics for DevDocs

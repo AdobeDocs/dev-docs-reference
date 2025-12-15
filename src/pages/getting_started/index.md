@@ -1,40 +1,43 @@
 ---
-title: ADP Developer Site - Getting Started
-description: A guide introducing the Next Generation Developer Website and the transition from Gatsby to Edge Delivery Services
+title: Getting Started
+description: Get started with the Adobe Developer Website by learning about DevDocs, DevBiz, analytics, search optimization, and key platform features.
 ---
 
-# Welcome to the new Developer Website!
+# Getting Started
 
-Greetings prospective user of Adobe Developer Website!
+Welcome to the Adobe Developer Website! This section will help you understand the platform and get your content published.
 
-Today, the Developer Website uses Edge Delivery Services (EDS)/Franklin and Gatsby. EDS/Franklin is used mainly for marketing material with content from Google Drive. Gatsby is mainly used for documentation with content from GitHub. Out of the 70+ repos on the Developer Website, 90% of the users utilize Gatsby.
+## DevBiz vs DevDocs
 
-The Next Generation Developer Website is the effort to unite the Developer Website under Edge Delivery Services as the technology stack.
+| | DevBiz | DevDocs |
+|---|--------|---------|
+| **Content Source** | Google Drive | GitHub |
+| **Best For** | Marketing and landing pages | Documentation and technical guides |
+| **Authoring** | Google Docs | Markdown files |
 
-## Why the change from Gatsby to EDS?
+## Table of Contents
 
-Microsites on the Developer Website have become large and complex. As a result, there is an increased maintenance and support load that is unsustainable for the size of our team. Additionally, Gatsby has been acquired recently and support for its framework is unknown.
+### DevDocs (GitHub-based Documentation)
 
-The Developer Website team supports the platform for product teams to deploy documentation and marketing pages. Because we support teams across Adobe, we need to maintain the look and feel of the Website in a similar environment for the Developer Experience. When a change to the Global Navigation or Footer is needed, or an update across the whole platform, we need to push out a site wide theme update which is difficult to do with the current Gatsby setup.
+| Page | Description |
+|------|-------------|
+| [DevDocs Migration Guide](dev-docs/index.md) | Step-by-step guide for migrating your GitHub-based documentation repository to EDS |
+| [DevDocs Onboarding](dev-docs/onboarding/index.md) | Getting started with DevDocs, including GitHub setup and repository creation |
+| [DevDocs Best Practices](dev-docs/best-practices/index.md) | Best practices and troubleshooting tips for migration |
 
-## EDS to the rescue
+### DevBiz (Google Drive-based Marketing Pages)
 
-EDS is an Adobe product; thus giving us better access and insight to the product team. EDS recently launched a new feature where content can live in GitHub repos.
-This means Gatsby users can keep their repos and the same markdown content.
+| Page | Description |
+|------|-------------|
+| [DevBiz Overview](dev-biz/index.md) | Introduction to DevBiz for marketing and landing pages |
+| [DevBiz Onboarding](dev-biz/onboarding/index.md) | How to set up a DevBiz microsite using Google Drive |
+| [DevBiz Best Practices](dev-biz/best-practices/index.md) | Best practices for authoring DevBiz pages |
 
-There are also some immediate tangible benefits to product teams that will be available:
+### Platform Features
 
-* Optimized content blocks for performance, analytics, accessibility and mobile responsiveness.
-* Additional features such as A/B testing and RUM analytics will be offered by EDS.
-* No more React, less dependency to node modules Gatsby/React ecosystem, pure vanilla JS and CSS.
-* Currently, when pushing a deployment on Gatsby, there is downtime from 1-5 minutes as the changes are being pushed to production. In EDS, there will be no downtime and deployments will not cause their microsite to 404 while the new changes are pushed to production.
+| Page | Description |
+|------|-------------|
+| [Search](search/index.md) | Best practices for optimizing your pages for DevSite Search and SEO |
+| [Analytics](analytics/index.md) | How to access and use Customer Journey Analytics (CJA) for tracking |
+| [Key Features](features/index.md) | Overview of platform features including Create Credentials, Private Beta sites, and Redocly API blocks |
 
-## Architecture
-
-Gatsby EDS Architecture:
-
-![GatsbyEDSArchitecture](../assets/gatsby_eds_architecture.png)
-
-Next Gen Architecture:
-
-![NextGenArchitecture](../assets/next_gen_architecture.png)

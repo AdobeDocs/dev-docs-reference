@@ -1,3 +1,8 @@
+---
+title: DevBiz Best Practices
+description: Best practices for authoring DevBiz pages including width standards, background colors, font colors, button styling, and using the Sidekick library.
+---
+
 # Best Practices for Migration 
 
 - **When you select a google doc index file a new google doc page will pop out. If you double click on the Index in the top left of the page - it will show you what folder you are located in.**:

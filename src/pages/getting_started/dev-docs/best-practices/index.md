@@ -1,3 +1,8 @@
+---
+title: DevDocs Migration Best Practices
+description: Best practices and troubleshooting tips for migrating your documentation from Gatsby to EDS, including file naming, paths, and block replacements.
+---
+
 # Best Practices for Migration 
 
 - **Deployment**:

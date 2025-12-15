@@ -1,3 +1,8 @@
+---
+title: DevDocs Migration Guide
+description: Step-by-step guide for migrating your GitHub-based documentation repository from Gatsby to Edge Delivery Services (EDS).
+---
+
 # Things to know as you migrate to DevDocs
 
 Congratulations! The Next Generation Developer Website is going to improve the performance of your microsite, analytics, accessibility and mobile responsiveness. 

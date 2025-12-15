@@ -7,7 +7,6 @@
     - [Blocks](/blocks/index.md)
     - [Local Dev](/localdev/index.md)
     - [Deploy](/deploy/index.md)
-    - [Best Practices](/bestpractices/index.md)
     - [FAQ](/faq/index.md)
 
 - subPages:
@@ -20,6 +19,9 @@
         - [Things to Know](/getting_started/dev-biz/index.md)
         - [Onboarding](/getting_started/dev-biz/onboarding/index.md)
         - [Best Practices](/getting_started/dev-biz/best-practices/index.md)
+      - [Search](getting_started/search/index.md)
+      - [Analytics](getting_started/analytics/index.md)
+      - [Key Features](getting_started/features/index.md)
     - [Blocks](/blocks/index.md)
       - [Configuration Blocks](#configuration-blocks)
         - [SideNav](/blocks/sidenav/index.md)
