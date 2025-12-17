@@ -73,13 +73,6 @@ Featured content showcase.
 
 Edition-specific content.
 
-### [HeroSimple](herosimple/herosimple-default.md)
-
-Simple hero banner.
-- [Default](herosimple/herosimple-default.md)
-- [Full Width](herosimple/herosimple-fullwidth.md)
-- [Half Width](herosimple/herosimple-halfwidth.md)
-
 ### [Image](image/index.md)
 
 Add and format images.
