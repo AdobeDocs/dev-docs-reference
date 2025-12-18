@@ -32,7 +32,7 @@ Unleash your developer creativity with our powerful platform and tools
   - `icon` (optional): Filename from the [icons directory](https://github.com/AdobeDocs/adp-devsite/tree/stage/hlx_statics/icons). If unavailable, please contact the dev-site team to upload.
   - `buttons` (optional)
 - **background**: Background color (default: `rgb(29, 125, 238)`)
-- **textColor**: Text color (default: `white`)
+- **textColor**: Text color. Options: `black`, `white`, `gray`, `navy` (default: `white`)
 
 <Superhero slots="image, heading, text, buttons" variant="centeredXL" background="rgb(51, 51, 51)" />
 
