@@ -32,9 +32,30 @@ Configure sidebar navigation in `config.md` using `subPages`.
 
 ![sidenav image](../../assets/sidenav.png)
 
-## Paths
+## Link Requirements
 
-All paths in `config.md` are relative to `/src/pages/`. External links require full paths (e.g., `https://example.com`).
+Every entry in the side navigation must have a link.
+
+### Path Rules
+
+1. **First-level entries** must use relative paths (relative to `/src/pages/`)
+2. **First-level entries** must start with a TopNav item
+3. **Child entries** can use either:
+   - Relative paths (to pages within your site)
+   - Absolute paths (external links like `https://example.com`)
+
+### Examples
+
+```md
+- subPages:
+    # First level - must be relative and start with a TopNav item
+    - [Content Blocks](/blocks/index.md)
+      # Children - can be relative or absolute
+      - [Accordion](/blocks/accordion/index.md)
+      - [External Guide](https://example.com/guide)
+```
+
+All relative paths in `config.md` are relative to `/src/pages/`.
 
 
 ## Related
