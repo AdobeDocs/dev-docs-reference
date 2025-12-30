@@ -11,6 +11,12 @@ Display notices, updates, or calls-to-action.
 
 ```markdown
 <Announcement slots="heading, text, button" variant="secondary" backgroundColor="background-color-gray"/>
+
+#### Your Heading
+
+Your announcement text goes here.
+
+- [Button Text](https://example.com)
 ```
 
 ## Parameters

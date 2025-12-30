@@ -10,7 +10,16 @@ Styled lists with icons.
 ## Syntax
 
 ```markdown
-<List slots="text1, text2" repeat="4" iconColor="#2ac3a2" icon="checkmark" variant="fullWidth" />
+<List slots="text1, text2" repeat="2" iconColor="#2ac3a2" icon="checkmark" variant="fullWidth" />
+
+Item 1 title
+
+Item 1 description
+
+Item 2 title
+
+Item 2 description
+
 ```
 
 ## Parameters
