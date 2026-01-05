@@ -1,0 +1,1 @@
+Please see [linting](https://github.com/AdobeDocs/adp-devsite-utils?tab=readme-ov-file#linting) from centralized README.
