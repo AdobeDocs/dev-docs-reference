@@ -79,5 +79,6 @@
         - [Tab](/blocks/tab/index.md)
     - [Local Development](/localdev/index.md)
     - [Deploy](/deploy/index.md)
+        - [Lint](/deploy/lint.md)
     - [Best Practices](/bestpractices/index.md)
     - [FAQ](/faq/index.md)
