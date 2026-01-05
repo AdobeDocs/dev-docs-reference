@@ -23,9 +23,10 @@ Your custom links from `pages` appear after these default links.
 
 - pages:
     - [Overview](index.md)
-    - [Reference Docs](blocks/index.md)
-        - [Version 1.0](blocks/version1.md)
-        - [Version 2.0](blocks/version2.md)
+    - API Reference
+      - [Reference v2.0](blocks/version1.md) - 🟢 Current version
+      - [Reference v1.4](blocks/version2.md) - 🔴 Deprecated
+    - [Support](support/index.md) 
 ```
 
 Indent items to create dropdowns:

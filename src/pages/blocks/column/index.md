@@ -10,7 +10,26 @@ Multi-column layouts for side-by-side content.
 ## Syntax
 
 ```markdown
-<Columns slots="image, heading, text, buttons" repeat="3" />
+<Columns slots="image, heading, text, buttons" repeat="2" />
+
+![Image 1](path/to/image1.jpg)
+
+### Column One
+
+Description text.
+
+[Link text](https://example.com)
+
+![Image 2](path/to/image2.jpg)
+
+### Column Two
+
+Description text.
+
+[Link text](https://example.com)
+
+![Image 3](path/to/image3.jpg)
+
 ```
 
 ## Parameters

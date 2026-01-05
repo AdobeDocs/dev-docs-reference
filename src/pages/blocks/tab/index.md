@@ -11,6 +11,14 @@ Organize content in tabs.
 
 ```markdown
 <Tab orientation="horizontal" slots="heading, content" repeat="2"/>
+
+### Tab 1
+
+Content for first tab.
+
+### Tab 2
+
+Content for second tab.
 ```
 
 ## Parameters

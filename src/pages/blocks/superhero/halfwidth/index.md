@@ -34,7 +34,7 @@ Build powerful extensions and integrations with our developer platform. Create c
   - `buttons` (optional)
 
 - **background**: Background color (default: `rgb(255, 255, 255)`)
-- **textColor**: Text color (default: `black`)
+- **textColor**: Text color. Options: `black`, `white`, `gray`, `navy` (default: `black`)
 - **overGradient**: Improves button visibility over a gradient background
 
 
