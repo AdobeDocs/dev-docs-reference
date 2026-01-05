@@ -6,12 +6,12 @@ description: Getting started with DevDocs on the Adobe Developer Website, includ
 # Dev Docs Onboarding
 
 ## The Basics for DevDocs
-- All content resides in the public https://github.com/orgs/AdobeDocs/ repo.
+- All content resides in the public [https://github.com/orgs/AdobeDocs/](https://github.com/orgs/AdobeDocs/) repo.
 - A (non-corp) GitHub account is required to author content. (What that means is that the public repositories that power the Developer Website are not behind the firewall or on the .corp github that internal adobe users use.  The repo lives in the non-corp github. There's no cross over between corp and non-corp.You can use whatever email you want with non-corp github, as long as you have a username on github.) 
 - Content is authored using Markdown.
   - We are researching additional authoring options for the future
 - All authors need to sign the Adobe Contributor License Agreement (CLA)
-- Questions & Support: #adobe-developer-website
+- Questions & Support: `#adobe-developer-website`
 
 ## How to create a website utilizing DevDocs on the Adobe Developer Website
 - **Getting Started**:
