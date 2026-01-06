@@ -31,7 +31,7 @@ The following language identifiers are supported for syntax highlighting:
 Highlight specific lines using `data-line`:
 
 ````markdown
-```javascript data-line="2,4"
+```javascript-data-line="2,4"
 function example() {
   const x = 1;  // Highlighted
   const y = 2;
@@ -40,23 +40,12 @@ function example() {
 ```
 ````
 
-### Line Number Offset
-
-Start line numbers from a specific number using `data-line-offset`:
-
-````markdown
-```javascript data-line-offset="10"
-// This will show as line 10
-const value = "example";
-```
-````
-
 ### Disable Line Numbers
 
 Remove line numbers for cleaner display using `disableLineNumbers`:
 
 ````markdown
-```bash disableLineNumbers
+```bash-disableLineNumbers
 npm install
 npm start
 ```
