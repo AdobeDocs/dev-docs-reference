@@ -28,4 +28,18 @@ npx --yes github:AdobeDocs/adp-devsite-utils runLint --dead-links-only
 - `--dead-links-only` - Only check for dead external URLs (skips all other linting rules)
 - `--skip-dead-links` - Run all linting rules EXCEPT dead links check (faster)
 
+### Skipping URL Patterns
+
+If you have external URLs that should be excluded from dead link checking, you can configure patterns to skip in your `package.json`:
+```
+{
+  "lint": {
+    "skipUrlPatterns": [
+      "jqueryvalidation.org",
+      "adobedocs.github.io"
+    ]
+  }
+}
+```
+
 **Troubleshooting**: If pages are not showing up as expected, check lint errors or warnings to identify potential issues.
