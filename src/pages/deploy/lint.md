@@ -4,9 +4,9 @@
 
 Validates markdown syntax, links, content structure, and Adobe style guidelines.
 
-### Running from Another Repo
+### Running the Linter
 
-You can run the linter from any other repo using npx:
+You can run the linter using npx:
 
 ```bash
 # Run all linting rules (errors and summary only)
