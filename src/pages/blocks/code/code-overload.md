@@ -12,14 +12,13 @@ Advanced examples showcasing the combination of multiple code block features for
 You can combine multiple attributes with hyphens:
 
 ````
-```javascript-disableLineNumbers-data-line="2-4"-data-line-offset="1"
+```javascript-disableLineNumbers-data-line="2-4"
 code here
 ```
 ````
 
 Features you can combine:
 - Line highlighting (`data-line`)
-- Line offset (`data-line-offset`)
 - Disable line numbers (`disableLineNumbers`)
 
 ## Examples
@@ -36,7 +35,7 @@ function calculateTotal(items) {
 
 ### Example 2: Line Offset with Highlighting
 
-```python-data-line="2-3"-data-line-offset="10"
+```python-data-line="2-3"
 def process_data(data):
     cleaned = data.strip()      # Line 11 - Highlighted
     parsed = json.loads(cleaned)  # Line 12 - Highlighted

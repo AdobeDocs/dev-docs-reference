@@ -40,17 +40,6 @@ function example() {
 ```
 ````
 
-### Line Number Offset
-
-Start line numbers from a specific number using `data-line-offset`:
-
-````markdown
-```javascript data-line-offset="10"
-// This will show as line 10
-const value = "example";
-```
-````
-
 ### Disable Line Numbers
 
 Remove line numbers for cleaner display using `disableLineNumbers`:
