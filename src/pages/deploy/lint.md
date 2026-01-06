@@ -1,4 +1,5 @@
 **Automated**: Runs on PRs and deploy when `src/pages/**` files change
+
 **Manual**: `npm run lint`
 
 Validates markdown syntax, links, content structure, and Adobe style guidelines.
