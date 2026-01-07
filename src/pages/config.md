@@ -49,6 +49,7 @@
         - [Discover Block](/blocks/discoverblock/index.md)
         - [Edition](/blocks/edition/index.md)
         - [Fragment](/blocks/fragment/index.md)
+        - [IFrame](/blocks/iframe/index.md)
         - [Image](/blocks/image/index.md)
         - [Inline Alert](/blocks/inline-alert/index.md)
         - [Inline Code](/blocks/inline-code/index.md)
