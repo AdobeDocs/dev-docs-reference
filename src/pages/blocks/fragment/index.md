@@ -21,7 +21,6 @@ Include reusable content from other markdown files.
 
 
 ## Notes
-
-- **Fragment block currently only works on deployed environments (stage and prod), not on localhost**
+- 
 - Fragments are cached in sessionStorage for better performance
 - Images and assets paths are automatically resolved

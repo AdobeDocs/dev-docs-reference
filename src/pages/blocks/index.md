@@ -81,6 +81,14 @@ Featured content showcase.
 
 Edition-specific content.
 
+### [Fragment](fragment/index.md)
+
+Include reusable content from other markdown files.
+
+### [Iframe](iframe/index.md)
+
+Embed external content and web pages.
+
 ### [Image](image/index.md)
 
 Add and format images.
