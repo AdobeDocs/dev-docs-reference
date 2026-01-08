@@ -19,13 +19,30 @@ Enterprise Edition
 
 - **slots**: `"text"` - Edition text or link
 
+- **backgroundcolor**: Background color (optional)
+  - Default (red) - No attribute needed
+  - `"blue"` - Blue background
+  - `"green"` - Green background
+
 ## Examples
 
-### Plain Text
+### Default (Red)
 
 <Edition slot="text"/>
 
 PaaS Only
+
+### Blue Background
+
+<Edition slot="text" backgroundColor="blue" />
+
+Enterprise Edition
+
+### Green Background
+
+<Edition slot="text" backgroundColor="green" />
+
+Premium Edition
 
 ### With Link
 
