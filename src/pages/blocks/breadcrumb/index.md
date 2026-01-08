@@ -30,6 +30,20 @@ Breadcrumbs are built automatically from your `config.md` navigation structure:
             - [Breadcrumbs](/blocks/breadcrumb/index.md)
 ```
 
+## Hide
+
+To hide breadcrumbs, add `hideBreadcrumbs: true` to your page's frontmatter:
+
+```
+---
+title: Breadcrumbs
+description: Automatically generated navigation trail based on TopNav and SideNav configuration.
+hideBreadcrumbs: true
+---
+```
+
+![hide breadcrumb](../../assets/hide_breadcrumb.png)
+
 ## Related
 
 - [TopNav](/blocks/topnav/index.md) - Top navigation
