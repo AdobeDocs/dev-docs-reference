@@ -27,8 +27,7 @@ Build powerful extensions and integrations with our developer platform. Create c
 - **slots**: 
   - `heading` (required)
   - `text` (required)
-  - `image` or `video` (required): Right-side image
-    - `video`: Upload to Google drive, publish, then use the URL
+  - `image` or `video` (required): Right-side media
   - `fullWidthBackground` (optional): Background image
   - `icon` (optional): Filename from the [icons directory](https://github.com/AdobeDocs/adp-devsite/tree/stage/hlx_statics/icons). If unavailable, please contact the dev-site team to upload.
   - `buttons` (optional)
