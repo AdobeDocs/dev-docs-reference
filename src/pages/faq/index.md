@@ -13,4 +13,4 @@ To use videos in blocks that accept video attributes, you need to provide a URL.
 
 **YouTube**: Upload videos to YouTube, which is the preferred method for most product teams. This option has no time limit restrictions.
 
-**GitHub**: GitHub is not designed for video hosting and cannot be used for this purpose.
+not **GitHub**: GitHub is not designed for video hosting and cannot be used for this purpose.
