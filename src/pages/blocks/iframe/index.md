@@ -13,6 +13,12 @@ Embed external websites and content into your documentation pages.
 <iframe src="https://www.example.com"/>
 ```
 
+## Example
+
+### Embed Interactive Demo
+
+<iframe src="https://codesandbox.io/embed/example"/>
+
 ## Parameters
 
 - **src**: URL of the external content to embed (required)
