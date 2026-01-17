@@ -64,6 +64,7 @@ description: Best practices and troubleshooting tips for migrating your document
   - Replace "Teaser" with "Announcement".
   - Replace "DCSummary" with "Summary"
   - Replace "ResourceCard" with "InfoCard"
+  - Replace "TextBlock" with "Cards".
 - Don't nest blocks:
   - Don't nest a block within another block. For example, a code block cannot be within a table block.
   - [Example](https://github.com/AdobeDocs/app-builder/commit/e464b3e8bb853c8ac255231f24f608e4d86d7951)

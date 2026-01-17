@@ -54,6 +54,10 @@ Collapsible sections.
 
 Important notices and announcements.
 
+### [Cards](cards/index.md)
+
+Content cards in grid layouts.
+
 ### [Code](code/index.md)
 
 Markdown code snippet with syntax.

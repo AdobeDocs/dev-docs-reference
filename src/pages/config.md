@@ -36,6 +36,7 @@
       - [Content Blocks](#content-blocks)
         - [Accordion](/blocks/accordion/index.md)
         - [Announcement](/blocks/announcement/index.md)
+        - [Cards](/blocks/cards/index.md)
         - [Code](/blocks/code/index.md)
             - [Code Basic](/blocks/code/code-basic.md)
             - [Code Highlighted Line](/blocks/code/code-highlighted-line.md)
