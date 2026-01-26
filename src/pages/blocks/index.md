@@ -85,6 +85,10 @@ Featured content showcase.
 
 Edition-specific content.
 
+### [Embed](embed/index.md)
+
+Integrate videos, social media posts, and other external media.
+
 ### [Fragment](fragment/index.md)
 
 Include reusable content from other markdown files.
