@@ -73,9 +73,11 @@ Multiple code block with headings.
 - [With Language Picker](codeblock/code-block-with-picklist.md) - Switch between languages
 - [Without Language Picker](codeblock/code-block-without-picklist.md) - Show all at once
 
-### [Column](column/index.md)
+### [Columns](columns/index.md)
 
 Multi-column layouts.
+- [With Image](columns/columns-with-image.md)
+- [With Video](columns/columns-with-video.md) 
 
 ### [Discover Block](discoverblock/index.md)
 
