@@ -1,9 +1,9 @@
 ---
-title: Column Block
-description: Create multi-column layouts for content organization using the Column block.
+title: Columns Block
+description: Create multi-column layouts for content organization using the Columns block.
 ---
 
-# Column Block
+# Columns Block
 
 Multi-column layouts for side-by-side content.
 
