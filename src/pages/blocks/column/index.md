@@ -28,8 +28,6 @@ Description text.
 
 [Link text](https://example.com)
 
-![Image 3](path/to/image3.jpg)
-
 ```
 
 ## Parameters
