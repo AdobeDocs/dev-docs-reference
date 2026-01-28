@@ -76,6 +76,8 @@ Multiple code block with headings.
 ### [Columns](columns/index.md)
 
 Multi-column layouts.
+- [With Image](columns/columns-with-image.md)
+- [With Video](columns/columns-with-video.md) 
 
 ### [Discover Block](discoverblock/index.md)
 

@@ -47,6 +47,8 @@
             - [CodeBlock with Picklist](/blocks/codeblock/code-block-with-picklist.md)
             - [CodeBlock without Picklist](/blocks/codeblock/code-block-without-picklist.md)
         - [Columns](/blocks/columns/index.md)
+            - [Columns with Image](/blocks/columns/columns-with-image.md)
+            - [Columns with Video](/blocks/columns/columns-with-video.md)
         - [Discover Block](/blocks/discoverblock/index.md)
         - [Edition](/blocks/edition/index.md)
         - [Embed](/blocks/embed/index.md)
