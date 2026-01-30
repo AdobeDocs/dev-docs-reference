@@ -29,6 +29,8 @@ Changes made locally in your content repos `/src/pages/` should update in the br
 ### Video
 
 Video showcasing how to use local development
+https://main--adp-devsite-stage--adobedocs.aem.page/devsite/local-dev-part-1.mp4
 
+https://main--adp-devsite-stage--adobedocs.aem.page/devsite/local-dev-part-2.mp4
 
 
