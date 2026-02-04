@@ -40,6 +40,14 @@ function example() {
 ```
 ````
 
+```javascript-data-line="2,4"
+function example() {
+  const x = 1;  // Highlighted
+  const y = 2;
+  return x + y; // Highlighted
+}
+```
+
 ### Disable Line Numbers
 
 Remove line numbers for cleaner display using `disableLineNumbers`:
@@ -50,6 +58,11 @@ npm install
 npm start
 ```
 ````
+
+```bash-disableLineNumbers
+npm install
+npm start
+```
 
 ## Examples
 

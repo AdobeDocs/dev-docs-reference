@@ -12,9 +12,9 @@ Superhero default variant with background image.
 
 ![Hero image](../../../assets/hero.png)
 
-# Developer Platform API
+# Page Heading
 
-Build powerful applications with our comprehensive API platform and services.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
 ```
@@ -23,8 +23,8 @@ Build powerful applications with our comprehensive API platform and services.
 
 ![Hero image](../../../assets/hero.png)
 
-# Developer Platform API
+# Page Heading
 
-Build powerful applications with our comprehensive API platform and services.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)

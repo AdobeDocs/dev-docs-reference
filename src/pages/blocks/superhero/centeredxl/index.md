@@ -14,9 +14,9 @@ Extra-large centered hero used for Index home pages.
 
 ![Hero banner](../../../assets/hero.png)
 
-# Build Amazing Digital Experiences
+# Page Heading
 
-Unleash your developer creativity with our powerful platform and tools
+This is a sample description text for the superhero block.
 
 * [Explore our APIs](https://example.com/api)
 * [Get Started](https://example.com/getting-started)
@@ -38,9 +38,9 @@ Unleash your developer creativity with our powerful platform and tools
 
 ![Hero banner](../../../assets/hero.png)
 
-# Build Amazing Digital Experiences
+# Page Heading
 
-Unleash your developer creativity with our powerful platform and tools
+This is a sample description text for the superhero block.
 
 * [Explore our APIs](https://example.com/api)
 * [Get Started](https://example.com/getting-started)

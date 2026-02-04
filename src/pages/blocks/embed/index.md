@@ -33,4 +33,4 @@ The block automatically detects and handles links from the following sources:
 
 <Embed slots="video" />
 
-https://www.youtube.com/watch?v=SQMYA660gII
+https://www.youtube.com/embed/4haZJxpf9Bo?si=9Pfm0yJD_62ZQnqg

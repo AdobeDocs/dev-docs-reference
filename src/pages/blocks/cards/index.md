@@ -38,13 +38,32 @@ Card description text goes here.
 
 ## Examples
 
-### Four Column Grid
-![Four Column Grid](../../assets/cards-four-columns.png);
+<Cards slots="image, heading, text, links" width="33%" />
 
-### Three Column Grid
-![Three Column Grid](../../assets/cards-three-columns.png);
+![Card Image](../../assets/column.jpg)
 
-### Two Column Grid
-![Two Column Grid](../../assets/cards-two-columns.png);
+## First Card
 
+This is a sample description for the first card in the grid.
 
+[Learn more](https://developer.adobe.com/)
+
+<Cards slots="image, heading, text, links" width="33%" />
+
+![Card Image](../../assets/column.jpg)
+
+### Second Card
+
+This is a sample description for the second card in the grid.
+
+[Learn more](https://developer.adobe.com/)
+
+<Cards slots="image, heading, text, links" width="33%" />
+
+![Card Image](../../assets/column.jpg)
+
+### Third Card
+
+This is a sample description for the third card in the grid.
+
+[Learn more](https://developer.adobe.com/)

@@ -11,5 +11,5 @@ The footer appears on all pages and is centrally managed.
 
 The footer is **not directly configurable**.
 
-To request changes, contact the team through slack on #adobe-developer-website with details about:
+To request changes, contact the team through slack on `#adobe-developer-website` with details about:
 - Link and content updates
