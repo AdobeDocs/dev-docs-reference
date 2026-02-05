@@ -32,12 +32,13 @@ Description text.
 
 ## Parameters
 
-- **slots**: Content per column
-  - `"heading, text"` - Text only
-  - `"image, heading, text"` - With image
-  - `"image, heading, text, buttons"` - With image and links
-  - `"video, heading, text"` - With video
-  - `"video, heading, text, buttons"` - With video and links
+- **slots**:
+  - `image` / `video` (required)
+  - `image` — Use Markdown image syntax: `![alt text](url)`. Supports absolute and relative URLs.
+  - `video` — Use Markdown link syntax: `[video](url)`. Must be an absolute URL.
+  - `heading` (optional)
+  - `text` (optional)
+  - `buttons` (optional)
 
 - **repeat**: Number of columns (2-4)
 
