@@ -14,9 +14,9 @@ Superhero half width variant with background image and video
 
 [video_url](https://example.com/demo-video.mp4)
 
-# Build Extensions for Your Users
+# Page Heading
 
-Create powerful tools and integrations.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
 * [View Examples](https://example.com/examples)
@@ -26,11 +26,11 @@ Create powerful tools and integrations.
 
 ![Gradient background](../../../assets/vertical-gradient.png)
 
-[video_url](https://raw.githubusercontent.com/AdobeDocs/dev-docs-reference/refs/heads/main/src/pages/assets/express-add-ons.mp4)
+[video_url](https://raw.githubusercontent.com/AdobeDocs/dev-docs-reference/refs/heads/main/src/pages/assets/example_videp.mp4)
 
-# Build Extensions for Your Users
+# Page Heading
 
-Create powerful tools and integrations.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
 * [View Examples](https://example.com/examples)

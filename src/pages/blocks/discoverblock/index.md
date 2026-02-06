@@ -36,7 +36,7 @@ Description text here.
 
 ## Examples
 
-### Basic
+### Basic:
 
 <DiscoverBlock slots="heading, link, text"/>
 
@@ -52,7 +52,7 @@ Start building your first application.
 
 Explore the complete API documentation.
 
-### Grid Layout
+### Grid Layout:
 
 Use `width="33%"` for a 3-column grid:
 

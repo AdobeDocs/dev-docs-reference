@@ -14,9 +14,9 @@ Hero with content and image side-by-side used for Product/Platform authored page
 
 ![Hero image](../../../assets/cc-hero.png)
 
-# Extend Your Application
+# Page Heading
 
-Build powerful extensions and integrations with our developer platform. Create custom tools, automate workflows, and seamlessly integrate with existing systems using our comprehensive APIs and SDKs.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
 ```
@@ -41,8 +41,8 @@ Build powerful extensions and integrations with our developer platform. Create c
 
 ![Hero image](../../../assets/cc-hero.png)
 
-# Extend Your Application
+# Page Heading
 
-Build powerful extensions and integrations with our developer platform. Create custom tools, automate workflows, and seamlessly integrate with existing systems using our comprehensive APIs and SDKs.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)

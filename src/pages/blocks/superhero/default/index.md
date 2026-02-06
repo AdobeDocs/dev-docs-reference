@@ -12,9 +12,9 @@ Basic hero used for Documentation pages.
 ```markdown
 <Superhero slots="heading, text" />
 
-# Developer Platform API
+# Page Heading
 
-Build powerful applications with our comprehensive API platform and services.
+This is a sample description text for the superhero block.
 
 ```
 
@@ -31,6 +31,6 @@ Build powerful applications with our comprehensive API platform and services.
 
 <Superhero slots="heading, text" />
 
-# Developer Platform API
+# Page Heading
 
-Build powerful applications with our comprehensive API platform and services.
+This is a sample description text for the superhero block.

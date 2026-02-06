@@ -14,9 +14,9 @@ Superhero half width variant with background image
 
 ![Platform illustration](../../../assets/cc-hero.png)
 
-# Build Extensions for Your Users
+# Page Heading
 
-Create powerful tools and integrations that extend platform functionality and help users accomplish more with seamless workflows.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
 * [View Examples](https://example.com/examples)
@@ -28,9 +28,9 @@ Create powerful tools and integrations that extend platform functionality and he
 
 ![Platform illustration](../../../assets/cc-hero.png)
 
-# Build Extensions for Your Users
+# Page Heading
 
-Create powerful tools and integrations that extend platform functionality and help users accomplish more with seamless workflows.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
 * [View Examples](https://example.com/examples)

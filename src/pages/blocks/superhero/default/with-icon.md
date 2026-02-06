@@ -12,15 +12,15 @@ Superhero default variant with icon.
 
 :adobe:
 
-# Developer Platform API
+# Page Heading
 
-Build powerful applications with our comprehensive API platform and services.
+This is a sample description text for the superhero block.
 ```
 
 <Superhero slots="icon, heading, text" />
 
 :adobe:
 
-# Developer Platform API
+# Page Heading
 
-Build powerful applications with our comprehensive API platform and services.
+This is a sample description text for the superhero block.

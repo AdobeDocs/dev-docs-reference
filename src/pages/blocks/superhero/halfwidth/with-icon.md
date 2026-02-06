@@ -14,9 +14,9 @@ Superhero half width variant with icon
 
 :adobe:
 
-# Extend Your Application
+# Page Heading
 
-Build powerful extensions and integrations with our developer platform. Create custom tools, automate workflows, and seamlessly integrate with existing systems using our comprehensive APIs and SDKs.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
 ```
@@ -27,8 +27,8 @@ Build powerful extensions and integrations with our developer platform. Create c
 
 :adobe:
 
-# Extend Your Application
+# Page Heading
 
-Build powerful extensions and integrations with our developer platform. Create custom tools, automate workflows, and seamlessly integrate with existing systems using our comprehensive APIs and SDKs.
+This is a sample description text for the superhero block.
 
 * [Get Started](https://example.com/getting-started)

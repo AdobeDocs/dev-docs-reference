@@ -41,20 +41,12 @@ Item 2 description
 
 ## Example
 
-<List slots="text1, text2" repeat="4" iconColor="#2ac3a2" icon="checkmark" variant="fullWidth" />
+<List slots="text1, text2" repeat="2" iconColor="#2ac3a2" icon="checkmark" variant="fullWidth" />
 
-Free tier available for development
+Item 1 title
 
-Volume pricing and discounts
+Item 1 description
 
-Access to comprehensive API suite
+Item 2 title
 
-Quick signup and credential creation
-
-Technical support included
-
-No credit card required
-
-Scalable for enterprise needs
-
-Built for high performance
+Item 2 description

@@ -42,18 +42,18 @@ When you're ready to get started, please follow these steps:
 
 **Steps to Preview Content**
 1. Add content and images to your page.
-![DevBiz Step 1](../../../assets/devbiz_step_1.png)
+![DevBiz Step 1](../../../assets/devbiz-step-1.png)
 2. When ready to preview, open up sidekick tool in browser.
-![DevBiz Step 2](../../../assets/devbiz_step_2.png)
+![DevBiz Step 2](../../../assets/devbiz-step-2.png)
 3. Click on Preview. 
-![DevBiz Step 3](../../../assets/devbiz_step_3.png)
+![DevBiz Step 3](../../../assets/devbiz-step-3.png)
 4. You will see in the preview mode what your page looks like.
-![DevBiz Step 4](../../../assets/devbiz_step_4.png)
+![DevBiz Step 4](../../../assets/devbiz-step-4.png)
 
 5. Go back to the Index file to make any changes you'd like. Repeat steps 3 and 4 to see those changes.
 
 6. When satisfied and after your Google Drive folder is connected to the Adobe Developer Website Fastly CDN to enable you to push to production and staging environments, you can then utilize the Sidekick tool to push the page to production. You must set the right side of the tool to Production. Then click on Publish. Your page will then be sent to production and live on the Adobe Developer Website. 
-![DevBiz Step 6](../../../assets/devbiz_step_6.png)
+![DevBiz Step 6](../../../assets/devbiz-step-6.png)
 
 ## How to stage content
 After submitting a Jira ticket requesting to be onboarded to DevBiz, two folders will be created. One for production and one for stage. The DevSite team will give you access to both Google Drives so you can publish to stage and production. 
@@ -61,7 +61,7 @@ After submitting a Jira ticket requesting to be onboarded to DevBiz, two folders
 ## Adding Pages and Editing Pages
 Follow these steps if you'd like to add pages to your google drive folder. 
 
-1. Create a new folder inside of your existing google drive folder and name it with the intended path for that page. Any google doc file that is added to the shared folder will live on a url path that matches the folder name and name of the document. For example, if I have a file named events under the folder app-builder, then the file's url will look like https://developer.adobe.com/app-builder/events.
+1. Create a new folder inside of your existing google drive folder and name it with the intended path for that page. Any google doc file that is added to the shared folder will live on a url path that matches the folder name and name of the document. For example, if I have a file named `index` in a folder named `events` under the folder `example`, then the file's url will look like `https://developer.adobe.com/example/events`
 2. Create or copy your index file and move it into that folder. Edit that google doc the same way. 
 3. Publish the same way you publish your main file. 
 

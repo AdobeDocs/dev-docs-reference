@@ -27,7 +27,6 @@ Description text.
 Description text.
 
 [Link text](https://example.com)
-
 ```
 
 ## Parameters
