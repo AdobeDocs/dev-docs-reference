@@ -29,9 +29,9 @@ Go to Actions > Deployment > Run Workflow > Select branch and stage environment.
 Debugging tips:
 
 * Check deploy logs to see if a page failed
-![DeployLogs](../../assets/deploy_logs.png)
+![DeployLogs](../../assets/deploy-logs.png)
 
 * Append '.md' or '.plain.html' to the page to inspect what made it to EDS
-![DeployLogs2](../../assets/dev_docs_append_md.png)
-![DeployLogs3](../../assets/dev_docs_append_md_2.png)
-![DeployLogs4](../../assets/dev_docs_append_md_3.png)
+![DeployLogs2](../../assets/dev-docs-append-md.png)
+![DeployLogs3](../../assets/dev-docs-append-md-2.png)
+![DeployLogs4](../../assets/dev-docs-append-md-3.png)

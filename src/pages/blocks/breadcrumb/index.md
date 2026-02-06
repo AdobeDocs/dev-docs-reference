@@ -42,7 +42,7 @@ hideBreadcrumbs: true
 ---
 ```
 
-![hide breadcrumb](../../assets/hide_breadcrumb.png)
+![hide breadcrumb](../../assets/hide-breadcrumb.png)
 
 ## Related
 

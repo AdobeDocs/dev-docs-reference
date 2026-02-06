@@ -61,8 +61,8 @@ EDS recently launched a new feature where content can live in GitHub repos.
 
 **Gatsby EDS Architecture:**
 
-![GatsbyEDSArchitecture](assets/gatsby_eds_architecture.png)
+![GatsbyEDSArchitecture](assets/gatsby-eds-architecture.png)
 
 **Next Gen Architecture:**
 
-![NextGenArchitecture](assets/next_gen_architecture.png)
+![NextGenArchitecture](assets/next-gen-architecture.png)

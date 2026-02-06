@@ -42,18 +42,18 @@ When you're ready to get started, please follow these steps:
 
 **Steps to Preview Content**
 1. Add content and images to your page.
-![DevBiz Step 1](../../../assets/devbiz_step_1.png)
+![DevBiz Step 1](../../../assets/devbiz-step-1.png)
 2. When ready to preview, open up sidekick tool in browser.
-![DevBiz Step 2](../../../assets/devbiz_step_2.png)
+![DevBiz Step 2](../../../assets/devbiz-step-2.png)
 3. Click on Preview. 
-![DevBiz Step 3](../../../assets/devbiz_step_3.png)
+![DevBiz Step 3](../../../assets/devbiz-step-3.png)
 4. You will see in the preview mode what your page looks like.
-![DevBiz Step 4](../../../assets/devbiz_step_4.png)
+![DevBiz Step 4](../../../assets/devbiz-step-4.png)
 
 5. Go back to the Index file to make any changes you'd like. Repeat steps 3 and 4 to see those changes.
 
 6. When satisfied and after your Google Drive folder is connected to the Adobe Developer Website Fastly CDN to enable you to push to production and staging environments, you can then utilize the Sidekick tool to push the page to production. You must set the right side of the tool to Production. Then click on Publish. Your page will then be sent to production and live on the Adobe Developer Website. 
-![DevBiz Step 6](../../../assets/devbiz_step_6.png)
+![DevBiz Step 6](../../../assets/devbiz-step-6.png)
 
 ## How to stage content
 After submitting a Jira ticket requesting to be onboarded to DevBiz, two folders will be created. One for production and one for stage. The DevSite team will give you access to both Google Drives so you can publish to stage and production. 

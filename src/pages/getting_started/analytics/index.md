@@ -16,7 +16,7 @@ The migration to AEP Web SDK will change how you can access and view data for Ad
 Steps to request access to Adobe Analytics (Must be logged onto VPN): 
 
 1. Visit [https://gme.corp.adobe.com/](https://gme.corp.adobe.com/) and request access to Adobe Analytics and the AEP Access Request. 
-![Analytics 7](../../assets/analytics_7.png)
+![Analytics 7](../../assets/analytics-7.png)
 
 2. Fill out this intake process requesting access to Adobe Corp and/or CJA with a stated use case of accessing data for the specific product team on the Global Production Suite of Adobe Analytics.
 [https://wiki.corp.adobe.com/display/DATAPLG/Use+Case+Intake+Process](https://wiki.corp.adobe.com/display/DATAPLG/Use+Case+Intake+Process)
@@ -31,23 +31,23 @@ Customer Journey Analytics lets you control how you connect your online and offl
 2. [Adobe Analytics Request Form](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmarketingtech.corp.adobe.com%2Fuser%2Frequestform&data=05%7C02%7Cpahyde%40adobe.com%7C3a1d0370919c4bc0312d08dce30e3a5e%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638634897458995447%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=BoxUF12NryJAvHcdjgXpUufhiCW5PTpMYBtokJwbTRs%3D&reserved=0)
     - Business Justification: 
       - Business Justification: The Adobe Developer Website (http://developer.adobe.com/)  empowers product teams to build 3rd party Developer Experiences. The platform currently supports 60+ product team pages and 70+ microsites, with 6.9 million page views per year. I need access to the Customer Journey Analytics so we can access data and utilize data to make business decisions and assess trends so we may improve the Developer Experience for developers.
-![Analytics 1](../../assets/anaylitics_1.png)
+![Analytics 1](../../assets/anaylitics-1.png)
 3. Once you receive an email granting you access to Customer Journey Analytics, click on the link and it will take you to CJA Workspace. 
-![Analytics 2](../../assets/anaylitics_2.png)
+![Analytics 2](../../assets/anaylitics-2.png)
 
 
 ## Helpful Tips
 - How to Access CJA Workspace
   - Click on Get Started. Sign in with your Adobe email. And you will begin at CJA Analytics Workspace Homepage. 
-![Analytics 3](../../assets/anaylitics_3.png)
+![Analytics 3](../../assets/anaylitics-3.png)
 - Select Adobe Corp Org
-![Analytics 4](../../assets/anaylitics_4.png)
+![Analytics 4](../../assets/anaylitics-4.png)
 - Create a new Workspace
   - Create a new project and select reporting suite. 
   - Currently, XLG Stage will enable you to track any page on developer-stage.adobe.com 
   - After 3/27/2025, you can select Global Production to access any production pages on developer.adobe.com
-![Analytics 5](../../assets/anaylitics_5.png)
+![Analytics 5](../../assets/anaylitics-5.png)
 - How to find simple data
   - After selecting the appropriate reporting suite, you can select dimension and metrics to start building through any of Adobe Analytics capabilities. 
   - Please visit [this](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) page to learn more about the different options available. 
-![Analytics 6](../../assets/anaylitics_6.png)
+![Analytics 6](../../assets/anaylitics-6.png)

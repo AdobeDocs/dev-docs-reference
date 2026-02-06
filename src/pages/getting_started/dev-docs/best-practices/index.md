@@ -29,9 +29,9 @@ description: Best practices and troubleshooting tips for migrating your document
     - except for anchor links that are in the current page (e.g. `[description](#anchor)`)
 - **Config paths**:
   - Use absolute prod path for home 
-    - e.g. `[Adobe Express Add-ons](https://developer.adobe.com/express/add-ons)`
+    - e.g. `[Home](https://developer.adobe.com/your-product/)`
   - Relative paths should be relative to path prefix and not start with "/"
-    - e.g.  `[Add-on UI SDK](references/addonsdk/index.md)`
+    - e.g.  `[Getting Started](guides/getting-started/index.md)`
   - Landing page (the page of the path-prefix) will not have side nav.
   - On any parent section page (like `/guides/`, `/community/`, etc.), the sidebar navigation automatically displays all the child pages within that section. For example, in the config.md, if there is any subpages (eg. /guides/code-contribution) which is within the same parent section, the sidenav will show up.  This contextual sidebar appears for any page that has sub-pages, helping users easily navigate through related content without having to go back to higher-level pages.
     - Example: [https://developer-stage.adobe.com/dev-docs-reference/blocks/](https://developer-stage.adobe.com/dev-docs-reference/blocks/)
