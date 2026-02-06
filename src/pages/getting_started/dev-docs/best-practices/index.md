@@ -58,13 +58,15 @@ description: Best practices and troubleshooting tips for migrating your document
   - [Use fragment](https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/main/src/pages/fragment.md?plain=1#L5)
   - Imports are now fragments. The connector will ensure imports are now fragments. 
 - New Block Names and Replacements::
-  - Replace "Hero" default variant with "Superhero" default variant.
-  - Replace "Hero" halfwidth variant with "Superhero" halfWidth variant.
-  - Replace "Hero" fullwidth variant with "Superhero" centered variant.
-  - Replace "Teaser" with "Announcement".
+  - Replace "Hero" default variant with "Superhero" default variant
+  - Replace "Hero" halfwidth variant with "Superhero" halfWidth variant
+  - Replace "Hero" fullwidth variant with "Superhero" centered variant
+  - Replace "Teaser" with "Announcement"
   - Replace "DCSummary" with "Summary"
   - Replace "ResourceCard" with "InfoCard"
-  - Replace "TextBlock" with "Cards".
+  - Replace "TextBlock" with "Cards" or "Columns"
+  - Replace "AnnouncementBlock" with "Announcement"
+  - In "InlineAlert" block replace "header" slot with "heading" slot
 - Don't nest blocks:
   - Don't nest a block within another block. For example, a code block cannot be within a table block.
   - [Example](https://github.com/AdobeDocs/app-builder/commit/e464b3e8bb853c8ac255231f24f608e4d86d7951)
