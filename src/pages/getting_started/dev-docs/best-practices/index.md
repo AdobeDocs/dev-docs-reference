@@ -65,7 +65,7 @@ description: Best practices and troubleshooting tips for migrating your document
       - Embed syntax doesn't call for angle brackets around the url: 
   - Replace `openAPISpec` with `RedoclyAPIBlock`:
     - `<RedoclyAPIBlock src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}" />`
-      - notice path is
+notice path includes `pathPrefix` but excludes `static`
         - petstore.json is in static folder!
   - `---`, `* * *`, nor `<hr>` are supported as a horizontal ruler.  Replace with `<HorizontalLine />`
   - Replace `Details` HTML element vs. `Details` EDS block:
