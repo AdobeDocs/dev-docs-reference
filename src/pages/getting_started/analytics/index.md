@@ -16,7 +16,7 @@ The migration to AEP Web SDK will change how you can access and view data for Ad
 Steps to request access to Adobe Analytics (Must be logged onto VPN): 
 
 1. Visit [https://gme.corp.adobe.com/](https://gme.corp.adobe.com/) and request access to Adobe Analytics and the AEP Access Request. 
-![Analytics 7](../../assets/anaylitics_7.png)
+![Analytics 7](../../assets/analytics_7.png)
 
 2. Fill out this intake process requesting access to Adobe Corp and/or CJA with a stated use case of accessing data for the specific product team on the Global Production Suite of Adobe Analytics.
 [https://wiki.corp.adobe.com/display/DATAPLG/Use+Case+Intake+Process](https://wiki.corp.adobe.com/display/DATAPLG/Use+Case+Intake+Process)

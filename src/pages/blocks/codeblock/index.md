@@ -28,6 +28,24 @@ Display multiple related code snippets with headings using the `<CodeBlock>` com
 }
 ```
 ````
+Ex: 
+<CodeBlock slots="heading, code" repeat="2" languages="JSON, JSON" />
+
+#### Request
+
+```json
+{
+  "name": "example"
+}
+```
+
+#### Response
+
+```json
+{
+  "status": "success"
+}
+```
 
 ## Parameters
 

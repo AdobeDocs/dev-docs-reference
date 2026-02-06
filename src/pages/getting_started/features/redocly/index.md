@@ -12,3 +12,5 @@ The Redocly API Block enables product teams to generate and display interactive 
 The component offers customization options including adjustable right panel width (defaults to 500px) and typography controls for font family and size, ensuring flexibility to match specific product needs. While local development testing is limited due to how Redocly API works—requiring teams to temporarily deploy to stage for testing—the component supports best practices like using Redocly's `x-summary` specification extension for long API response descriptions to prevent text truncation and layout issues. Teams can also implement full-width pages using custom layouts, providing maximum flexibility for presenting complex API documentation. This solution streamlines the process of publishing professional, interactive API references while maintaining the cohesive Adobe Developer Website experience.
 
 ## Steps to take to implement Redocly and learn more about Redocly
+
+Go to our [Redocly Block information](../../../blocks/redoclyapiblock/redocly-api-block-default.md)

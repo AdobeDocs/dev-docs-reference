@@ -61,7 +61,7 @@ After submitting a Jira ticket requesting to be onboarded to DevBiz, two folders
 ## Adding Pages and Editing Pages
 Follow these steps if you'd like to add pages to your google drive folder. 
 
-1. Create a new folder inside of your existing google drive folder and name it with the intended path for that page. Any google doc file that is added to the shared folder will live on a url path that matches the folder name and name of the document. For example, if I have a file named events under the folder app-builder, then the file's url will look like https://developer.adobe.com/app-builder/events.
+1. Create a new folder inside of your existing google drive folder and name it with the intended path for that page. Any google doc file that is added to the shared folder will live on a url path that matches the folder name and name of the document. For example, if I have a file named `index` in a folder named `events` under the folder `example`, then the file's url will look like `https://developer.adobe.com/example/events`
 2. Create or copy your index file and move it into that folder. Edit that google doc the same way. 
 3. Publish the same way you publish your main file. 
 

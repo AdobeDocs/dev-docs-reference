@@ -33,8 +33,6 @@ Description of the second feature.
 Description of the third feature.
 
 [Learn more](https://example.com)
-
-
 ```
 
 ## Example

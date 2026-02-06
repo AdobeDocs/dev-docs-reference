@@ -25,7 +25,6 @@ Description of the first feature.
 Description of the second feature.
 
 [Learn more](https://example.com)
-
 ```
 
 ## Example
