@@ -64,7 +64,7 @@ description: Best practices and troubleshooting tips for migrating your document
       - Media and Embed were dupes. Only Embed exists now
       - Embed syntax doesn't call for angle brackets around the url: 
   - Replace `openAPISpec` with `RedoclyAPIBlock`:
-    - `<RedoclyAPIBlock src="path/to/openapi.yaml" />`
+    - `<RedoclyAPIBlock src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}" />`
       - notice path is
         - `/{pathPrefix}/{pathToRelativeFile}`
         - petstore.json is in static folder!
