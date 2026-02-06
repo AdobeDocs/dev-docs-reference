@@ -23,8 +23,7 @@ In order to use local development, authors must have these three repos cloned to
 3. In your content repo, switch to the branch that you want to preview locally
 4. In each repo, run the command `npm run dev`
 5. In your browser, navigate to `http://localhost:3000/yourPathPrefix` 
-
-Changes made locally in your content repos `/src/pages/` should update in the browser after you manually reload the page.
+6. Manually reload the page to see any subsequent changes you make to your files
 
 ### Video
 
@@ -36,4 +35,8 @@ Using local development:
 <Embed slots="video" />
 https://main--adp-devsite-stage--adobedocs.aem.page/devsite/local-dev-part-2.mp4
 
-https://main--adp-devsite-stage--adobedocs.aem.page/devsite/local-dev-part-2.mp4
+## Best Practices
+
+*   **Content Location:** Place content in `/src/pages/`, except for Redocly API JSON files, which must reside in `/static/` or outside the `/src/pages/`.
+*   **The deployed stage environment (developer-stage.adobe.com) is the Source of Truth:** Local development provides a fast feedback loop while drafting content, but it may not perfectly replicate the final environment. Always use the stage environment for validation before publishing.
+*   **Ongoing Refinements:** We are continuously improving the local development experience. If you notice any discrepancies between local and stage, please report them to the DevSite team.
