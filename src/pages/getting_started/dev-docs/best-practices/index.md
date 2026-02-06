@@ -66,7 +66,6 @@ description: Best practices and troubleshooting tips for migrating your document
   - Replace `openAPISpec` with `RedoclyAPIBlock`:
     - `<RedoclyAPIBlock src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}" />`
       - notice path is
-        - `/{pathPrefix}/{pathToRelativeFile}`
         - petstore.json is in static folder!
   - `---`, `* * *`, nor `<hr>` are supported as a horizontal ruler.  Replace with `<HorizontalLine />`
   - Replace `Details` HTML element vs. `Details` EDS block:
