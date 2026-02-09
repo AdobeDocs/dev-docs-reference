@@ -24,7 +24,7 @@ In order to use local development, authors must have these three repos cloned to
 4. In each repo, run the command `npm run dev`
 5. In your browser, navigate to `http://localhost:3000/yourPathPrefix` 
 6. Manually reload the page to see any subsequent changes you make to your files
-    - To see `config.md` changes reflected on side nav, restart the local servers, or open a new incognito tab (which clears `sessionStorage`)
+    - To see `config.md` changes reflected on side nav, open a new tab and paste in the URL
 
 ### Video
 
