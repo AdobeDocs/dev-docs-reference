@@ -42,5 +42,18 @@ If you have external URLs that should be excluded from dead link checking, you c
 }
 ```
 
+**Skipping Frontmatter Paths**
+
+If you have frontmatter paths that should be excluded from linter checking to avoid unnecessary warnings, you can configure paths to skip in your `package.json`:
+```
+{
+ "lint": {
+    "skipFrontmatterPaths": [
+      "src/pages/fragments/"
+    ]
+ }
+}
+```
+
 ### Troubleshooting
 If pages are not showing up as expected, check lint errors or warnings to identify potential issues.
