@@ -1,14 +1,11 @@
 ---
-title: Hide Edit in GitHub and Other Page Actions
-description: Control the visibility of the Edit in GitHub link, Log an issue button, and Copy Markdown button using hideEditInGitHub, hideLogIssue, and hideCopyMarkDown frontmatter options.
-hideEditInGitHub: true
-hideLogIssue: true
-hideCopyMarkDown: true
+title: Page Actions
+description: Automatically generated page action links and buttons: **Edit in GitHub**, **Log an issue**, and **Copy as Markdown**.
 ---
 
-# Hide Page Actions
+# Page Actions
 
-Control the visibility of page action links and buttons: **Edit in GitHub**, **Log an issue**, and **Copy Markdown**. Use these frontmatter options on a per-page basis when you want to hide one or more of these actions.
+Auto-generated page action links and buttons: **Edit in GitHub**, **Log an issue**, and **Copy as Markdown**.
 
 ## Overview
 
@@ -16,7 +13,7 @@ By default, documentation pages can show:
 
 - **Edit in GitHub**: Link to open the source file on GitHub and propose edits
 - **Log an issue**: Button to report a problem with the page (GitHub or your issue tracker)
-- **Copy Markdown**: Button to copy the page content as Markdown
+- **Copy as Markdown**: Button to copy the page content as Markdown
 
 Use the options below to hide any of these actions for specific pages.
 
@@ -26,7 +23,7 @@ Consider hiding these actions when:
 
 - **Edit in GitHub**: Restricted content, auto-generated pages, sensitive docs, legal/compliance pages, or content that requires internal review before edits
 - **Log an issue**: Pages not open for public feedback, auto-generated content, or internal-only docs where issues are handled elsewhere
-- **Copy Markdown**: Pages where copying source is restricted, sensitive content, or minimal layouts where you want less clutter
+- **Copy as Markdown**: Pages where copying source is restricted, sensitive content, or minimal layouts where you want less clutter
 
 You can hide any combination of the three; each option is independent.
 
@@ -39,7 +36,7 @@ Add one or more properties to your page's frontmatter:
 title: Your Page Title
 hideEditInGitHub: true
 hideLogIssue: true
-hideCopyMarkDown: true
+hideCopyMarkdown: true
 ---
 ```
 
@@ -49,7 +46,7 @@ hideCopyMarkDown: true
 |-----------|------|-------------|
 | **hideEditInGitHub** | Boolean | When `true`, hides the "Edit in GitHub" link. Omit or `false` to show it (default). |
 | **hideLogIssue** | Boolean | When `true`, hides the "Log an issue" button. Omit or `false` to show it (default). |
-| **hideCopyMarkDown** | Boolean | When `true`, hides the "Copy Markdown" button. Omit or `false` to show it (default). |
+| **hideCopyMarkdown** | Boolean | When `true`, hides the "Copy as Markdown" button. Omit or `false` to show it (default). |
 
 ## Examples
 
@@ -71,12 +68,12 @@ hideLogIssue: true
 ---
 ```
 
-### Hide only Copy Markdown
+### Hide only Copy as Markdown
 
 ```yaml
 ---
 title: Read-Only Page
-hideCopyMarkDown: true
+hideCopyMarkdown: true
 ---
 ```
 
@@ -87,13 +84,13 @@ hideCopyMarkDown: true
 title: Locked Down Page
 hideEditInGitHub: true
 hideLogIssue: true
-hideCopyMarkDown: true
+hideCopyMarkdown: true
 ---
 ```
 
 ## Example
 
-This page has all three options enabled. The "Edit in GitHub" link and the "Log an issue" and "Copy Markdown" buttons are not visible in the page action area.
+This page has all three options enabled. The "Edit in GitHub" link and the "Log an issue" and "Copy as Markdown" buttons are not visible in the page action area.
 
 ## Best Practices
 
