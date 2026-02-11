@@ -7,6 +7,8 @@ description: Automatically generated page action links and buttons: **Edit in Gi
 
 Auto-generated page action links and buttons: **Edit in GitHub**, **Log an issue**, and **Copy as Markdown**.
 
+![page actions](../../assets/page-actions.png)
+
 ## Overview
 
 By default, documentation pages can show:
