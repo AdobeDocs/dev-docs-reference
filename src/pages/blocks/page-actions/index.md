@@ -17,9 +17,7 @@ By default, documentation pages can show:
 - **Log an issue**: Button to report a problem with the page (GitHub or your issue tracker)
 - **Copy as Markdown**: Button to copy the page content as Markdown
 
-Use the options below to hide any of these actions for specific pages.
-
-## When to Use
+## When to Hide
 
 Consider hiding these actions when:
 
@@ -27,11 +25,10 @@ Consider hiding these actions when:
 - **Log an issue**: Pages not open for public feedback, auto-generated content, or internal-only docs where issues are handled elsewhere
 - **Copy as Markdown**: Pages where copying source is restricted, sensitive content, or minimal layouts where you want less clutter
 
-You can hide any combination of the three; each option is independent.
 
-## Syntax
 
-Add one or more properties to your page's frontmatter:
+## How to hide
+To hide one or more of these actions on a page, add the corresponding options to that page’s frontmatter. Each option is independent, so you can combine them as needed.
 
 ```yaml
 ---
