@@ -48,10 +48,29 @@ Indent items to create dropdowns:
     - [Documentation](docs/index.md)
 ```
 
+## Buttons
+
+You can add an optional **buttons** section to show action buttons in the top navigation (e.g., Code Playground, Console). Each button is a link followed by optional identifiers.
+
+### Syntax
+
+```yaml
+- buttons:
+  - [Code Playground](https://www.adobe.com/go/addon-playground?session=saved) playgroundId primary
+  - [Console](https://developer.adobe.com/console/) consoleId
+```
+
+### Button identifiers
+
+- **playgroundId**: Identifies the button as a playground (for Code Playground).
+- **primary**: Styles this button as the primary (e.g., blue) button. Typically applied to the first action button.
+- **consoleId**: Identifies the button as the Console link.
+
+The **Console** button may always appear in the top nav regardless of the `buttons` section; confirm behavior in your environment. The first button in your list is typically styled as the primary button and the second automatically takes a secondary button style.
+
 ## Paths
 
 All paths in `config.md` are relative to `/src/pages/`. External links require full paths (e.g., `https://example.com`).
-
 
 ## Related
 

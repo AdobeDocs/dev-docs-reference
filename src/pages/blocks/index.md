@@ -34,6 +34,10 @@ Top navigation bar.
 
 Auto-generated navigation trail from your TopNav and SideNav.
 
+### [Hide Page Actions](hide-page-actions/index.md)
+
+Control visibility of Edit in GitHub, Log an issue, and Copy Markdown per page.
+
 ### [Footer](footer/index.md)
 
 Site footer (centrally managed).
