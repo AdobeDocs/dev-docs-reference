@@ -30,7 +30,7 @@
         - [SideNav](/blocks/sidenav/index.md)
         - [TopNav](/blocks/topnav/index.md)
         - [Breadcrumbs](/blocks/breadcrumb/index.md)
-        - [Hide Page Actions](/blocks/hide-page-actions/index.md)
+        - [Page Actions](/blocks/page-actions/index.md)
         - [NextPrev](/blocks/nextprev/index.md)
         - [Footer](/blocks/footer/index.md)
         - [Site-Wide Banner](/blocks/site-wide-banner/index.md)

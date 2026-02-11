@@ -1,12 +1,12 @@
 ---
-title: Hide Edit in GitHub and Other Page Actions
+title: Page Actions
 description: Control the visibility of the Edit in GitHub link, Log an issue button, and Copy Markdown button using hideEditInGitHub, hideLogIssue, and hideCopyMarkDown frontmatter options.
 hideEditInGitHub: true
 hideLogIssue: true
 hideCopyMarkDown: true
 ---
 
-# Hide Page Actions
+# Page Actions
 
 Control the visibility of page action links and buttons: **Edit in GitHub**, **Log an issue**, and **Copy Markdown**. Use these frontmatter options on a per-page basis when you want to hide one or more of these actions.
 
