@@ -127,7 +127,8 @@ description: Best practices and troubleshooting tips for migrating your document
     ```
     - EDS does not support Details HTML element. Use the Details EDS block instead.
 - **Fragments**:
-  - [Use fragment](https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/main/src/pages/fragment.md?plain=1#L5)
+  - [Use fragment](../../../blocks/fragment/index.md)
+  - [Example](https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/main/src/pages/fragment.md?plain=1#L5)
   - Imports are now fragments. The connector will ensure imports are now fragments. 
 - **SiteWidebanner**:
   - Example: Add a file named site-wide-banner.json in the path:
