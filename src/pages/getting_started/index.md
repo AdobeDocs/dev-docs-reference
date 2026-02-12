@@ -21,8 +21,7 @@ Welcome to the Adobe Developer Website! This section will help you understand th
 
 | Page | Description |
 |------|-------------|
-| [DevDocs Migration Guide](dev-docs/index.md) | Step-by-step guide for migrating your GitHub-based documentation repository to EDS |
-| [DevDocs Onboarding](dev-docs/onboarding/index.md) | Getting started with DevDocs, including GitHub setup and repository creation |
+| [DevDocs Onboarding](dev-docs/index.md) | Getting started with DevDocs, including GitHub setup and repository creation |
 | [DevDocs Best Practices](dev-docs/best-practices/index.md) | Best practices and troubleshooting tips for migration |
 
 ### DevBiz (Google Drive-based Marketing Pages)

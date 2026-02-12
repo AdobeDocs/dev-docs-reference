@@ -83,6 +83,10 @@ Multi-column layouts.
 - [With Image](columns/columns-with-image.md)
 - [With Video](columns/columns-with-video.md) 
 
+### [Details](details/index.md)
+
+Expandable/collapsible sections for FAQs and workflows.
+
 ### [Discover Block](discoverblock/index.md)
 
 Featured content showcase.
@@ -126,6 +130,10 @@ Styled lists with icons.
 ### [On This Page](onthispage/index.md)
 
 Auto-generated table of contents from H2 and H3 headings.
+
+### [Product Card](product-card/index.md)
+
+Display product information in a card format.
 
 ### [Redocly API Block](redoclyapiblock/redocly-api-block-default.md)
 

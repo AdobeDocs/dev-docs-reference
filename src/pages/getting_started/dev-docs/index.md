@@ -1,37 +1,47 @@
 ---
-title: DevDocs Migration Guide
-description: Step-by-step guide for migrating your GitHub-based documentation repository from Gatsby to Edge Delivery Services (EDS).
+title: DevDocs Onboarding
+description: Getting started with DevDocs on the Adobe Developer Website, including GitHub setup, repository creation, and content authoring basics.
 ---
 
-# Things to know as you migrate to DevDocs
+# Dev Docs Onboarding
 
-Congratulations! The Next Generation Developer Website is going to improve the performance of your microsite, analytics, accessibility and mobile responsiveness. 
+## The Basics for DevDocs
+- All content resides in the public [https://github.com/orgs/AdobeDocs/](https://github.com/orgs/AdobeDocs/) repo.
+- A (non-corp) GitHub account is required to author content. (What that means is that the public repositories that power the Developer Website are not behind the firewall or on the .corp github that internal adobe users use.  The repo lives in the non-corp github. There's no cross over between corp and non-corp.You can use whatever email you want with non-corp github, as long as you have a username on github.) 
+- Content is authored using Markdown.
+  - We are researching additional authoring options for the future
+- All authors need to sign the Adobe Contributor License Agreement (CLA)
+- Questions & Support: `#adobe-developer-website`
 
-### DevDocs - Steps to take to migrate your Repo to EDS
-
-| Action | Notes |
-|--------|-------|
-| Ensure that all updates have been committed and the repo is ready to be converted to EDS.  |  |
-| You must be a contributor and have access to the repo you would like to convert.  | Both Gatsby and EDS will utilize the same Github Repo under Adobe Docs and EDS will start with a branch on top of your existing pages.  |
-|DevSite team will create a branch in your repo - EDS-Migration npm run install| We will update your package.json file that add utility scripts in the branch |
-| Generate config file: npm run buildNavigation | This generates config.md from gatsby-config.js |
-| Build redirections: npm run buildRedirections | Redirects Gatsby bookmarks to EDS |
-| Make file system case-sensitive: $ git config core.ignorecase false | Only kebab-case files can be deployed to EDS. If core.ignorecase true, renaming a file from uppercase to lowercase won't be detected as a change by Github. |
-| Add file extensions to relative links: npm run normalizeLinks | Required by DevDocs for top nav, side nav, breadcrumbs, next-prev nav, and links in general |
-| Renames files and associated links to kebab-case: npm run renameFiles| Required by EDS to deploy successfully |
-| Fix dead links: npm run lint | This will prevent page 404s |
-| If you run into errors, look at Best practices for migration | |
-| Let us know on the slack channel #adobe-developer-website if you have any issues or any questions! | |
-
-### Test on stage:
-Go to Actions > Deployment > Run Workflow > Select branch and stage environment. Also check Force deploy all files
-
-Debugging tips:
-
-* Check deploy logs to see if a page failed
-![DeployLogs](../../assets/deploy-logs.png)
-
-* Append '.md' or '.plain.html' to the page to inspect what made it to EDS
-![DeployLogs2](../../assets/dev-docs-append-md.png)
-![DeployLogs3](../../assets/dev-docs-append-md-2.png)
-![DeployLogs4](../../assets/dev-docs-append-md-3.png)
+## How to create a website utilizing DevDocs on the Adobe Developer Website
+- **Getting Started**:
+  - Before you begin, ensure you have:
+    - A GitHub account (different from your git.corp.adobe.com account)
+    - Your team's GitHub usernames or emails for content authors/owners
+    - Learn About the System and familiarize yourself with the Adobe Developer Website DevDocs reference library 
+- **Submit a JIRA ticket**:
+  - Submit a [JIRA ticket](https://jira.corp.adobe.com/secure/RapidBoard.jspa?rapidView=31350&projectKey=DEVSITE&view=planning&issueLimit=100) to get started. Include the following on the JIRA ticket: 
+    - Team: 
+    - Primary Contact(s): 
+    - Primary Contact GitHub account(s)(not Corp GitHub): 
+    - Contributors:
+    - Contributor GitHub accounts:
+    - Desired Repository Name(s):
+    - Desired Path Prefix:
+      - The pathprefix defines the URL for their microsite, e.g.  https://developer-dev.adobe.com/my-path-prefix/. It’s usually the same as repo name (but not always)
+      - Some repos where they differ: pathPrefix: “/developer-console/docs”, repo: “adobe-dev-console”,`
+- **What happens next:**
+  - Engineering will process your request and set up your team and repositories.
+  - If more information is needed, please watch the JIRA ticket for comments. 
+  - Next Steps: 
+    1. Check your email or GitHub notifications for an invite to join the [AdobeDocs organization](https://github.com/orgs/AdobeDocs/teams) 
+                        Important: Explicitly accept the invite to gain access. The invite will only be valid for 7 days. 
+    2. Wait for confirmation that you've been added to the organization
+- **For New Teams**: 
+  - Create a new team with your direct contacts as "Maintainers"
+  - Create a sub-team for content authors
+  - Set up team permissions so maintainers can add/remove content authors
+  - Create and configure repository(ies) for your team
+- **Start Writing Content**:
+  - Once your repository is set up, you can begin creating content. See DevDocs Reference Library sections on [how to work on your local machine](../../localdev/index.md), [how to deploy](../../deploy/index.md), [what content and configuration blocks we offer](../../blocks/index.md), and [best practices to make sure you are using the EDS best practices](./best-practices/index.md)
+  - Note: Engineering handles all repository configuration and setup. As a content author, you only need to focus on writing, building and deploying your content. 
