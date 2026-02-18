@@ -98,6 +98,7 @@ description: Best practices and troubleshooting tips for migrating your document
   - In [InlineAlert](../../../blocks/inline-alert/index.md) block replace `header` slot with `heading` slot
   - Remove extra `Accordion` tags and only use: [AccordionItem](../../../blocks/accordion/index.md) and rearrange so header is not in the tag
   - Replace `ListBlock` with [List](../../../blocks/list/index.md)
+  - Replace `TabsBlock` with [Tab](../../../blocks/tab/index.md)
   - Replace `Media` with [Embed](../../../blocks/embed/index.md). `Embed` urls shouldn't be wrapped in angle brackets `< >`:
     - example: `<Embed slots="video"/>` not -> `<Media slots="video"/>`
     - Why:
