@@ -5,16 +5,30 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
-## 2/12/26 EDS Release:
-- **Fix:** [devsite-2109](https://jira.corp.adobe.com/browse/DEVSITE-2109) change header description look. Test: https://developer-stage.adobe.com/express/embed-sdk/docs/v4/shared/src/error/cc-everywhere-error/classes/cc-everywhere-error
-- **Fix:** loading order, loading multiple analytics and ims wasn't loading correctly. Loading analytics right away Hard to test Testing https://stage--adp-devsite-stage--adobedocs.aem.page/app-builder/docs/guides/
-- **Fix:** [devsite-2172](https://jira.corp.adobe.com/browse/DEVSITE-2172) : Add prism grammars for kotlin and swift - Test: http://stage--adp-devsite-stage--adobedocs.aem.page/github-actions-test/test/devsite-2172/
+## 2/19/26 EDS Release:
+- **Fix:** update how to load the title
+  - [DEVSITE-2101](https://jira.corp.adobe.com/browse/DEVSITE-2101)
+- **Fix:** header clicking issue
+  - [DEVSITE 2198](https://jira.corp.adobe.com/browse/DEVSITE-2198)
+- **Feat:** grey fill on feedback button hover
+  - [DEVSITE-2090](https://jira.corp.adobe.com/browse/DEVSITE-2090)
+- **Fix:** remove extra loading functions with privacy
 
-https://jira.corp.adobe.com/browse/DEVSITE-2172
-GetCredential Fixes:
-- **Fix:** [devsite-2163](https://jira.corp.adobe.com/browse/DEVSITE-2163) - getCredential Initial Org Id Error
-- **Fix:** [devsite-2164](https://jira.corp.adobe.com/browse/DEVSITE-2164) - hide log issue & copy markdown
-- **Fix:** [devsite -2165](https://jira.corp.adobe.com/browse/DEVSITE-2165) - stageTemplateDid key is added for testing.
+
+## 2/12/26 EDS Release:
+- **Fix:** change header description look
+  - [DEVSITE-2109](https://jira.corp.adobe.com/browse/DEVSITE-2109)
+- **Fix:** loading order, loading multiple analytics and ims wasn't loading correctly
+- **Fix:** add prism grammars for kotlin and swift
+  - [DEVSITE-2172](https://jira.corp.adobe.com/browse/DEVSITE-2172)
+
+- GetCredential Fixes:
+  - **Fix:** getCredential Initial Org Id Error
+    - [DEVSITE-2163](https://jira.corp.adobe.com/browse/DEVSITE-2163)
+  - **Fix:** hide log issue & copy markdown
+    - [DEVSITE-2164](https://jira.corp.adobe.com/browse/DEVSITE-2164)
+  - **Fix:** stageTemplateDid key is added for testing.
+    - [DEVSITE -2165](https://jira.corp.adobe.com/browse/DEVSITE-2165)
 
 ## 2/5/26 EDS Release:
 
