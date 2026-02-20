@@ -67,8 +67,6 @@ You can add an optional **buttons** section to show action buttons in the top na
 
 The **Console** button may always appear in the top nav regardless of the `buttons` section; confirm behavior in your environment. The first button in your list is typically styled as the primary button and the second automatically takes a secondary button style.
 
-The first button is styled as primary, the rest as secondary.
-
 ## Paths
 
 All paths in `config.md` are relative to `/src/pages/`. External links require full paths (e.g., `https://example.com`).
