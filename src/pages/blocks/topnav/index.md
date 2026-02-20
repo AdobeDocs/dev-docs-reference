@@ -56,17 +56,18 @@ You can add an optional **buttons** section to show action buttons in the top na
 
 ```yaml
 - buttons:
-  - [Code Playground](https://www.adobe.com/go/addon-playground?session=saved) playgroundId primary
+  - [Code Playground](https://www.adobe.com/go/addon-playground?session=saved) playgroundId
   - [Console](https://developer.adobe.com/console/) consoleId
 ```
 
 ### Button identifiers
 
 - **playgroundId**: Identifies the button as a playground (for Code Playground).
-- **primary**: Styles this button as the primary (e.g., blue) button. Typically applied to the first action button.
 - **consoleId**: Identifies the button as the Console link.
 
 The **Console** button may always appear in the top nav regardless of the `buttons` section; confirm behavior in your environment. The first button in your list is typically styled as the primary button and the second automatically takes a secondary button style.
+
+The first button is styled as primary, the rest as secondary.
 
 ## Paths
 
