@@ -38,7 +38,6 @@ description: Best practices and troubleshooting tips for migrating your document
   - Relative paths should be relative to path prefix
   - Relative links should include file name and extension (ex: `index.md` or other `.md` file)
     - except for anchor links that are in the current page (e.g. `[description](#anchor)`)
-    - note: anchor links don't work in local development - deploy to stage to test
   - To open link as external, use the query string `?aio_external` in your URL:
     - Example: [https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/main/src/pages/test/test-hr-0.md?plain=1#L13](https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/main/src/pages/test/test-hr-0.md?plain=1#L13)
     - This will have to open the external link manually.
