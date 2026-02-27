@@ -18,4 +18,20 @@ To use videos in blocks that accept video attributes, you need to provide a URL.
 
 **YouTube**: Upload videos to YouTube. This option has no time limit restrictions.
 
+## I'm getting a warning about "always-auth" when running npm commands
 
+If you see this warning when running `npm install`, `npm run dev`, or other npm commands:
+
+```
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm.
+```
+
+This means your local npm configuration has the deprecated `always-auth` option set. This is not caused by the project — it comes from your `~/.npmrc` file, likely set by an older npm version or onboarding script.
+
+To fix it, run:
+
+```
+npm config delete always-auth
+```
+
+This is safe to do. The `always-auth` option is no longer needed — modern npm handles registry authentication automatically through scoped `_authToken` entries in your `~/.npmrc`.
