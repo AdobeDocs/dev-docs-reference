@@ -87,6 +87,12 @@ Multi-column layouts.
 
 Featured content showcase.
 
+### [Credential](credential/index.md)
+
+Get Credential flow for OAuth or API key.
+- [OAuth Flow](credential/oauth.md) - Server-to-server
+- [API Key Flow](credential/api-key.md) - API Key
+
 ### [Edition](edition/index.md)
 
 Edition-specific content.
