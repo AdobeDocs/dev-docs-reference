@@ -60,7 +60,7 @@ description: Best practices and troubleshooting tips for migrating your document
     - mp4 file: `https://raw.githubusercontent.com/AdobeDocs/adp-devsite-github-actions-test/refs/heads/main/src/pages/assets/example-video.mp4`
   - We have a ticket open to fix this
 - **Fix dead links**:
-  - `$npm run link:deadlinkonly`: lists dead links. Run to prevent 404s. Check your `package.json` file for more linting scripts
+  - `$npm run lint --dead-links-only`: lists dead links. Run to prevent 404s. Check your `package.json` file for more linting scripts
   - More information: [Linting Guide](../../../deploy/lint.md)
 
 ## Markdown Syntax Rules
