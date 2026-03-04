@@ -19,13 +19,17 @@ npx --yes github:AdobeDocs/adp-devsite-utils runLint -v
 npx --yes github:AdobeDocs/adp-devsite-utils runLint --skip-dead-links
 
 # Check only for dead external links
-npx --yes github:AdobeDocs/adp-devsite-utils runLint --dead-links-only
+npx --yes github:AdobeDocs/adp-devsite-utils runLint --external-links-only
+
+# Check dead links (external + internal)
+npx --yes github:AdobeDocs/adp-devsite-utils runLint --external-links-only --internal-links-only
 
 ```
 
 **Options:**
 - `-v` or `--verbose` - Show detailed output including all files processed
-- `--dead-links-only` - Only check for dead external URLs (skips all other linting rules)
+- `--external-links-only` - Only check for dead external URLs (skips all other linting rules)
+- `--internal-links-only` - Validate internal links (local file paths) via filesystem check. Use with `--external-links-only` to check both
 - `--skip-dead-links` - Run all linting rules EXCEPT dead links check (faster)
 
 **Skipping URL patterns:**
