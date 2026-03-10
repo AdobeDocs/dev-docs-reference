@@ -5,8 +5,8 @@ description: A guide with FAQ about the ADP Developer Site
 
 # ADP Developer Site Best Practices
 
-## How do I host and link PDF files for download?
-To host and link PDF files, upload the document directly to your project's GitHub repository and use its raw GitHub URL as the link destination. This allows the file to be served directly, ensuring that when a user clicks the link, the PDF opens in a new tab or prompts a download.
+## How do I host and link PDF or json files for download?
+To host and link PDF or json files, upload the document directly to your project's GitHub repository and use its raw GitHub URL as the link destination. This allows the file to be served directly, ensuring that when a user clicks the link, the PDF opens in a new tab or prompts a download.
 
 ## Where can I upload videos?
 
