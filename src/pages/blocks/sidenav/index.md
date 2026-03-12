@@ -27,13 +27,18 @@ Your `config.md` needs both `pages` (TopNav) and `subPages` (SideNav). The first
 
 - subPages:
     - [Overview](index.md)
-    - [Content Blocks](/blocks/index.md)
-      - [Accordion](/blocks/accordion/index.md)
-        - [Accordion Basic](/blocks/accordion/accordion-basic.md)
-        - [Accordion with Table & Code](/blocks/accordion/accordion-with-table-and-code.md)
+    - [Blocks](/blocks/index.md)
+       - [Configuration Blocks](#configuration-blocks)
+         - [SideNav](/blocks/sidenav/index.md)
+         - [TopNav](/blocks/topnav/index.md)
+       - [Content Blocks](#content-blocks)
+         - [Accordion](/blocks/accordion/index.md)
+         - [Announcement](/blocks/announcement/index.md)
 ```
 
-When a user visits `/blocks/accordion/accordion-basic.md`, the sidebar shows the "Content Blocks" section and its children. If "Blocks" were missing from `pages`, the sidebar would not appear on those pages.
+![Example](../../assets/topnav-sidenav.png)
+
+When a user visits topnav `/blocks/index.md`, the sidebar shows the "Blocks" section and its children. 
 
 ## Format
 
