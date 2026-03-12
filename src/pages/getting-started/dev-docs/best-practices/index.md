@@ -24,7 +24,7 @@ description: Best practices and troubleshooting tips for migrating your document
     - Filenames are stricter in that underscores, periods, and uppercase letters are not allowed. Folder names are more lenient in that it allows underscores and uppercase letters, but not periods. For consistency and ease of remembering, it's best to use kebab-case all around.
 - **Place assets in `src/pages` (and not static folder)**:
   - Remove images or pdf content from static folder and put in `src/pages` folder
-  - HOWEVER, leave any redocly files (yaml or json) in a static folder outside of `src/pages`
+  - Redocly spec files: YAML can be in `src/pages` or `static/`; JSON must be in `static/` only (JSON under `src/pages` fails deployment)
 - **Assets are reading from the branch it was deployed from**
 - **Directly importing content from another repo doesn't work**:
   - Because the file is unable to fetch data from the external repo.
@@ -105,11 +105,11 @@ description: Best practices and troubleshooting tips for migrating your document
       - Media and Embed were dupes. Only Embed exists now
       - Embed syntax doesn't call for angle brackets around the url
   - Replace `openAPISpec` with [RedoclyAPIBlock](../../../blocks/redoclyapiblock/redocly-api-block-default.md):
-    - The file can be placed in either location:
-      - **Under `/src/pages`**: Use a relative path (e.g., `../../assets/openapi.yaml`).
-      - **In the `static/` folder** (legacy, at repo root, not under `/src/pages`): Use `src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}"` — the path includes pathPrefix but excludes the `static` segment.
+    - **YAML files**: Can be under `/src/pages` (relative path) or in `static/`. 
+    - **JSON files**: Must be in `static/` only — JSON under `/src/pages` will fail deployment.
+    - **`static/` folder** (at repo root): Use `src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}"` — include pathPrefix, exclude the `static` segment.
+    - Example (relative path): From `api/reference/index.md` referencing `assets/openapi.yaml` → `<RedoclyAPIBlock src="../../assets/openapi.yaml" />`
     - Example (static): For `static/petstore.json` with pathPrefix `adobe-assurance-public-apis` → `src="/adobe-assurance-public-apis/petstore.json"`
-    - Example (static): For `static/api/openapi.yaml` with pathPrefix `my-product` → `src="/my-product/api/openapi.yaml"`
   - Replace `Details` HTML element with [Details](../../../blocks/details/index.md) EDS block:
     - replace:
     ```javascript

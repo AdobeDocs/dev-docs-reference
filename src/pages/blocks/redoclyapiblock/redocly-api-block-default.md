@@ -15,9 +15,10 @@ Display interactive API documentation from OpenAPI specification files.
 
 ## Parameters
 
-- **src**: Path to OpenAPI specification file (YAML or JSON). The file can be placed in either location:
-  - **Under `/src/pages`**: Use a relative path (e.g., `../../assets/openapi.yaml`).
-  - **In the `static/` folder** (legacy, at repo root, not under `/src/pages`): Use `src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}"` — the path includes pathPrefix but excludes the `static` segment.  
+- **src**: Path to OpenAPI specification file (YAML or JSON). Placement depends on file type:
+  - **YAML files**: Can be under `/src/pages` (use a relative path from the current page) or in the `static/` folder (see below). Example: from `src/pages/api/reference/index.md`, a spec at `src/pages/assets/openapi.yaml` → `src="../../assets/openapi.yaml"`
+  - **JSON files**: Must be in the `static/` folder only — JSON files under `/src/pages` will fail deployment.
+  - **`static/` folder** (at repo root, not under `/src/pages`): Use `src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}"` — the path includes pathPrefix but excludes the `static` segment.  
 
 ## Default Settings
 
@@ -27,6 +28,18 @@ Display interactive API documentation from OpenAPI specification files.
 - Try-it-out panel enabled
 - JSON samples expanded to 2 levels
 
-## Example
+## Examples
+
+**Relative path** (YAML under `/src/pages`): From a page at `api/reference/index.md`, referencing `assets/openapi.yaml`:
+
+```markdown
+<RedoclyAPIBlock src="../../assets/openapi.yaml" />
+```
+
+**Static folder** (pathPrefix format): For `static/petstore.json` with pathPrefix `my-product`:
+
+```markdown
+<RedoclyAPIBlock src="/my-product/petstore.json" />
+```
 
 <RedoclyAPIBlock src="../../assets/openapi.yaml" />
