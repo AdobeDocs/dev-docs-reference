@@ -7,6 +7,16 @@ description: Learn how to configure top navigation in config.md for your documen
 
 Configure top navigation in `config.md` using `pages`.
 
+## How TopNav and SideNav Work Together
+
+**The sidebar (SideNav) only appears when the current page belongs to a section defined in the top navigation.** Think of it this way:
+
+1. **TopNav** (`pages`) defines the main sections in your site's header (e.g., Getting Started, Blocks, Deploy).
+2. **SideNav** (`subPages`) defines the sidebar for each of those sections.
+3. For a sidebar to show on a page, that page must be **under** one of the TopNav sections, and that section must have corresponding entries in `subPages`.
+
+If your sidebar isn't showing, check: Is the page's section listed in both `pages` and `subPages`? The first-level items in `subPages` must align with your TopNav sections.
+
 ## Default Links
 
 The top navigation always includes these links first:
@@ -73,4 +83,4 @@ All paths in `config.md` are relative to `/src/pages/`. External links require f
 
 ## Related
 
-[SideNav](/blocks/sidenav/index.md) - Configure sidebar navigation
+[SideNav](/blocks/sidenav/index.md) - Configure sidebar navigation. Sidebar items must be under a TopNav section to appear.
