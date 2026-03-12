@@ -5,6 +5,29 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 3/12/26 EDS Release:
+- **Feat:** read resource paths from `adp-site-metadata.json` with fallback to direct fetches
+  - [DEVSITE-2212](https://jira.corp.adobe.com/browse/DEVSITE-2212)
+- **Feat:** dynamic contributors
+  - [DEVSITE-2092](https://jira.corp.adobe.com/browse/DEVSITE-2092)
+- **Feat:** AI assistant
+  - [ADPGENAI-51](https://jira.corp.adobe.com/browse/ADPGENAI-51), [DEVSITE-2146](https://jira.corp.adobe.com/browse/DEVSITE-2146)
+- GetCredential Fixes:
+  - **Fix:** org dropdown issue
+  - **Fix:** fetch entitlement
+  - **Fix:** disabled button state and styling
+- **Fix:** IS_DEV_DOCS rendering of Embed blocks 
+  - [DEVSITE-2122](https://jira.corp.adobe.com/browse/DEVSITE-2122)
+- Data Playground Fixes:
+  - **Fix:** playground URL for stage environment
+    - [DEVSITE-2244](https://jira.corp.adobe.com/browse/DEVSITE-2244)
+  - **Fix:** codeblock "Try in Playground" issue
+    - [DEVSITE-2244](https://jira.corp.adobe.com/browse/DEVSITE-2244)
+- Analytics:
+  - **Fix:** add analytics `daa-lh` attribute to side nav
+  - **Feat:** custom analytics for Try It Playground
+    - [EXTDEVEX-302](https://jira.corp.adobe.com/browse/EXTDEVEX-302)
+
 ## 2/19/26 EDS Release:
 - **Fix:** update how to load the title
   - [DEVSITE-2101](https://jira.corp.adobe.com/browse/DEVSITE-2101)
