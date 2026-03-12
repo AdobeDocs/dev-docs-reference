@@ -5,17 +5,34 @@ description: Learn how to configure top navigation in config.md for your documen
 
 # Top Navigation
 
-Configure top navigation in `config.md` using `pages`.
+Configure the header navigation for your documentation site.
+
+## Quick start
+
+**Where to edit:** `src/pages/config.md` — this single file controls both top navigation and sidebar.
+
+**Minimal setup** — copy this into your `config.md` and adapt the paths:
+
+```md
+- pathPrefix:
+    - /your-product/
+
+- pages:
+    - [Home](index.md)
+    - [Docs](docs/index.md)
+```
+
+This gives you a header with "Home" and "Docs." To add a sidebar to those sections, add `subPages` — see [SideNav](/blocks/sidenav/index.md).
 
 ## How TopNav and SideNav Work Together
 
-**The sidebar (SideNav) only appears when the current page belongs to a section defined in the top navigation.** Think of it this way:
+**The sidebar only appears when the current page belongs to a section in the top navigation.**
 
-1. **TopNav** (`pages`) defines the main sections in your site's header (e.g., Getting Started, Blocks, Deploy).
-2. **SideNav** (`subPages`) defines the sidebar for each of those sections.
-3. For a sidebar to show on a page, that page must be **under** one of the TopNav sections, and that section must have corresponding entries in `subPages`.
+1. **TopNav** (`pages`) = header links (e.g., Getting Started, Docs, Support).
+2. **SideNav** (`subPages`) = sidebar for each section.
+3. For a sidebar to show, the page must be under a TopNav section **and** that section must exist in `subPages`.
 
-If your sidebar isn't showing, check: Is the page's section listed in both `pages` and `subPages`? The first-level items in `subPages` must align with your TopNav sections.
+**Sidebar not showing?** Check: Is the page's section in both `pages` and `subPages`?
 
 ## Default Links
 
@@ -83,4 +100,4 @@ All paths in `config.md` are relative to `/src/pages/`. External links require f
 
 ## Related
 
-[SideNav](/blocks/sidenav/index.md) - Configure sidebar navigation. Sidebar items must be under a TopNav section to appear.
+[SideNav](/blocks/sidenav/index.md) - Add a sidebar to your TopNav sections

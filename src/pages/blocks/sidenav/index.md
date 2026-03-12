@@ -5,20 +5,43 @@ description: Learn how to configure sidebar navigation using subPages in config.
 
 # Side Navigation
 
-Configure sidebar navigation in `config.md` using `subPages`.
+Configure the sidebar that appears on your documentation pages.
 
-## Important: SideNav Requires TopNav
+**Read [TopNav](/blocks/topnav/index.md) first** — you need `pages` (TopNav) before `subPages` (SideNav) will work.
 
-**The sidebar only appears when the current page is under a section defined in the top navigation.** Your `subPages` structure must mirror your `pages` (TopNav) structure:
+## Quick start
 
-- **First-level items in `subPages`** = TopNav sections. Each first-level entry should match a section in `pages`.
-- **Child items** = The sidebar links that appear when a user is on a page within that section.
+**Where to edit:** `src/pages/config.md` (same file as TopNav).
 
-If your sidebar isn't showing, the page may not be under a TopNav section, or that section may be missing from `subPages`. See [TopNav](/blocks/topnav/index.md) to configure the top navigation first.
+**Minimal setup** — add `subPages` alongside your `pages`. First-level items in `subPages` must match your TopNav sections:
 
-## Example
+```md
+- pathPrefix:
+    - /your-product/
 
-Your `config.md` needs both `pages` (TopNav) and `subPages` (SideNav). The first-level items in `subPages` should align with your TopNav sections:
+- pages:
+    - [Home](index.md)
+    - [Docs](docs/index.md)
+
+- subPages:
+    - [Home](index.md)
+    - [Docs](docs/index.md)
+      - [Getting Started](docs/getting-started.md)
+      - [API Reference](docs/api.md)
+```
+
+When a user visits any page under `docs/` (e.g., `docs/getting-started.md`), the sidebar shows "Getting Started" and "API Reference."
+
+## How It Works
+
+**The sidebar only appears when the current page is under a TopNav section.** Your `subPages` structure mirrors `pages`:
+
+- **First-level items** = TopNav sections. Each must match a section in `pages`.
+- **Child items** = Sidebar links shown when the user is on a page in that section.
+
+**Sidebar not showing?** The page may not be under a TopNav section, or that section may be missing from `subPages`.
+
+## Full Example
 
 ```md
 - pages:
@@ -28,23 +51,23 @@ Your `config.md` needs both `pages` (TopNav) and `subPages` (SideNav). The first
 - subPages:
     - [Overview](index.md)
     - [Blocks](/blocks/index.md)
-       - [Configuration Blocks](#configuration-blocks)
-         - [SideNav](/blocks/sidenav/index.md)
-         - [TopNav](/blocks/topnav/index.md)
-       - [Content Blocks](#content-blocks)
-         - [Accordion](/blocks/accordion/index.md)
-         - [Announcement](/blocks/announcement/index.md)
+      - [Configuration Blocks](#configuration-blocks)
+        - [SideNav](/blocks/sidenav/index.md)
+        - [TopNav](/blocks/topnav/index.md)
+      - [Content Blocks](#content-blocks)
+        - [Accordion](/blocks/accordion/index.md)
+        - [Announcement](/blocks/announcement/index.md)
 ```
 
 ![Example](../../assets/topnav-sidenav.png)
 
-When a user visits topnav `/blocks/index.md`, the sidebar shows the "Blocks" section and its children. 
+When a user visits a page under the Blocks section (e.g., `/blocks/accordion/index.md`), the sidebar shows the Blocks section and its children. 
 
-## Format
+## Format and Nesting
 
-`[Display Text](path/to/file.md)`
+Each entry: `[Display Text](path/to/file.md)`. Paths are relative to `/src/pages/`.
 
-**Indentation = Nesting:**
+**Indentation = Nesting** (2 spaces per level):
 ```md
 - [Overview](blocks/index.md)           # Top level
   - [Accordion](/blocks/accordion/index.md)  # Nested (2 spaces)
@@ -55,9 +78,9 @@ When a user visits topnav `/blocks/index.md`, the sidebar shows the "Blocks" sec
 
 ![sidenav image](../../assets/sidenav.png)
 
-## Headers
+## Headers (optional)
 
-You can use headers to organize navigation items into labeled sections.
+Use headers to add non-clickable section labels in the sidebar.
 
 ### Header Format
 
@@ -122,5 +145,5 @@ All relative paths in `config.md` are relative to `/src/pages/`.
 
 ## Related
 
-[TopNav](/blocks/topnav/index.md) - Configure top navigation
+[TopNav](/blocks/topnav/index.md) - Configure top navigation (set up `pages` before `subPages`)
 
