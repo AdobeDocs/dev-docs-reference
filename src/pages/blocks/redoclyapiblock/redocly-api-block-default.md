@@ -15,7 +15,9 @@ Display interactive API documentation from OpenAPI specification files.
 
 ## Parameters
 
-- **src**: Path to OpenAPI specification file (YAML or JSON)
+- **src**: Path to OpenAPI specification file (YAML or JSON). The file can be placed in either location:
+  - **Under `/src/pages`**: Use a relative path (e.g., `../../assets/openapi.yaml`).
+  - **In the `static/` folder** (legacy, at repo root, not under `/src/pages`): Use `src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}"` — the path includes pathPrefix but excludes the `static` segment.  
 
 ## Default Settings
 

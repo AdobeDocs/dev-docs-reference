@@ -105,9 +105,11 @@ description: Best practices and troubleshooting tips for migrating your document
       - Media and Embed were dupes. Only Embed exists now
       - Embed syntax doesn't call for angle brackets around the url
   - Replace `openAPISpec` with [RedoclyAPIBlock](../../../blocks/redoclyapiblock/redocly-api-block-default.md):
-    - `<RedoclyAPIBlock src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}" />`
-    - notice path includes `pathPrefix` but excludes `static`
-    - petstore.json is in static folder!
+    - The file can be placed in either location:
+      - **Under `/src/pages`**: Use a relative path (e.g., `../../assets/openapi.yaml`).
+      - **In the `static/` folder** (legacy, at repo root, not under `/src/pages`): Use `src="/{pathPrefix}/{pathToFileRelativeToStaticFolder}"` — the path includes pathPrefix but excludes the `static` segment.
+    - Example (static): For `static/petstore.json` with pathPrefix `adobe-assurance-public-apis` → `src="/adobe-assurance-public-apis/petstore.json"`
+    - Example (static): For `static/api/openapi.yaml` with pathPrefix `my-product` → `src="/my-product/api/openapi.yaml"`
   - Replace `Details` HTML element with [Details](../../../blocks/details/index.md) EDS block:
     - replace:
     ```javascript
