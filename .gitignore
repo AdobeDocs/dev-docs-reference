@@ -5,7 +5,7 @@
 
 # npm yarn
 node_modules
-package.lock
+package-lock.json
 yarn-error.log
 .pnp.*
 .yarn/*
@@ -31,3 +31,16 @@ cypress/screenshots
 
 # lerna
 lerna-debug.log
+
+# local actions
+.actrc
+.secrets
+local-test.yml
+
+# yalc
+.yalc
+yalc.lock
+
+# Added by update-bot
+linter-output.txt
+linter-report.txt
