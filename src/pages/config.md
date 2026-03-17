@@ -38,6 +38,7 @@
             - [OAuth Flow](/blocks/credential/oauth.md)
             - [API Key Flow](/blocks/credential/api-key.md)
         - [Site Metadata](/blocks/site-metadata/index.md)
+        - [Contributors](/blocks/contributors/index.md)
       - [Content Blocks](#content-blocks)
         - [Accordion](/blocks/accordion/index.md)
         - [Announcement](/blocks/announcement/index.md)
