@@ -39,7 +39,7 @@ When a user visits any page under `docs/` (e.g., `docs/getting-started.md`), the
 - **First-level items** = TopNav sections. Each must match a section in `pages`.
 - **Child items** = Sidebar links shown when the user is on a page in that section.
 
-**Sidebar not showing?** The page may not be under a TopNav section, or that section may be missing from `subPages`.
+**Sidebar not showing?** Put your files in the same folder as the TopNav section, or that section may be missing from `subPages`.
 
 ## Full Example
 
@@ -123,8 +123,8 @@ Every entry in the side navigation must have a link (except headers, which are p
 
 ### Path Rules
 
-1. **First-level entries** must use relative paths (relative to `/src/pages/`)
-2. **First-level entries** must correspond to a TopNav item — each first-level `subPages` entry represents a section from `pages`; the sidebar for that section only appears when the user is on a page within it
+1. **First-level entries** must use relative paths (relative to `/src/pages/`) and match a TopNav item
+2. **Files must be in the same folder** as the TopNav section for the sidenav to show
 3. **Child entries** can use either:
    - Relative paths ending in `.md` (to pages within your site)
    - Absolute URLs (external links like `https://example.com`)

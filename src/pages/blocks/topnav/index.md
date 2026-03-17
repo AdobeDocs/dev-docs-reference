@@ -32,7 +32,7 @@ This gives you a header with "Home" and "Docs." To add a sidebar to those sectio
 2. **SideNav** (`subPages`) = sidebar for each section.
 3. For a sidebar to show, the page must be under a TopNav section **and** that section must exist in `subPages`.
 
-**Sidebar not showing?** Check: Is the page's section in both `pages` and `subPages`?
+**Sidebar not showing?** The page must be in both `pages` and `subPages`, and in the same folder as that section.
 
 ## Default Links
 

@@ -66,7 +66,8 @@ Navigate to **Actions** > **Staging** > **Run workflow** to access manual stagin
 #### Deployment Options
 
 **Branch Selection**
-- use the branch selector dropdown to pick which branch you want to use
+- Use the branch selector dropdown to pick which branch you want to use
+- **Branch names cannot include slashes** — deployment will fail in EDS if the branch contains a slash (e.g., `feature/my-branch`). Use names like `feature-my-branch` instead.
 
 **Base SHA** (optional)
 - Leave empty to compare against the successful commit
@@ -238,6 +239,12 @@ After triggering a deployment:
 - Clear your browser cache
 - Try opening the site in an incognito/private window
 - Check cache clearing logs in the workflow run
+
+#### Deployment Failed — Branch Name Contains Slash
+
+**Symptoms:** Deployment fails when deploying from a branch
+
+**Solution:** Branch names cannot include slashes. Rename your branch (e.g., `feature/my-branch` → `feature-my-branch`) and deploy again.
 
 #### Stale Content On Navigation
 

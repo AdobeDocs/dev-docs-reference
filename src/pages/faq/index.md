@@ -35,3 +35,7 @@ npm config delete always-auth
 ```
 
 This is safe to do. The `always-auth` option is no longer needed — modern npm handles registry authentication automatically through scoped `_authToken` entries in your `~/.npmrc`.
+
+## Why did my deployment fail? The branch name has a slash.
+
+Branch names cannot include slashes (e.g., `feature/my-branch`). EDS deployment will fail if you deploy from a branch that contains a slash. Use branch names without slashes, such as `feature-my-branch`.
