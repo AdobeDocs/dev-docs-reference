@@ -28,24 +28,24 @@ Enterprise Edition
 
 ### Default (Red)
 
-<Edition slot="text"/>
+<Edition slots="text"/>
 
 PaaS Only
 
 ### Blue Background
 
-<Edition slot="text" backgroundColor="blue" />
+<Edition slots="text" backgroundColor="blue" />
 
 Enterprise Edition
 
 ### Green Background
 
-<Edition slot="text" backgroundColor="green" />
+<Edition slots="text" backgroundColor="green" />
 
 Premium Edition
 
 ### With Link
 
-<Edition slot="text"/>
+<Edition slots="text"/>
 
 [Enterprise Edition](https://example.com/editions)
