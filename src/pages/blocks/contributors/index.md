@@ -47,6 +47,10 @@ The path to `contributors.json` is registered in [`adp-site-metadata.json`](/blo
 | `avatars` | Array of GitHub avatar URLs for contributors to that page |
 | `lastUpdated` | Date of the last commit to that page, in `M/D/YYYY` format |
 
+## Feedback Persistence
+
+To prevent duplicate feedback submissions and reduce survey fatigue, the block persists the user's selection in `localStorage` using the current page path as the key (`feedback:/your/page/path`). On subsequent visits, the saved selection is restored and the feedback section is dimmed, with the chosen button highlighted.
+
 ## How It Is Generated
 
 `contributors.json` is auto-generated — do not edit it manually.
