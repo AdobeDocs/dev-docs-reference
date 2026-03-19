@@ -5,6 +5,25 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 3/19/26 EDS Release:
+- **Feat:** topnav dropdown scrollable
+  - [DEVSITE-2287](https://jira.corp.adobe.com/browse/DEVSITE-2287)
+- **Feat:** iframe enhancements — append parent page hash to iframe src on initial load, add `setHash` and `setQueryParams` Penpal parent methods, notify child via `onHashChange` on browser Back/Forward navigation, and enhance navigation state handling with `popstate` event
+  - Updated event listener to notify child of both hash and search parameters on browser Back/Forward navigation
+  - Improved `setHash` and `setQueryParams` methods to ensure URL state is accurately reflected
+- **Feat:** feedback persistence
+- **Fix:** contributor modal mobile overflow
+- GetCredential Fixes:
+  - **Fix:** get credential CSS issue
+    - [DEVSITE-2261](https://jira.corp.adobe.com/browse/DEVSITE-2261)
+  - **Fix:** side content design issue
+- **Fix:** remove table of content text in sidenav
+- **Feat:** enhance AI assistant functionality with stop response feature
+  - Updated CSS for the send button to include a stop mode with new styles
+  - Added logic to handle aborting ongoing requests and toggling button states
+  - Introduced new SVG icons for send and stop actions
+  - Improved user experience by showing/hiding the stop button during interactions
+
 ## 3/12/26 EDS Release:
 - **Feat:** read resource paths from `adp-site-metadata.json` with fallback to direct fetches
   - [DEVSITE-2212](https://jira.corp.adobe.com/browse/DEVSITE-2212)
