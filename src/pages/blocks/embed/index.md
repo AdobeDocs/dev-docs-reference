@@ -20,6 +20,9 @@ https://your-media-link.com
 - **slots**:
   - `"video"` - A slot for the URL of the media you wish to embed.
 
+- **short**
+  - `"true"` - An attribute makes the video display as a Short.
+
 ## Supported Platforms
 
 The block automatically detects and handles links from the following sources:
@@ -34,3 +37,7 @@ The block automatically detects and handles links from the following sources:
 <Embed slots="video" />
 
 https://www.youtube.com/embed/4haZJxpf9Bo?si=9Pfm0yJD_62ZQnqg
+
+<Embed slots="video" short="true"/>
+
+https://www.youtube.com/embed/76hGc6mlSSA
