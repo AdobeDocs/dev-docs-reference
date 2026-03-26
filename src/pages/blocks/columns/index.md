@@ -43,3 +43,4 @@ Description text.
 
 - **Image size**: 580 x 350 px recommended
 
+- **isReversed**: Reverses the order of the text and image
