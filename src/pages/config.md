@@ -91,6 +91,7 @@
                 - [Superhero Half Width with Background Image](blocks/superhero/halfwidth/with-background-image.md)
                 - [Superhero Half Width with Background Image and Video](blocks/superhero/halfwidth/with-background-image-and-video.md)
         - [Tab](/blocks/tab/index.md)
+        - [Table](/blocks/table/index.md)
     - [Local Development](/localdev/index.md)
     - [Deploy](/deploy/index.md)
         - [Lint](/deploy/lint.md)

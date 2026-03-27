@@ -181,3 +181,7 @@ Hero banners with images and CTAs. 8 variants:
 
 Organize content in tabs.
 
+### [Table](table/index.md)
+
+Structured data in rows and columns.
+
