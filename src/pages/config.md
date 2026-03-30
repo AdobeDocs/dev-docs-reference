@@ -56,6 +56,7 @@
         - [Columns](/blocks/columns/index.md)
             - [Columns with Image](/blocks/columns/columns-with-image.md)
             - [Columns with Video](/blocks/columns/columns-with-video.md)
+            - [Columns with Reverse](/blocks/columns/columns-with-reverse.md)
         - [Details](/blocks/details/index.md)
         - [Discover Block](/blocks/discoverblock/index.md)
         - [Edition](/blocks/edition/index.md)
