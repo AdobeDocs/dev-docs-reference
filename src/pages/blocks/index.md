@@ -87,7 +87,8 @@ Multiple code block with headings.
 
 Multi-column layouts.
 - [With Image](columns/columns-with-image.md)
-- [With Video](columns/columns-with-video.md) 
+- [With Video](columns/columns-with-video.md)
+- [With Reverse](columns/columns-with-reverse.md)
 
 ### [Details](details/index.md)
 
