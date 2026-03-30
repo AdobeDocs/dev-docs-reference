@@ -31,7 +31,7 @@ javascript-data-playground-session-id="sessionName"-data-playground-mode="playgr
 
 **Note**
 
-You can use two types of playground URLs. If you want to use a common playground for all code playground blocks, you can configure it globally by defining it in the `adp-sitemetadata.json`.
+You can use two types of playground URLs. If you want to use a common playground for all code playground blocks, you can configure it globally by defining it in the `adp-site-metadata.json`.
 
 First, create a `code-playground.json` file as shown below:
 
