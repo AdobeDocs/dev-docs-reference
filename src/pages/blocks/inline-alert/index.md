@@ -21,6 +21,7 @@ Your alert message here.
   - `heading` (optional) - Only one title per alert block.
   - `text` (required)
   - `text1, text2, text[n]` (optional) - Additional text slots to display multiple paragraphs.
+  - `code` (optional) - Code slots allows you to display code content within an inline alert component.
 
 - **variant**:
   - `info` (default) — Use to add helpful information.
@@ -89,6 +90,16 @@ This is faux step text for the `text2` slot.
 **Step 4:** This is faux step text for the `text4` slot.
 This is faux step text for the `text3` slot.
 
+### Inline alert with code
 
+<InlineAlert slots="header, code" variant="info"/>
 
+**Example for inline alert with code**
 
+```js
+function greet(name) {
+  return "Hello, " + name + "!";
+}
+
+console.log(greet("Inline Alert")); // Output: Hello, Inline Alert!!
+```
