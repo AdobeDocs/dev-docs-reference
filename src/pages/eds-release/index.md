@@ -6,6 +6,12 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 # EDS Release Notes
 
 
+## 4/2/26 EDS Release:
+
+- **Fix:** inline alert code slot support
+
+  - [DEVSITE-2323](https://jira.corp.adobe.com/browse/DEVSITE-2323)
+
 ## 3/30/26 EDS Release:
 
 - GetCredential Fixes:
