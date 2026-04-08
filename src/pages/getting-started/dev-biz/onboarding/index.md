@@ -15,7 +15,7 @@ The Adobe Developer Website DevBiz mircosites are intended to be for marketing o
 When you're ready to get started, please follow these steps: 
 
 -  If you do not have an Adobe Google account, follow these steps to request one:  
-  - Fill out and submit this [form](https://adobe.service-now.com/esc?id=adb_esc_sc_cat_item&sys_id=b6ac31b987363114491adb573cbb35f2).
+  - Fill out and submit this [form](https://adobe.service-now.com/esc?id=adb_esc_sc_cat_item&sys_id=2a41c1c293d83a547d5e3c366aba1062).
     - Select license recipient.
     - Roles: Google Drive
     - Business Justification:  The Adobe Developer Website is a cohesive experience for developers to discover, learn about and get started with Adobe’s developer centric products. The Developer Website was built on Edge Delivery Services in 2021 and utilizes Google Accounts to author production product pages. An Adobe Google account is necessary for product page owners to author, edit and publish these pages daily.
