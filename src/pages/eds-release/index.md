@@ -13,7 +13,7 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 - **Fix:** top offsite - two scroll-offset mechanisms were double-counting
   - [DEVSITE-2221](https://jira.corp.adobe.com/browse/DEVSITE-2221)
 - **Fix:** Add support for private organization paths in getResourceUrl function to allow RedoclyBlock to fetch protected API files
-  - [DEVSITE-2239](https://jira.corp.adobe.com/browse/DEVSITE-2239)
+  - [DEVSITE-2329](https://jira.corp.adobe.com/browse/DEVSITE-2329)
 
 ## 4/2/26 EDS Release:
 
