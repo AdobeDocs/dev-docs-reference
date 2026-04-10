@@ -5,6 +5,15 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 4/9/26 EDS Release:
+
+- **Fix:** updates to discovery interface
+- **Fix:** No new tab for local dev. When the repo is running on local dev, every click on tab nav will open a new tab. Added local host and local IP to the no tab list
+  - [DEVSITE-2220](https://jira.corp.adobe.com/browse/DEVSITE-2220)
+- **Fix:** top offsite - two scroll-offset mechanisms were double-counting
+  - [DEVSITE-2221](https://jira.corp.adobe.com/browse/DEVSITE-2221)
+- **Fix:** Add support for private organization paths in getResourceUrl function to allow RedoclyBlock to fetch protected API files
+  - [DEVSITE-2239](https://jira.corp.adobe.com/browse/DEVSITE-2239)
 
 ## 4/2/26 EDS Release:
 
