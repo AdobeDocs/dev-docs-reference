@@ -20,6 +20,7 @@ When no options are specified, the component uses these defaults:
   disableSidebar: false,
   disableSearch: false,
   hideTryItPanel: false,
+  hideSchemaTitles: false,
   scrollYOffset: 0,
   sortOperationsAlphabetically: false,
   sortTagsAlphabetically: false,
@@ -39,6 +40,7 @@ When no options are specified, the component uses these defaults:
 - **disableSidebar**: Hide left sidebar (default: `false`)
 - **disableSearch**: Disable search (default: `false`)
 - **hideTryItPanel**: Hide try-it panel (default: `false`)
+- **hideSchemaTitles**: Hide schema field title properties next to types (default: `false`)
 - **scrollYOffset**: Offset for fixed headers (default: `0`)
 
 ### Content Options
@@ -60,6 +62,7 @@ When no options are specified, the component uses these defaults:
     disableSidebar={false}
     disableSearch={true}
     hideTryItPanel={true}
+    hideSchemaTitles={true}
     scrollYOffset={64}
     sortOperationsAlphabetically={true}
     sortTagsAlphabetically={true}
