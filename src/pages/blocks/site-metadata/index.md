@@ -13,9 +13,9 @@ If the file does not exist, components fall back to looking up each configuratio
 
 ```json
 {
-  "total": 3,
+  "total": 4,
   "offset": 0,
-  "limit": 3,
+  "limit": 4,
   "data": [
     {
       "key": "contributors",
@@ -28,6 +28,10 @@ If the file does not exist, components fall back to looking up each configuratio
     {
       "key": "site-wide-banner",
       "value": "src/pages/site-wide-banner.json"
+    },
+    {
+      "key": "code-playground",
+      "value": "src/pages/code-playground.json"
     }
   ],
   ":type": "sheet"
@@ -41,6 +45,7 @@ If the file does not exist, components fall back to looking up each configuratio
 | `contributors` | Path to the contributors JSON file |
 | `get-credentials` | Path to the credential configuration JSON file |
 | `site-wide-banner` | Path to the site-wide banner JSON file |
+| `code-playground` | Path to the code playground JSON file |
 
 ## How It Is Generated
 
