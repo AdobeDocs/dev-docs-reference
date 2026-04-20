@@ -30,6 +30,8 @@ Display images in your documentation using standard markdown syntax.
 - **Formats**: PNG, JPG, GIF, WebP, SVG
 - **Preferred Size**: 580 x 350 px for optimal display
 
+**NOTE**: Pleas limit your image to be under 3MB. 
+
 ## Example
 
 ![Documentation example](../../assets/image1.jpeg)
