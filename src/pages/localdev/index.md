@@ -55,14 +55,6 @@ In order to use local development, authors must have these three repos cloned to
 
     Manually reload the page in your browser to see any subsequent changes made to your files.
 
-**Updating config.md?**
-
-    If you make any changes to config.md, you must clear the cache for those changes to take effect.
-
-<InlineAlert slots="text" />
-
-To see `config.md` changes reflected in the side navigation, open a new browser tab and paste in the URL directly.
-
 ### Video
 
 Intial requirements for setup:
