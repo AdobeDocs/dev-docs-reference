@@ -87,7 +87,8 @@ Multiple code block with headings.
 
 Multi-column layouts.
 - [With Image](columns/columns-with-image.md)
-- [With Video](columns/columns-with-video.md) 
+- [With Video](columns/columns-with-video.md)
+- [With Reverse](columns/columns-with-reverse.md)
 
 ### [Details](details/index.md)
 
@@ -180,4 +181,8 @@ Hero banners with images and CTAs. 8 variants:
 ### [Tab](tab/index.md)
 
 Organize content in tabs.
+
+### [Table](table/index.md)
+
+Structured data in rows and columns.
 

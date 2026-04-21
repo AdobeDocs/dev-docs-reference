@@ -11,11 +11,12 @@ Create interactive code examples with a "Try" button that allows users to execut
 
 Use the following data attributes after the language identifier:
 
-````
-```javascript-data-playground-session-id="sessionName"-data-playground-mode="playground"-data-playground-session="new"-data-playground-execution-mode="script"-data-playground-url="https://example.com"
-// your code here
 ```
-````
+---
+javascript-data-playground-session-id="sessionName"-data-playground-mode="playground"-data-playground-session="new"-data-playground-execution-mode="script"-data-playground-url="https://example.com"
+// your code here
+---
+```
 
 ## Parameters
 
@@ -23,11 +24,41 @@ Use the following data attributes after the language identifier:
 - **data-playground-mode**: Mode of the playground (typically `"playground"`)
 - **data-playground-session**: Session state, usually `"new"` to create a fresh session
 - **data-playground-execution-mode**: Execution mode, typically `"script"` for script execution
-- **data-playground-url**: URL of the playground environment where code will be executed
+- **data-playground-url**: Prod URL of the playground environment where code will be executed
+- **data-playground-url-stage**: Stage URL of the playground environment where code will be executed
 
-## Example
+<InlineAlert slots="header, text1, text2, text3, text4"/>
 
-```js-data-playground-session-id="createAndFillRectangle"-data-playground-mode="playground"-data-playground-session="new"-data-playground-execution-mode="script"-data-playground-url="https://stage.projectx.corp.adobe.com/new"
+**Note**
+
+You can use two types of playground URLs. If you want to use a common playground for all code playground blocks, you can configure it globally by defining it in the `adp-site-metadata.json`.
+
+First, create a `code-playground.json` file as shown below:
+
+```json
+{
+  "total": 2,
+  "offset": 0,
+  "limit": 2,
+  "data": [
+    {
+      "key": "code-playground-staging-url",
+      "value": "https://stage.projectx.corp.adobe.com/"
+    },
+    {
+      "key": "code-playground-production-url",
+      "value": "https://projectx.corp.adobe.com/"
+    }
+  ],
+  ":type": "sheet"
+}
+```
+
+If you need different playground URLs, you can use the attributes **data-playground-url and data-playground-url-stage**.
+
+## Example for attribute
+
+```js-data-playground-session-id="createAndFillRectangle"-data-playground-mode="playground"-data-playground-session="new"-data-playground-execution-mode="script"-data-playground-url="https://example.com/new"
 const insertionParent = editor.context.insertionParent; // get node to insert content into
 
 const rectangle = editor.createRectangle();
