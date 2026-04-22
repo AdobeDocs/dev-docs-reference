@@ -20,7 +20,7 @@ In order to use local development, authors must have these three repos cloned to
 
 <InlineAlert slots="text" />
 
-**Prerequisite**: Node.js version 20 or higher is required to run EDS in a local environment.
+**Prerequisite**: Node.js version 24 or higher is required to run EDS in a local environment.
 
 1. **Pull the latest changes**
 
