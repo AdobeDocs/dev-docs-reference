@@ -18,13 +18,42 @@ In order to use local development, authors must have these three repos cloned to
 
 ## How to use
 
-1. In the repos `https://github.com/AdobeDocs/adp-devsite` and `https://github.com/aemsites/devsite-runtime-connector`, make sure to be on the `main` branch and pull down the latest changes. 
-2. In each repo, run the command `npm install`
-3. In your content repo, switch to the branch that you want to preview locally
-4. In each repo, run the command `npm run dev`
-5. In your browser, navigate to `http://localhost:3000/yourPathPrefix` 
-6. Manually reload the page to see any subsequent changes you make to your files
-    - To see `config.md` changes reflected on side nav, open a new tab and paste in the URL
+<InlineAlert slots="text" />
+
+**Prerequisite**: Node.js version 24 or higher is required to run EDS in a local environment.
+
+1. **Pull the latest changes**
+
+    In both repositories below, make sure you are on the `main` branch and pull down the latest changes.
+
+        - [https://github.com/AdobeDocs/adp-devsite](https://github.com/AdobeDocs/adp-devsite)
+        - [https://github.com/aemsites/devsite-runtime-connector](https://github.com/aemsites/devsite-runtime-connector)
+
+2. **Install dependencies**
+
+    In each repository, run:
+
+    -  `npm install`
+
+3. **Switch to your preview branch**
+
+    In your content repository, switch to the branch you want to preview locally.
+
+4. **Start the dev servers — in this order**
+
+    Run `npm run dev` in each repository, strictly in the following order:
+
+    - Content repo
+    - adp-devsite
+    - devsite-runtime-connector
+
+5. **Open your local preview**
+
+    In your browser, navigate to: `http://localhost:3000/yourPathPrefix` -  Replace yourPathPrefix with the path you want to land on.
+
+6. **Reload to see file changes**
+
+    Manually reload the page in your browser to see any subsequent changes made to your files.
 
 ### Video
 
