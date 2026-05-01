@@ -26,7 +26,7 @@ This is a sample description text for the superhero block.
 
 ![Gradient background](../../../assets/vertical-gradient.png)
 
-[video_url](https://raw.githubusercontent.com/AdobeDocs/dev-docs-reference/refs/heads/main/src/pages/assets/example_videp.mp4)
+[video_url](https://raw.githubusercontent.com/AdobeDocs/dev-docs-reference/refs/heads/main/src/pages/assets/example-videp.mp4)
 
 # Page Heading
 
