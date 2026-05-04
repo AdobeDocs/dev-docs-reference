@@ -66,3 +66,5 @@ EDS recently launched a new feature where content can live in GitHub repos.
 **Next Gen Architecture:**
 
 ![NextGenArchitecture](assets/next-gen-architecture.png)
+
+[example JSON file](../../static/petstore.json)
