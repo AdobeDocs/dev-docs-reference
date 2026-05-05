@@ -66,19 +66,3 @@ EDS recently launched a new feature where content can live in GitHub repos.
 **Next Gen Architecture:**
 
 ![NextGenArchitecture](assets/next-gen-architecture.png)
-
-[example JSON file](../../static/petstore.json)
-[example mp4 file](./assets/example-video.mp4)
-
-<Superhero slots="fullWidthBackground, video, heading, text, buttons" variant="halfWidth" textColor="white" overGradient />
-
-![Gradient background](./assets/vertical-gradient.png)
-
-[video_url](./assets/example-video.mp4)
-
-# Page Heading
-
-This is a sample description text for the superhero block.
-
-* [Get Started](https://example.com/getting-started)
-* [View Examples](https://example.com/examples)
