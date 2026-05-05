@@ -11,7 +11,7 @@ To host and link PDF files (or other files like `ZIP` or `.d.ts`), use a URL and
 `[ZIP](./assets/process.zip)` \<br/\> 
 `[PDF for download](./assets/example.pdf)` \<br/\> 
 
-`JSON` files not used for Redocly Blocks can be linked from `static` as well but those files must be in the `static` folder otherwise deployments will fail. `JSON` files that are linked can use a relative path like ZIP and PDF files: \<br/\> 
+`JSON` files in `src/pages` must be in AEM EDS format or deployments will fail. JSON files that aren't in AEM EDS format (such as Redocly API spec files) must be placed in the `static` folder and can be linked using a relative path: \<br/\> 
 
 `[example JSON file](../../static/petstore.json)
 `
