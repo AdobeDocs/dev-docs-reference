@@ -8,14 +8,18 @@ description: A guide with FAQ about the ADP Developer Site
 ## How do I link PDF or ZIP files for download or viewing?
 To host and link PDF files (or other files like `ZIP` or `.d.ts`), use a URL and use relative path to file within `src/pages`:
 
-`[ZIP](./assets/process.zip)`
-`[PDF for download](./assets/example.pdf)`
+`[ZIP](./assets/process.zip)` \<br/\> 
+`[PDF for download](./assets/example.pdf)` \<br/\> 
 
+`JSON` files in `src/pages` must be in AEM EDS format or deployments will fail. JSON files that aren't in AEM EDS format (such as Redocly API spec files) must be placed in the `static` folder and can be linked using a relative path: \<br/\> 
+
+`[example JSON file](../../static/petstore.json)
+`
 ## Where can I upload videos?
 
-To use videos in blocks that accept video attributes, you need to provide a URL. Here are your options for uploading and hosting videos:
+To use videos in blocks that accept video attributes, you need to provide a URL or if uploaded under `src/pages` they can use a relative path. Here are your options for uploading and hosting videos:
 
-**GitHub**: Commit your video to your GitHub repository and copy the raw GitHub URL.
+**GitHub**: Commit your video to your GitHub repository and link to it using a relative path. [See Superhero with video](../blocks/superhero/halfwidth/with-background-image-and-video.md)
 
 **Google Drive** (with 2-minute limit): Upload your video to Google Drive, open it, use the AEM Sidekick extension to publish, then copy the URL. Videos uploaded to Google Drive have a 2-minute limit.
 

@@ -12,7 +12,7 @@ Superhero half width variant with background image and video
 
 ![Gradient background](../../../assets/vertical-gradient.png)
 
-[video_url](https://example.com/demo-video.mp4)
+[video_url](../../../assets/example-video.mp4)
 
 # Page Heading
 
