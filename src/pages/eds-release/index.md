@@ -7,26 +7,19 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 ## 4/30/26 EDS Release:
 
-## Summary
-This PR bundles several improvements across the discovery interface, AI assistant, and content blocks.
-
-## Changes
-
-### Discovery Interface [devsite-2327](https://jira.corp.adobe.com/browse/DEVSITE-2327)
-- Removed `fetchMetadata` from the discovery interface
-### Contributor Block
-- Added ability to dismiss the contributor block
-### AI Assistant — Dynamic Suggested Questions
-- Enhanced AI assistant with dynamic suggested questions powered by collections
-- Added memoized `getCollections()` to `AiApiClient` to avoid redundant fetches
-- Added `getCollectionsQuestions()` and wired up suggestion buttons
-- Pass `collectionId` through the query chain into the API request body
-- Prefetch collections on block init to warm the cache
-- Limited suggested questions to root collections only
-### Info Card Block [devsite-2338](https://jira.corp.adobe.com/browse/DEVSITE-2338)
-- Added new info card variant with articles
-- Introduced `wide` variant (replaces previous `ratio` naming)
-- Addressed PR review feedback
+- **Fix:** Discovery Interface [devsite-2327](https://jira.corp.adobe.com/browse/DEVSITE-2327)
+- **Fix:** Removed `fetchMetadata` from the discovery interface
+- **Fix:** Added ability to dismiss the contributor block
+- **Fix:** Enhanced AI assistant with dynamic suggested questions powered by collections
+- **Fix:** Added memoized `getCollections()` to `AiApiClient` to avoid redundant fetches
+- **Fix:** Added `getCollectionsQuestions()` and wired up suggestion buttons
+- **Fix:** Pass `collectionId` through the query chain into the API request body
+- **Fix:** Prefetch collections on block init to warm the cache
+- **Fix:** Limited suggested questions to root collections only
+- **Fix:** Info Card Block [devsite-2338](https://jira.corp.adobe.com/browse/DEVSITE-2338)
+- **Fix:** Added new info card variant with articles
+- **Fix:** Introduced `wide` variant (replaces previous `ratio` naming)
+- **Fix:** Addressed PR review feedback
 
 ## 4/9/26 EDS Release:
 
