@@ -5,6 +5,29 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 4/30/26 EDS Release:
+
+## Summary
+This PR bundles several improvements across the discovery interface, AI assistant, and content blocks.
+
+## Changes
+
+### Discovery Interface [devsite-2327](https://jira.corp.adobe.com/browse/DEVSITE-2327)
+- Removed `fetchMetadata` from the discovery interface
+### Contributor Block
+- Added ability to dismiss the contributor block
+### AI Assistant — Dynamic Suggested Questions
+- Enhanced AI assistant with dynamic suggested questions powered by collections
+- Added memoized `getCollections()` to `AiApiClient` to avoid redundant fetches
+- Added `getCollectionsQuestions()` and wired up suggestion buttons
+- Pass `collectionId` through the query chain into the API request body
+- Prefetch collections on block init to warm the cache
+- Limited suggested questions to root collections only
+### Info Card Block [devsite-2338](https://jira.corp.adobe.com/browse/DEVSITE-2338)
+- Added new info card variant with articles
+- Introduced `wide` variant (replaces previous `ratio` naming)
+- Addressed PR review feedback
+
 ## 4/9/26 EDS Release:
 
 - **Fix:** updates to discovery interface
