@@ -261,7 +261,7 @@ After triggering a deployment:
 
 **Solutions:**
 - Run the **Build Auto-Generated Files** workflow manually before deploying: Actions → Build Auto-Generated Files → Run workflow
-- See [FAQ](../faq/index.md) for more details
+- See [FAQ](../faq/index.md#why-are-the-contributors-sidenav-or-get-credentials-blocks-missing-on-my-private-repo) for more details
 
 #### `Build Contributors` or `Build Site Metadata` Check Failing on a Fork PR
 
@@ -269,7 +269,7 @@ After triggering a deployment:
 
 **Solutions:**
 - Run the **Build Auto-Generated Files** workflow manually and merge ignoring the failed check
-- See [FAQ](../faq/index.md) for more details
+- See [FAQ](../faq/index.md#why-are-the-build-contributors-or-build-site-metadata-checks-failing-on-a-pr-from-a-fork) for more details
 
 #### `Build Contributors` or `Build Site Metadata` Failing with a Push Rejection
 
@@ -277,7 +277,7 @@ After triggering a deployment:
 
 **Solutions:**
 - Add the `adp-devsite-app` bot as a bypass actor in your branch protection ruleset: Settings → Branches → edit ruleset → Bypass list → add `adp-devsite-app`
-- See [FAQ](../faq/index.md) for more details
+- See [FAQ](../faq/index.md#why-are-the-build-contributors-or-build-site-metadata-checks-failing-with-a-push-rejection) for more details
 
 ### Getting Help
 
