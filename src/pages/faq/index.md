@@ -55,9 +55,9 @@ Actions → Build Auto-Generated Files → Run workflow
 
 This is a known limitation tracked in [DEVSITE-2395](https://jira.corp.adobe.com/browse/DEVSITE-2395).
 
-## Why is `build-auto-generated-files` failing on a PR from a fork?
+## Why are the `Build Contributors` or `Build Site Metadata` checks failing on a PR from a fork?
 
-PRs opened from forks will fail the `build-auto-generated-files` check. This was fixed in v2 workflows, but existing repos are still on v1 and will be updated via the retro repo update process ([DEVSITE-2249](https://jira.corp.adobe.com/browse/DEVSITE-2249)).
+PRs opened from forks may fail the `Build Contributors / build-contributors` or `Build Site Metadata / build-site-metadata` checks. This was fixed in v2 workflows, but existing repos are still on v1 and will be updated via the retro repo update process ([DEVSITE-2249](https://jira.corp.adobe.com/browse/DEVSITE-2249)).
 
 Until your repo is updated to v2 workflows:
 1. Go to Actions → Build Auto-Generated Files → Run workflow and wait for it to complete

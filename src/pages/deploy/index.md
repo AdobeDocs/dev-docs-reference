@@ -263,9 +263,9 @@ After triggering a deployment:
 - Run the **Build Auto-Generated Files** workflow manually before deploying: Actions → Build Auto-Generated Files → Run workflow
 - See [FAQ](../faq/index.md) for more details
 
-#### `build-auto-generated-files` Failing on a Fork PR
+#### `Build Contributors` or `Build Site Metadata` Check Failing on a Fork PR
 
-**Symptoms:** PRs opened from forks fail the `build-auto-generated-files` check
+**Symptoms:** PRs opened from forks fail the `Build Contributors / build-contributors` or `Build Site Metadata / build-site-metadata` check
 
 **Solutions:**
 - Run the **Build Auto-Generated Files** workflow manually and merge ignoring the failed check
