@@ -46,3 +46,25 @@ This is safe to do. The `always-auth` option is no longer needed — modern npm 
 ## Why did my deployment fail? The branch name has a slash.
 
 Branch names cannot include slashes (e.g., `feature/my-branch`). EDS deployment will fail if you deploy from a branch that contains a slash. Use branch names without slashes, such as `feature-my-branch`.
+
+## Why are the Contributors, SideNav, or Get Credentials blocks missing on my private repo?
+
+On private repos, `contributors.json` and `adp-site-metadata.json` are not auto-generated (unlike public repos), so blocks that depend on them won't render. Before deploying, run the **Build Auto-Generated Files** workflow manually:
+
+Actions → Build Auto-Generated Files → Run workflow
+
+This is a known limitation tracked in [DEVSITE-2395](https://jira.corp.adobe.com/browse/DEVSITE-2395).
+
+## Why is `build-auto-generated-files` failing on a PR from a fork?
+
+PRs opened from forks will fail the `build-auto-generated-files` check. This was fixed in v2 workflows, but existing repos are still on v1 and will be updated via the retro repo update process ([DEVSITE-2249](https://jira.corp.adobe.com/browse/DEVSITE-2249)).
+
+Until your repo is updated to v2 workflows:
+1. Go to Actions → Build Auto-Generated Files → Run workflow and wait for it to complete
+2. Merge the PR and ignore the failed check
+
+## Why is `build-auto-generated-files` failing with a push rejection?
+
+If your repo has branch protection rules, the `adp-devsite-app` bot needs to be added as a bypass actor so it can push auto-generated files (`contributors.json`, `adp-site-metadata.json`) directly to main.
+
+Settings → Branches → edit ruleset → Bypass list → add [`adp-devsite-app`](https://github.com/apps/adp-devsite-app).
