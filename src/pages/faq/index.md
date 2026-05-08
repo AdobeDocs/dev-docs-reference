@@ -63,8 +63,8 @@ Until your repo is updated to v2 workflows:
 1. Go to Actions → Build Auto-Generated Files → Run workflow and wait for it to complete
 2. Merge the PR and ignore the failed check
 
-## Why is `build-auto-generated-files` failing with a push rejection?
+## Why are the `Build Contributors` or `Build Site Metadata` checks failing with a push rejection?
 
-If your repo has branch protection rules, the `adp-devsite-app` bot needs to be added as a bypass actor so it can push auto-generated files (`contributors.json`, `adp-site-metadata.json`) directly to main.
+This applies to repos on v2 workflows. When a PR is merged, the deploy workflow auto-generates `contributors.json` and `adp-site-metadata.json` and pushes them to main using the `adp-devsite-app` bot. If your repo has branch protection rules, the bot needs to be added as a bypass actor.
 
 Settings → Branches → edit ruleset → Bypass list → add [`adp-devsite-app`](https://github.com/apps/adp-devsite-app).

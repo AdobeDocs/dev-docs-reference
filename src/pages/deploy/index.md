@@ -271,9 +271,9 @@ After triggering a deployment:
 - Run the **Build Auto-Generated Files** workflow manually and merge ignoring the failed check
 - See [FAQ](../faq/index.md) for more details
 
-#### `build-auto-generated-files` Failing with a Push Rejection
+#### `Build Contributors` or `Build Site Metadata` Failing with a Push Rejection
 
-**Symptoms:** Workflow fails because it cannot push auto-generated files to `main`
+**Symptoms:** `Build Contributors` or `Build Site Metadata` fails because it cannot push auto-generated files to `main`
 
 **Solutions:**
 - Add the `adp-devsite-app` bot as a bypass actor in your branch protection ruleset: Settings → Branches → edit ruleset → Bypass list → add `adp-devsite-app`
