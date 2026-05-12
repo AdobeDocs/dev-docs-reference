@@ -5,6 +5,16 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 4/30/26 EDS Release:
+
+- **Fix:** Discovery Interface [devsite-2327](https://jira.corp.adobe.com/browse/DEVSITE-2327)
+- **Fix:** Removed `fetchMetadata` from the discovery interface
+- **Fix:** Added ability to dismiss the contributor block
+- **Fix:** Info Card Block [devsite-2338](https://jira.corp.adobe.com/browse/DEVSITE-2338)
+- **Fix:** Added new info card variant with articles
+- **Fix:** Introduced `wide` variant (replaces previous `ratio` naming)
+- **Fix:** Addressed PR review feedback
+
 ## 4/9/26 EDS Release:
 
 - **Fix:** updates to discovery interface

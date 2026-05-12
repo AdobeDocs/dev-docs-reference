@@ -255,6 +255,30 @@ After triggering a deployment:
 - you can either close the browser session and re-open the site in a new window
 - or you can manually clear the storage by using the `sesssionStorage.clear()` in the web inspector console
 
+#### Contributors, SideNav, or Get Credentials Blocks Missing on a Private Repo
+
+**Symptoms:** Contributors, SideNav, or Get Credentials blocks are not rendering on a private repo
+
+**Solutions:**
+- Run the **Build Auto-Generated Files** workflow manually before deploying: Actions → Build Auto-Generated Files → Run workflow
+- See [FAQ](../faq/index.md#why-are-the-contributors-sidenav-or-get-credentials-blocks-missing-on-my-private-repo) for more details
+
+#### `Build Contributors` or `Build Site Metadata` Check Failing on a Fork PR
+
+**Symptoms:** PRs opened from forks fail the `Build Contributors / build-contributors` or `Build Site Metadata / build-site-metadata` check
+
+**Solutions:**
+- Run the **Build Auto-Generated Files** workflow manually and merge ignoring the failed check
+- See [FAQ](../faq/index.md#why-are-the-build-contributors-or-build-site-metadata-checks-failing-on-a-pr-from-a-fork) for more details
+
+#### `Build Contributors` or `Build Site Metadata` Failing with a Push Rejection
+
+**Symptoms:** `Build Contributors` or `Build Site Metadata` fails because it cannot push auto-generated files to `main`
+
+**Solutions:**
+- Add the `adp-devsite-app` bot as a bypass actor in your branch protection ruleset: Settings → Branches → edit ruleset → Bypass list → add `adp-devsite-app`
+- See [FAQ](../faq/index.md#why-are-the-build-contributors-or-build-site-metadata-checks-failing-with-a-push-rejection) for more details
+
 ### Getting Help
 
 If you encounter issues not covered in this guide:

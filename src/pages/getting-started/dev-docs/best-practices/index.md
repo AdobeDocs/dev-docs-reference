@@ -39,6 +39,20 @@ description: Best practices and troubleshooting tips for migrating your document
   - Relative links should include file name and extension (ex: `index.md` or other `.md` file)
     - except for anchor links that are in the current page (e.g. `[description](#anchor)`)
     - note: anchor links don't work in local development - deploy to stage to test
+  - **Reference-style links for `.md` files**:
+    - You can list targets once at the bottom of the file and reference them by label in the body. This keeps long paths out of inline text.
+    - Example:
+
+```
+To configure credentials for your integration, see [Authentication][2].
+
+[//]: # (Links)
+[1]: /docs/overview/index.md
+[2]: /reference/authentication/index.md
+[3]: /guides/release-notes/index.md
+
+```
+
   - To open link as external, use the query string `?aio_external` in your URL:
     - Example: [https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/main/src/pages/test/test-hr-0.md?plain=1#L13](https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/main/src/pages/test/test-hr-0.md?plain=1#L13)
     - This will have to open the external link manually.
@@ -55,10 +69,27 @@ description: Best practices and troubleshooting tips for migrating your document
   - In Gatsby, invalid URLs that have unnecessary trailing slashes will work. However, in EDS they won't work
   - `redirects.json` will redirect Gatsby bookmarks (from invalid form to correct form). It's best to do this for a limited period of time, around 4-6 weeks.
 
-- **Links to other file types than .md and .json needs to use raw github links for now**:
-  - example: [https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/ced7a472d45d7d911f391f79706a3e00b7bad46a/src/pages/test/mp4.md?plain=1#L1](https://github.com/AdobeDocs/adp-devsite-github-actions-test/blob/ced7a472d45d7d911f391f79706a3e00b7bad46a/src/pages/test/mp4.md?plain=1#L1)
-    - mp4 file: `https://raw.githubusercontent.com/AdobeDocs/adp-devsite-github-actions-test/refs/heads/main/src/pages/assets/example-video.mp4`
-  - We have a ticket open to fix this
+- **Links to other file types than .md and .json can use relative paths**:
+  - `[ZIP](./assets/process.zip)` \<br/\> 
+`[PDF for download](./assets/example.pdf)` \<br/\> 
+  - In blocks, like Columns or Superhero, images and videos can also be in a relative path:
+```markdown
+<Superhero slots="fullWidthBackground, video, heading, text, buttons" variant="halfWidth" textColor="white" overGradient />
+
+![Gradient background](../../../assets/vertical-gradient.png)
+
+[video_url](../../../assets/example-video.mp4)
+
+# Page Heading
+
+This is a sample description text for the superhero block.
+
+* [Get Started](https://example.com/getting-started)
+* [View Examples](https://example.com/examples)
+```
+- **GitHub URLs for files that end in `.md`**:
+  - Use `%2E` in place of the period before `md` in the path so the URL resolves
+  - Example: `[README on GitHub](https://github.com/AdobeDocs/dev-docs-reference/blob/main/README%2Emd)` — use `%2E` instead of `.` before `md` in the path segment (not `...README.md`). We have a [ticket](https://jira.corp.adobe.com/browse/DEVSITE-2375) logged to fix this so you don't need to use this workaround
 - **Fix dead links**:
   - `$npm run lint --dead-links-only`: lists dead links. Run to prevent 404s. Check your `package.json` file for more linting scripts
   - More information: [Linting Guide](../../../deploy/lint.md)
