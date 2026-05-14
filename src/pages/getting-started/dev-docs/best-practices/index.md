@@ -126,6 +126,8 @@ This is a sample description text for the superhero block.
   - Replace `Teaser` with [Announcement](../../../blocks/announcement/index.md)
   - Replace `TextBlock` with [Cards](../../../blocks/cards/index.md) or [Columns](../../../blocks/columns/index.md)
   - Replace `AnnouncementBlock` with [Announcement](../../../blocks/announcement/index.md)
+  - Replace `SummaryBlock` with [Announcement](../../../blocks/announcement/index.md)
+  - Replace `MiniResourceCard` with [Cards](../../../blocks/cards/index.md)
   - In [InlineAlert](../../../blocks/inline-alert/index.md) block replace `header` slot with `heading` slot
   - Remove extra `Accordion` tags and only use: [AccordionItem](../../../blocks/accordion/index.md) and rearrange so header is not in the tag
   - Replace `ListBlock` with [List](../../../blocks/list/index.md)
