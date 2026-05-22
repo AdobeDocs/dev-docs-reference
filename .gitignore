@@ -1,40 +1,15 @@
-# OS and IDE generated files
+# OS
 .DS_Store
+
+# IDE
 .vscode
-.vscode/*
-.idea
-.editorconfig
 
 # Environment variables
 .env
 
-# npm / yarn
+# npm
 node_modules
 package-lock.json
-yarn-error.log
-.pnp.*
-.yarn/*
-
-# Keep in repo
-!.gitignore
-!.yarn.lock
-!.yarnrc.yml
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-
-# Gatsby
-.cache
-public
-
-# Cypress
-cypress/videos
-cypress/screenshots
-
-# Lerna
-lerna-debug.log
 
 # Lint output
 linter-report.txt
