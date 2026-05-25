@@ -25,6 +25,34 @@ Short-form video new
 https://your-media-link.com
 ```
 
+Optional playback attributes (`loop`, `autoplay`, `controls`) apply to the same pattern: add them on the opening tag, then put the media URL on the following line.
+
+```markdown
+<Embed slots="video" loop />
+
+https://your-media-link.com
+```
+
+```markdown
+<Embed slots="video" controls="false" />
+
+https://your-media-link.com
+```
+
+```markdown
+<Embed slots="video" autoplay />
+
+https://your-media-link.com
+```
+
+```markdown
+<Embed slots="video" loop autoplay />
+
+https://your-media-link.com
+```
+
+A self-closing tag with no space before `/>` (for example `loop/>`) is equivalent to `loop />`.
+
 ## Parameters
 
 - **slots**:
@@ -32,6 +60,17 @@ https://your-media-link.com
 
 - **short**
   - `"true"` - An attribute displays the video in a short-form (vertical) format, similar to YouTube Shorts or Instagram Reels.
+
+- **loop** (optional, boolean)
+  - When present, the video repeats when it finishes. Example: `<Embed slots="video" loop />` or `<Embed slots="video" loop/>`.
+
+- **autoplay** (optional, boolean)
+  - When present, playback starts automatically when the player loads. Browser autoplay policies (muted requirement, user gesture, etc.) may still apply.
+
+- **controls** (optional)
+  - Set to `"false"` to hide the default player controls. Example: `<Embed slots="video" controls="false" />`.
+
+You can combine attributes on the same opening tag (for example `loop autoplay`).
 
 <InlineAlert slots="text" />
 
