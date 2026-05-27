@@ -38,7 +38,7 @@ title: Your Page Title
 hideEditInGitHub: true
 hideLogIssue: true
 hideCopyMarkdown: true
-no-toc: true
+hideOnThisPage: true
 ---
 ```
 
@@ -49,7 +49,7 @@ no-toc: true
 | **hideEditInGitHub** | Boolean | When `true`, hides the "Edit in GitHub" link. Omit or `false` to show it (default). |
 | **hideLogIssue** | Boolean | When `true`, hides the "Log an issue" button. Omit or `false` to show it (default). |
 | **hideCopyMarkdown** | Boolean | When `true`, hides the "Copy as Markdown" button. Omit or `false` to show it (default). |
-| **no-toc** | Boolean | When `true`, hides the "ON THIS PAGE" sidebar navigation. Omit or `false` to show it (default). |
+| **hideOnThisPage** | Boolean | When `true`, hides the "ON THIS PAGE" sidebar navigation. Omit or `false` to show it (default). |
 
 ## Examples
 
@@ -85,7 +85,7 @@ hideCopyMarkdown: true
 ```yaml
 ---
 title: Single-Section Page
-no-toc: true
+hideOnThisPage: true
 ---
 ```
 
@@ -97,7 +97,7 @@ title: Locked Down Page
 hideEditInGitHub: true
 hideLogIssue: true
 hideCopyMarkdown: true
-no-toc: true
+hideOnThisPage: true
 ---
 ```
 
