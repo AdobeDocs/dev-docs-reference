@@ -36,12 +36,12 @@ This is a sample description text for the superhero block.
 - **textColor**: Text color. Options: `black`, `white`, `gray`, `navy` (default: `black`)
 - **overGradient**: Improves button visibility over a gradient background
 
-- **Video playback** (optional, when `video` is in `slots`): Add any of these as boolean attributes on the opening `<Superhero>` tag (no value)
-  - **controls** — Present to show the default browser video controls.
-  - **autoplay** — Start playback when the hero loads.
-  - **loop** — Repeat the video when it ends.
+- **Video playback** (optional, when `video` is in `slots`): Add any of these as boolean attributes on the opening `<Superhero>` tag (no value). Autoplay with mute is on by default.
+  - **controls** — Off by default. Show the default browser video controls. `controls` alone disables autoplay, loop, and mute.
+  - **autoplay** — Re-enables autoplay and mute (for example when used together with `controls`).
+  - **loop** — On by default unless `controls` is set. Repeat the video when it ends. Add `loop` to re-enable looping when used with `controls`.
 
-**Example :**
+**Example:**
 
 ```markdown
 <Superhero slots="video, heading, text, buttons" variant="halfWidth" textColor="black" overGradient controls autoplay loop/>

@@ -24,7 +24,7 @@ This is a sample description text for the superhero block.
 * [View Examples](https://example.com/examples)
 ```
 
-<Superhero slots="fullWidthBackground, video, heading, text, buttons" variant="halfWidth" textColor="white" overGradient />
+<Superhero slots="fullWidthBackground, video, heading, text, buttons" variant="halfWidth" textColor="white" overGradient controls autoplay loop />
 
 ![Gradient background](../../../assets/vertical-gradient.png)
 
