@@ -36,13 +36,24 @@ This is a sample description text for the superhero block.
 - **textColor**: Text color. Options: `black`, `white`, `gray`, `navy` (default: `black`)
 - **overGradient**: Improves button visibility over a gradient background
 
+- **Video playback** (optional, when `video` is in `slots`): Add any of these as boolean attributes on the opening `<Superhero>` tag (no value). Autoplay with mute is on by default.
+  - **controls** — Off by default. Show the default browser video controls. `controls` alone disables autoplay, loop, and mute.
+  - **autoplay** — Re-enables autoplay and mute (for example when used together with `controls`).
+  - **loop** — On by default unless `controls` is set. Repeat the video when it ends. Add `loop` to re-enable looping when used with `controls`.
 
-<Superhero slots="image, heading, text, buttons" variant="halfWidth" />
+**Example:**
 
-![Hero image](../../../assets/cc-hero.png)
+```markdown
+<Superhero slots="video, heading, text, buttons" variant="halfWidth" textColor="black" overGradient controls autoplay loop/>
 
-# Page Heading
+[video_url](https://example.com/path/to/video.mp4)
 
-This is a sample description text for the superhero block.
+# Build Extensions for Your Users
+
+Create powerful tools and integrations.
 
 * [Get Started](https://example.com/getting-started)
+* [View Examples](https://example.com/examples)
+```
+
+For a hero with a **background image** and video together, see [Half Width with Background Image and Video](with-background-image-and-video.md).
