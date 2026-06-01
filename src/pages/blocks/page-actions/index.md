@@ -16,6 +16,7 @@ By default, documentation pages can show:
 - **Edit in GitHub**: Link to open the source file on GitHub and propose edits
 - **Log an issue**: Button to report a problem with the page (GitHub or your issue tracker)
 - **Copy as Markdown**: Button to copy the page content as Markdown
+- **ON THIS PAGE**: Sidebar navigation generated from the page's headings
 
 ## When to Hide
 
@@ -24,11 +25,12 @@ Consider hiding these actions when:
 - **Edit in GitHub**: Restricted content, auto-generated pages, sensitive docs, legal/compliance pages, or content that requires internal review before edits
 - **Log an issue**: Pages not open for public feedback, auto-generated content, or internal-only docs where issues are handled elsewhere
 - **Copy as Markdown**: Pages where copying source is restricted, sensitive content, or minimal layouts where you want less clutter
+- **ON THIS PAGE**: Pages with no meaningful heading structure, single-section pages, or layouts where the sidebar adds visual clutter
 
 
 
 ## How to hide
-To hide one or more of these actions on a page, add the corresponding options to that page’s frontmatter. Each option is independent, so you can combine them as needed.
+To hide one or more of these actions on a page, add the corresponding options to that page's frontmatter. Each option is independent, so you can combine them as needed.
 
 ```yaml
 ---
@@ -36,6 +38,7 @@ title: Your Page Title
 hideEditInGitHub: true
 hideLogIssue: true
 hideCopyMarkdown: true
+hideOnThisPage: true
 ---
 ```
 
@@ -46,6 +49,7 @@ hideCopyMarkdown: true
 | **hideEditInGitHub** | Boolean | When `true`, hides the "Edit in GitHub" link. Omit or `false` to show it (default). |
 | **hideLogIssue** | Boolean | When `true`, hides the "Log an issue" button. Omit or `false` to show it (default). |
 | **hideCopyMarkdown** | Boolean | When `true`, hides the "Copy as Markdown" button. Omit or `false` to show it (default). |
+| **hideOnThisPage** | Boolean | When `true`, hides the "ON THIS PAGE" sidebar navigation. Omit or `false` to show it (default). |
 
 ## Examples
 
@@ -76,7 +80,16 @@ hideCopyMarkdown: true
 ---
 ```
 
-### Hide all three actions
+### Hide the ON THIS PAGE sidebar
+
+```yaml
+---
+title: Single-Section Page
+hideOnThisPage: true
+---
+```
+
+### Hide all actions
 
 ```yaml
 ---
@@ -84,6 +97,7 @@ title: Locked Down Page
 hideEditInGitHub: true
 hideLogIssue: true
 hideCopyMarkdown: true
+hideOnThisPage: true
 ---
 ```
 
