@@ -14,7 +14,7 @@ Superhero default variant with icon.
 
 # Page Heading
 
-This is a sample description text for the superhero block.
+This is a sample description text with an [inline link](https://example.com) for the superhero block.
 ```
 
 <Superhero slots="icon, heading, text" />
@@ -23,4 +23,4 @@ This is a sample description text for the superhero block.
 
 # Page Heading
 
-This is a sample description text for the superhero block.
+This is a sample description text with an [inline link](https://example.com) for the superhero block.

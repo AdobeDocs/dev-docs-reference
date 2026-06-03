@@ -14,7 +14,7 @@ Basic hero used for Documentation pages.
 
 # Page Heading
 
-This is a sample description text for the superhero block.
+This is a sample description text with an [inline link](https://example.com) for the superhero block.
 
 ```
 
@@ -33,4 +33,4 @@ This is a sample description text for the superhero block.
 
 # Page Heading
 
-This is a sample description text for the superhero block.
+This is a sample description text with an [inline link](https://example.com) for the superhero block.

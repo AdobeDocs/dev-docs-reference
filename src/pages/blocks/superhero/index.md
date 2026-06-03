@@ -7,7 +7,7 @@ description: Create impactful hero banners with images, headings, text, and call
 
 # Page Heading
 
-This is a sample description text for the superhero block.
+This is a sample description text with an [inline link](https://example.com) for the superhero block.
 
 # Superhero Block
 

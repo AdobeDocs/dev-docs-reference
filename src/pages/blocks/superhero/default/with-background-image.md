@@ -14,7 +14,7 @@ Superhero default variant with background image.
 
 # Page Heading
 
-This is a sample description text for the superhero block.
+This is a sample description text with an [inline link](https://example.com) for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
 ```
@@ -25,6 +25,6 @@ This is a sample description text for the superhero block.
 
 # Page Heading
 
-This is a sample description text for the superhero block.
+This is a sample description text with an [inline link](https://example.com) for the superhero block.
 
 * [Get Started](https://example.com/getting-started)
