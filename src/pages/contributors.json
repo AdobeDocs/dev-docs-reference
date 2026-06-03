@@ -1,7 +1,7 @@
 {
-  "total": 84,
+  "total": 88,
   "offset": 0,
-  "limit": 84,
+  "limit": 88,
   "data": [
     {
       "page": "/",
@@ -22,13 +22,13 @@
     {
       "page": "/blocks/",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/113968869?v=4",
         "https://avatars.githubusercontent.com/u/120194874?v=4",
+        "https://avatars.githubusercontent.com/u/113968869?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "3/30/2026"
+      "lastUpdated": "6/3/2026"
     },
     {
       "page": "/blocks/accordion/",
@@ -407,6 +407,13 @@
       "lastUpdated": "2/4/2026"
     },
     {
+      "page": "/blocks/superhero/centered/with-text-and-background-color",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4"
+      ],
+      "lastUpdated": "6/3/2026"
+    },
+    {
       "page": "/blocks/superhero/centeredxl/",
       "avatars": [
         "https://avatars.githubusercontent.com/u/41382203?v=4"
@@ -419,6 +426,13 @@
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
       "lastUpdated": "2/4/2026"
+    },
+    {
+      "page": "/blocks/superhero/centeredxl/with-text-and-background-color",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4"
+      ],
+      "lastUpdated": "6/3/2026"
     },
     {
       "page": "/blocks/superhero/default/",
@@ -440,6 +454,13 @@
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
       "lastUpdated": "2/4/2026"
+    },
+    {
+      "page": "/blocks/superhero/default/with-text-and-background-color",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4"
+      ],
+      "lastUpdated": "6/3/2026"
     },
     {
       "page": "/blocks/superhero/halfwidth/",
@@ -472,6 +493,13 @@
       "lastUpdated": "2/4/2026"
     },
     {
+      "page": "/blocks/superhero/halfwidth/with-text-and-background-color",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4"
+      ],
+      "lastUpdated": "6/3/2026"
+    },
+    {
       "page": "/blocks/tab/",
       "avatars": [
         "https://avatars.githubusercontent.com/u/14320591?v=4"
@@ -497,13 +525,13 @@
     {
       "page": "/config",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/113968869?v=4",
         "https://avatars.githubusercontent.com/u/120194874?v=4",
+        "https://avatars.githubusercontent.com/u/113968869?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "3/30/2026"
+      "lastUpdated": "6/3/2026"
     },
     {
       "page": "/deploy/",
