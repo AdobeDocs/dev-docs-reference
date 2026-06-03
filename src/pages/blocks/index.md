@@ -168,15 +168,15 @@ Resource links displayed on right sidebar.
 Hero banners with images and CTAs. 8 variants:
 
 **Layouts:**
-- [Default](superhero/superhero-default.md) - Standard
-- [Half Width](superhero/superhero-halfwidth.md) - Split-screen
-- [Centered](superhero/superhero-centered.md) - Center-aligned
-- [Centered XL](superhero/superhero-centeredxl.md) - Extra-large
+- [Default](superhero/default/index.md) - Standard
+- [Half Width](superhero/halfwidth/index.md) - Split-screen
+- [Centered](superhero/centered/index.md) - Center-aligned
+- [Centered XL](superhero/centeredxl/index.md) - Extra-large
 
 **Enhanced:**
-- [Default + Background](superhero/superhero-default-with-background-image.md) - Custom background
-- [Half Width + Background](superhero/superhero-halfwidth-with-background-image.md) - Full-width background
-- [Half Width + Video](superhero/superhero-halfwidth-with-background-image-and-video.md) - Video background
+- [Default + Background](superhero/default/with-background-image.md) - Custom background
+- [Half Width + Background](superhero/halfwidth/with-background-image.md) - Full-width background
+- [Half Width + Video](superhero/halfwidth/with-background-image-and-video.md) - Video background
 
 ### [Tab](tab/index.md)
 
