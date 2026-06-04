@@ -65,16 +65,8 @@ Actions → Build Auto-Generated Files → Run workflow
 
 This is a known limitation tracked in [DEVSITE-2395](https://jira.corp.adobe.com/browse/DEVSITE-2395).
 
-## Why are the `Build Contributors` or `Build Site Metadata` checks failing on a PR from a fork?
-
-PRs opened from forks may fail the `Build Contributors / build-contributors` or `Build Site Metadata / build-site-metadata` checks. This was fixed in v2 workflows, but existing repos are still on v1 and will be updated via the retro repo update process ([DEVSITE-2249](https://jira.corp.adobe.com/browse/DEVSITE-2249)).
-
-Until your repo is updated to v2 workflows:
-1. Go to Actions → Build Auto-Generated Files → Run workflow and wait for it to complete
-2. Merge the PR and ignore the failed check
-
 ## Why are the `Build Contributors` or `Build Site Metadata` checks failing with a push rejection?
 
-This applies to repos on v2 workflows. When a PR is merged, the deploy workflow auto-generates `contributors.json` and `adp-site-metadata.json` and pushes them to main using the `adp-devsite-app` bot. If your repo has branch protection rules, the bot needs to be added as a bypass actor.
+The deploy workflow auto-generates `contributors.json` and `adp-site-metadata.json` and pushes them to main using the `adp-devsite-app` bot. If your repo has branch protection rules, the bot needs to be added as a bypass actor.
 
 Settings → Branches → edit ruleset → Bypass list → add [`adp-devsite-app`](https://github.com/apps/adp-devsite-app).

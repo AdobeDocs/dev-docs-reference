@@ -263,14 +263,6 @@ After triggering a deployment:
 - Run the **Build Auto-Generated Files** workflow manually before deploying: Actions → Build Auto-Generated Files → Run workflow
 - See [FAQ](../faq/index.md#why-are-the-contributors-sidenav-or-get-credentials-blocks-missing-on-my-private-repo) for more details
 
-#### `Build Contributors` or `Build Site Metadata` Check Failing on a Fork PR
-
-**Symptoms:** PRs opened from forks fail the `Build Contributors / build-contributors` or `Build Site Metadata / build-site-metadata` check
-
-**Solutions:**
-- Run the **Build Auto-Generated Files** workflow manually and merge ignoring the failed check
-- See [FAQ](../faq/index.md#why-are-the-build-contributors-or-build-site-metadata-checks-failing-on-a-pr-from-a-fork) for more details
-
 #### `Build Contributors` or `Build Site Metadata` Failing with a Push Rejection
 
 **Symptoms:** `Build Contributors` or `Build Site Metadata` fails because it cannot push auto-generated files to `main`

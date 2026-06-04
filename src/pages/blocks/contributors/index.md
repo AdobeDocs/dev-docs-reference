@@ -59,9 +59,9 @@ To prevent duplicate feedback submissions and reduce survey fatigue, the block p
 
 `contributors.json` is not generated or updated automatically on `npm run dev`. If the file doesn't exist, the Contributors block will not render — run `npm run buildContributors` to generate or update it locally.
 
-### On pull request
+### On deploy
 
-The file is generated automatically by the `Build Auto-Generated Files` GitHub Actions workflow, which runs on every pull request.
+The file is generated automatically by the `Build Auto-Generated Files` GitHub Actions workflow, which runs as part of every deployment (triggered on push to `main` or via `workflow_dispatch`).
 
 ### Manual generation
 

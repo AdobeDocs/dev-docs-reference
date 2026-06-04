@@ -57,9 +57,9 @@ If the file does not exist, components fall back to looking up each configuratio
 npm run dev
 ```
 
-### On pull request
+### On deploy
 
-The file is generated automatically by the `Build Auto-Generated Files` GitHub Actions workflow, which runs on every pull request.
+The file is generated automatically by the `Build Auto-Generated Files` GitHub Actions workflow, which runs as part of every deployment (triggered on push to `main` or via `workflow_dispatch`).
 
 
 ### Manual generation
