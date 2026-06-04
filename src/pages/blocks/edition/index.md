@@ -23,6 +23,7 @@ Enterprise Edition
   - Default (red) - No attribute needed
   - `"blue"` - Blue background
   - `"green"` - Green background
+  - `"gray"` - Gray background
 
 ## Examples
 
@@ -44,8 +45,17 @@ Enterprise Edition
 
 Premium Edition
 
+### Gray Background
+
+<Edition slots="text" backgroundColor="gray"/>
+
+[Gray Edition](https://example.com/editions)
+
+
 ### With Link
 
 <Edition slots="text"/>
 
 [Enterprise Edition](https://example.com/editions)
+
+
