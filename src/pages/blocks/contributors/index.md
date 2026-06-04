@@ -57,11 +57,7 @@ To prevent duplicate feedback submissions and reduce survey fatigue, the block p
 
 ### Local development
 
-`contributors.json` is generated automatically when you start the local dev server:
-
-```bash
-npm run dev
-```
+`contributors.json` is not generated or updated automatically on `npm run dev`. If the file doesn't exist, the Contributors block will not render — run `npm run buildContributors` to generate or update it locally.
 
 ### On pull request
 
