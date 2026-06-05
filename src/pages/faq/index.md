@@ -23,15 +23,13 @@ To host and link PDF files (or other files like `ZIP` or `.d.ts`), use a URL and
 
 ## How do I link JSON files?
 
-`JSON` files in `src/pages` must be in AEM EDS format or deployments will fail. JSON files that aren't in AEM EDS format (such as Redocly API spec files) must be placed in the `static` folder. Files in `static/` are not deployed to EDS, so relative paths (e.g. `../../static/`) will return 404.
+`JSON` files in `src/pages` must be in AEM EDS format or deployments will fail. JSON files that aren't in AEM EDS format (such as Redocly API spec files) must be placed in the `static` folder and can be linked using a relative path: \<br/\>
 
-**In a `RedoclyAPIBlock`**: Use `src="/{pathPrefix}/{filename}"` — include pathPrefix, exclude the `static` segment: \<br/\>
+`[example JSON file](../../../static/petstore.json)`
+
+**In a `RedoclyAPIBlock`**: Relative paths don't work — use `src="/{pathPrefix}/{filename}"` (include pathPrefix, exclude the `static` segment): \<br/\>
 
 `<RedoclyAPIBlock src="/your-pathPrefix/petstore.json" />`
-
-**As a plain download link**: Use a `raw.githubusercontent.com` URL instead: \<br/\>
-
-`[Download schema](https://raw.githubusercontent.com/AdobeDocs/your-repo/main/static/your-file.json)`
 
 ## Where can I upload videos?
 
