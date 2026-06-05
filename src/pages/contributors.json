@@ -579,7 +579,7 @@
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "6/4/2026"
+      "lastUpdated": "6/5/2026"
     },
     {
       "page": "/getting-started/",
@@ -663,10 +663,11 @@
     {
       "page": "/localdev/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/113968869?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "4/22/2026"
+      "lastUpdated": "6/5/2026"
     }
   ],
   ":type": "sheet"
