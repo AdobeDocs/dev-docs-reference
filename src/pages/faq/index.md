@@ -21,10 +21,18 @@ To host and link PDF files (or other files like `ZIP` or `.d.ts`), use a URL and
 `[ZIP](./assets/process.zip)` \<br/\> 
 `[PDF for download](./assets/example.pdf)` \<br/\> 
 
-`JSON` files in `src/pages` must be in AEM EDS format or deployments will fail. JSON files that aren't in AEM EDS format (such as Redocly API spec files) must be placed in the `static` folder and can be linked using a relative path: \<br/\> 
+## How do I link JSON files?
 
-`[example JSON file](../../static/petstore.json)
-`
+`JSON` files in `src/pages` must be in AEM EDS format or deployments will fail. JSON files that aren't in AEM EDS format (such as Redocly API spec files) must be placed in the `static` folder. Files in `static/` are not deployed to EDS, so relative paths (e.g. `../../static/`) will return 404.
+
+**In a `RedoclyAPIBlock`**: Use `src="/{pathPrefix}/{filename}"` — include pathPrefix, exclude the `static` segment: \<br/\>
+
+`<RedoclyAPIBlock src="/your-pathPrefix/petstore.json" />`
+
+**As a plain download link**: Use a `raw.githubusercontent.com` URL instead: \<br/\>
+
+`[Download schema](https://raw.githubusercontent.com/AdobeDocs/your-repo/main/static/your-file.json)`
+
 ## Where can I upload videos?
 
 To use videos in blocks that accept video attributes, you need to provide a URL or if uploaded under `src/pages` they can use a relative path. Here are your options for uploading and hosting videos:
