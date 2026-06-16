@@ -9,9 +9,9 @@ description: A guide with FAQ about the ADP Developer Site
 
 A few common causes:
 
-- **Trailing slash** — pages served from `index.md` files require a trailing slash. The no-slash version won't redirect unless a redirect is explicitly configured. See [Paths and Links](https://developer.adobe.com/dev-docs-reference/getting-started/dev-docs/best-practices/#paths-and-links).
-- **Path characters** — paths use hyphens, not underscores or periods. See [File and Directory Naming](https://developer.adobe.com/dev-docs-reference/getting-started/dev-docs/best-practices/#file-and-directory-naming).
-- **Expired redirects** — after migrating from Gatsby, we add temporary redirects to cover old bookmarks. Those are removed after ~6 weeks. New pages never get them, so there's no fallback. See [Why were the redirects to my old Gatsby pages removed?](#why-were-the-redirects-to-my-old-gatsby-pages-removed) and [Paths and Links](https://developer.adobe.com/dev-docs-reference/getting-started/dev-docs/best-practices/#paths-and-links).
+- **Trailing slash** — pages served from `index.md` files require a trailing slash. The no-slash version won't redirect unless a redirect is explicitly configured. See [Paths and Links](../getting-started/dev-docs/best-practices/#paths-and-links).
+- **Path characters** — paths use hyphens, not underscores or periods. See [File and Directory Naming](../getting-started/dev-docs/best-practices/#file-and-directory-naming).
+- **Expired redirects** — after migrating from Gatsby, we add temporary redirects to cover old bookmarks. Those are removed after ~6 weeks. New pages never get them, so there's no fallback. See [Why were the redirects to my old Gatsby pages removed?](#why-were-the-redirects-to-my-old-gatsby-pages-removed) and [Paths and Links](../getting-started/dev-docs/best-practices/#paths-and-links).
 
 To detect 404s in your repo, run the link checker commands in your [`package.json`](https://github.com/AdobeDocs/dev-docs-template/blob/d67b86f4dca4f30ecb9825fe7dd08b392475ad4b/package.json#L27-L28).
 
