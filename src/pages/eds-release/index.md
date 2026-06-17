@@ -5,6 +5,18 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## June 17, 2026
+
+- [Devsite 1269 text](https://github.com/AdobeDocs/adp-devsite/pull/653) — Adds a collapsible toggle to the CodeBlock block, allowing users to show or hide code with either an icon or text label.
+- [fix(discoverblock): exclude AI assistant headings from default styles](https://github.com/AdobeDocs/adp-devsite/pull/647) — Scopes discoverblock heading selectors to prevent style conflicts with headings rendered inside the AI assistant.
+- [feat: enable ai assistant by default on stage](https://github.com/AdobeDocs/adp-devsite/pull/655) — Enables the AI assistant to appear by default on the developer site, scoped to the stage environment only.
+- [feat(ai-assistant): add BETA badge with animated hide/show logic](https://github.com/AdobeDocs/adp-devsite/pull/656) — Adds a "BETA" badge to the AI assistant chat button that hides when the chat window opens and reappears after it closes.
+- [Devsite 1996 - fixed inconsistency of external-icon](https://github.com/AdobeDocs/adp-devsite/pull/657) — Fixes external link icon rendering by correcting the HTML attribute and adding styles for icons inside list elements.
+- [discoverblock update](https://github.com/AdobeDocs/adp-devsite/pull/658) — Fixes two discoverblock layout issues: a double horizontal line under h2 headings and an overlapping element problem when resizing.
+- [feat(ai-assistant): add support for codeblocks](https://github.com/AdobeDocs/adp-devsite/pull/650) — Adds syntax-highlighted code block rendering inside AI assistant chat bubbles.
+- [feat(ai-assistant): initial prompts and persistance for suggested questions](https://github.com/AdobeDocs/adp-devsite/pull/660) — Changes the AI assistant's initial suggested questions to a static list and persists them across page navigations using sessionStorage.
+- [fix: explicitly set charset to utf-8](https://github.com/AdobeDocs/adp-devsite/pull/661) — Explicitly sets charset=utf-8 in the page head to prevent legacy charset fallback issues.
+
 ## 4/30/26 EDS Release:
 
 - **Fix:** Discovery Interface [devsite-2327](https://jira.corp.adobe.com/browse/DEVSITE-2327)
@@ -90,14 +102,14 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 - **Feat:** feedback persistence
 - **Fix:** contributor modal mobile overflow
 - GetCredential Fixes:
-  - **Fix:** get credential CSS issue
+  - **Fix:** sign-in component problem
     - [DEVSITE-2261](https://jira.corp.adobe.com/browse/DEVSITE-2261)
   - **Fix:** side content design issue
 - **Fix:** remove table of content text in sidenav
 - **Feat:** enhance AI assistant functionality with stop response feature
   - Updated CSS for the send button to include a stop mode with new styles
   - Added logic to handle aborting ongoing requests and toggling button states
-  - Introduced new SVG icons for send and stop actions
+  - Introduced new SVGs icons for send and stop actions
   - Improved user experience by showing/hiding the stop button during interactions
 
 ## 3/12/26 EDS Release:
@@ -106,7 +118,7 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 - **Feat:** dynamic contributors
   - [DEVSITE-2092](https://jira.corp.adobe.com/browse/DEVSITE-2092)
 - **Feat:** AI assistant
-  - [ADPGENAI-51](https://jira.corp.adobe.com/browse/ADPGENAI-51), [DEVSITE-2146](https://jira.corp.adobe.com/browse/DEVSITE-2146)
+  - [ADPFGENAI-51](https://jira.corp.adobe.com/browse/ADPGENAI-51), [DEVSITE-2146](https://jira.corp.adobe.com/browse/DEVSITE-2146)
 - GetCredential Fixes:
   - **Fix:** org dropdown issue
   - **Fix:** fetch entitlement
