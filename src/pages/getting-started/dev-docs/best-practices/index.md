@@ -25,6 +25,10 @@ description: Best practices and troubleshooting tips for migrating your document
 - **Place assets in `src/pages` (and not static folder)**:
   - Remove images or pdf content from static folder and put in `src/pages` folder
   - Redocly spec files: YAML can be in `src/pages` or `static/`; JSON must be in `static/` only (JSON under `src/pages` fails deployment)
+- **Image file size limits**:
+  - **SVG**: keep under **40 KB**.
+  - **PNG / JPG / GIF / WebP**: keep under **20 MB**.
+  - See [Image Block](../../../blocks/image/index.md) for full reference.
 - **Assets are reading from the branch it was deployed from**
 - **Directly importing content from another repo doesn't work**:
   - Because the file is unable to fetch data from the external repo.
