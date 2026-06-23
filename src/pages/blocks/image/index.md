@@ -30,7 +30,12 @@ Display images in your documentation using standard markdown syntax.
 - **Formats**: PNG, JPG, GIF, WebP, SVG
 - **Preferred Size**: 580 x 350 px for optimal display
 
-**NOTE**: Pleas limit your image to be under 3MB. 
+## File size limits
+
+- **SVG**: keep under **40 KB**.
+- **PNG / JPG / GIF / WebP**: keep under **20 MB**.  
+
+Files larger than the suggested size will fail to deploy and render via EDS' image pipeline.
 
 ## Example
 

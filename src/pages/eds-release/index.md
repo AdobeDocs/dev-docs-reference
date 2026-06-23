@@ -5,6 +5,10 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 6/18/26 EDS Release:
+
+- **Fix:** Code block vertical tab too wide and not centered in DevBiz [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
+
 ## 6/17/26 EDS Release:
 
 - **Fix:** collapsible toggle for CodeBlock show/hide [DEVSITE-1269](https://jira.corp.adobe.com/browse/DEVSITE-1269)
