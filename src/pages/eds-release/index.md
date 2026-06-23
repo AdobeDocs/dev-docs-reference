@@ -5,17 +5,17 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
-## June 17, 2026
+## 6/17/26 EDS Release:
 
-- [Devsite 1269 text](https://github.com/AdobeDocs/adp-devsite/pull/653) — Adds a collapsible toggle icon to the CodeBlock block, allowing users to expand and collapse code sections.
-- [fix(discoverblock): exclude AI assistant headings from default styles](https://github.com/AdobeDocs/adp-devsite/pull/647) — Updates Discoverblock CSS selectors to exclude AI assistant headings from default h2/h3 styles using `:not()` selectors.
-- [feat: enable ai assistant by default on stage](https://github.com/AdobeDocs/adp-devsite/pull/655) — Enables the AI assistant to appear by default on the staging environment.
-- [feat(ai-assistant): add BETA badge with animated hide/show logic](https://github.com/AdobeDocs/adp-devsite/pull/656) — Adds an animated BETA badge to the AI assistant chat button that hides when the chat window opens and reappears when closed.
-- [Devsite 1996 - fixed inconsistency of external-icon](https://github.com/AdobeDocs/adp-devsite/pull/657) — Fixes external icon rendering inconsistency in resource lists by correcting the HTML attribute and adding icon styles for list items.
-- [discoverblock update](https://github.com/AdobeDocs/adp-devsite/pull/658) — Fixes a double horizontal line on h2 headings and resolves an overlapping element issue in the Discoverblock component at smaller screen widths.
-- [feat(ai-assistant): add support for codeblocks](https://github.com/AdobeDocs/adp-devsite/pull/650) — Enables syntax-highlighted code block rendering within AI Assistant chat bubbles using Prism, with a condensed icon-only copy button.
-- [feat(ai-assistant): initial prompts and persistance for suggested questions](https://github.com/AdobeDocs/adp-devsite/pull/660) — Replaces dynamic initial prompts with a static list and persists AI assistant suggested questions in sessionStorage across page reloads.
-- [fix: explicitly set charset to utf-8](https://github.com/AdobeDocs/adp-devsite/pull/661) — Explicitly sets the page charset to UTF-8 to fix rendering issues caused by a legacy Windows-1252 charset on certain repositories.
+- **Fix:** collapsible toggle for CodeBlock show/hide [DEVSITE-1269](https://jira.corp.adobe.com/browse/DEVSITE-1269)
+- **Fix:** exclude AI assistant headings from discoverblock default styles
+- **Feat:** enable AI assistant by default on stage
+- **Feat:** BETA badge with animated hide/show for AI assistant
+- **Fix:** external link icon rendering inconsistency [DEVSITE-1996](https://jira.corp.adobe.com/browse/DEVSITE-1996)
+- **Fix:** discoverblock double horizontal line and overlapping elements [DEVSITE-2464](https://jira.corp.adobe.com/browse/DEVSITE-2464) [DEVSITE-2195](https://jira.corp.adobe.com/browse/DEVSITE-2195)
+- **Feat:** syntax-highlighted code block rendering in AI assistant [ADPGENAI-67](https://jira.corp.adobe.com/browse/ADPGENAI-67)
+- **Feat:** static initial prompts and session persistence for AI assistant suggested questions
+- **Fix:** explicitly set charset to utf-8 in page head
 
 ## 4/30/26 EDS Release:
 
