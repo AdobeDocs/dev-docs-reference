@@ -9,6 +9,18 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 - **Fix:** Code block vertical tab too wide and not centered in DevBiz [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
 
+## 6/17/26 EDS Release:
+
+- **Fix:** collapsible toggle for CodeBlock show/hide [DEVSITE-1269](https://jira.corp.adobe.com/browse/DEVSITE-1269)
+- **Fix:** exclude AI assistant headings from discoverblock default styles
+- **Feat:** enable AI assistant by default on stage
+- **Feat:** BETA badge with animated hide/show for AI assistant
+- **Fix:** external link icon rendering inconsistency [DEVSITE-1996](https://jira.corp.adobe.com/browse/DEVSITE-1996)
+- **Fix:** discoverblock double horizontal line and overlapping elements [DEVSITE-2464](https://jira.corp.adobe.com/browse/DEVSITE-2464) [DEVSITE-2195](https://jira.corp.adobe.com/browse/DEVSITE-2195)
+- **Feat:** syntax-highlighted code block rendering in AI assistant [ADPGENAI-67](https://jira.corp.adobe.com/browse/ADPGENAI-67)
+- **Feat:** static initial prompts and session persistence for AI assistant suggested questions
+- **Fix:** explicitly set charset to utf-8 in page head
+
 ## 4/30/26 EDS Release:
 
 - **Fix:** Discovery Interface [devsite-2327](https://jira.corp.adobe.com/browse/DEVSITE-2327)
