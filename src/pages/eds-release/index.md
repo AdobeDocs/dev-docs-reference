@@ -5,6 +5,11 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 6/23/26 EDS Release:
+
+- **Fix:** horizontal rule rendering error on terminology page
+- **Fix:** text alignment in Title Block on mobile [DEVSITE-2477](https://jira.corp.adobe.com/browse/DEVSITE-2477)
+
 ## 6/18/26 EDS Release:
 
 - **Fix:** Code block vertical tab too wide and not centered in DevBiz [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
