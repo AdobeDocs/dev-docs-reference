@@ -5,6 +5,21 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+
+## 6/24/26 EDS Release:
+
+- **Fix:** horizontal line rendering in Express add-ons sidebar [DEVSITE-2237](https://jira.corp.adobe.com/browse/DEVSITE-2237)
+- **Fix:** title block text alignment on mobile [DEVSITE-2477](https://jira.corp.adobe.com/browse/DEVSITE-2477)
+- **Fix:** mini resource card design issue [DEVSITE-2476](https://jira.corp.adobe.com/browse/DEVSITE-2476)
+- **Fix:** infocard hover styling [DEVSITE-2479](https://jira.corp.adobe.com/browse/DEVSITE-2479)
+- **Fix:** scope codeblock tab spacing to DevBiz only [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
+- **Fix:** code decoration inside accordion blocks [DEVSITE-2193](https://jira.corp.adobe.com/browse/DEVSITE-2193)
+- **Fix:** suppress side nav transition on desktop-to-mobile resize [DEVSITE-1747](https://jira.corp.adobe.com/browse/DEVSITE-1747)
+- **Feat:** add default alt text and fix relative path resolution for video blocks
+- **Fix:** update AI assistant disclaimer text
+- **Feat:** improve AI assistant initial prompts
+- **Fix:** enable AI assistant on production
+
 ## 6/18/26 EDS Release:
 
 - **Fix:** Code block vertical tab too wide and not centered in DevBiz [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
