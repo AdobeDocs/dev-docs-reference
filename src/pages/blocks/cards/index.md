@@ -42,7 +42,7 @@ Card description text goes here.
 
 ![Card Image](../../assets/column.jpg)
 
-## First Card
+### First Card
 
 This is a sample description for the first card in the grid.
 
@@ -67,3 +67,5 @@ This is a sample description for the second card in the grid.
 This is a sample description for the third card in the grid.
 
 [Learn more](https://developer.adobe.com/)
+
+For cards with a wide image, see [Cards - Wide Variant](cards-wide.md).

@@ -43,6 +43,7 @@
         - [Accordion](/blocks/accordion/index.md)
         - [Announcement](/blocks/announcement/index.md)
         - [Cards](/blocks/cards/index.md)
+            - [Cards Wide](/blocks/cards/cards-wide.md)
         - [Code](/blocks/code/index.md)
             - [Code Basic](/blocks/code/code-basic.md)
             - [Code Highlighted Line](/blocks/code/code-highlighted-line.md)

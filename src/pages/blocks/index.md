@@ -68,6 +68,8 @@ Important notices and announcements.
 
 Content cards in grid layouts.
 
+### [Wide Variant](cards/cards-wide.md) - Cards with a wide image
+
 ### [Code](code/index.md)
 
 Markdown code snippet with syntax.
