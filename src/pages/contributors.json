@@ -1,7 +1,7 @@
 {
-  "total": 88,
+  "total": 89,
   "offset": 0,
-  "limit": 88,
+  "limit": 89,
   "data": [
     {
       "page": "/",
@@ -22,13 +22,13 @@
     {
       "page": "/blocks/",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/113968869?v=4",
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "6/3/2026"
+      "lastUpdated": "6/25/2026"
     },
     {
       "page": "/blocks/accordion/",
@@ -55,10 +55,18 @@
     {
       "page": "/blocks/cards/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/113968869?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "2/4/2026"
+      "lastUpdated": "6/25/2026"
+    },
+    {
+      "page": "/blocks/cards/cards-wide",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/113968869?v=4"
+      ],
+      "lastUpdated": "6/25/2026"
     },
     {
       "page": "/blocks/code/",
@@ -537,13 +545,13 @@
     {
       "page": "/config",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/113968869?v=4",
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "6/3/2026"
+      "lastUpdated": "6/25/2026"
     },
     {
       "page": "/deploy/",
