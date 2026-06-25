@@ -34,8 +34,6 @@ Card description text goes here.
   - `"50%"` - Two cards per row (2-column grid)
   - `"25%"` - Four cards per row (4-column grid)
 
-- **wide**: Displays the card with a wide image.
-
 - **Image size**: 80 x 80 px recommended
 
 ## Examples
@@ -44,7 +42,7 @@ Card description text goes here.
 
 ![Card Image](../../assets/column.jpg)
 
-## First Card
+### First Card
 
 This is a sample description for the first card in the grid.
 
@@ -70,34 +68,4 @@ This is a sample description for the third card in the grid.
 
 [Learn more](https://developer.adobe.com/)
 
-## Example of a Card with a Wide Image
-
-<Cards slots="image, heading, text, links" width="33%" wide />
-
-![Card Image](../../assets/column.jpg)
-
-## First Card
-
-This is a sample description for the first card in the grid.
-
-[Learn more](https://developer.adobe.com/)
-
-<Cards slots="image, heading, text, links" width="33%" wide/>
-
-![Card Image](../../assets/column.jpg)
-
-### Second Card
-
-This is a sample description for the second card in the grid.
-
-[Learn more](https://developer.adobe.com/)
-
-<Cards slots="image, heading, text, links" width="33%" wide/>
-
-![Card Image](../../assets/column.jpg)
-
-### Third Card
-
-This is a sample description for the third card in the grid.
-
-[Learn more](https://developer.adobe.com/)
+For cards with a wide image, see [Cards - Wide Variant](cards-wide.md).
