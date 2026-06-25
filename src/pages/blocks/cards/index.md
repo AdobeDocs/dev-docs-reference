@@ -10,7 +10,7 @@ Display content in a grid of cards with images and links.
 ## Syntax
 
 ```markdown
-<Cards slots="image, heading, text, links" width="33%" wide />
+<Cards slots="image, heading, text, links" width="33%" />
 
 ![Card Image](path/to/image.png)
 
