@@ -5,6 +5,24 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 6/25/26 EDS Release:
+
+- **Fix:** HorizontalLine rendering error [DEVSITE-2237](https://jira.corp.adobe.com/browse/DEVSITE-2237)
+- **Fix:** Title block center alignment on mobile [DEVSITE-2477](https://jira.corp.adobe.com/browse/DEVSITE-2477)
+- **Fix:** Mini Resource Card alignment with fewer than three cards [DEVSITE-2476](https://jira.corp.adobe.com/browse/DEVSITE-2476)
+- **Fix:** Info Card hover underline when no link is set [DEVSITE-2479](https://jira.corp.adobe.com/browse/DEVSITE-2479)
+- **Fix:** DevBiz code block tab spacing, scoped away from DevDocs [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
+- **Fix:** Code decoration inside Accordion blocks [DEVSITE-2193](https://jira.corp.adobe.com/browse/DEVSITE-2193)
+- **Fix:** Unwanted side-nav animation at mobile breakpoint [DEVSITE-1747](https://jira.corp.adobe.com/browse/DEVSITE-1747)
+- **Fix:** Default video alt text and relative video path resolution across video blocks
+- **Fix:** AI assistant disclaimer text
+- **Feat:** Improved AI assistant initial prompts
+- **Fix:** Enable AI assistant on prod
+- **Fix:** Surface dev server startup errors in local dev [DEVSITE-2430](https://jira.corp.adobe.com/browse/DEVSITE-2430)
+- **Fix:** Transform icon shortcodes in local dev [DEVSITE-2440](https://jira.corp.adobe.com/browse/DEVSITE-2440)
+- **Feat:** Wide image option in Cards component [DEVSITE-2483](https://jira.corp.adobe.com/browse/DEVSITE-2483)
+- **Fix:** Cards mobile responsive layout [DEVSITE-2485](https://jira.corp.adobe.com/browse/DEVSITE-2485)
+
 ## 6/18/26 EDS Release:
 
 - **Fix:** Code block vertical tab too wide and not centered in DevBiz [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
