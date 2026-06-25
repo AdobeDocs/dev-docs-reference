@@ -10,7 +10,7 @@ Display content in a grid of cards with images and links.
 ## Syntax
 
 ```markdown
-<Cards slots="image, heading, text, links" width="33%" />
+<Cards slots="image, heading, text, links" width="33%" wide />
 
 ![Card Image](path/to/image.png)
 
@@ -33,6 +33,8 @@ Card description text goes here.
   - `"33%"` - Three cards per row (3-column grid)
   - `"50%"` - Two cards per row (2-column grid)
   - `"25%"` - Four cards per row (4-column grid)
+
+- **wide**: Displays the card with a wide image.
 
 - **Image size**: 80 x 80 px recommended
 
@@ -59,6 +61,38 @@ This is a sample description for the second card in the grid.
 [Learn more](https://developer.adobe.com/)
 
 <Cards slots="image, heading, text, links" width="33%" />
+
+![Card Image](../../assets/column.jpg)
+
+### Third Card
+
+This is a sample description for the third card in the grid.
+
+[Learn more](https://developer.adobe.com/)
+
+## Example of a Card with a Wide Image
+
+<Cards slots="image, heading, text, links" width="33%" wide />
+
+![Card Image](../../assets/column.jpg)
+
+## First Card
+
+This is a sample description for the first card in the grid.
+
+[Learn more](https://developer.adobe.com/)
+
+<Cards slots="image, heading, text, links" width="33%" wide/>
+
+![Card Image](../../assets/column.jpg)
+
+### Second Card
+
+This is a sample description for the second card in the grid.
+
+[Learn more](https://developer.adobe.com/)
+
+<Cards slots="image, heading, text, links" width="33%" wide/>
 
 ![Card Image](../../assets/column.jpg)
 
