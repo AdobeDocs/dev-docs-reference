@@ -67,7 +67,7 @@
         - [Image](/blocks/image/index.md)
         - [InfoCard](/blocks/infocard/index.md)
             - [InfoCard with wide image](/blocks/infocard/infocard-with-wide-image.md)
-            - [Info Card with articles](/blocks/infocard/infocard-with-articles.md)
+            - [InfoCard with articles](/blocks/infocard/infocard-with-articles.md)
         - [Inline Alert](/blocks/inline-alert/index.md)
         - [Inline Code](/blocks/inline-code/index.md)
         - [Links](/blocks/links/index.md)

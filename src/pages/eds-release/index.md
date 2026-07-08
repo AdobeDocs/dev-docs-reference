@@ -10,7 +10,7 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 - **Fix:** HorizontalLine rendering error [DEVSITE-2237](https://jira.corp.adobe.com/browse/DEVSITE-2237)
 - **Fix:** Title block center alignment on mobile [DEVSITE-2477](https://jira.corp.adobe.com/browse/DEVSITE-2477)
 - **Fix:** Mini Resource Card alignment with fewer than three cards [DEVSITE-2476](https://jira.corp.adobe.com/browse/DEVSITE-2476)
-- **Fix:** Info Card hover underline when no link is set [DEVSITE-2479](https://jira.corp.adobe.com/browse/DEVSITE-2479)
+- **Fix:** InfoCard hover underline when no link is set [DEVSITE-2479](https://jira.corp.adobe.com/browse/DEVSITE-2479)
 - **Fix:** DevBiz code block tab spacing, scoped away from DevDocs [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
 - **Fix:** Code decoration inside Accordion blocks [DEVSITE-2193](https://jira.corp.adobe.com/browse/DEVSITE-2193)
 - **Fix:** Unwanted side-nav animation at mobile breakpoint [DEVSITE-1747](https://jira.corp.adobe.com/browse/DEVSITE-1747)
@@ -44,7 +44,7 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 - **Fix:** Discovery Interface [devsite-2327](https://jira.corp.adobe.com/browse/DEVSITE-2327)
 - **Fix:** Removed `fetchMetadata` from the discovery interface
 - **Fix:** Added ability to dismiss the contributor block
-- **Fix:** Info Card Block [devsite-2338](https://jira.corp.adobe.com/browse/DEVSITE-2338)
+- **Fix:** InfoCard Block [devsite-2338](https://jira.corp.adobe.com/browse/DEVSITE-2338)
 - **Fix:** Added new info card variant with articles
 - **Fix:** Introduced `wide` variant (replaces previous `ratio` naming)
 - **Fix:** Addressed PR review feedback

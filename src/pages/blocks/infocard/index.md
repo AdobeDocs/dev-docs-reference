@@ -10,15 +10,15 @@ The InfoCard Block displays large cards with an image at the top, followed by a 
 ## Syntax
 
 ```markdown
-<Infocard slots="image, heading, text" repeat="2" />
+<InfoCard slots="image, heading, text" repeat="2" />
 
-![](./_image_path)
+![Alt text](path/to/image.png)
 
 ### Heading 1
 
 Content 1
 
-![](./_image_path)
+![Alt text](path/to/image.png)
 
 ### [Heading 2](https://adobe.com)
 
@@ -43,16 +43,16 @@ Each info card should contain the following content in the specified order:
 
 ## Example
 
-<Infocard slots="image, heading , text "  repeat="2" />
+<InfoCard slots="image, heading , text "  repeat="2" />
 
 ![](../../assets/column.jpg)
 
 ### Heading 1
 
-This is the sample description for the info card content one. Add details about the crad features, benefits, and use cases to help users understand what this product offers.
+This is the sample description for the info card content one. Add details about the card features, benefits, and use cases to help users understand what this product offers.
 
 ![](../../assets/column.jpg)
 
 ### [Heading 2](https://adobe.com)
 
-This is the sample description for the info card content two. Add details about the crad features, benefits, and use cases to help users understand what this product offers.
+This is the sample description for the info card content two. Add details about the card features, benefits, and use cases to help users understand what this product offers.
