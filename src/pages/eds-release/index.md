@@ -5,6 +5,17 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 7/8/26 EDS Release:
+
+- **Fix:** removed the margin top on the super hero block [DEVSITE-2490](https://jira.corp.adobe.com/browse/DEVSITE-2490)
+- **Fix:** pinned AI assistant dependencies (marked, dompurify)
+- **Fix:** stopped unused collections from being prefetched in AI assistant
+- **Fix:** AI assistant rendered links now open in a new tab
+- **Fix:** accessibility issues with AI assistant modal focus handling on close and clear
+- **Feat:** new AI assistant disclaimer text
+- **Feat:** AI assistant UI fixes for long word wrapping, removed avatar, and adjusted spacing
+- **Feat:** skip link added to AI assistant for improved keyboard accessibility
+
 ## 6/25/26 EDS Release:
 
 - **Fix:** HorizontalLine rendering error [DEVSITE-2237](https://jira.corp.adobe.com/browse/DEVSITE-2237)
