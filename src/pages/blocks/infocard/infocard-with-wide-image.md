@@ -47,13 +47,13 @@ Each info card should contain the following content in the specified order:
 
 <InfoCard slots="image, heading , text "  repeat="2" wide/>
 
-![](../../assets/column.jpg)
+![Alt text](../../assets/column.jpg)
 
 ### Heading 1
 
 This is the sample description for the info card content one. Add details about the card features, benefits, and use cases to help users understand what this product offers.
 
-![](../../assets/column.jpg)
+![Alt text](../../assets/column.jpg)
 
 ### [Heading 2](https://adobe.com)
 
