@@ -12,13 +12,13 @@ The InfoCard Block displays large cards with an video at the top, followed by a 
 ```markdown
 <InfoCard slots="video, heading, text" repeat="2" />
 
-![Alt text](path/to/video.mp4)
+[Alt text](path/to/video.mp4)
 
 ### Heading 1
 
 Content 1
 
-![Alt text](path/to/video.mp4)
+[Alt text](path/to/video.mp4)
 
 ### [Heading 2](https://adobe.com)
 
