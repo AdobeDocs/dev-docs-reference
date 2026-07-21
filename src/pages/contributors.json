@@ -1,7 +1,7 @@
 {
-  "total": 92,
+  "total": 93,
   "offset": 0,
-  "limit": 92,
+  "limit": 93,
   "data": [
     {
       "page": "/",
@@ -271,6 +271,13 @@
         "https://avatars.githubusercontent.com/u/113968869?v=4"
       ],
       "lastUpdated": "7/7/2026"
+    },
+    {
+      "page": "/blocks/infocard/infocard-with-video",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/113968869?v=4"
+      ],
+      "lastUpdated": "7/20/2026"
     },
     {
       "page": "/blocks/infocard/infocard-with-wide-image",
@@ -572,7 +579,7 @@
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "7/8/2026"
+      "lastUpdated": "7/17/2026"
     },
     {
       "page": "/deploy/",
