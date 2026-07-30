@@ -5,6 +5,31 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 7/30/26 EDS Release:
+
+*   **Fix:** SuperHero block no longer has extra top margin above the sitewide banner [DEVSITE-2490](https://jira.corp.adobe.com/browse/DEVSITE-2490)
+*   **Fix:** Hardcoded production nav links now resolve to the current environment (stage/prod) instead of always pointing to prod [DEVSITE-2497](https://jira.corp.adobe.com/browse/DEVSITE-2497)
+*   **Fix:** Mini Resource Card body text now clamps at all breakpoints, not just mobile [DEVSITE-1861](https://jira.corp.adobe.com/browse/DEVSITE-1861)
+*   **Fix:** InlineAlert now fills the full content area on no-layout pages instead of fighting the page's width [DEVSITE-2487](https://jira.corp.adobe.com/browse/DEVSITE-2487)
+*   **Fix:** Sitewide banner page-load issue on DevDocs pages
+*   **Fix:** Code block language picker no longer shown when no language is specified [DEVSITE-2491](https://jira.corp.adobe.com/browse/DEVSITE-2491)
+*   **Feat:** Video support added to the InfoCard block [DEVSITE-2494](https://jira.corp.adobe.com/browse/DEVSITE-2494)
+*   **Feat:** Video support added to the Columns block (DevBiz) [DEVSITE-2495](https://jira.corp.adobe.com/browse/DEVSITE-2495)
+*   **Fix:** AI assistant custom analytics attribute (daa-ll) no longer gets overwritten
+*   **Fix:** AI assistant analytics labels simplified for links, sources, and suggested questions
+*   **Fix:** AI assistant chat textarea content no longer renders under the submit button
+*   **Fix:** AI assistant keyboard focus now trapped within the chat modal and the clear-confirmation dialog
+*   **Fix:** AI assistant markdown headings clamped to a readable size in chat messages
+*   **Fix:** AI assistant rendered links now open correctly in a new tab
+*   **Fix:** AI assistant no longer prefetches unused collections
+*   **Fix:** AI assistant modal accessibility issues fixed (Escape handling and focus)
+*   **Fix:** AI assistant long words no longer break the chat layout; message avatar removed and spacing adjusted
+*   **Fix:** AI assistant third-party markdown/sanitizer library versions pinned to prevent unexpected behavior changes
+*   **Feat:** AI assistant skip link added to jump directly to the assistant for keyboard and screen-reader users
+*   **Feat:** AI assistant chat transcript exposed as an ARIA landmark region for screen readers
+*   **Feat:** AI assistant chat messages now announce the sender ("Your message" / "Assistant") for screen readers
+*   **Feat:** New AI assistant disclaimer text
+
 ## 6/25/26 EDS Release:
 
 - **Fix:** HorizontalLine rendering error [DEVSITE-2237](https://jira.corp.adobe.com/browse/DEVSITE-2237)
