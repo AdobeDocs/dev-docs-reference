@@ -5,6 +5,14 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 8/6/26 EDS Release:
+
+- **Fix:** Code block border radius no longer applied when a header is present [DEVSITE-2509](https://jira.corp.adobe.com/browse/DEVSITE-2509)
+- **Fix:** Tabs block text now switches to white on Navy backgrounds for readability [DEVSITE-2510](https://jira.corp.adobe.com/browse/DEVSITE-2510)
+- **Feat:** Partner logo showcase block [DEVSITE-2500](https://jira.corp.adobe.com/browse/DEVSITE-2500)
+- **Feat:** AI assistant now announces assistant responses and error messages to screen readers, with focus fixes for suggested prompts [ADPGENAI-223](https://jira.corp.adobe.com/browse/ADPGENAI-223) [ADPGENAI-224](https://jira.corp.adobe.com/browse/ADPGENAI-224)
+- **Fix:** Redirect handling now passes through raw 301 responses and Location headers instead of auto-following [DEVSITE-2506](https://jira.corp.adobe.com/browse/DEVSITE-2506)
+
 ## 7/30/26 EDS Release:
 
 *   **Fix:** SuperHero block no longer has extra top margin above the sitewide banner [DEVSITE-2490](https://jira.corp.adobe.com/browse/DEVSITE-2490)
