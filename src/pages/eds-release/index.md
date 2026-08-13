@@ -5,6 +5,14 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 8/13/26 EDS Release:
+
+- **Fix:** Client-side fallback redirects trailing-slash mismatches to the correct page form [DEVSITE-2506](https://jira.corp.adobe.com/browse/DEVSITE-2506)
+- **Fix:** Info Card navigation, compact, and reverse variants [DEVSITE-2514](https://jira.corp.adobe.com/browse/DEVSITE-2514) [DEVSITE-2515](https://jira.corp.adobe.com/browse/DEVSITE-2515) [DEVSITE-2516](https://jira.corp.adobe.com/browse/DEVSITE-2516)
+- **Feat:** Narrow variant for the Product Card in DevBiz [DEVSITE-2521](https://jira.corp.adobe.com/browse/DEVSITE-2521)
+- **Feat:** Start variant for the Cards component with multi-button alignment [DEVSITE-2518](https://jira.corp.adobe.com/browse/DEVSITE-2518) [DEVSITE-2520](https://jira.corp.adobe.com/browse/DEVSITE-2520)
+- **Feat:** Narrow variant for the Info Card in DevBiz [DEVSITE-2517](https://jira.corp.adobe.com/browse/DEVSITE-2517)
+
 ## 8/6/26 EDS Release:
 
 - **Fix:** Code block border radius no longer applied when a header is present [DEVSITE-2509](https://jira.corp.adobe.com/browse/DEVSITE-2509)
