@@ -1,7 +1,7 @@
 {
-  "total": 89,
+  "total": 93,
   "offset": 0,
-  "limit": 89,
+  "limit": 93,
   "data": [
     {
       "page": "/",
@@ -88,7 +88,7 @@
       "avatars": [
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "1/6/2026"
+      "lastUpdated": "7/6/2026"
     },
     {
       "page": "/blocks/code/code-in-list",
@@ -257,6 +257,34 @@
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
       "lastUpdated": "6/18/2026"
+    },
+    {
+      "page": "/blocks/infocard/",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/113968869?v=4"
+      ],
+      "lastUpdated": "7/8/2026"
+    },
+    {
+      "page": "/blocks/infocard/infocard-with-articles",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/113968869?v=4"
+      ],
+      "lastUpdated": "7/7/2026"
+    },
+    {
+      "page": "/blocks/infocard/infocard-with-video",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/113968869?v=4"
+      ],
+      "lastUpdated": "7/20/2026"
+    },
+    {
+      "page": "/blocks/infocard/infocard-with-wide-image",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/113968869?v=4"
+      ],
+      "lastUpdated": "7/8/2026"
     },
     {
       "page": "/blocks/inline-alert/",
@@ -551,7 +579,7 @@
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "6/25/2026"
+      "lastUpdated": "7/17/2026"
     },
     {
       "page": "/deploy/",
@@ -573,12 +601,13 @@
       "page": "/eds-release/",
       "avatars": [
         "https://avatars.githubusercontent.com/u/120194874?v=4",
-        "https://avatars.githubusercontent.com/u/90019374?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
+        "https://avatars.githubusercontent.com/u/113968869?v=4",
+        "https://avatars.githubusercontent.com/u/90019374?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "6/25/2026"
+      "lastUpdated": "8/13/2026"
     },
     {
       "page": "/faq/",
@@ -621,9 +650,10 @@
     {
       "page": "/getting-started/dev-biz/onboarding/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
-      "lastUpdated": "4/8/2026"
+      "lastUpdated": "7/21/2026"
     },
     {
       "page": "/getting-started/dev-docs/",

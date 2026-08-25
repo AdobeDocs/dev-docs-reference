@@ -5,6 +5,47 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 8/13/26 EDS Release:
+
+- **Fix:** Client-side fallback redirects trailing-slash mismatches to the correct page form [DEVSITE-2506](https://jira.corp.adobe.com/browse/DEVSITE-2506)
+- **Fix:** Info Card navigation, compact, and reverse variants [DEVSITE-2514](https://jira.corp.adobe.com/browse/DEVSITE-2514) [DEVSITE-2515](https://jira.corp.adobe.com/browse/DEVSITE-2515) [DEVSITE-2516](https://jira.corp.adobe.com/browse/DEVSITE-2516)
+- **Feat:** Narrow variant for the Product Card in DevBiz [DEVSITE-2521](https://jira.corp.adobe.com/browse/DEVSITE-2521)
+- **Feat:** Start variant for the Cards component with multi-button alignment [DEVSITE-2518](https://jira.corp.adobe.com/browse/DEVSITE-2518) [DEVSITE-2520](https://jira.corp.adobe.com/browse/DEVSITE-2520)
+- **Feat:** Narrow variant for the Info Card in DevBiz [DEVSITE-2517](https://jira.corp.adobe.com/browse/DEVSITE-2517)
+
+## 8/6/26 EDS Release:
+
+- **Fix:** Code block border radius no longer applied when a header is present [DEVSITE-2509](https://jira.corp.adobe.com/browse/DEVSITE-2509)
+- **Fix:** Tabs block text now switches to white on Navy backgrounds for readability [DEVSITE-2510](https://jira.corp.adobe.com/browse/DEVSITE-2510)
+- **Feat:** Partner logo showcase block [DEVSITE-2500](https://jira.corp.adobe.com/browse/DEVSITE-2500)
+- **Feat:** AI assistant now announces assistant responses and error messages to screen readers, with focus fixes for suggested prompts [ADPGENAI-223](https://jira.corp.adobe.com/browse/ADPGENAI-223) [ADPGENAI-224](https://jira.corp.adobe.com/browse/ADPGENAI-224)
+- **Fix:** Redirect handling now passes through raw 301 responses and Location headers instead of auto-following [DEVSITE-2506](https://jira.corp.adobe.com/browse/DEVSITE-2506)
+
+## 7/30/26 EDS Release:
+
+*   **Fix:** SuperHero block no longer has extra top margin above the sitewide banner [DEVSITE-2490](https://jira.corp.adobe.com/browse/DEVSITE-2490)
+*   **Fix:** Hardcoded production nav links now resolve to the current environment (stage/prod) instead of always pointing to prod [DEVSITE-2497](https://jira.corp.adobe.com/browse/DEVSITE-2497)
+*   **Fix:** Mini Resource Card body text now clamps at all breakpoints, not just mobile [DEVSITE-1861](https://jira.corp.adobe.com/browse/DEVSITE-1861)
+*   **Fix:** InlineAlert now fills the full content area on no-layout pages instead of fighting the page's width [DEVSITE-2487](https://jira.corp.adobe.com/browse/DEVSITE-2487)
+*   **Fix:** Sitewide banner page-load issue on DevDocs pages
+*   **Fix:** Code block language picker no longer shown when no language is specified [DEVSITE-2491](https://jira.corp.adobe.com/browse/DEVSITE-2491)
+*   **Feat:** Video support added to the InfoCard block [DEVSITE-2494](https://jira.corp.adobe.com/browse/DEVSITE-2494)
+*   **Feat:** Video support added to the Columns block (DevBiz) [DEVSITE-2495](https://jira.corp.adobe.com/browse/DEVSITE-2495)
+*   **Fix:** AI assistant custom analytics attribute (daa-ll) no longer gets overwritten
+*   **Fix:** AI assistant analytics labels simplified for links, sources, and suggested questions
+*   **Fix:** AI assistant chat textarea content no longer renders under the submit button
+*   **Fix:** AI assistant keyboard focus now trapped within the chat modal and the clear-confirmation dialog
+*   **Fix:** AI assistant markdown headings clamped to a readable size in chat messages
+*   **Fix:** AI assistant rendered links now open correctly in a new tab
+*   **Fix:** AI assistant no longer prefetches unused collections
+*   **Fix:** AI assistant modal accessibility issues fixed (Escape handling and focus)
+*   **Fix:** AI assistant long words no longer break the chat layout; message avatar removed and spacing adjusted
+*   **Fix:** AI assistant third-party markdown/sanitizer library versions pinned to prevent unexpected behavior changes
+*   **Feat:** AI assistant skip link added to jump directly to the assistant for keyboard and screen-reader users
+*   **Feat:** AI assistant chat transcript exposed as an ARIA landmark region for screen readers
+*   **Feat:** AI assistant chat messages now announce the sender ("Your message" / "Assistant") for screen readers
+*   **Feat:** New AI assistant disclaimer text
+
 ## 7/8/26 EDS Release:
 
 - **Fix:** Removed the top margin on the SuperHero block's sitewide banner [DEVSITE-2490](https://jira.corp.adobe.com/browse/DEVSITE-2490)
@@ -21,7 +62,7 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 - **Fix:** HorizontalLine rendering error [DEVSITE-2237](https://jira.corp.adobe.com/browse/DEVSITE-2237)
 - **Fix:** Title block center alignment on mobile [DEVSITE-2477](https://jira.corp.adobe.com/browse/DEVSITE-2477)
 - **Fix:** Mini Resource Card alignment with fewer than three cards [DEVSITE-2476](https://jira.corp.adobe.com/browse/DEVSITE-2476)
-- **Fix:** Info Card hover underline when no link is set [DEVSITE-2479](https://jira.corp.adobe.com/browse/DEVSITE-2479)
+- **Fix:** InfoCard hover underline when no link is set [DEVSITE-2479](https://jira.corp.adobe.com/browse/DEVSITE-2479)
 - **Fix:** DevBiz code block tab spacing, scoped away from DevDocs [DEVSITE-2474](https://jira.corp.adobe.com/browse/DEVSITE-2474)
 - **Fix:** Code decoration inside Accordion blocks [DEVSITE-2193](https://jira.corp.adobe.com/browse/DEVSITE-2193)
 - **Fix:** Unwanted side-nav animation at mobile breakpoint [DEVSITE-1747](https://jira.corp.adobe.com/browse/DEVSITE-1747)
@@ -55,7 +96,7 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 - **Fix:** Discovery Interface [devsite-2327](https://jira.corp.adobe.com/browse/DEVSITE-2327)
 - **Fix:** Removed `fetchMetadata` from the discovery interface
 - **Fix:** Added ability to dismiss the contributor block
-- **Fix:** Info Card Block [devsite-2338](https://jira.corp.adobe.com/browse/DEVSITE-2338)
+- **Fix:** InfoCard Block [devsite-2338](https://jira.corp.adobe.com/browse/DEVSITE-2338)
 - **Fix:** Added new info card variant with articles
 - **Fix:** Introduced `wide` variant (replaces previous `ratio` naming)
 - **Fix:** Addressed PR review feedback

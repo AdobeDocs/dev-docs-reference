@@ -35,6 +35,37 @@ When you're ready to get started, please follow these steps:
 - Questions & Support: #adobe-developer-website
 - Start writing!
 
+## Customizing Your Top Navigation
+If you selected **Y** for Custom Top Nav on your onboarding ticket, you can define your own navigation for your DevBiz site.
+
+- In the same Google Drive folder as your `index` file, add a file named `nav`. This `nav` file represents your site's custom top navigation.
+- If no `nav` file exists in your folder, your site falls back to the default top navigation — the same navigation shown on the developer.adobe.com home page.
+
+**How to structure the nav file**
+
+The `nav` file is a list of links. Each link's text becomes the label shown in the top nav, and the link itself is where that item points to:
+
+```md
+- [Getting Started](/your-folder/getting-started)
+- [Documentation](/your-folder/docs)
+- [Support](/your-folder/support)
+```
+
+To add a dropdown, indent links underneath a parent link. The parent becomes the top-level nav item, and the indented links become the dropdown options beneath it:
+
+```md
+- [Getting Started](/your-folder/getting-started)
+- Documentation
+  - [Reference](/your-folder/docs/reference)
+  - [Guides](/your-folder/docs/guides)
+- [Support](/your-folder/support)
+```
+
+![topnav_dropdown](../../../assets/topnav.png)
+
+- Publish and preview your `nav` file the same way you preview and publish your `index` file, using the Sidekick Tool.
+- Contact the Developer Website Team on Slack at `#adobe-developer-website` if you'd like help setting up your custom top nav.
+
 ## Authoring
 - Utilizing the [Sidekick Tool](https://www.aem.live/tools/sidekick/?project=stage.adobe.io&byocdn=true&host=www.stage.adobe.io&giturl=https%3A%2F%2Fgithub.com%2Fadobe%2Fadobe-io-website%2Ftree%2Fmain) will enable you to copy content blocks directly into your Index file. 
 - The Index file in your folder when created will have a sample page with content blocks already inside your folder. You can delete and replace as you'd like, but its generally suggested that your page at the minimum have a site hero or hero content block at the top. 
