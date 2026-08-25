@@ -46,6 +46,17 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 *   **Feat:** AI assistant chat messages now announce the sender ("Your message" / "Assistant") for screen readers
 *   **Feat:** New AI assistant disclaimer text
 
+## 7/8/26 EDS Release:
+
+- **Fix:** Removed the top margin on the SuperHero block's sitewide banner [DEVSITE-2490](https://jira.corp.adobe.com/browse/DEVSITE-2490)
+- **Fix:** Pinned AI assistant dependencies (marked, dompurify) to fixed versions [ADPGENAI-201](https://jira.corp.adobe.com/browse/ADPGENAI-201)
+- **Fix:** Stopped unused AI assistant collections from being fetched [ADPGENAI-209](https://jira.corp.adobe.com/browse/ADPGENAI-209)
+- **Fix:** AI assistant rendered links now open in a new tab [ADPGENAI-204](https://jira.corp.adobe.com/browse/ADPGENAI-204)
+- **Fix:** Accessibility issues in the AI assistant modal for focus handling on close and clear [ADPGENAI-200](https://jira.corp.adobe.com/browse/ADPGENAI-200)
+- **Feat:** New AI assistant disclaimer text [ADPGENAI-211](https://jira.corp.adobe.com/browse/ADPGENAI-211)
+- **Feat:** Small AI assistant UI fixes for long word wrapping and avatar removal [ADPGENAI-213](https://jira.corp.adobe.com/browse/ADPGENAI-213) [ADPGENAI-203](https://jira.corp.adobe.com/browse/ADPGENAI-203)
+- **Feat:** Added skip link to improve AI assistant accessibility
+
 ## 6/25/26 EDS Release:
 
 - **Fix:** HorizontalLine rendering error [DEVSITE-2237](https://jira.corp.adobe.com/browse/DEVSITE-2237)
