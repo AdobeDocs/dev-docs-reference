@@ -5,6 +5,17 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 9/1/26 EDS Release:
+
+- **Fix:** AI assistant uses Bedrock server-side session management instead of history concatenation [ADPGENAI-181](https://jira.corp.adobe.com/browse/ADPGENAI-181) [ADPGENAI-228](https://jira.corp.adobe.com/browse/ADPGENAI-228)
+- **Feat:** Include query and collection in AI assistant feedback payload [ADPGENAI-234](https://jira.corp.adobe.com/browse/ADPGENAI-234)
+- **Fix:** Add .hlxignore file and remove unused files [DEVSITE-2543](https://jira.corp.adobe.com/browse/DEVSITE-2543) [DEVSITE-2544](https://jira.corp.adobe.com/browse/DEVSITE-2544)
+- **Feat:** Right-aligned variant for the Summary block [DEVSITE-2522](https://jira.corp.adobe.com/browse/DEVSITE-2522)
+- **Feat:** New products variant for the Tab block in DevBiz [DEVSITE-2540](https://jira.corp.adobe.com/browse/DEVSITE-2540)
+- **Fix:** Restore lock file [DEVSITE-2548](https://jira.corp.adobe.com/browse/DEVSITE-2548)
+- **Fix:** Align info-columns with sibling info block in tablet view [DEVSITE-2104](https://jira.corp.adobe.com/browse/DEVSITE-2104)
+- **Fix:** Aggregate and dedupe AI assistant citation sources
+
 ## 8/13/26 EDS Release:
 
 - **Fix:** Client-side fallback redirects trailing-slash mismatches to the correct page form [DEVSITE-2506](https://jira.corp.adobe.com/browse/DEVSITE-2506)
