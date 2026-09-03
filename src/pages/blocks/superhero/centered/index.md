@@ -10,7 +10,7 @@ Centered hero used for Index home pages.
 ## Syntax
 
 ```markdown
-<Superhero slots="image, heading, text, buttons" variant="centered" textColor="white"/>
+<Superhero slots="image, heading, text, buttons" variant="centered" textColor="white" overGradient/>
 
 ![Hero image](../../../assets/hero.png)
 
@@ -33,8 +33,9 @@ This is a sample description text with an [inline link](https://example.com) for
   - `buttons` (optional)
 - **background**: Background color (default: `rgb(29, 125, 238)`)
 - **textColor**: Text color. Options: `black`, `white`, `gray`, `navy` (default: `white`)
+- **overGradient**: Improves button visibility over a gradient background
 
-<Superhero slots="image, heading, text, buttons" variant="centered" textColor="white"/>
+<Superhero slots="image, heading, text, buttons" variant="centered" textColor="white" overGradient/>
 
 ![Hero image](../../../assets/hero.png)
 
