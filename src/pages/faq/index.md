@@ -77,6 +77,22 @@ Actions → Build Auto-Generated Files → Run workflow
 
 This is a known limitation tracked in [DEVSITE-2395](https://jira.corp.adobe.com/browse/DEVSITE-2395).
 
+## I deployed from a new branch but my changes aren't showing on Stage
+
+Deployments are incremental by default: the workflow finds the **last successful deploy on the same branch** and uploads only the files that changed since then. A brand-new branch has no previous successful deploy to compare against, so change detection falls back to diffing only the latest commit — anything committed earlier on the branch isn't detected and never gets deployed.
+
+Re-run the workflow with **Force deploy all files** checked. This skips change detection and uploads every file in `src/pages/`, so the whole branch renders. This is the expected step when testing a new branch.
+
+Actions → Staging → Run workflow → check **Force deploy all files** → Run workflow
+
+See [Full Deployment (deployAll: true)](../deploy/index.md#full-deployment-deployall-true).
+
+## Why do I see "Invalid license key: host not allowed" on a `RedoclyAPIBlock`?
+
+The block only renders on hostnames in the Redocly license's allowed-domains list, and the page you're viewing isn't one of them (`main--...aem.page` preview URLs are a common case). View the page on an allowed host instead — for example, `https://developer-stage.adobe.com/...` — or on your local dev server (`http://localhost:3000/...`).
+
+See [Redocly API Block](../getting-started/features/redocly/index.md#where-the-block-renders) for the full list of allowed domains.
+
 ## Why are the `Build Contributors` or `Build Site Metadata` checks failing with a push rejection?
 
 The deploy workflow auto-generates `contributors.json` and `adp-site-metadata.json` and pushes them to main using the `adp-devsite-app` bot. If your repo has branch protection rules, the bot needs to be added as a bypass actor.
