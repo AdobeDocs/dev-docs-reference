@@ -432,10 +432,11 @@
     {
       "page": "/blocks/superhero/centered/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
-      "lastUpdated": "6/3/2026"
+      "lastUpdated": "9/3/2026"
     },
     {
       "page": "/blocks/superhero/centered/with-icon",
@@ -455,10 +456,11 @@
     {
       "page": "/blocks/superhero/centeredxl/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
-      "lastUpdated": "6/3/2026"
+      "lastUpdated": "9/3/2026"
     },
     {
       "page": "/blocks/superhero/centeredxl/with-icon",
@@ -617,7 +619,7 @@
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "6/16/2026"
+      "lastUpdated": "9/3/2026"
     },
     {
       "page": "/getting-started/",
@@ -688,9 +690,10 @@
     {
       "page": "/getting-started/features/redocly/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
-      "lastUpdated": "2/12/2026"
+      "lastUpdated": "9/3/2026"
     },
     {
       "page": "/getting-started/search/",
