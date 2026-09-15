@@ -3,6 +3,17 @@ title: EDS Release Notes
 description: Release notes and changelog for Edge Delivery Services updates on the Adobe Developer Website, including new features, bug fixes, and improvements.
 ---
 
+## 9/15/26 EDS Release:
+
+- **Fix:** OverGradient styling for centered Superhero variants [DEVSITE-2462](https://jira.corp.adobe.com/browse/DEVSITE-2462)
+- **Fix:** Custom image block variants with background colors and captions [DEVSITE-2519](https://jira.corp.adobe.com/browse/DEVSITE-2519)
+- **Fix:** External header links [DEVSITE-2575](https://jira.corp.adobe.com/browse/DEVSITE-2575)
+- **Feat:** Clipboard-write permission for iframes [DEVSITE-2576](https://jira.corp.adobe.com/browse/DEVSITE-2576)
+- **Feat:** Background images for the columns block [DEVSITE-2580](https://jira.corp.adobe.com/browse/DEVSITE-2580)
+- **Fix:** Playwright setup and accordion tests [DEVSITE-2549](https://jira.corp.adobe.com/browse/DEVSITE-2549)
+- **Fix:** Button support for the carousel [DEVSITE-2583](https://jira.corp.adobe.com/browse/DEVSITE-2583)
+- **Fix:** DevBiz accordion end-to-end tests [DEVSITE-2582](https://jira.corp.adobe.com/browse/DEVSITE-2582)
+
 # EDS Release Notes
 
 ## 9/1/26 EDS Release:
