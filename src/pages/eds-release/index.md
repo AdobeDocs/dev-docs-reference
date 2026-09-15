@@ -3,6 +3,8 @@ title: EDS Release Notes
 description: Release notes and changelog for Edge Delivery Services updates on the Adobe Developer Website, including new features, bug fixes, and improvements.
 ---
 
+# EDS Release Notes
+
 ## 9/15/26 EDS Release:
 
 - **Fix:** OverGradient styling for centered Superhero variants [DEVSITE-2462](https://jira.corp.adobe.com/browse/DEVSITE-2462)
@@ -13,8 +15,6 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 - **Fix:** Playwright setup and accordion tests [DEVSITE-2549](https://jira.corp.adobe.com/browse/DEVSITE-2549)
 - **Fix:** Button support for the carousel [DEVSITE-2583](https://jira.corp.adobe.com/browse/DEVSITE-2583)
 - **Fix:** DevBiz accordion end-to-end tests [DEVSITE-2582](https://jira.corp.adobe.com/browse/DEVSITE-2582)
-
-# EDS Release Notes
 
 ## 9/1/26 EDS Release:
 
