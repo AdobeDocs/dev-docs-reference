@@ -5,6 +5,15 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 9/23/26 EDS Release:
+
+- **Fix:** Accordion toggle behavior in Sidekick Library preview [DEVSITE-1643](https://jira.corp.adobe.com/browse/DEVSITE-1643)
+- **Fix:** DevBiz top-navbar descriptions [DEVSITE-2683](https://jira.corp.adobe.com/browse/DEVSITE-2683)
+- **Feat:** New Marquee component for DevBiz [DEVSITE-2681](https://jira.corp.adobe.com/browse/DEVSITE-2681)
+- **Fix:** Visible focus indicator for Spectrum-Link [DEVSITE-2667](https://jira.corp.adobe.com/browse/DEVSITE-2667) [DEVSITE-2670](https://jira.corp.adobe.com/browse/DEVSITE-2670) [DEVSITE-2671](https://jira.corp.adobe.com/browse/DEVSITE-2671)
+- **Fix:** Visible focus indicator for the Clear Search button [DEVSITE-2652](https://jira.corp.adobe.com/browse/DEVSITE-2652)
+
+
 ## 9/15/26 EDS Release:
 
 - **Fix:** OverGradient styling for centered Superhero variants [DEVSITE-2462](https://jira.corp.adobe.com/browse/DEVSITE-2462)
