@@ -22,7 +22,7 @@ Content goes here.
 - **slots**: Content types
   - `"heading, text"` - Text only
   - `"heading, text, table"` - With tables
-  - `"heading, text, code"` - With code blocks
+  - `"heading, text, code"` - With code snippets
   - Mix and match as needed
 
 ## Examples
