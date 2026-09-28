@@ -5,6 +5,12 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 9/28/26 EDS Release:
+
+- **Feat:** Remove AI Assistant's Beta badge [DEVSITE-2685](https://jira.corp.adobe.com/browse/DEVSITE-2685)
+- **Fix:** Nav resolution walks up ancestor folders before falling back to the franklin_assets default [DEVSITE-1285](https://jira.corp.adobe.com/browse/DEVSITE-1285)
+- **Fix:** Navbar item description no longer breaks mid-word [DEVSITE-2689](https://jira.corp.adobe.com/browse/DEVSITE-2689)
+
 ## 9/23/26 EDS Release:
 
 - **Fix:** Accordion toggle behavior in Sidekick Library preview [DEVSITE-1643](https://jira.corp.adobe.com/browse/DEVSITE-1643)
