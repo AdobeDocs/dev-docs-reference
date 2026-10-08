@@ -5,6 +5,23 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 10/8/26 EDS Release:
+
+- **Fix:** Hide AI Assistant in Sidekick library components
+- **Fix:** Keyboard-operable mobile nav menu button [DEVSITE-2647](https://jira.corp.adobe.com/browse/DEVSITE-2647)
+- **Fix:** White link and icon color for white-font Columns block [DEVSITE-2693](https://jira.corp.adobe.com/browse/DEVSITE-2693)
+- **Fix:** Reflow search suggestions popover at 320px viewport [DEVSITE-2641](https://jira.corp.adobe.com/browse/DEVSITE-2641)
+- **Fix:** DevBiz navbar external links open in new tabs [DEVSITE-2698](https://jira.corp.adobe.com/browse/DEVSITE-2698)
+- **Fix:** Prioritize authored metadata and heading for page title [DEVSITE-2147](https://jira.corp.adobe.com/browse/DEVSITE-2147)
+- **Fix:** Distribute button in mobile side-nav [DEVSITE-2642](https://jira.corp.adobe.com/browse/DEVSITE-2642) [DEVSITE-2643](https://jira.corp.adobe.com/browse/DEVSITE-2643)
+- **Fix:** Announcement block end-to-end tests [DEVSITE-2584](https://jira.corp.adobe.com/browse/DEVSITE-2584)
+- **Fix:** Disclosure navigation with separate toggle controls for side nav [DEVSITE-2650](https://jira.corp.adobe.com/browse/DEVSITE-2650) [DEVSITE-2668](https://jira.corp.adobe.com/browse/DEVSITE-2668)
+- **Fix:** Visible text for pagination link names [DEVSITE-2645](https://jira.corp.adobe.com/browse/DEVSITE-2645) [DEVSITE-2662](https://jira.corp.adobe.com/browse/DEVSITE-2662)
+- **Fix:** Tablet-friendly cards block layout [DEVSITE-2001](https://jira.corp.adobe.com/browse/DEVSITE-2001)
+- **Fix:** Visible keyboard focus for header controls [DEVSITE-2657](https://jira.corp.adobe.com/browse/DEVSITE-2657) [DEVSITE-2666](https://jira.corp.adobe.com/browse/DEVSITE-2666)
+- **Fix:** Improved prose link contrast [DEVSITE-2660](https://jira.corp.adobe.com/browse/DEVSITE-2660) [DEVSITE-2661](https://jira.corp.adobe.com/browse/DEVSITE-2661)
+- **Fix:** Dynamic column count for Product Card grid [DEVSITE-2712](https://jira.corp.adobe.com/browse/DEVSITE-2712)
+
 ## 9/28/26 EDS Release:
 
 - **Feat:** Remove AI Assistant's Beta badge [DEVSITE-2685](https://jira.corp.adobe.com/browse/DEVSITE-2685)
