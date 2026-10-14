@@ -5,53 +5,90 @@ description: Display multiple code snippets with headings using the CodeBlock co
 
 # CodeBlock Component
 
-Display multiple related code snippets with headings using the `<CodeBlock>` component, ideal for showing request/response examples or comparing different code files.
+Use `<CodeBlock>` to organize related code examples in one place while showing one panel at a time, like requests and responses, or implementations in different languages.
 
 ## Syntax
 
 ````markdown
-<CodeBlock slots="heading, code" repeat="2" languages="JSON, JSON" />
+<CodeBlock slots="heading, code" repeat="4" languages="cURL, JavaScript, JSON, XML" />
 
 #### Request
 
-```json
-{
-  "name": "example"
-}
+```bash
+# cURL request
+```
+
+#### Request
+
+```javascript
+// JavaScript request
 ```
 
 #### Response
 
 ```json
-{
-  "status": "success"
-}
+{}
+```
+
+#### Response
+
+```markup
+<response />
 ```
 ````
-Ex: 
-<CodeBlock slots="heading, code" repeat="2" languages="JSON, JSON" />
+
+## Example
+
+<CodeBlock slots="heading, code" repeat="4" languages="cURL, JavaScript, JSON, XML" />
 
 #### Request
 
-```json
-{
-  "name": "example"
-}
+```bash
+curl -X POST 'https://api.example.com/items' \
+  -H 'Content-Type: application/json' \
+  -d '{"name":"example"}'
+```
+
+#### Request
+
+```javascript
+const response = await fetch('https://api.example.com/items', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ name: 'example' }),
+});
+const result = await response.json();
 ```
 
 #### Response
 
 ```json
 {
-  "status": "success"
+  "id": 42,
+  "name": "example",
+  "status": "created"
 }
 ```
+
+#### Response
+
+```markup
+<item>
+  <id>42</id>
+  <name>example</name>
+  <status>created</status>
+</item>
+```
+
+The **Request** tab groups the cURL and JavaScript panels; the **Response** tab groups the JSON and XML panels. Choose a tab first, then use the picker to switch between that tab's code choices.
 
 ## Parameters
 
-- **slots**: Define the content structure - `"heading, code"` for titled code blocks
-- **repeat**: Number of code blocks to display
-- **languages**: Optional comma-separated list of language labels for each code block
+- **slots**: Defines each panel's content structure - `"heading, code"`
+- **repeat**: Number of authored code panels. It must match the number of heading/code pairs and the number of `languages` labels, when supplied.
+- **languages**: Optional comma-separated display-label list, with one entry for each authored code panel in authored order. Supplying it enables the picker, and each entry labels the corresponding code panel. Repeated heading values group their panels under one tab
+
+Without `languages`, the component still presents heading tabs, but hides the picker. Selecting a tab displays its panel; it does not show all panels simultaneously.
 
 ## Supported Languages
 
@@ -59,17 +96,19 @@ The following language identifiers are supported:
 
 `bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `less`, `markdown`, `markup`, `objectc`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `typescript`, `xml-doc`, `yaml`
 
+Use these with the code block syntax, not the `languages` param.
+
 ## Variants
 
-- [With Language Picker](code-block-with-picklist.md) - Dropdown to switch between languages
-- [Without Language Picker](code-block-without-picklist.md) - All blocks visible simultaneously
+- [With Language Picker](code-block-with-picklist.md) - Choose a code panel within the selected heading tab
+- [Without Language Picker](code-block-without-picklist.md) - Use heading tabs without the picker
 
 ## When to Use
 
 Use the CodeBlock component when you need to:
 - Display multiple related code examples with headings
 - Show request/response pairs
-- Compare different file contents
-- Provide code examples in multiple languages with a picker
+- Compare different code files
+- Offer alternate representations within a heading tab
 
 For single code snippets, use regular [markdown code blocks](../code/index.md) instead.

@@ -5,7 +5,7 @@ description: Display multiple code blocks without a language picker dropdown.
 
 # Code Block without Picklist
 
-Display multiple code blocks with headings but without a language picker. All code blocks are visible simultaneously without switching between them.
+Display code panels as heading tabs without a language picker. Selecting a tab shows its panel; the other panels are hidden until selected.
 
 ## Syntax
 
@@ -16,8 +16,7 @@ Display multiple code blocks with headings but without a language picker. All co
 ## Parameters
 
 - **slots**: Define the content structure - `"heading, code"`
-- **repeat**: Number of code blocks to display
-- **languages**: Omit this parameter to display code blocks without a picker
+- **repeat**: Number of authored code panels; each panel has its own heading tab when `languages` is omitted
 
 ## Example
 
