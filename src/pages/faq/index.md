@@ -22,10 +22,11 @@ When pages migrate from Gatsby to the DevSite EDS platform, we add temporary red
 After the redirects expire, the new pages can still be found via search and re-bookmarked. Note that the EDS platform handles the trailing slash (`/`) differently from Gatsby — see [Paths and Links](../getting-started/dev-docs/best-practices/index.md#paths-and-links).
 
 ## How do I link PDF or ZIP files for download or viewing?
-To host and link PDF files (or other files like `ZIP` or `.d.ts`), use a URL and use relative path to file within `src/pages`:
+To host and link PDF files (or other files like `ZIP`, `.pdf`, `xml`, etc), use a URL and use relative path to file within `src/pages`:
 
 `[ZIP](./assets/process.zip)` \<br/\> 
 `[PDF for download](./assets/example.pdf)` \<br/\> 
+`[XML feed](./assets/feed.xml)` \<br/\> 
 
 ## How do I link JSON files?
 
