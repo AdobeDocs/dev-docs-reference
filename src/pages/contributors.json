@@ -22,13 +22,14 @@
     {
       "page": "/blocks/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/136443815?v=4",
         "https://avatars.githubusercontent.com/u/113968869?v=4",
         "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "6/25/2026"
+      "lastUpdated": "10/20/2026"
     },
     {
       "page": "/blocks/accordion/",
@@ -121,26 +122,29 @@
     {
       "page": "/blocks/codeblock/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/136443815?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "2/6/2026"
+      "lastUpdated": "10/20/2026"
     },
     {
       "page": "/blocks/codeblock/code-block-with-picklist",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/136443815?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "2/4/2026"
+      "lastUpdated": "10/20/2026"
     },
     {
       "page": "/blocks/codeblock/code-block-without-picklist",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/136443815?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "2/4/2026"
+      "lastUpdated": "10/20/2026"
     },
     {
       "page": "/blocks/columns/",
