@@ -24,9 +24,12 @@ Card description text goes here.
 ## Parameters
 
 - **slots**: Content structure per card
-  - `"image, heading, text, links", buttons` - Full card with all elements
-  - `"heading, text, links, buttons"` - Card without image
-  - `"image, heading, links, buttons"` - Card without description text
+  - `"image, heading, text, links"` - Full card with all elements
+  - `"heading, text, links"` - Card without image
+  - `"image, heading, links"` - Card without description text
+  - Use either `links` or `buttons` for the call to action, not both:
+    - `links` - Shows the call to action as a text link
+    - `buttons` - Shows the call to action as a button. See [Cards with Buttons](cards-with-buttons.md).
 
 - **width**: Card width for grid layout (optional)
   - Full width (default)
@@ -58,7 +61,7 @@ This is a sample description for the second card in the grid.
 
 [Learn more](https://developer.adobe.com/)
 
-<Cards slots="image, heading, text, button" width="33%" />
+<Cards slots="image, heading, text, links" width="33%" />
 
 ![Card Image](../../assets/column.jpg)
 
@@ -69,3 +72,5 @@ This is a sample description for the third card in the grid.
 [Learn more](https://developer.adobe.com/)
 
 For cards with a wide image, see [Cards - Wide Variant](cards-wide.md).
+
+For cards with buttons, see [Cards with Buttons](cards-with-buttons.md).
