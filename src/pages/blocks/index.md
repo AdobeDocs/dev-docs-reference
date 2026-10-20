@@ -82,7 +82,7 @@ Markdown code snippet with syntax.
 ### [CodeBlock](codeblock/index.md)
 
 Multiple code block with headings.
-- [With Language Picker](codeblock/code-block-with-picklist.md) - Switch between languages
+- [With Language Picker](codeblock/code-block-with-picklist.md) - Switch by tab and picker
 - [Without Language Picker](codeblock/code-block-without-picklist.md) - Heading tabs without a picker
 
 ### [Columns](columns/index.md)
