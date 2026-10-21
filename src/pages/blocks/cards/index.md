@@ -27,6 +27,9 @@ Card description text goes here.
   - `"image, heading, text, links"` - Full card with all elements
   - `"heading, text, links"` - Card without image
   - `"image, heading, links"` - Card without description text
+  - Use either `links` or `buttons` for the call to action, not both:
+    - `links` - Shows the call to action as a text link
+    - `buttons` - Shows the call to action as a button. See [Cards with Buttons](cards-with-buttons.md).
 
 - **width**: Card width for grid layout (optional)
   - Full width (default)
@@ -69,3 +72,5 @@ This is a sample description for the third card in the grid.
 [Learn more](https://developer.adobe.com/)
 
 For cards with a wide image, see [Cards - Wide Variant](cards-wide.md).
+
+For cards with buttons, see [Cards with Buttons](cards-with-buttons.md).
