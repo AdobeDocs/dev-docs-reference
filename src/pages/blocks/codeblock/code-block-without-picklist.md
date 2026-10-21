@@ -9,8 +9,9 @@ Display code panels as heading tabs without a language picker. Selecting a tab s
 
 ## Syntax
 
-````
+```markdown
 <CodeBlock slots="heading, code" repeat="3"/>
+```
   
 
 ## Parameters
