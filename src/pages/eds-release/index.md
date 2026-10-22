@@ -5,6 +5,23 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 10/22/26 EDS Release:
+
+- **Fix:** Four-card variant layout at wide resolutions [DEVSITE-2715](https://jira.corp.adobe.com/browse/DEVSITE-2715)
+- **Fix:** Separate heading permalink controls from heading semantics [DEVSITE-2663](https://jira.corp.adobe.com/browse/DEVSITE-2663) [DEVSITE-2669](https://jira.corp.adobe.com/browse/DEVSITE-2669)
+- **Fix:** Exclude collapsed mobile navigation from assistive technology [DEVSITE-2646](https://jira.corp.adobe.com/browse/DEVSITE-2646) [DEVSITE-2658](https://jira.corp.adobe.com/browse/DEVSITE-2658)
+- **Fix:** Improved search suggestion focus contrast [DEVSITE-2648](https://jira.corp.adobe.com/browse/DEVSITE-2648)
+- **Fix:** Improved sidebar selected-state contrast [DEVSITE-2651](https://jira.corp.adobe.com/browse/DEVSITE-2651)
+- **Fix:** Improved search suggestion heading contrast [DEVSITE-2656](https://jira.corp.adobe.com/browse/DEVSITE-2656)
+- **Fix:** Code block end-to-end tests [DEVSITE-2591](https://jira.corp.adobe.com/browse/DEVSITE-2591)
+- **Fix:** Improved header brand text contrast [DEVSITE-2659](https://jira.corp.adobe.com/browse/DEVSITE-2659)
+- **Fix:** Correct header search focus order [DEVSITE-2654](https://jira.corp.adobe.com/browse/DEVSITE-2654)
+- **Fix:** Announce current header navigation page [DEVSITE-2655](https://jira.corp.adobe.com/browse/DEVSITE-2655)
+- **Fix:** Columns block end-to-end tests [DEVSITE-2593](https://jira.corp.adobe.com/browse/DEVSITE-2593)
+- **Fix:** Site-wide banner layout on tablet and mobile [DEVSITE-2526](https://jira.corp.adobe.com/browse/DEVSITE-2526)
+- **Fix:** Prevent hero text clipping with custom text spacing [DEVSITE-2664](https://jira.corp.adobe.com/browse/DEVSITE-2664)
+- **Fix:** Announce header search no-results status [DEVSITE-2649](https://jira.corp.adobe.com/browse/DEVSITE-2649)
+
 ## 10/8/26 EDS Release:
 
 - **Fix:** Hide AI Assistant in Sidekick library components
