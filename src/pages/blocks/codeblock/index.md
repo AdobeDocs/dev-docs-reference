@@ -94,7 +94,7 @@ Without `languages`, the component still presents heading tabs, but hides the pi
 
 The following language identifiers are supported:
 
-`bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `kotlin`, `less`, `markdown`, `markup`, `objectivec`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `swift`, `typescript`, `xml-doc`, `yaml`
+`bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `kotlin`, `less`, `markdown`, `markup`, `objectivec`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `swift`, `typescript`, `yaml`
 
 Common aliases are also accepted (for example, `html` for `markup`, `js` for `javascript`). See the [Prism supported languages](https://prismjs.com/#supported-languages) list for each language's aliases.
 

@@ -12,7 +12,7 @@ Highlight specific lines in code blocks to draw attention to important code sect
 Use `data-line` attribute after the language identifier:
 
 ````
-```console-data-line="1-2,5,9-20"
+```bash-data-line="1-2,5,9-20"
 ```
 ````
 

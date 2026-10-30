@@ -22,7 +22,7 @@ javascript-data-playground-session-id="sessionName"-data-playground-mode="playgr
 
 - **data-playground-session-id**: Unique identifier for the playground session (e.g., `"createAndFillRectangle"`)
 - **data-playground-mode**: Mode of the playground (typically `"playground"`)
-- **data-playground-session**: Session state, usually `"new"` to create a fresh session
+- **data-playground-session**: Optional. Only `"new"` is supported, and it's the default.
 - **data-playground-execution-mode**: Execution mode, typically `"script"` for script execution
 - **data-playground-url**: Prod URL of the playground environment where code will be executed
 - **data-playground-url-stage**: Stage URL of the playground environment where code will be executed

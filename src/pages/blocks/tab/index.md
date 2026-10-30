@@ -38,7 +38,7 @@ Content for second tab.
 
 When using code blocks within tabs, the following language identifiers are supported:
 
-`bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `less`, `markdown`, `markup`, `objectc`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `typescript`, `xml-doc`, `yaml`
+`bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `kotlin`, `less`, `markdown`, `markup`, `objectivec`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `swift`, `typescript`, `yaml`
 
 ## Examples
 
