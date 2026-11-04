@@ -13,14 +13,23 @@ Include reusable content from other markdown files.
 <Fragment src="path/to/your/fragment.md" />
 ```
 
+## Example
+
+This fragment imports a reusable checklist from [example-content.md](./example-content.md):
+
+```markdown
+<Fragment src="./example-content.md" />
+```
+
+<Fragment src="./example-content.md" />
+
 ## Parameters
 
 - **src**: Path to the fragment file
   - Relative paths: `../shared/nav.md`, `./components/card.md`
   - Absolute paths: `/global/footer.md`
 
-
 ## Notes
-- 
+
 - Fragments are cached in sessionStorage for better performance
 - Images and assets paths are automatically resolved
