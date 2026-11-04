@@ -22,7 +22,7 @@ console.log(greeting);
 
 The following language identifiers are supported for syntax highlighting:
 
-`bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `less`, `markdown`, `markup`, `objectc`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `typescript`, `xml-doc`, `yaml`
+`bash`, `c`, `cpp`, `csharp`, `css`, `git`, `go`, `graphql`, `http`, `java`, `javadoc`, `javascript`, `jsdoc`, `json`, `json5`, `jsx`, `kotlin`, `less`, `markdown`, `markup`, `objectivec`, `php`, `python`, `regex`, `rest`, `sass`, `sql`, `swift`, `typescript`, `yaml`
 
 ## Advanced Features
 
@@ -63,6 +63,13 @@ npm start
 npm install
 npm start
 ```
+
+### Option rules
+
+- Combine options after the language with dashes, in any order, for example `javascript-disableLineNumbers-data-line="2,4"`.
+- Put attribute values in quotes, for example `data-line="2,4"`. Values can't contain spaces.
+- Misspelled or unsupported options that start with `disable` or `data-`, and unquoted values, are ignored with a warning in the browser console. The code is still highlighted.
+- Anything else right after the language, like `javascript-foo`, is read as part of the language name, so the code isn't highlighted.
 
 ## Examples
 

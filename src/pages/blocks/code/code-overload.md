@@ -1,6 +1,6 @@
 ---
 title: Code Overload Example
-description: Complex code examples demonstrating multiple features like line highlighting, offsets, and disabling line numbers.
+description: Complex code examples demonstrating multiple features like line highlighting and disabling line numbers.
 ---
 
 # Code Overload Example
@@ -9,7 +9,7 @@ Advanced examples showcasing the combination of multiple code block features for
 
 ## Combined Features
 
-You can combine multiple attributes with hyphens:
+You can combine multiple attributes with hyphens, in any order:
 
 ````
 ```javascript-disableLineNumbers-data-line="2-4"
@@ -33,12 +33,12 @@ function calculateTotal(items) {
 }
 ```
 
-### Example 2: Line Offset with Highlighting
+### Example 2: Highlighting with Line Numbers
 
 ```python-data-line="2-3"
 def process_data(data):
-    cleaned = data.strip()      # Line 11 - Highlighted
-    parsed = json.loads(cleaned)  # Line 12 - Highlighted
+    cleaned = data.strip()      # Highlighted
+    parsed = json.loads(cleaned)  # Highlighted
     return parsed
 ```
 
