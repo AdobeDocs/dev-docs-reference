@@ -1,7 +1,7 @@
 {
-  "total": 93,
+  "total": 94,
   "offset": 0,
-  "limit": 93,
+  "limit": 94,
   "data": [
     {
       "page": "/",
@@ -244,9 +244,17 @@
     {
       "page": "/blocks/fragment/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/136443815?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "1/7/2026"
+      "lastUpdated": "11/4/2026"
+    },
+    {
+      "page": "/blocks/fragment/example-content",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/136443815?v=4"
+      ],
+      "lastUpdated": "11/4/2026"
     },
     {
       "page": "/blocks/iframe/",
