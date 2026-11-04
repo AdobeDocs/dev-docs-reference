@@ -92,7 +92,7 @@ This is faux step text for the `text3` slot.
 
 ### Inline alert with code
 
-<InlineAlert slots="header, code" variant="info"/>
+<InlineAlert slots="heading, code" variant="info"/>
 
 **Example for inline alert with code**
 
