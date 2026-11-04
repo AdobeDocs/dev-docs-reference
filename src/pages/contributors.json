@@ -72,10 +72,11 @@
     {
       "page": "/blocks/code/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "2/4/2026"
+      "lastUpdated": "11/4/2026"
     },
     {
       "page": "/blocks/code/code-basic",
@@ -87,9 +88,10 @@
     {
       "page": "/blocks/code/code-highlighted-line",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "7/6/2026"
+      "lastUpdated": "11/4/2026"
     },
     {
       "page": "/blocks/code/code-in-list",
@@ -108,25 +110,28 @@
     {
       "page": "/blocks/code/code-overload",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "1/6/2026"
+      "lastUpdated": "11/4/2026"
     },
     {
       "page": "/blocks/code/code-with-try-playground",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/113968869?v=4"
       ],
-      "lastUpdated": "3/30/2026"
+      "lastUpdated": "11/4/2026"
     },
     {
       "page": "/blocks/codeblock/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/136443815?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "10/20/2026"
+      "lastUpdated": "11/4/2026"
     },
     {
       "page": "/blocks/codeblock/code-block-with-picklist",
@@ -565,9 +570,10 @@
     {
       "page": "/blocks/tab/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/120194874?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4"
       ],
-      "lastUpdated": "12/30/2025"
+      "lastUpdated": "11/4/2026"
     },
     {
       "page": "/blocks/table/",
