@@ -24,6 +24,11 @@ This configuration enables both automatic and manual deployments for your site.
 
 ## Deployment Methods
 
+| Goal | Workflow | Branch |
+|---|---|---|
+| Deploy to production | [Merge to `main`](#automatic-production-deployment) or use [**Deployment**](http://localhost:3000/dev-docs-reference/deploy/#manual-production-deployment) | `main` only |
+| Deploy to stage | [**Staging**](http://localhost:3000/dev-docs-reference/deploy/#manual-staging-deployment-from-a-branch) | Any branch |
+
 ### Automatic Production Deployment
 
 **Trigger:** Push commits to the `main` branch
@@ -44,8 +49,8 @@ Navigate to **Actions** > **Deployment** > **Run workflow** to access manual dep
 #### Deployment Options
 
 **Environment Selection**
-- `prod` - Deploy to production only
-- `stage & prod` - Deploy to both staging and production environments (can only stage content from the `main` branch when used)
+- `prod` - Deploy `main` to production.
+- `stage & prod` - Deploy `main` to both staging and production
 
 **Base SHA** (optional)
 - Leave empty to compare against the last successful commit
@@ -218,6 +223,12 @@ After triggering a deployment:
 ## Troubleshooting
 
 ### Common Issues
+
+#### Startup Failure
+
+**Symptoms:** The run reports "Startup failure" before any jobs start.
+
+**Solution:** Check the run details and [GitHub Status](https://www.githubstatus.com/history) for an Actions incident. If one is reported, wait for it to resolve; start a new production run from `main` or retry staging. If there's no relevant incident or the failure persists, ask for help in [#adobe-developer-website](https://adobe.enterprise.slack.com/archives/C01GU3V8XE0).
 
 #### No Files Deployed
 
