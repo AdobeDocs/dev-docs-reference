@@ -26,8 +26,8 @@ This configuration enables both automatic and manual deployments for your site.
 
 | Goal | Workflow | Branch |
 |---|---|---|
-| Deploy to production | [Merge to `main`](#automatic-production-deployment) or use [**Deployment**](http://localhost:3000/dev-docs-reference/deploy/#manual-production-deployment) | `main` only |
-| Deploy to stage | [**Staging**](http://localhost:3000/dev-docs-reference/deploy/#manual-staging-deployment-from-a-branch) | Any branch |
+| Deploy to production | [Merge to `main`](#automatic-production-deployment) or use [**Deployment**](#manual-production-deployment) | `main` only |
+| Deploy to stage | [**Staging**](#manual-staging-deployment-from-a-branch) | Any branch |
 
 ### Automatic Production Deployment
 
