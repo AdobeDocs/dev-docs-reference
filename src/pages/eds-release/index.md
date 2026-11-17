@@ -5,6 +5,30 @@ description: Release notes and changelog for Edge Delivery Services updates on t
 
 # EDS Release Notes
 
+## 11/17/26 EDS Release:
+
+- **Fix:** CodeBlock end-to-end tests [DEVSITE-2592](https://jira.corp.adobe.com/browse/DEVSITE-2592)
+- **Feat:** Expanded mode for the AI Assistant window [ADPGENAI-264](https://jira.corp.adobe.com/browse/ADPGENAI-264)
+- **Fix:** Details block end-to-end tests [DEVSITE-2595](https://jira.corp.adobe.com/browse/DEVSITE-2595)
+- **Fix:** Discover block end-to-end tests [DEVSITE-2596](https://jira.corp.adobe.com/browse/DEVSITE-2596)
+- **Fix:** Consolidate code block attribute parsers [DEVSITE-2063](https://jira.corp.adobe.com/browse/DEVSITE-2063) [DEVSITE-2746](https://jira.corp.adobe.com/browse/DEVSITE-2746)
+- **Fix:** Edition block end-to-end tests [DEVSITE-2598](https://jira.corp.adobe.com/browse/DEVSITE-2598)
+- **Fix:** Embed block end-to-end tests [DEVSITE-2599](https://jira.corp.adobe.com/browse/DEVSITE-2599)
+- **Fix:** Iframe block end-to-end tests [DEVSITE-2614](https://jira.corp.adobe.com/browse/DEVSITE-2614)
+- **Fix:** InfoCard and Info-Card block end-to-end tests [DEVSITE-2617](https://jira.corp.adobe.com/browse/DEVSITE-2617) [DEVSITE-2619](https://jira.corp.adobe.com/browse/DEVSITE-2619)
+- **Fix:** Remove stray characters from Lightroom icon [DEVSITE-2750](https://jira.corp.adobe.com/browse/DEVSITE-2750)
+- **Fix:** Syntax highlighting for PHP, javadoc, and jsdoc code samples [DEVSITE-2063](https://jira.corp.adobe.com/browse/DEVSITE-2063) [DEVSITE-2749](https://jira.corp.adobe.com/browse/DEVSITE-2749)
+- **Fix:** Ignore unsupported code block options and support disableLineNumbers on DevBiz [DEVSITE-2063](https://jira.corp.adobe.com/browse/DEVSITE-2063)
+- **Fix:** Fragment block end-to-end tests [DEVSITE-2602](https://jira.corp.adobe.com/browse/DEVSITE-2602)
+- **Fix:** InlineAlert end-to-end tests [DEVSITE-2621](https://jira.corp.adobe.com/browse/DEVSITE-2621)
+- **Fix:** Show page content when JavaScript is disabled [DEVSITE-2741](https://jira.corp.adobe.com/browse/DEVSITE-2741)
+- **Fix:** Multiple button alignment in Summary block [DEVSITE-2782](https://jira.corp.adobe.com/browse/DEVSITE-2782)
+- **Fix:** Rotate Algolia frontend search key [DEVSITE-2783](https://jira.corp.adobe.com/browse/DEVSITE-2783)
+- **Fix:** Button support in DevDocs cards block [DEVSITE-1899](https://jira.corp.adobe.com/browse/DEVSITE-1899)
+- **Fix:** On This Page block end-to-end tests [DEVSITE-2627](https://jira.corp.adobe.com/browse/DEVSITE-2627)
+- **Fix:** Product Card block end-to-end tests [DEVSITE-2628](https://jira.corp.adobe.com/browse/DEVSITE-2628)
+- **Fix:** Hide empty "On this page" aside when headings are only inside blocks [DEVSITE-2720](https://jira.corp.adobe.com/browse/DEVSITE-2720)
+
 ## 10/22/26 EDS Release:
 
 - **Fix:** Four-card variant layout at wide resolutions [DEVSITE-2715](https://jira.corp.adobe.com/browse/DEVSITE-2715)
