@@ -16,7 +16,7 @@ Resource links displayed on the right side of the page, above "On This Page" if 
 
 * [Quick start guide](getting-started/index.md)
 * [Endpoint guides](https://developer.adobe.com/dev-docs-reference/blocks/resources/endpoints/)
-* [API reference](../redoclyapiblock/redocly-api-block-default.md?aio_external)
+* [API reference](/dev-docs-reference/blocks/redoclyapiblock/redocly-api-block-default?aio_external)
 * [GitHub repository](https://github.com/example/repo)
 ```
 
@@ -32,6 +32,6 @@ Absolute URLs to internal Adobe developer pages open in the same tab without an 
 
 * [Quick start guide](getting-started/index.md)
 * [Endpoint guides](https://developer.adobe.com/dev-docs-reference/blocks/resources/endpoints/)
-* [API reference](../redoclyapiblock/redocly-api-block-default.md?aio_external)
+* [API reference](/dev-docs-reference/blocks/redoclyapiblock/redocly-api-block-default?aio_external)
 * [GitHub repository](https://github.com/example/repo)
 
