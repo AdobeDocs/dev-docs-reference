@@ -15,8 +15,8 @@ Resource links displayed on the right side of the page, above "On This Page" if 
 #### Resources
 
 * [Quick start guide](getting-started/index.md)
-* [Endpoint guides](endpoints/index.md)
-* [API reference](https://example.com/api-reference)
+* [Endpoint guides](https://developer.adobe.com/dev-docs-reference/blocks/resources/endpoints/)
+* [API reference](../redoclyapiblock/redocly-api-block-default.md?aio_external)
 * [GitHub repository](https://github.com/example/repo)
 ```
 
@@ -24,12 +24,14 @@ Resource links displayed on the right side of the page, above "On This Page" if 
 
 - **slots**: `"heading, links"` - Heading and links
 
+Absolute URLs to internal Adobe developer pages open in the same tab without an external-link icon. Add `?aio_external` to a relative URL to open it in a new tab with the icon.
+
 <Resources slots="heading, links"/>
 
 #### Resources
 
 * [Quick start guide](getting-started/index.md)
-* [Endpoint guides](endpoints/index.md)
-* [API reference](https://example.com/api-reference)
+* [Endpoint guides](https://developer.adobe.com/dev-docs-reference/blocks/resources/endpoints/)
+* [API reference](../redoclyapiblock/redocly-api-block-default.md?aio_external)
 * [GitHub repository](https://github.com/example/repo)
 
