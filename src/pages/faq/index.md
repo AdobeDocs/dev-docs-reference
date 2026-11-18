@@ -88,6 +88,15 @@ Actions → Staging → Run workflow → check **Force deploy all files** → Ru
 
 See [Full Deployment (deployAll: true)](../deploy/index.md#full-deployment-deployall-true).
 
+## My deployment succeeded but the page still shows old content
+
+Purge the page's cache. Run this command, replacing the path with your page's path:
+
+```
+curl -X POST -vi \
+  https://admin.hlx.page/cache/adobedocs/adp-devsite/main/commerce/extensibility/admin-ui-sdk/app-review-checklist.md
+```
+
 ## Why do I see "Invalid license key: host not allowed" on a `RedoclyAPIBlock`?
 
 The block only renders on hostnames in the Redocly license's allowed-domains list, and the page you're viewing isn't one of them (`main--...aem.page` preview URLs are a common case). View the page on an allowed host instead — for example, `https://developer-stage.adobe.com/...` — or on your local dev server (`http://localhost:3000/...`).
