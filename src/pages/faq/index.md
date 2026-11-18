@@ -88,13 +88,31 @@ Actions → Staging → Run workflow → check **Force deploy all files** → Ru
 
 See [Full Deployment (deployAll: true)](../deploy/index.md#full-deployment-deployall-true).
 
-## My deployment succeeded but the page still shows old content
+## My v3 (bulk API) deployment succeeded but the page still shows old content
 
-Purge the page's cache. Run this command, replacing the path with your page's path:
+If a v3 (bulk API) deploy succeeded but the page still shows old content, purge the page's cache.
+
+To build the purge path, take the page URL, drop the host (`https://developer.adobe.com/` or `https://developer-stage.adobe.com/`), and add `.md` to the end. For example, `https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/app-review-checklist` becomes `commerce/extensibility/admin-ui-sdk/app-review-checklist.md`.
+
+Then add that path to the end of the command for your environment and run it. The command URL follows the pattern `https://admin.hlx.page/cache/adobedocs/<site>/<branch>/<path>`, where the site and branch depend on the environment:
+
+| Environment | Site | Branch |
+|---|---|---|
+| Production | `adp-devsite` | `main` |
+| Stage | `adp-devsite-stage` | `stage` |
+
+**Production** (`developer.adobe.com`):
 
 ```
 curl -X POST -vi \
   https://admin.hlx.page/cache/adobedocs/adp-devsite/main/commerce/extensibility/admin-ui-sdk/app-review-checklist.md
+```
+
+**Stage** (`developer-stage.adobe.com`):
+
+```
+curl -X POST -vi \
+  https://admin.hlx.page/cache/adobedocs/adp-devsite-stage/stage/commerce/extensibility/admin-ui-sdk/app-review-checklist.md
 ```
 
 ## Why do I see "Invalid license key: host not allowed" on a `RedoclyAPIBlock`?
