@@ -5,7 +5,7 @@ description: Learn how to display and format images in your documentation.
 
 # Image Block
 
-Display images in your documentation using standard markdown syntax.
+Display images in your documentation using standard Markdown syntax. To limit how wide an image displays, wrap it in the optional Image block.
 
 ## Syntax
 
@@ -37,10 +37,63 @@ Display images in your documentation using standard markdown syntax.
 
 Files larger than the suggested size will fail to deploy and render via EDS' image pipeline.
 
-## Example
+## Image block
 
-![Documentation example](../../assets/image1.jpeg)
+Use a plain Markdown image by default. Use the Image block only when you need to limit an image's displayed width, for example to keep a small screenshot or diagram from stretching across the page.
 
-![Platform interface](../../assets/image1.jpeg)
+### Syntax
 
-![External Image](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80)
+```markdown
+<Image slots="image" maxWidth="medium" />
+
+![Alt text](../../assets/my-image.png)
+```
+
+### Parameters
+
+- **slots**: `image` (required). Put a standard Markdown image after the tag, with a blank line between them.
+- **maxWidth** (optional): The widest the image displays. Without it, the image displays like a plain Markdown image.
+  - `small`: 300px
+  - `medium`: 500px
+  - `large`: 600px
+  - A custom positive value in `px`, `%`, or `rem`, for example `550px`, `90%`, or `34.375rem`. Decimals are allowed. On this site, `1rem` is `14px`.
+
+`maxWidth` is a limit, not a fixed width. The image keeps its aspect ratio, shrinks to fit smaller screens, and is never enlarged beyond its original size. Unsupported values, such as a number without a unit, are ignored, and the image displays at the default width.
+
+Put the alt text and an optional link on the Markdown image, as you would for a plain image.
+
+The Image block must be at the top level of the page. It doesn't work inside lists, tables, or other blocks.
+
+## Examples
+
+### Plain image
+
+```markdown
+![Two pink and white flowers with water drops](../../assets/image2.jpeg)
+```
+
+![Two pink and white flowers with water drops](../../assets/image2.jpeg)
+
+### Image block with a preset
+
+```markdown
+<Image slots="image" maxWidth="medium" />
+
+![Two pink and white flowers with water drops](../../assets/image2.jpeg)
+```
+
+<Image slots="image" maxWidth="medium" />
+
+![Two pink and white flowers with water drops](../../assets/image2.jpeg)
+
+### Image block with a custom value
+
+```markdown
+<Image slots="image" maxWidth="550px" />
+
+![Two pink and white flowers with water drops](../../assets/image2.jpeg)
+```
+
+<Image slots="image" maxWidth="550px" />
+
+![Two pink and white flowers with water drops](../../assets/image2.jpeg)
