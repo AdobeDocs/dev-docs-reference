@@ -28,7 +28,10 @@ description: Best practices and troubleshooting tips for migrating your document
 - **Image file size limits**:
   - **SVG**: keep under **40 KB**.
   - **PNG / JPG / GIF / WebP**: keep under **20 MB**.
-  - See [Image Block](../../../blocks/image/index.md) for full reference.
+  - These limits apply to both plain Markdown images and Image blocks. See the [image reference](../../../blocks/image/index.md) for details.
+- **Image display width**:
+  - **Plain Markdown image**: Use standard Markdown image syntax by default.
+  - **Image block**: Wrap a Markdown image in the optional [Image block](../../../blocks/image/index.md#parameters) when you need to limit its displayed width.
 - **Assets are reading from the branch it was deployed from**
 - **Directly importing content from another repo doesn't work**:
   - Because the file is unable to fetch data from the external repo.

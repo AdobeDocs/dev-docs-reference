@@ -1,29 +1,44 @@
 ---
-title: Image Block
+title: Image
 description: Learn how to display and format images in your documentation.
 ---
 
-# Image Block
+# Image
 
-Display images in your documentation using standard Markdown syntax. To limit how wide an image displays, wrap it in the optional Image block.
+Display images in your documentation using standard Markdown syntax. Use a plain Markdown image by default. To limit how wide an image displays, for example to keep a small screenshot or diagram from stretching across the page, wrap it in the optional Image block.
 
 ## Syntax
 
+**Markdown image:**
 ```markdown
 ![Alt text](path/to/image.png)
 ```
 
-**Relative path:**
+**Image block:**
 ```markdown
-![My Image](../../assets/my-image.png)
-```
+<Image slots="image" maxWidth="medium" />
 
-**Absolute URL:**
-```markdown
-![External Image](https://example.com/image.png)
+![Alt text](path/to/image.png)
 ```
 
 ## Parameters
+
+- **slots**: `image` (required). Put a standard Markdown image after the tag, with a blank line between them.
+- **maxWidth** (optional): The widest the image displays. Without it, the image displays like a plain Markdown image.
+  - `small`: 300px
+  - `medium`: 500px
+  - `large`: 600px
+  - A custom positive value in `px`, `%`, or `rem`, for example `550px`, `90%`, or `34.375rem`. Decimals are allowed. On this site, `1rem` is `14px`.
+
+`maxWidth` is a limit, not a fixed width. The image keeps its aspect ratio, shrinks to fit smaller screens, and is never enlarged beyond its original size. Unsupported values, such as a number without a unit, are ignored, and the image displays at the default width.
+
+In the Image block, put the alt text and an optional link on the Markdown image, as you would for a plain image.
+
+The Image block must be at the top level of the page. It doesn't work inside lists, tables, or other blocks.
+
+## Image guidelines
+
+These apply to both plain Markdown images and images in an Image block.
 
 - **Alt text**: Descriptive text for accessibility (required)
 - **Path**: Relative path to assets folder or absolute URL
@@ -36,33 +51,6 @@ Display images in your documentation using standard Markdown syntax. To limit ho
 - **PNG / JPG / GIF / WebP**: keep under **20 MB**.  
 
 Files larger than the suggested size will fail to deploy and render via EDS' image pipeline.
-
-## Image block
-
-Use a plain Markdown image by default. Use the Image block only when you need to limit an image's displayed width, for example to keep a small screenshot or diagram from stretching across the page.
-
-### Syntax
-
-```markdown
-<Image slots="image" maxWidth="medium" />
-
-![Alt text](../../assets/my-image.png)
-```
-
-### Parameters
-
-- **slots**: `image` (required). Put a standard Markdown image after the tag, with a blank line between them.
-- **maxWidth** (optional): The widest the image displays. Without it, the image displays like a plain Markdown image.
-  - `small`: 300px
-  - `medium`: 500px
-  - `large`: 600px
-  - A custom positive value in `px`, `%`, or `rem`, for example `550px`, `90%`, or `34.375rem`. Decimals are allowed. On this site, `1rem` is `14px`.
-
-`maxWidth` is a limit, not a fixed width. The image keeps its aspect ratio, shrinks to fit smaller screens, and is never enlarged beyond its original size. Unsupported values, such as a number without a unit, are ignored, and the image displays at the default width.
-
-Put the alt text and an optional link on the Markdown image, as you would for a plain image.
-
-The Image block must be at the top level of the page. It doesn't work inside lists, tables, or other blocks.
 
 ## Examples
 
