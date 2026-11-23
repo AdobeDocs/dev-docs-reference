@@ -23,6 +23,8 @@ Display images in your documentation using standard Markdown syntax. Use a plain
 
 ## Parameters
 
+These parameters apply to the Image block. Plain Markdown images don't take parameters; see [Image guidelines](#image-guidelines) for guidance that applies to both.
+
 - **slots**: `image` (required). Put a standard Markdown image after the tag, with a blank line between them.
 - **maxWidth** (optional): The widest the image displays. Without it, the image displays like a plain Markdown image.
   - `small`: 300px
@@ -43,7 +45,6 @@ These apply to both plain Markdown images and images in an Image block.
 - **Alt text**: Descriptive text for accessibility (required)
 - **Path**: Relative path to assets folder or absolute URL
 - **Formats**: PNG, JPG, GIF, WebP, SVG
-- **Preferred Size**: 580 x 350 px for optimal display
 
 ## File size limits
 

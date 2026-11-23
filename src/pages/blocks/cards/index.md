@@ -34,7 +34,7 @@ Card description text goes here.
   - `"50%"` - Two cards per row (2-column grid)
   - `"25%"` - Four cards per row (4-column grid)
 
-- **Image size**: 80 x 80 px recommended
+- **Image size**: 80 px high recommended; use similar aspect ratios across cards.
 
 ## Examples
 
