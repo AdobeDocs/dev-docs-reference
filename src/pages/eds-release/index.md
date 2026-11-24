@@ -3,13 +3,13 @@ title: EDS Release Notes
 description: Release notes and changelog for Edge Delivery Services updates on the Adobe Developer Website, including new features, bug fixes, and improvements.
 ---
 
+# EDS Release Notes
+
 ## 11/24/26 EDS Release:
 
 - **Fix:** Superhero contrast, background and icon fixes [DEVSITE-2636](https://jira.corp.adobe.com/browse/DEVSITE-2636)
 - **Feat:** Inline citations in AI Assistant answers [ADPGENAI-266](https://jira.corp.adobe.com/browse/ADPGENAI-266)
 - **Fix:** External-link icons and same-origin link handling [DEVSITE-2631](https://jira.corp.adobe.com/browse/DEVSITE-2631)
-
-# EDS Release Notes
 
 ## 11/17/26 EDS Release:
 
